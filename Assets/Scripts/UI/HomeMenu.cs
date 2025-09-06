@@ -8,6 +8,8 @@ public class HomeMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    
+
     public void OnApplicationQuit()
     {
         Application.Quit();
