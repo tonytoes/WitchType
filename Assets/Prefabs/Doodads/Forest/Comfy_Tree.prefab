@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1183805000057998907}
   - component: {fileID: -8512927262253198986}
   m_Layer: 0
-  m_Name: Forest_Tree01
+  m_Name: Comfy_Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 977112711951643}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: 1, z: 0}
-  m_LocalScale: {x: 6.2444444, y: 6.24444, z: 6.24444}
+  m_LocalPosition: {x: 2.5, y: 1.5, z: 0}
+  m_LocalScale: {x: 9.003864, y: 9.003859, z: 9.003859}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,8 +82,8 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 8308273845059302621, guid: 9ff19fd2989b45476864c5d54f443dea, type: 3}
+  m_SortingOrder: 32
+  m_Sprite: {fileID: -1623396477, guid: 312f930b092c3b14d840500c58aca103, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,17 +128,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.005157858, y: -0.23024124}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.82, y: 0.9}
+    oldSize: {x: 0.48, y: 0.64}
     newSize: {x: 0.82, y: 0.9}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.48, y: 0.16}
+  m_Size: {x: 0.30318838, y: 0.16757524}
   m_EdgeRadius: 0
 --- !u!114 &4248191930664268666
 MonoBehaviour:
@@ -154,8 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::YSort
   sortingMultiplier: 16
   useSpriteBottom: 1
-  offset: 0
-  offsetUnit: 0
+  offset: 4
+  offsetUnit: 2
 --- !u!114 &1183805000057998907
 MonoBehaviour:
   m_ObjectHideFlags: 0
