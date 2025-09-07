@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0fd3dfe26f1c69c44bef689e9c6e5d4c
+guid: 58eda5ce5595d7846b75a42e9b3dbd36
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5546399956195461626
-    second: yumi-logo-circle_0
+      213: 4426214367893902142
+    second: yumi (1)-modified_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: yumi-logo-circle_0
+      name: yumi (1)-modified_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 491
-        height: 491
+        width: 650
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6063abc30aa3703b0800000000000000
-      internalID: -5546399956195461626
+      spriteID: e33db0a34821d6d30800000000000000
+      internalID: 4426214367893902142
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      yumi-logo-circle_0: -5546399956195461626
+      yumi (1)-modified_0: 4426214367893902142
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
