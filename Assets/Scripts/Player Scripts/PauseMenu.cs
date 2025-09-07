@@ -8,20 +8,21 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject ButtonPause;
-    // void Update()
-    // {
-    //     if (Input.GetKeyDown(KeyCode.Escape))
-    //     {
-    //         if (GameIsPaused)
-    //         {
-    //             Resume();
-    //         }
-    //         else
-    //         {
-    //             Pause();
-    //         }
-    //     }
-    // }
+    [SerializeField] private Animator playerAnimator;
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (GameIsPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
+        }
+    }
 
     public void ButtonClickPause()
     {
@@ -43,6 +44,7 @@ public class PauseMenu : MonoBehaviour
         ButtonPause.SetActive(true);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        playerAnimator.enabled = true;
     }
 
     public void Pause()
@@ -51,6 +53,7 @@ public class PauseMenu : MonoBehaviour
         ButtonPause.SetActive(false);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        playerAnimator.enabled = false;
     }
 
 
@@ -59,5 +62,6 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene("Home");
         Time.timeScale = 1f;
         GameIsPaused = false;
+        playerAnimator.enabled = true;
     }
 }
