@@ -31,4 +31,11 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("InputX", movement.x);
         animator.SetFloat("InputY", movement.y);
     }
+
+    public void StopMovement()
+    {
+        movement = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
+        animator.SetBool("isWalking", false);
+    }
 }
