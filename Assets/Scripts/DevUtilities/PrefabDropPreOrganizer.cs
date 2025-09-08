@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEditor;
+
 
 // PrefabDropPreOrganizer.cs
 // A component that automatically re-parents the object into a target object when dropped into the scene.
