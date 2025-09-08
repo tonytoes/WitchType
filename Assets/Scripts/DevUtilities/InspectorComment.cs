@@ -4,10 +4,10 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class InspectorComment : MonoBehaviour
 {
-    [Header("Notes")]
-    [Tooltip("Free-form notes for this object. Saved with the scene/prefab.")]
-    [TextArea(3, 10)]
-    [SerializeField] private string text = "";
+    //[Header("Notes")]
+    //[Tooltip("Free-form notes for this object. Saved with the scene/prefab.")]
+    //[TextArea(3, 10)]
+    //[SerializeField] private string text = "";
 
     #if UNITY_EDITOR
     // Ensure changes are saved when edited in the Inspector (scene or prefab mode).
