@@ -15,7 +15,7 @@ public class TypeCastingUI : MonoBehaviour
     public TMP_InputField TypeCastField;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             if (TypeCastingMode == false)
             {
