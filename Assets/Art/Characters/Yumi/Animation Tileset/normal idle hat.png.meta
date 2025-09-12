@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: cb1f1ccfd9dbe9e42b48c9041c8aac66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1211665267114736735
+    second: normal walk animation hat_0
+  - first:
+      213: 2838659986397567887
+    second: normal walk animation hat_1
+  - first:
+      213: -7062126625474599034
+    second: normal walk animation hat_2
+  - first:
+      213: -1337192319649193356
+    second: normal walk animation hat_3
+  - first:
+      213: 9059878273692789523
+    second: normal walk animation hat_4
+  - first:
+      213: -4866176650663067571
+    second: normal walk animation hat_5
+  - first:
+      213: -4750848352220395149
+    second: normal walk animation hat_6
+  - first:
+      213: -871231582692041189
+    second: normal walk animation hat_7
+  - first:
+      213: 2406212664442216177
+    second: normal walk animation hat_8
+  - first:
+      213: -3001085321967789788
+    second: normal walk animation hat_9
+  - first:
+      213: -7413120704142655788
+    second: normal walk animation hat_10
+  - first:
+      213: 1481682375606306384
+    second: normal walk animation hat_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: normal walk animation hat_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 190
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a382f6fbdc4f2fe0800000000000000
+      internalID: -1211665267114736735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal walk animation hat_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 190
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b975fb732f46720800000000000000
+      internalID: 2838659986397567887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal walk animation hat_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 190
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68722c930494efd90800000000000000
+      internalID: -7062126625474599034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal walk animation hat_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 130
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472ede68ba6517de0800000000000000
+      internalID: -1337192319649193356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal walk animation hat_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 130
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31becb3e9472bbd70800000000000000
+      internalID: 9059878273692789523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal walk animation hat_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 130
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d408dea4e1ed77cb0800000000000000
+      internalID: -4866176650663067571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal walk animation hat_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 70
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37947204898911eb0800000000000000
+      internalID: -4750848352220395149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal walk animation hat_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 70
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e1a84dd73c8e3f0800000000000000
+      internalID: -871231582692041189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal walk animation hat_8
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 70
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fedf1e6ba5946120800000000000000
+      internalID: 2406212664442216177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal walk animation hat_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4299873dcc00a56d0800000000000000
+      internalID: -3001085321967789788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal walk animation hat_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 10
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4debb78fefd4f1990800000000000000
+      internalID: -7413120704142655788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal walk animation hat_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 10
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05688f3354eff8410800000000000000
+      internalID: 1481682375606306384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      normal walk animation hat_0: -1211665267114736735
+      normal walk animation hat_1: 2838659986397567887
+      normal walk animation hat_10: -7413120704142655788
+      normal walk animation hat_11: 1481682375606306384
+      normal walk animation hat_2: -7062126625474599034
+      normal walk animation hat_3: -1337192319649193356
+      normal walk animation hat_4: 9059878273692789523
+      normal walk animation hat_5: -4866176650663067571
+      normal walk animation hat_6: -4750848352220395149
+      normal walk animation hat_7: -871231582692041189
+      normal walk animation hat_8: 2406212664442216177
+      normal walk animation hat_9: -3001085321967789788
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

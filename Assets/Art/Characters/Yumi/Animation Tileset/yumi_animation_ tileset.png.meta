@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: 38e6585449aa1ba48ac1e74bd228e4c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6221377036866610161
+    second: yumi_animation_ tileset_0
+  - first:
+      213: -2942963264379275097
+    second: yumi_animation_ tileset_1
+  - first:
+      213: 5561046642097263360
+    second: yumi_animation_ tileset_2
+  - first:
+      213: -7627851750045056058
+    second: yumi_animation_ tileset_3
+  - first:
+      213: -7921870796552967557
+    second: yumi_animation_ tileset_4
+  - first:
+      213: -6623007483332464985
+    second: yumi_animation_ tileset_5
+  - first:
+      213: 7207395792822590252
+    second: yumi_animation_ tileset_6
+  - first:
+      213: 6514712859025074876
+    second: yumi_animation_ tileset_7
+  - first:
+      213: -7587068578398990202
+    second: yumi_animation_ tileset_8
+  - first:
+      213: 3073207711381058402
+    second: yumi_animation_ tileset_9
+  - first:
+      213: 2137147624973108689
+    second: yumi_animation_ tileset_10
+  - first:
+      213: 7223705225754209167
+    second: yumi_animation_ tileset_11
+  - first:
+      213: 9093511866294249935
+    second: yumi_animation_ tileset_12
+  - first:
+      213: 5544979466751587347
+    second: yumi_animation_ tileset_13
+  - first:
+      213: 3206586342558420056
+    second: yumi_animation_ tileset_14
+  - first:
+      213: -3696265948959377153
+    second: yumi_animation_ tileset_15
+  - first:
+      213: 209801918160695478
+    second: yumi_animation_ tileset_16
+  - first:
+      213: 6304292046159823379
+    second: yumi_animation_ tileset_17
+  - first:
+      213: 8101720100574545429
+    second: yumi_animation_ tileset_18
+  - first:
+      213: 1099509542853711693
+    second: yumi_animation_ tileset_19
+  - first:
+      213: -5794216818917377660
+    second: yumi_animation_ tileset_20
+  - first:
+      213: 7697959449184737073
+    second: yumi_animation_ tileset_21
+  - first:
+      213: -5303244262602103592
+    second: yumi_animation_ tileset_22
+  - first:
+      213: 8730548107494494871
+    second: yumi_animation_ tileset_23
+  - first:
+      213: 8491311771324602974
+    second: yumi_animation_ tileset_24
+  - first:
+      213: 3931544592844035789
+    second: yumi_animation_ tileset_25
+  - first:
+      213: -6275456385859960110
+    second: yumi_animation_ tileset_26
+  - first:
+      213: 3080205595007193543
+    second: yumi_animation_ tileset_27
+  - first:
+      213: -1856648282647634277
+    second: yumi_animation_ tileset_28
+  - first:
+      213: -7270488785253050478
+    second: yumi_animation_ tileset_29
+  - first:
+      213: -4652188493424910970
+    second: yumi_animation_ tileset_30
+  - first:
+      213: 3808611020892050039
+    second: yumi_animation_ tileset_31
+  - first:
+      213: 2110280748358055619
+    second: yumi_animation_ tileset_32
+  - first:
+      213: -8213041899626459089
+    second: yumi_animation_ tileset_33
+  - first:
+      213: -5914464750182396120
+    second: yumi_animation_ tileset_34
+  - first:
+      213: 6273640118388855406
+    second: yumi_animation_ tileset_35
+  - first:
+      213: 9043941772660965343
+    second: yumi_animation_ tileset_36
+  - first:
+      213: 3768690051873038181
+    second: yumi_animation_ tileset_37
+  - first:
+      213: 17316534552908737
+    second: yumi_animation_ tileset_38
+  - first:
+      213: 4951075101125065837
+    second: yumi_animation_ tileset_39
+  - first:
+      213: -3450849247387585609
+    second: yumi_animation_ tileset_40
+  - first:
+      213: -7111431176406975226
+    second: yumi_animation_ tileset_41
+  - first:
+      213: 2113589053626942541
+    second: yumi_animation_ tileset_42
+  - first:
+      213: 4667167404941890936
+    second: yumi_animation_ tileset_43
+  - first:
+      213: -6347759087587302844
+    second: yumi_animation_ tileset_44
+  - first:
+      213: 5609697197969254989
+    second: yumi_animation_ tileset_45
+  - first:
+      213: -4975468971058215491
+    second: yumi_animation_ tileset_46
+  - first:
+      213: -4159204387004280065
+    second: yumi_animation_ tileset_47
+  - first:
+      213: 5509648329262056131
+    second: yumi_animation_ tileset_48
+  - first:
+      213: -1336546945703039679
+    second: yumi_animation_ tileset_49
+  - first:
+      213: 5117697733703972012
+    second: yumi_animation_ tileset_50
+  - first:
+      213: -7046626234348911934
+    second: yumi_animation_ tileset_51
+  - first:
+      213: 4590771984491813109
+    second: yumi_animation_ tileset_52
+  - first:
+      213: 4366756378078305979
+    second: yumi_animation_ tileset_53
+  - first:
+      213: -4350814825521275868
+    second: yumi_animation_ tileset_54
+  - first:
+      213: -7147021503562768309
+    second: yumi_animation_ tileset_55
+  - first:
+      213: 8930312344376435924
+    second: yumi_animation_ tileset_56
+  - first:
+      213: -9194134540202461454
+    second: yumi_animation_ tileset_57
+  - first:
+      213: -810978305163104152
+    second: yumi_animation_ tileset_58
+  - first:
+      213: -5431577498360171204
+    second: yumi_animation_ tileset_59
+  - first:
+      213: 5189318000997871998
+    second: yumi_animation_ tileset_60
+  - first:
+      213: -3516572461290266073
+    second: yumi_animation_ tileset_61
+  - first:
+      213: -5217546936160640530
+    second: yumi_animation_ tileset_62
+  - first:
+      213: -8122935639362132208
+    second: yumi_animation_ tileset_63
+  - first:
+      213: 255379869081984470
+    second: yumi_animation_ tileset_64
+  - first:
+      213: -4447795715414857572
+    second: yumi_animation_ tileset_65
+  - first:
+      213: 3225598552929885548
+    second: yumi_animation_ tileset_66
+  - first:
+      213: -1497615437709125858
+    second: yumi_animation_ tileset_67
+  - first:
+      213: -2590193614385731959
+    second: yumi_animation_ tileset_68
+  - first:
+      213: 1465530534039575972
+    second: yumi_animation_ tileset_69
+  - first:
+      213: -3267869205212037618
+    second: yumi_animation_ tileset_70
+  - first:
+      213: -5837386360258464982
+    second: yumi_animation_ tileset_71
+  - first:
+      213: 8526717186509808256
+    second: yumi_animation_ tileset_72
+  - first:
+      213: -8667129190291288518
+    second: yumi_animation_ tileset_73
+  - first:
+      213: 6243448150747518385
+    second: yumi_animation_ tileset_74
+  - first:
+      213: 3939425672772467824
+    second: yumi_animation_ tileset_75
+  - first:
+      213: 4872057609590753918
+    second: yumi_animation_ tileset_76
+  - first:
+      213: 1197038070131162774
+    second: yumi_animation_ tileset_77
+  - first:
+      213: -7441465428095023236
+    second: yumi_animation_ tileset_78
+  - first:
+      213: 2284218192025195933
+    second: yumi_animation_ tileset_79
+  - first:
+      213: 3219754245332791850
+    second: yumi_animation_ tileset_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 452
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c1bc71c8a39a9a0800000000000000
+      internalID: -6221377036866610161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 452
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a836a7e08e7827d0800000000000000
+      internalID: -2942963264379275097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 452
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0031691157ecc2d40800000000000000
+      internalID: 5561046642097263360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 452
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c309375f3d642690800000000000000
+      internalID: -7627851750045056058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 452
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a6bee7b7cdf0290800000000000000
+      internalID: -7921870796552967557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 452
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aee63bb8c95614a0800000000000000
+      internalID: -6623007483332464985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 452
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bd5d28940d50460800000000000000
+      internalID: 7207395792822590252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 451
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbaebdf24d8e86a50800000000000000
+      internalID: 6514712859025074876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_8
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 451
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6801002735155b690800000000000000
+      internalID: -7587068578398990202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 392
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263fbd5812a36aa20800000000000000
+      internalID: 3073207711381058402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 392
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5871b117ca8ad10800000000000000
+      internalID: 2137147624973108689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_11
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 392
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b663741a1cf3460800000000000000
+      internalID: 7223705225754209167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_12
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 392
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9a447ecd4a23e70800000000000000
+      internalID: 9093511866294249935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 392
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314309a4279b3fc40800000000000000
+      internalID: 5544979466751587347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 392
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c40d11a45108c20800000000000000
+      internalID: 3206586342558420056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_15
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 392
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff877ecf3b934bcc0800000000000000
+      internalID: -3696265948959377153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_16
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 392
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0f925abbd59e200800000000000000
+      internalID: 209801918160695478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_17
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 392
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3124da3e6385d7750800000000000000
+      internalID: 6304292046159823379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 332
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5164368b1871f6070800000000000000
+      internalID: 8101720100574545429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 332
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4792f09a1e324f00800000000000000
+      internalID: 1099509542853711693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_20
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 332
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489f5d4908ec69fa0800000000000000
+      internalID: -5794216818917377660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 332
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13794006555a4da60800000000000000
+      internalID: 7697959449184737073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_22
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 332
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d42972e0771766b0800000000000000
+      internalID: -5303244262602103592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 332
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7921ba15f33292970800000000000000
+      internalID: 8730548107494494871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_24
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 332
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a55ee211337d570800000000000000
+      internalID: 8491311771324602974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_25
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 332
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6931b1af6af8630800000000000000
+      internalID: 3931544592844035789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_26
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 332
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d24c557aa919e8a0800000000000000
+      internalID: -6275456385859960110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 272
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c113954ba61fba20800000000000000
+      internalID: 3080205595007193543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_28
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 272
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ed2ff493cdb36e0800000000000000
+      internalID: -1856648282647634277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_29
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 272
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297d78378f80a1b90800000000000000
+      internalID: -7270488785253050478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_30
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 272
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d9f3da63b107fb0800000000000000
+      internalID: -4652188493424910970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_31
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 272
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77298eb6b87ead430800000000000000
+      internalID: 3808611020892050039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_32
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 272
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c63a3ee829394d10800000000000000
+      internalID: 2110280748358055619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_33
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 272
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f209d5728e9650e80800000000000000
+      internalID: -8213041899626459089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_34
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 272
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f0fc855a99beda0800000000000000
+      internalID: -5914464750182396120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_35
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 272
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e621531d272701750800000000000000
+      internalID: 6273640118388855406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 228
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdff5c81029828d70800000000000000
+      internalID: 9043941772660965343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_37
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 212
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fd07282a31d4430800000000000000
+      internalID: 3768690051873038181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_38
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 231
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c354c2eb458d3000800000000000000
+      internalID: 17316534552908737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_39
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 212
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c37d29290c5b440800000000000000
+      internalID: 4951075101125065837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_40
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 229
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3f90494ee1c10d0800000000000000
+      internalID: -3450849247387585609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_41
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 212
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60dbf95e50f1f4d90800000000000000
+      internalID: -7111431176406975226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_42
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 212
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d448696cb0af45d10800000000000000
+      internalID: 2113589053626942541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_43
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 212
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875d7dee60c15c040800000000000000
+      internalID: 4667167404941890936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_44
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 212
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442e990edba38e7a0800000000000000
+      internalID: -6347759087587302844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_45
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 212
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a267e41e5a9dd40800000000000000
+      internalID: 5609697197969254989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_46
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 211
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5c81df45593fab0800000000000000
+      internalID: -4975468971058215491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_47
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 211
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff21d5c75a98746c0800000000000000
+      internalID: -4159204387004280065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_48
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 171
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c24dfec6f3367c40800000000000000
+      internalID: 5509648329262056131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_49
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 152
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dacbb52a1a37de0800000000000000
+      internalID: -1336546945703039679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_50
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 152
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca43f3d59f6b50740800000000000000
+      internalID: 5117697733703972012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_51
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 172
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c24fa446ca553e90800000000000000
+      internalID: -7046626234348911934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_52
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 152
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f813740cc2b5bf30800000000000000
+      internalID: 4590771984491813109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_53
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 152
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe57003ac5d99c30800000000000000
+      internalID: 4366756378078305979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_54
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 152
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c1d41c7fcce93c0800000000000000
+      internalID: -4350814825521275868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_55
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 152
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40201e1fcda0dc90800000000000000
+      internalID: -7147021503562768309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_56
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 152
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4e7db23c7deeb70800000000000000
+      internalID: 8930312344376435924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 152
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6351a295fd76080800000000000000
+      internalID: -9194134540202461454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_58
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 152
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86074383783deb4f0800000000000000
+      internalID: -810978305163104152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_59
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 92
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35bc300b092f94b0800000000000000
+      internalID: -5431577498360171204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_60
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 111
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71b40c4a39240840800000000000000
+      internalID: 5189318000997871998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_61
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 92
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7226fd16aff923fc0800000000000000
+      internalID: -3516572461290266073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_62
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 92
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1a73f84bc8797b0800000000000000
+      internalID: -5217546936160640530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_63
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 112
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017a57ab219854f80800000000000000
+      internalID: -8122935639362132208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 92
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddda6b43aa4b8300800000000000000
+      internalID: 255379869081984470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_65
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 92
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98613dbc514642c0800000000000000
+      internalID: -4447795715414857572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_66
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 92
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d566f3bc0a3cc20800000000000000
+      internalID: 3225598552929885548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 92
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17d431b1b6673be0800000000000000
+      internalID: -1497615437709125858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_68
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 92
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986ad0391a8cd0cd0800000000000000
+      internalID: -2590193614385731959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_69
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 92
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4addae8814c965410800000000000000
+      internalID: 1465530534039575972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_70
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 32
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ef5e2954236a2d0800000000000000
+      internalID: -3267869205212037618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_71
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 48
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23751c78007dfea0800000000000000
+      internalID: -5837386360258464982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_72
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 32
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082a22aca1cf45670800000000000000
+      internalID: 8526717186509808256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_73
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 32
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ec44efbeb28b780800000000000000
+      internalID: -8667129190291288518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_74
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 49
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b510ee830f25a650800000000000000
+      internalID: 6243448150747518385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_75
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 32
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c38a407c6aba630800000000000000
+      internalID: 3939425672772467824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_76
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 32
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a45e825960d9340800000000000000
+      internalID: 4872057609590753918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_77
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 32
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e79c858cbbc9010800000000000000
+      internalID: 1197038070131162774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_78
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 32
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77cb06ae9a9ab890800000000000000
+      internalID: -7441465428095023236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_79
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 32
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d959525e75c23bf10800000000000000
+      internalID: 2284218192025195933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumi_animation_ tileset_80
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 32
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22fd195d6ddeac20800000000000000
+      internalID: 3219754245332791850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d4f9efe5b6f87c046b6bad24b2b660d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      yumi_animation_ tileset_0: -6221377036866610161
+      yumi_animation_ tileset_1: -2942963264379275097
+      yumi_animation_ tileset_10: 2137147624973108689
+      yumi_animation_ tileset_11: 7223705225754209167
+      yumi_animation_ tileset_12: 9093511866294249935
+      yumi_animation_ tileset_13: 5544979466751587347
+      yumi_animation_ tileset_14: 3206586342558420056
+      yumi_animation_ tileset_15: -3696265948959377153
+      yumi_animation_ tileset_16: 209801918160695478
+      yumi_animation_ tileset_17: 6304292046159823379
+      yumi_animation_ tileset_18: 8101720100574545429
+      yumi_animation_ tileset_19: 1099509542853711693
+      yumi_animation_ tileset_2: 5561046642097263360
+      yumi_animation_ tileset_20: -5794216818917377660
+      yumi_animation_ tileset_21: 7697959449184737073
+      yumi_animation_ tileset_22: -5303244262602103592
+      yumi_animation_ tileset_23: 8730548107494494871
+      yumi_animation_ tileset_24: 8491311771324602974
+      yumi_animation_ tileset_25: 3931544592844035789
+      yumi_animation_ tileset_26: -6275456385859960110
+      yumi_animation_ tileset_27: 3080205595007193543
+      yumi_animation_ tileset_28: -1856648282647634277
+      yumi_animation_ tileset_29: -7270488785253050478
+      yumi_animation_ tileset_3: -7627851750045056058
+      yumi_animation_ tileset_30: -4652188493424910970
+      yumi_animation_ tileset_31: 3808611020892050039
+      yumi_animation_ tileset_32: 2110280748358055619
+      yumi_animation_ tileset_33: -8213041899626459089
+      yumi_animation_ tileset_34: -5914464750182396120
+      yumi_animation_ tileset_35: 6273640118388855406
+      yumi_animation_ tileset_36: 9043941772660965343
+      yumi_animation_ tileset_37: 3768690051873038181
+      yumi_animation_ tileset_38: 17316534552908737
+      yumi_animation_ tileset_39: 4951075101125065837
+      yumi_animation_ tileset_4: -7921870796552967557
+      yumi_animation_ tileset_40: -3450849247387585609
+      yumi_animation_ tileset_41: -7111431176406975226
+      yumi_animation_ tileset_42: 2113589053626942541
+      yumi_animation_ tileset_43: 4667167404941890936
+      yumi_animation_ tileset_44: -6347759087587302844
+      yumi_animation_ tileset_45: 5609697197969254989
+      yumi_animation_ tileset_46: -4975468971058215491
+      yumi_animation_ tileset_47: -4159204387004280065
+      yumi_animation_ tileset_48: 5509648329262056131
+      yumi_animation_ tileset_49: -1336546945703039679
+      yumi_animation_ tileset_5: -6623007483332464985
+      yumi_animation_ tileset_50: 5117697733703972012
+      yumi_animation_ tileset_51: -7046626234348911934
+      yumi_animation_ tileset_52: 4590771984491813109
+      yumi_animation_ tileset_53: 4366756378078305979
+      yumi_animation_ tileset_54: -4350814825521275868
+      yumi_animation_ tileset_55: -7147021503562768309
+      yumi_animation_ tileset_56: 8930312344376435924
+      yumi_animation_ tileset_57: -9194134540202461454
+      yumi_animation_ tileset_58: -810978305163104152
+      yumi_animation_ tileset_59: -5431577498360171204
+      yumi_animation_ tileset_6: 7207395792822590252
+      yumi_animation_ tileset_60: 5189318000997871998
+      yumi_animation_ tileset_61: -3516572461290266073
+      yumi_animation_ tileset_62: -5217546936160640530
+      yumi_animation_ tileset_63: -8122935639362132208
+      yumi_animation_ tileset_64: 255379869081984470
+      yumi_animation_ tileset_65: -4447795715414857572
+      yumi_animation_ tileset_66: 3225598552929885548
+      yumi_animation_ tileset_67: -1497615437709125858
+      yumi_animation_ tileset_68: -2590193614385731959
+      yumi_animation_ tileset_69: 1465530534039575972
+      yumi_animation_ tileset_7: 6514712859025074876
+      yumi_animation_ tileset_70: -3267869205212037618
+      yumi_animation_ tileset_71: -5837386360258464982
+      yumi_animation_ tileset_72: 8526717186509808256
+      yumi_animation_ tileset_73: -8667129190291288518
+      yumi_animation_ tileset_74: 6243448150747518385
+      yumi_animation_ tileset_75: 3939425672772467824
+      yumi_animation_ tileset_76: 4872057609590753918
+      yumi_animation_ tileset_77: 1197038070131162774
+      yumi_animation_ tileset_78: -7441465428095023236
+      yumi_animation_ tileset_79: 2284218192025195933
+      yumi_animation_ tileset_8: -7587068578398990202
+      yumi_animation_ tileset_80: 3219754245332791850
+      yumi_animation_ tileset_9: 3073207711381058402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
