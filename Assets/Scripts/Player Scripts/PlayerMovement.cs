@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     private Animator animator;
 
+    private Vector2 lastMoveDir = Vector2.down;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -20,17 +22,28 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Move(InputAction.CallbackContext context)
     {
-        animator.SetBool("isWalking", true);
+        movement = context.ReadValue<Vector2>();
 
-        if (context.canceled)
+        if (movement != Vector2.zero)
+        {
+            animator.SetBool("isWalking", true);
+
+            // update last direction when moving
+            lastMoveDir = movement;
+
+            animator.SetFloat("InputX", movement.x);
+            animator.SetFloat("InputY", movement.y);
+        }
+        else
         {
             animator.SetBool("isWalking", false);
-        }
 
-        movement = context.ReadValue<Vector2>();
-        animator.SetFloat("InputX", movement.x);
-        animator.SetFloat("InputY", movement.y);
+            // keep facing the last direction when idle
+            animator.SetFloat("InputX", lastMoveDir.x);
+            animator.SetFloat("InputY", lastMoveDir.y);
+        }
     }
+
 
     public void StopMovement()
     {
