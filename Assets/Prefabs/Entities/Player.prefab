@@ -16,9 +16,9 @@ GameObject:
   - component: {fileID: 1662503290909655564}
   - component: {fileID: 1003226585793910387}
   - component: {fileID: 3981288647243469544}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2256676833808207215}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -84,8 +84,8 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 21
-  m_Sprite: {fileID: -7779320843229246424, guid: 880bb48672496a244bd61e7962a0fc71, type: 3}
+  m_SortingOrder: 11
+  m_Sprite: {fileID: 5561046642097263360, guid: 38e6585449aa1ba48ac1e74bd228e4c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64671f37f67ef424dbecaf59ec8e4238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 10
+  moveSpeed: 7.5
 --- !u!95 &5607435911733555676
 Animator:
   serializedVersion: 7
@@ -314,7 +314,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.75, y: 3.09375}
+    oldSize: {x: 1.6875, y: 2.875}
     newSize: {x: 1.75, y: 3.09375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

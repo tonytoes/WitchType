@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 687d4686773292449a718a86b56eb2b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4562783391049028151
+    second: walk animation, no hat_0
+  - first:
+      213: 3043330991240441408
+    second: walk animation, no hat_1
+  - first:
+      213: -4848346123166818521
+    second: walk animation, no hat_2
+  - first:
+      213: 5233833883252406729
+    second: walk animation, no hat_3
+  - first:
+      213: -7250183219683153757
+    second: walk animation, no hat_4
+  - first:
+      213: -7452166961109981794
+    second: walk animation, no hat_5
+  - first:
+      213: 6232116773356435705
+    second: walk animation, no hat_6
+  - first:
+      213: -8733357134941026463
+    second: walk animation, no hat_7
+  - first:
+      213: -4438096439481724854
+    second: walk animation, no hat_8
+  - first:
+      213: 6300622941296790923
+    second: walk animation, no hat_9
+  - first:
+      213: -2743957989382505561
+    second: walk animation, no hat_10
+  - first:
+      213: 7580911020196148913
+    second: walk animation, no hat_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walk animation, no hat_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 184
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732978ac153425f30800000000000000
+      internalID: 4562783391049028151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk animation, no hat_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 183
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ee2da89651c3a20800000000000000
+      internalID: 3043330991240441408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk animation, no hat_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 183
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fdf7c73e637bcb0800000000000000
+      internalID: -4848346123166818521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk animation, no hat_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 124
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9b9a0df2052a840800000000000000
+      internalID: 5233833883252406729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk animation, no hat_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 124
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8a94a56cc226b90800000000000000
+      internalID: -7250183219683153757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk animation, no hat_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 124
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e952324d1a5949890800000000000000
+      internalID: -7452166961109981794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk animation, no hat_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 64
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8f9aaaf2dec7650800000000000000
+      internalID: 6232116773356435705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk animation, no hat_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 64
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167873305f1ecc680800000000000000
+      internalID: -8733357134941026463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk animation, no hat_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 64
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4014c56dc6b862c0800000000000000
+      internalID: -4438096439481724854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk animation, no hat_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d0ca7de2f407750800000000000000
+      internalID: 6300622941296790923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk animation, no hat_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 4
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abb24c2fb08be9d0800000000000000
+      internalID: -2743957989382505561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk animation, no hat_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 4
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6b2a0586ec43960800000000000000
+      internalID: 7580911020196148913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      walk animation, no hat_0: 4562783391049028151
+      walk animation, no hat_1: 3043330991240441408
+      walk animation, no hat_10: -2743957989382505561
+      walk animation, no hat_11: 7580911020196148913
+      walk animation, no hat_2: -4848346123166818521
+      walk animation, no hat_3: 5233833883252406729
+      walk animation, no hat_4: -7250183219683153757
+      walk animation, no hat_5: -7452166961109981794
+      walk animation, no hat_6: 6232116773356435705
+      walk animation, no hat_7: -8733357134941026463
+      walk animation, no hat_8: -4438096439481724854
+      walk animation, no hat_9: 6300622941296790923
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
