@@ -50387,6 +50387,18 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6502001181825528140, guid: 97556a7c00f27f542ab245bd07f2f68a, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502001181825528140, guid: 97556a7c00f27f542ab245bd07f2f68a, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502001181825528140, guid: 97556a7c00f27f542ab245bd07f2f68a, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6586351157733118577, guid: 97556a7c00f27f542ab245bd07f2f68a, type: 3}
       propertyPath: m_Name
       value: SceneTransition
