@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 0fb99c59050fd844e842540bb33b4b87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1923532808471878611
+    second: combat idle_0
+  - first:
+      213: -7028384472284264095
+    second: combat idle_1
+  - first:
+      213: -1084563606421496285
+    second: combat idle_2
+  - first:
+      213: 3032687526683424925
+    second: combat idle_3
+  - first:
+      213: 4566917310606341960
+    second: combat idle_4
+  - first:
+      213: 7584139345924736376
+    second: combat idle_5
+  - first:
+      213: -1541695094363365918
+    second: combat idle_6
+  - first:
+      213: -4756658945187510873
+    second: combat idle_7
+  - first:
+      213: -8678366012471116613
+    second: combat idle_8
+  - first:
+      213: 4776374551443804294
+    second: combat idle_9
+  - first:
+      213: 965130667012120160
+    second: combat idle_10
+  - first:
+      213: -5375641577071530574
+    second: combat idle_11
+  - first:
+      213: -5952737333885575591
+    second: combat idle_12
+  - first:
+      213: 4008953936887487498
+    second: combat idle_13
+  - first:
+      213: -474807101714007309
+    second: combat idle_14
+  - first:
+      213: 4710580152492192032
+    second: combat idle_15
+  - first:
+      213: -3536117081359899579
+    second: combat idle_16
+  - first:
+      213: 4961186658273350285
+    second: combat idle_17
+  - first:
+      213: -1513785448749220023
+    second: combat idle_18
+  - first:
+      213: 2989953128089249887
+    second: combat idle_19
+  - first:
+      213: -3779692079478305466
+    second: combat idle_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: combat idle_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 211
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24693d1a1d3e45e0800000000000000
+      internalID: -1923532808471878611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 195
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16900a87f89267e90800000000000000
+      internalID: -7028384472284264095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 214
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e1eee652bd2f0f0800000000000000
+      internalID: -1084563606421496285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 195
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9839b6dc35461a20800000000000000
+      internalID: 3032687526683424925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 212
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847f541f813f06f30800000000000000
+      internalID: 4566917310606341960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 195
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87548e87d86404960800000000000000
+      internalID: 7584139345924736376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 154
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed528cda7cca9ae0800000000000000
+      internalID: -1541695094363365918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 135
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a50a6624e3fcfdb0800000000000000
+      internalID: -4756658945187510873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 135
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcf5d37710409780800000000000000
+      internalID: -8678366012471116613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 155
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68016052957194240800000000000000
+      internalID: 4776374551443804294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 135
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ed7196a35d46d00800000000000000
+      internalID: 965130667012120160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 75
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bda4de8772e565b0800000000000000
+      internalID: -5375641577071530574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 94
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e5b8c0fe0a36da0800000000000000
+      internalID: -5952737333885575591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 75
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c15118d5aa2a730800000000000000
+      internalID: 4008953936887487498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_14
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 75
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3faf085e4752969f0800000000000000
+      internalID: -474807101714007309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 95
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0217d43e0b75f5140800000000000000
+      internalID: 4710580152492192032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 15
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5442a59ef303deec0800000000000000
+      internalID: -3536117081359899579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 31
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d825aceeafca9d440800000000000000
+      internalID: 4961186658273350285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 15
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fb52d9724fdfae0800000000000000
+      internalID: -1513785448749220023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 15
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58e3de47827e7920800000000000000
+      internalID: 2989953128089249887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat idle_20
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 32
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d86525416db8bc0800000000000000
+      internalID: -3779692079478305466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 069c318174490ad4cb47745f727aec6d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      combat idle_0: -1923532808471878611
+      combat idle_1: -7028384472284264095
+      combat idle_10: 965130667012120160
+      combat idle_11: -5375641577071530574
+      combat idle_12: -5952737333885575591
+      combat idle_13: 4008953936887487498
+      combat idle_14: -474807101714007309
+      combat idle_15: 4710580152492192032
+      combat idle_16: -3536117081359899579
+      combat idle_17: 4961186658273350285
+      combat idle_18: -1513785448749220023
+      combat idle_19: 2989953128089249887
+      combat idle_2: -1084563606421496285
+      combat idle_20: -3779692079478305466
+      combat idle_3: 3032687526683424925
+      combat idle_4: 4566917310606341960
+      combat idle_5: 7584139345924736376
+      combat idle_6: -1541695094363365918
+      combat idle_7: -4756658945187510873
+      combat idle_8: -8678366012471116613
+      combat idle_9: 4776374551443804294
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
