@@ -94,11 +94,7 @@ public class TypeCastingUI : MonoBehaviour
         {
             Instantiate(spell.spellPrefab, firePoint.position, firePoint.rotation);
         }
-       
-    }   
-
-
-
-
+      
+    }
 }
 

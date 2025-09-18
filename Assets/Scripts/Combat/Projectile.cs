@@ -3,13 +3,14 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public float speed = 10f;
-    public float lifetime = 5f;
+    public float lifetime = 7f;
     //public GameObject impactEffect; TO DO
 
     private Rigidbody2D rb;
 
     private void Start()
     {
+
         rb = GetComponent<Rigidbody2D>();
 
         
@@ -27,15 +28,5 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject, lifetime);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        //if (other.CompareTag("Enemy"))
-        //{
-            // TODO: apply damage
-        //}
-
-       
-
-        Destroy(gameObject);
-    }
+  
 }
