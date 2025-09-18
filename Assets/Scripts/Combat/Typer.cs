@@ -6,6 +6,7 @@ public class Typer : MonoBehaviour
 {
     public WordBank wordBank;
     public TMP_InputField wordOutput;
+    public System.Action OnWordComplete;
 
     private string remainingWord = string.Empty;
     private string currentWord = string.Empty;
@@ -13,7 +14,6 @@ public class Typer : MonoBehaviour
     private void Start()
     {
         SetCurrentWord();
-        Debug.Log("Word set to: " + wordOutput.text);
     }
 
     private void SetCurrentWord()
@@ -69,6 +69,17 @@ public class Typer : MonoBehaviour
 
     private bool IsWordComplete()
     {
-        return remainingWord.Length == 0;
+        bool complete = remainingWord.Length == 0;
+        if (complete && OnWordComplete != null)
+        {
+            OnWordComplete.Invoke();
+        }
+       return complete;
     }
+
+    public void ResetWord()
+    {
+        SetCurrentWord();
+    }
+
 }
