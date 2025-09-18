@@ -33,21 +33,26 @@ public class SpellManager : MonoBehaviour
 
     public void ToggleSpellByIndex(int index)
     {
+
         if (index >= 0 && index < allSpells.Count)
         {
             Spell spell = allSpells[index];
+           
+
             if (selectedSpells.Contains(spell))
             {
-                DeselectSpell(spell);
+                selectedSpells.Remove(spell);
             }
-            else
+            else if (selectedSpells.Count < maxSpells)
             {
-                SelectSpell(spell);
+                selectedSpells.Add(spell);
             }
         }
 
-        FindFirstObjectByType<SpellBookUI>().UpdateCounter();
+        FindFirstObjectByType<SpellBookUI>()?.UpdateCounter();
     }
+
+
 
 
 
