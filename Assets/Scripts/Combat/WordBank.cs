@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class WordBank : MonoBehaviour
 {
-    private List<string> originalWords = new List<string>()
-   {
-       "Rural", "Urban", "Onomatopoeia", "Likeable"
-   };
+    private List<string> originalWords = new List<string>();
 
     public List<string> workingWords = new List<string>();
 
     private void Awake()
     {
+        TextAsset wordFile = Resources.Load<TextAsset>("words");
+        if (wordFile != null)
+        {
+            originalWords = wordFile.text
+                .Split(new[] { '\n', '\r' }, System.StringSplitOptions.RemoveEmptyEntries)
+                .Select(w => w.Trim())
+                .ToList();
+        }
+
         workingWords.AddRange(originalWords);
         Shuffle(workingWords);
         ConverToLower(workingWords);
@@ -40,13 +46,15 @@ public class WordBank : MonoBehaviour
 
     public string GetWord()
     {
-        string newWord = string.Empty;
-
-        if (workingWords.Count != 0)
+        if (workingWords.Count == 0)
         {
-            newWord = workingWords.Last();
-            workingWords.Remove(newWord);
+            workingWords.AddRange(originalWords);
+            Shuffle(workingWords);
+            ConverToLower(workingWords);
         }
+
+        string newWord = workingWords.Last();
+        workingWords.Remove(newWord);
 
         return newWord;
     }
