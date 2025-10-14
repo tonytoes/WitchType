@@ -87,7 +87,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 99
+  m_SortingOrder: -59
   m_Sprite: {fileID: -1211665267114736735, guid: cb1f1ccfd9dbe9e42b48c9041c8aac66, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -353,17 +353,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc01f000b004b624ab7fdc96b3bd70ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthDisplay
-  health: 0
-  maxHealth: 0
-  emptyHeart: {fileID: -705465144167411356, guid: a4907a4dd98c9174193850b356d767fe, type: 3}
-  fullHeart: {fileID: 21300000, guid: 51c39abef25bba641b242eab5f2bbbbf, type: 3}
   hearts:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  playerHealth: {fileID: 2242608340441937825}
 --- !u!114 &2242608340441937825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,8 +371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b2d4d17fa924847b7f52e507552ca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  currentHealth: 0
   maxHealth: 5
-  health: 0
+  health: {fileID: 1527402162974375742}
 --- !u!1 &6344414410807353018
 GameObject:
   m_ObjectHideFlags: 0
