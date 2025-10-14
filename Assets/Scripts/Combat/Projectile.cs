@@ -7,9 +7,7 @@ public class Projectile : MonoBehaviour
     public float kbForce = 5f;
     public float knockbackTime = .15f;
     public float stunTime = 1;
-
-    public LayerMask enemyLayer;
-    public int damage;
+    //public GameObject impactEffect; TO DO
 
     private Rigidbody2D rb;
 
@@ -18,26 +16,37 @@ public class Projectile : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
 
-        
+
         Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mouseWorld.z = 0f; 
+        mouseWorld.z = 0f;
 
         Vector2 direction = (mouseWorld - transform.position).normalized;
 
-        rb.linearVelocity = direction * speed; 
+        rb.linearVelocity = direction * speed;
 
-        
+
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
         Destroy(gameObject, lifetime);
     }
 
-    private void OnCollisionEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if((enemyLayer.value & (1 << collision.gameObject.layer)) > 0)
+        if (other.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<EnemyHealth>().ChangeHealth(-damage);
+            EnemyHealth enemy = other.GetComponent<EnemyHealth>();
+            EnemyKnockback knockback = other.GetComponent<EnemyKnockback>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(1, transform.right);
+            }
+
+            if (knockback != null)
+            {
+                knockback.KnockBack(transform, kbForce, knockbackTime, stunTime);
+            }
+
         }
     }
 
