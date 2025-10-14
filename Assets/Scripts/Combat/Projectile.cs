@@ -7,7 +7,9 @@ public class Projectile : MonoBehaviour
     public float kbForce = 5f;
     public float knockbackTime = .15f;
     public float stunTime = 1;
-    //public GameObject impactEffect; TO DO
+
+    public LayerMask enemyLayer;
+    public int damage;
 
     private Rigidbody2D rb;
 
@@ -31,22 +33,11 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject, lifetime);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Enemy"))
+        if((enemyLayer.value & (1 << collision.gameObject.layer)) > 0)
         {
-            EnemyHealth enemy = other.GetComponent<EnemyHealth>();
-            EnemyKnockback knockback = other.GetComponent<EnemyKnockback>();
-            if(enemy != null)
-            {
-                enemy.TakeDamage(1, transform.right);
-            }
-
-            if(knockback != null)
-            {
-                knockback.KnockBack(transform, kbForce, knockbackTime,stunTime);
-            }
-
+            collision.gameObject.GetComponent<EnemyHealth>().ChangeHealth(-damage);
         }
     }
 
