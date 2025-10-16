@@ -38,11 +38,16 @@ public class SpellBookUI : MonoBehaviour
     {
         spellBookPanel.SetActive(false);
         yield return new WaitUntil(() => SpellManager.Instance != null);
-        yield return null;
+
+        // wait a few frames for TMP and UI Toolkit to finish loading
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForEndOfFrame();
+
         UpdateSpellSlot();
         UpdateCounter();
         initialized = true;
     }
+
 
     public void OpenSpellBook()
     {

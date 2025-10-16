@@ -1,27 +1,30 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerSpawnManager : MonoBehaviour
 {
-    public static string nextSpawnPointID;
+    public static Vector2 nextPosition;
+    private GameObject player;
 
-    private void Start()
+    private void OnEnable()
     {
-        if (string.IsNullOrEmpty(nextSpawnPointID))
-            return;
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
 
-        SpawnPoint[] spawnPoints = Object.FindObjectsByType<SpawnPoint>(FindObjectsSortMode.None);
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
 
-        foreach (var sp in spawnPoints)
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null && nextPosition != Vector2.zero)
         {
-            if (sp.spawnPointID == nextSpawnPointID)
-            {
-                GameObject player = GameObject.FindGameObjectWithTag("Player");
-                if (player != null)
-                {
-                    player.transform.position = sp.transform.position;
-                }
-                break;
-            }
+            player.transform.position = nextPosition;
         }
+
+        nextPosition = Vector2.zero;
     }
 }

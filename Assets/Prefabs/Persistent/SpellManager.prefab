@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4818904041531955220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6166861152283002271}
+  - component: {fileID: 3144131112893328270}
+  m_Layer: 0
+  m_Name: SpellManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6166861152283002271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4818904041531955220}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.55246, y: -20.46119, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3144131112893328270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4818904041531955220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6483bfc3016e65440a37712db4db430f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpellManager
+  selectedSpells: []
+  unlockedSpells: []
+  allSpells:
+  - spellName: fireball
+    spellIcon: {fileID: 21300000, guid: c07b18e2ef4a1304b8ea2123b6a4e095, type: 3}
+    spellPrefab: {fileID: 672589652610436096, guid: b90d2034bb1eb714982a5a6ad1e38a56, type: 3}
+  - spellName: Heal
+    spellIcon: {fileID: 21300000, guid: 404a35a962ddde34a9e22eb0341b64b8, type: 3}
+    spellPrefab: {fileID: 672589652610436096, guid: b90d2034bb1eb714982a5a6ad1e38a56, type: 3}
+  - spellName: Shield
+    spellIcon: {fileID: 21300000, guid: 4d2a84199a2756f4a9b8ea9703d75fde, type: 3}
+    spellPrefab: {fileID: 672589652610436096, guid: b90d2034bb1eb714982a5a6ad1e38a56, type: 3}
+  - spellName: FireSlash
+    spellIcon: {fileID: 21300000, guid: 6c9f13ab3af5f7e439ad830ce82ea640, type: 3}
+    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
+  - spellName: FireSlash
+    spellIcon: {fileID: 21300000, guid: 2f03ed64f8acd1b468f683bfea19e6b6, type: 3}
+    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
+  - spellName: FireSlash
+    spellIcon: {fileID: 21300000, guid: ea9dd249f8fbcb54fb32b141f7bd26a3, type: 3}
+    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
+  - spellName: FireSlash
+    spellIcon: {fileID: 21300000, guid: 7767c616aab805445b02e41feaf117a1, type: 3}
+    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
+  - spellName: FireSlash
+    spellIcon: {fileID: 21300000, guid: 7658d7520c4d17441a70cb6b3ec494f7, type: 3}
+    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
+  - spellName: FireSlash
+    spellIcon: {fileID: 21300000, guid: 95f663e130dc7fa4c8b64aa8ae721e8c, type: 3}
+    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
+  - spellName: FireSlash
+    spellIcon: {fileID: 21300000, guid: ea280b2b9366f0541b3c02b784188795, type: 3}
+    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
+  - spellName: FireSlash
+    spellIcon: {fileID: 21300000, guid: 1f71bf30149441b428047563835e7453, type: 3}
+    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
+  - spellName: FireSlash
+    spellIcon: {fileID: 21300000, guid: db95af7f11c30d74ebe4bd1d542b676c, type: 3}
+    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
+  maxSpells: 1
