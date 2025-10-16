@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64671f37f67ef424dbecaf59ec8e4238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 7.5
+  moveSpeed: 5
 --- !u!95 &4858703784155070481
 Animator:
   serializedVersion: 7
@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b2d4d17fa924847b7f52e507552ca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  currentHealth: 0
+  currentHealth: 5
   maxHealth: 5
   health: {fileID: 7128819068302002955}
 --- !u!1 &8164237230122146800

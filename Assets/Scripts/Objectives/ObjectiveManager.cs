@@ -23,7 +23,7 @@ public class ObjectiveManager : MonoBehaviour
     {
         if (index >= currentObjectiveList.objectives.Length)
         {
-            objectiveText.text = "✅ All objectives completed!";
+            objectiveText.text = "All objectives completed!";
             ShowObjective();
             return;
         }

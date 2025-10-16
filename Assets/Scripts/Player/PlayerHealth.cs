@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -8,8 +10,22 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
+        StartCoroutine(InitializeHealthUI());
+    }
+
+    private IEnumerator InitializeHealthUI()
+    {
+        yield return new WaitUntil(() => gameObject.scene.isLoaded);
+
         currentHealth = maxHealth;
-        health.UpdateHearts(currentHealth, maxHealth);
+
+        yield return null;
+
+        if (health != null)
+        {
+            health.UpdateHearts(currentHealth, maxHealth);
+        }
+            
     }
 
     public void ChangeHealth(int amount)
@@ -17,7 +33,8 @@ public class PlayerHealth : MonoBehaviour
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
-        health.UpdateHearts(currentHealth, maxHealth);
+        if (health != null)
+            health.UpdateHearts(currentHealth, maxHealth);
 
         if (currentHealth <= 0)
         {

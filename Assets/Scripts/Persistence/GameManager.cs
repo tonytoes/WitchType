@@ -4,18 +4,19 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public GameObject[] persistentObjects;
-    void Awake()
+    
+    private void Awake()
     {
-        if (Instance != null)
-        {
-            CleanUpAndDestroy();
-            return;
-        }
-        else
+        if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
             MarkPersistenceObjects();
+        }
+        else if (Instance != null)
+        {
+            CleanUpAndDestroy();
+            return;
         }
     }
 

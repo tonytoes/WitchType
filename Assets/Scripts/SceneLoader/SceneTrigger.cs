@@ -7,11 +7,11 @@ using UnityEngine.SceneManagement;
 public class SceneTrigger : MonoBehaviour
 {
     [Header("Scene To Load")]
-    [SerializeField] private Object sceneAsset; 
+    [SerializeField] private Object sceneAsset;
     private string sceneName;
 
-    [Header("Spawn Point ID in next scene")]
-    [SerializeField] private string spawnPointID;
+    [Header("New Player Position in Next Scene")]
+    [SerializeField] private Vector2 newPlayerPosition;
 
     private void Awake()
     {
@@ -22,12 +22,15 @@ public class SceneTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && !string.IsNullOrEmpty(sceneName))
-        {
-            Debug.Log($"Loading scene: {sceneName}, spawn at: {spawnPointID}");
-            PlayerSpawnManager.nextSpawnPointID = spawnPointID;
-            SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
-        }
+        if (!other.CompareTag("Player") || string.IsNullOrEmpty(sceneName))
+            return;
+
+        Debug.Log($"Loading scene: {sceneName}, moving player to: {newPlayerPosition}");
+
+        // Store the next position for when the scene loads
+        PlayerSpawnManager.nextPosition = newPlayerPosition;
+
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 
 #if UNITY_EDITOR
@@ -62,32 +65,9 @@ public class SceneTrigger : MonoBehaviour
 
             Handles.BeginGUI();
             GUI.Label(new Rect(screenPos.x - 60, screenPos.y - 20, 120, 40),
-                    $"{sceneName}\nSpawn: {spawnPointID}", style);
+                $"{sceneName}\nTarget Pos: {newPlayerPosition}", style);
             Handles.EndGUI();
         }
     }
 #endif
 }
-
-
-
-// using UnityEngine;
-// using UnityEngine.SceneManagement;
-
-// public class SceneTrigger : MonoBehaviour
-// {
-//     [Header("Scene To Load (Name)")]
-//     public string sceneName; 
-
-//     private void OnTriggerEnter2D(Collider2D other)
-//     {
-//         Debug.Log("Trigger hit: " + other.name);
-
-//         if (other.CompareTag("Player"))
-//         {
-//             Debug.Log("Player entered trigger, loading scene: " + sceneName);
-//             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
-//         }
-//     }
-// }
-
