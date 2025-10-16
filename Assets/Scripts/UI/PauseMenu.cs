@@ -8,7 +8,6 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject ButtonPause;
-    public GameObject PersistentDestroy;
     [SerializeField] private Animator playerAnimator;
     void Update()
     {
@@ -64,6 +63,5 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         playerAnimator.enabled = true;
-        Destroy(PersistentDestroy);
     }
 }

@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private static GameManager Instance;
+    public static GameManager Instance;
     public GameObject[] persistentObjects;
     void Awake()
     {
-        if (Instance == null)
+        if (Instance != null)
         {
-            Destroy(gameObject);
+            CleanUpAndDestroy();
             return;
         }
         else
@@ -28,6 +28,15 @@ public class GameManager : MonoBehaviour
                 DontDestroyOnLoad(obj);
             }
         }
+    }
+    
+    private void CleanUpAndDestroy()
+    {
+        foreach(GameObject obj in persistentObjects)
+        {
+           Destroy(obj);
+        }
+        Destroy(gameObject);
     }
 
 }
