@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class ObjectiveManager : MonoBehaviour
 {
@@ -10,12 +11,20 @@ public class ObjectiveManager : MonoBehaviour
 
     private void Start()
     {
+        StartCoroutine(InitializeObjectives());
+    }
+
+    private IEnumerator InitializeObjectives()
+    {
+        yield return null; 
+
         if (currentObjectiveList == null)
         {
-            objectiveText.text = "";
-            Debug.LogWarning("ObjectiveManager: No ObjectiveList assigned.");
-            return;
+            if (objectiveText != null)
+                objectiveText.text = "";
+            yield break;
         }
+
         StartObjective(currentIndex);
     }
 
@@ -23,16 +32,20 @@ public class ObjectiveManager : MonoBehaviour
     {
         if (index >= currentObjectiveList.objectives.Length)
         {
-            objectiveText.text = "All objectives completed!";
+            if (objectiveText != null)
+                objectiveText.text = "All objectives completed!";
+
             ShowObjective();
             return;
         }
 
         var obj = currentObjectiveList.objectives[index];
         obj.StartObjective();
-        objectiveText.text = obj.description;
-        ShowObjective();
 
+        if (objectiveText != null)
+            objectiveText.text = obj.description;
+
+        ShowObjective();
         obj.onComplete.AddListener(HandleObjectiveCompleted);
     }
 
@@ -53,6 +66,7 @@ public class ObjectiveManager : MonoBehaviour
 
     private void ShowObjective()
     {
-        objectivePanel.gameObject.SetActive(true);  
+        if (objectivePanel != null)
+            objectivePanel.gameObject.SetActive(true);
     }
 }
