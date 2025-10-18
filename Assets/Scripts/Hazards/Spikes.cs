@@ -20,7 +20,10 @@ public class Spike : MonoBehaviour
         if (anim != null)
             anim.SetBool("IsActive", active);
 
-      // add audio here thanks
+        // add audio here thanks
+
+        if (!active)
+            spikeCollider.enabled = false;
 
         StartCoroutine(ToggleColliderAfterDelay(active));
     }
