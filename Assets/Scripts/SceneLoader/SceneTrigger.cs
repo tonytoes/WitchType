@@ -25,9 +25,7 @@ public class SceneTrigger : MonoBehaviour
         if (!other.CompareTag("Player") || string.IsNullOrEmpty(sceneName))
             return;
 
-        Debug.Log($"Loading scene: {sceneName}, moving player to: {newPlayerPosition}");
 
-        // Store the next position for when the scene loads
         PlayerSpawnManager.nextPosition = newPlayerPosition;
 
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
