@@ -1,9 +1,11 @@
 using UnityEngine;
+using System.Collections;
 
 public class Spike : MonoBehaviour
 {
     public float knockbackForce = 5f;
     public float knockbackDuration = 0.2f;
+    public Animator anim; 
 
     private Collider2D spikeCollider;
 
@@ -12,14 +14,31 @@ public class Spike : MonoBehaviour
         spikeCollider = GetComponent<Collider2D>();
     }
 
+
+    public void SetActive(bool active)
+    {
+        if (anim != null)
+            anim.SetBool("IsActive", active);
+
+      // add audio here thanks
+
+        StartCoroutine(ToggleColliderAfterDelay(active));
+    }
+
     public void SetColliderState(int value)
     {
         spikeCollider.enabled = value == 1;
     }
 
+    private IEnumerator ToggleColliderAfterDelay(bool active)
+    {
+        yield return new WaitForSeconds(0.3f);
+        spikeCollider.enabled = active;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (spikeCollider.enabled && collision.CompareTag("Player"))
         {
             PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
             if (playerHealth != null)
@@ -29,7 +48,7 @@ public class Spike : MonoBehaviour
             if (rb != null)
             {
                 Vector2 direction = (collision.transform.position - transform.position).normalized;
-                rb.linearVelocity = Vector2.zero; 
+                rb.linearVelocity = Vector2.zero;
                 rb.AddForce(direction * knockbackForce, ForceMode2D.Impulse);
 
                 PlayerMovement move = collision.GetComponent<PlayerMovement>();
@@ -39,7 +58,7 @@ public class Spike : MonoBehaviour
         }
     }
 
-    private System.Collections.IEnumerator DisableMovementTemporarily(PlayerMovement move)
+    private IEnumerator DisableMovementTemporarily(PlayerMovement move)
     {
         move.enabled = false;
         yield return new WaitForSeconds(knockbackDuration);
