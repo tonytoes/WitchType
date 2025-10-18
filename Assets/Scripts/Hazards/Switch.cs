@@ -10,6 +10,13 @@ public class Switch : MonoBehaviour
 
     private bool playerInRange;
 
+    private void Start()
+    {
+        if (animator != null)
+            animator.SetBool("IsOn", isOn);
+    }
+
+
     private void Update()
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
