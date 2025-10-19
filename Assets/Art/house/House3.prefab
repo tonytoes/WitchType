@@ -83,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -112
+  m_SortingOrder: -159
   m_Sprite: {fileID: 21300000, guid: 998c4a0777b4e8249b091e8547d518da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::YSort
   sortingMultiplier: 16
   useSpriteBottom: 1
-  offset: 0
+  offset: 30
   offsetUnit: 2
 --- !u!114 &1183805000057998907
 MonoBehaviour:
