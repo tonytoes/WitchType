@@ -1,0 +1,51 @@
+
+using UnityEngine;
+
+public class NPC : MonoBehaviour
+{
+    public enum NPCState
+    {
+        Default,
+        Idle,
+        Patrol,
+        Talk
+    }
+
+    private NPCState currentState = NPCState.Idle;
+    public NPCState defaultState;
+
+    public NPC_Patrol patrol;
+    public NPC_Talk talk;
+
+    void Start()
+    {
+        defaultState = currentState;
+        SwitchState(currentState);
+    }
+
+    public void SwitchState(NPCState newState)
+    {
+        currentState = newState;
+
+        patrol.enabled = newState == NPCState.Patrol;
+        talk.enabled = newState == NPCState.Talk;
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player"))
+        {
+            SwitchState(NPCState.Talk);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player"))
+        {
+            SwitchState(defaultState);
+        }
+    }
+
+}
