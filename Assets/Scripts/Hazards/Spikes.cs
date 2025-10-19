@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Spike : MonoBehaviour
 {
-    public float knockbackForce = 5f;
+    public float knockback = 5f;
     public float knockbackDuration = 0.2f;
     public Animator anim; 
 
@@ -52,7 +52,7 @@ public class Spike : MonoBehaviour
             {
                 Vector2 direction = (collision.transform.position - transform.position).normalized;
                 rb.linearVelocity = Vector2.zero;
-                rb.AddForce(direction * knockbackForce, ForceMode2D.Impulse);
+                rb.AddForce(direction * knockback, ForceMode2D.Impulse);
 
                 PlayerMovement move = collision.GetComponent<PlayerMovement>();
                 if (move != null)
