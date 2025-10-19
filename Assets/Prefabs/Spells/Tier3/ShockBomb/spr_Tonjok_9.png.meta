@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 62b133c79dc94c14f8fce12e4f93b6e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2186381215309187474
+    second: spr_Tonjok_9_0
+  - first:
+      213: 6667221871705806395
+    second: spr_Tonjok_9_1
+  - first:
+      213: 3386225693601974568
+    second: spr_Tonjok_9_2
+  - first:
+      213: -1862324003693516972
+    second: spr_Tonjok_9_3
+  - first:
+      213: 2892668789669173517
+    second: spr_Tonjok_9_4
+  - first:
+      213: 2159210433168797859
+    second: spr_Tonjok_9_5
+  - first:
+      213: 8082191529995838528
+    second: spr_Tonjok_9_6
+  - first:
+      213: -3046752102096600782
+    second: spr_Tonjok_9_7
+  - first:
+      213: -1246157815982082046
+    second: spr_Tonjok_9_8
+  - first:
+      213: 5752169533707051726
+    second: spr_Tonjok_9_9
+  - first:
+      213: 6761901310512284193
+    second: spr_Tonjok_9_10
+  - first:
+      213: 813303786070900119
+    second: spr_Tonjok_9_11
+  - first:
+      213: 1277316801285589672
+    second: spr_Tonjok_9_12
+  - first:
+      213: -8590209816013175074
+    second: spr_Tonjok_9_13
+  - first:
+      213: 8124427472227001513
+    second: spr_Tonjok_9_14
+  - first:
+      213: 4037627902779077295
+    second: spr_Tonjok_9_15
+  - first:
+      213: 1774007735115400050
+    second: spr_Tonjok_9_16
+  - first:
+      213: 5601052714956751120
+    second: spr_Tonjok_9_17
+  - first:
+      213: 4017336616505758772
+    second: spr_Tonjok_9_18
+  - first:
+      213: -3976643648351649857
+    second: spr_Tonjok_9_19
+  - first:
+      213: 9165387957447056896
+    second: spr_Tonjok_9_20
+  - first:
+      213: -3633261331452649730
+    second: spr_Tonjok_9_21
+  - first:
+      213: -5920171789645110782
+    second: spr_Tonjok_9_22
+  - first:
+      213: 1866137780925514852
+    second: spr_Tonjok_9_23
+  - first:
+      213: 1807163488839417116
+    second: spr_Tonjok_9_24
+  - first:
+      213: -8771502489528291942
+    second: spr_Tonjok_9_25
+  - first:
+      213: 6476980562446299234
+    second: spr_Tonjok_9_26
+  - first:
+      213: 1332827914550235151
+    second: spr_Tonjok_9_27
+  - first:
+      213: -3086745970383473728
+    second: spr_Tonjok_9_28
+  - first:
+      213: 8051628080517171933
+    second: spr_Tonjok_9_29
+  - first:
+      213: -3113895841479412878
+    second: spr_Tonjok_9_30
+  - first:
+      213: 1441826353995578708
+    second: spr_Tonjok_9_31
+  - first:
+      213: 4146728919673426701
+    second: spr_Tonjok_9_32
+  - first:
+      213: 3236410455811525354
+    second: spr_Tonjok_9_33
+  - first:
+      213: 5573080156316504358
+    second: spr_Tonjok_9_34
+  - first:
+      213: -237705006671844299
+    second: spr_Tonjok_9_35
+  - first:
+      213: 5889726845594154249
+    second: spr_Tonjok_9_36
+  - first:
+      213: 1726639804049278517
+    second: spr_Tonjok_9_37
+  - first:
+      213: -9174273315543762838
+    second: spr_Tonjok_9_38
+  - first:
+      213: -4611799838545209350
+    second: spr_Tonjok_9_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_Tonjok_9_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 203
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2994712a126975e10800000000000000
+      internalID: 2186381215309187474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 196
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b365db5c7fab68c50800000000000000
+      internalID: 6667221871705806395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 202
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829427cc35a4efe20800000000000000
+      internalID: 3386225693601974568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 207
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4572a278f22b726e0800000000000000
+      internalID: -1862324003693516972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 211
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09171d20f2d42820800000000000000
+      internalID: 2892668789669173517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 207
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0f750f27e07fd10800000000000000
+      internalID: 2159210433168797859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 204
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044a2101066b92070800000000000000
+      internalID: 8082191529995838528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 188
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2318bd30b13c7b5d0800000000000000
+      internalID: -3046752102096600782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 190
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208bf4c9112c4bee0800000000000000
+      internalID: -1246157815982082046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_9
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 198
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2ee60f6bfc3df40800000000000000
+      internalID: 5752169533707051726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 176
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12245537a6917dd50800000000000000
+      internalID: 6761901310512284193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_11
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 174
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d7c3ffb7f694b00800000000000000
+      internalID: 813303786070900119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 164
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa044efcd0f9b110800000000000000
+      internalID: 1277316801285589672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_13
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 173
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6067a6fa179c880800000000000000
+      internalID: -8590209816013175074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 181
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4e38dadb3cfb070800000000000000
+      internalID: 8124427472227001513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 153
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa23a507f29880830800000000000000
+      internalID: 4037627902779077295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_16
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 149
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2734950d2aa8e9810800000000000000
+      internalID: 1774007735115400050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 149
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0110c33c4cfeabd40800000000000000
+      internalID: 5601052714956751120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 135
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434def13e5270c730800000000000000
+      internalID: 4017336616505758772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 126
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfbfa5cbaf10d8c0800000000000000
+      internalID: -3976643648351649857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e564879cff13f70800000000000000
+      internalID: 9165387957447056896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 125
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe1a92a110149dc0800000000000000
+      internalID: -3633261331452649730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 112
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2022aecaf1357dda0800000000000000
+      internalID: -5920171789645110782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_23
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 104
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464400eac6ad5e910800000000000000
+      internalID: 1866137780925514852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_24
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 99
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d345b4e95541910800000000000000
+      internalID: 1807163488839417116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 88
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d263d85fc554680800000000000000
+      internalID: -8771502489528291942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_26
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 80
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260b8b9418bd2e950800000000000000
+      internalID: 6476980562446299234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 74
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00dd793de72f7210800000000000000
+      internalID: 1332827914550235151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 59
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3bc6be4eca925d0800000000000000
+      internalID: -3086745970383473728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_29
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 50
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda49c274112dbf60800000000000000
+      internalID: 8051628080517171933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_30
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 56
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273bd05fa3839c4d0800000000000000
+      internalID: -3113895841479412878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_31
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 27
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45df3b90e65620410800000000000000
+      internalID: 1441826353995578708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_32
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 34
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0359fc6bf32c8930800000000000000
+      internalID: 4146728919673426701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_33
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 20
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea810e892a0aec20800000000000000
+      internalID: 3236410455811525354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_34
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621160eefde875d40800000000000000
+      internalID: 5573080156316504358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_35
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 14
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c2efb4e8083bcf0800000000000000
+      internalID: -237705006671844299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_36
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 25
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905b8b76c538cb150800000000000000
+      internalID: 5889726845594154249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_37
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 8
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536486fe0c146f710800000000000000
+      internalID: 1726639804049278517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_38
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a683ba2e60f6ea080800000000000000
+      internalID: -9174273315543762838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Tonjok_9_39
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 27
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af71f403b789fffb0800000000000000
+      internalID: -4611799838545209350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_Tonjok_9_0: 2186381215309187474
+      spr_Tonjok_9_1: 6667221871705806395
+      spr_Tonjok_9_10: 6761901310512284193
+      spr_Tonjok_9_11: 813303786070900119
+      spr_Tonjok_9_12: 1277316801285589672
+      spr_Tonjok_9_13: -8590209816013175074
+      spr_Tonjok_9_14: 8124427472227001513
+      spr_Tonjok_9_15: 4037627902779077295
+      spr_Tonjok_9_16: 1774007735115400050
+      spr_Tonjok_9_17: 5601052714956751120
+      spr_Tonjok_9_18: 4017336616505758772
+      spr_Tonjok_9_19: -3976643648351649857
+      spr_Tonjok_9_2: 3386225693601974568
+      spr_Tonjok_9_20: 9165387957447056896
+      spr_Tonjok_9_21: -3633261331452649730
+      spr_Tonjok_9_22: -5920171789645110782
+      spr_Tonjok_9_23: 1866137780925514852
+      spr_Tonjok_9_24: 1807163488839417116
+      spr_Tonjok_9_25: -8771502489528291942
+      spr_Tonjok_9_26: 6476980562446299234
+      spr_Tonjok_9_27: 1332827914550235151
+      spr_Tonjok_9_28: -3086745970383473728
+      spr_Tonjok_9_29: 8051628080517171933
+      spr_Tonjok_9_3: -1862324003693516972
+      spr_Tonjok_9_30: -3113895841479412878
+      spr_Tonjok_9_31: 1441826353995578708
+      spr_Tonjok_9_32: 4146728919673426701
+      spr_Tonjok_9_33: 3236410455811525354
+      spr_Tonjok_9_34: 5573080156316504358
+      spr_Tonjok_9_35: -237705006671844299
+      spr_Tonjok_9_36: 5889726845594154249
+      spr_Tonjok_9_37: 1726639804049278517
+      spr_Tonjok_9_38: -9174273315543762838
+      spr_Tonjok_9_39: -4611799838545209350
+      spr_Tonjok_9_4: 2892668789669173517
+      spr_Tonjok_9_5: 2159210433168797859
+      spr_Tonjok_9_6: 8082191529995838528
+      spr_Tonjok_9_7: -3046752102096600782
+      spr_Tonjok_9_8: -1246157815982082046
+      spr_Tonjok_9_9: 5752169533707051726
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
