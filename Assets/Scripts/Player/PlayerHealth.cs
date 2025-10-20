@@ -7,12 +7,13 @@ public class PlayerHealth : MonoBehaviour
     public int currentHealth;
     public int maxHealth;
     public HealthDisplay health;
-    [SerializeField] GameObject gameoverPanel;
+    [SerializeField] private GameObject gameoverPanel;
 
     private DamageFlashPlayer _damageFlash;
 
-    public AudioSource sfxSource;      
-    public AudioClip moan_when_hit;
+    public AudioSource sfxSource;
+    [Header("Hit Sounds")]
+    public AudioClip[] moanWhenHitClips; // 👈 array for multiple moans
 
     void Start()
     {
@@ -32,7 +33,6 @@ public class PlayerHealth : MonoBehaviour
         {
             health.UpdateHearts(currentHealth, maxHealth);
         }
-
     }
 
     public void ChangeHealth(int amount)
@@ -42,10 +42,8 @@ public class PlayerHealth : MonoBehaviour
 
         if (amount < 0 && _damageFlash != null)
         {
-
             _damageFlash.CallDamageFlash();
-            if (sfxSource != null && moan_when_hit != null)
-            sfxSource.PlayOneShot(moan_when_hit);
+            PlayRandomMoan(); // 👈 play random sound when damaged
         }
 
         if (health != null)
@@ -53,17 +51,23 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            if (sfxSource != null && moan_when_hit != null)
-            sfxSource.PlayOneShot(moan_when_hit);
+            PlayRandomMoan(); // 👈 also play random sound on death
             GameOver();
         }
-
-
     }
 
     private void GameOver()
     {
         gameObject.SetActive(false);
-        gameoverPanel.SetActive(true);  
+        gameoverPanel.SetActive(true);
+    }
+
+    private void PlayRandomMoan()
+    {
+        if (sfxSource != null && moanWhenHitClips != null && moanWhenHitClips.Length > 0)
+        {
+            int randomIndex = Random.Range(0, moanWhenHitClips.Length);
+            sfxSource.PlayOneShot(moanWhenHitClips[randomIndex]);
+        }
     }
 }

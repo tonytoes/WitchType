@@ -379,7 +379,11 @@ MonoBehaviour:
   health: {fileID: 7128819068302002955}
   gameoverPanel: {fileID: 0}
   sfxSource: {fileID: 2754181705810105947}
-  moan_when_hit: {fileID: 8300000, guid: e543665c355ff854e83f8f35ed8ee116, type: 3}
+  moanWhenHitClips:
+  - {fileID: 8300000, guid: e543665c355ff854e83f8f35ed8ee116, type: 3}
+  - {fileID: 8300000, guid: 4511382157a8bcc45afa0290e1a496c8, type: 3}
+  - {fileID: 8300000, guid: d3358608021a89a4597fa6389169610f, type: 3}
+  - {fileID: 8300000, guid: 7714f0433a029924f8e69774059148b6, type: 3}
 --- !u!114 &2169208817995553943
 MonoBehaviour:
   m_ObjectHideFlags: 0
