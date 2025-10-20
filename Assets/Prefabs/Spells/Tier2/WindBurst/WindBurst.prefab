@@ -133,10 +133,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da97bfae442d70c4db6ed2e36fc4197c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  speed: 15
-  lifetime: 0.5
-  kbForce: 2
-  knockbackTime: 2
+  speed: 10
+  lifetime: 5
+  kbForce: 5
+  knockbackTime: 0.15
   stunTime: 2
 --- !u!61 &4323945044443613131
 BoxCollider2D:
