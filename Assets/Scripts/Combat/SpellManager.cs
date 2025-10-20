@@ -46,12 +46,14 @@ public class SpellManager : MonoBehaviour
         if (!unlockedSpells.Contains(spell))
         {
             unlockedSpells.Add(spell);
-            if (SpellBookUI.Instance != null && SpellBookUI.Instance.isActiveAndEnabled)
+            var ui = GameManager.Instance.spellBookUI;
+            if (ui != null && ui.isActiveAndEnabled)
             {
-                SpellBookUI.Instance.UpdateSpellSlot();
+                ui.UpdateSpellSlot();
             }
         }
     }
+
 
 
 
