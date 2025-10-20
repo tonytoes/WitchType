@@ -5,19 +5,12 @@ using System.Collections;
 
 public class SpellBookUI : MonoBehaviour
 {
-    public static SpellBookUI Instance;
     public TMP_Text counterText;
     public GameObject spellBookPanel;
     [SerializeField] private GameObject[] spellSlots;
     private bool initialized = false;
 
     private AudioManager audioManager;
-
-
-    private void Awake()
-    {
-        Instance = this;
-    }
 
     void Update()
     {
@@ -38,19 +31,17 @@ public class SpellBookUI : MonoBehaviour
 
     private IEnumerator Start()
     {
-        audioManager = UnityEngine.Object.FindFirstObjectByType<AudioManager>();
+        audioManager = FindFirstObjectByType<AudioManager>();
+        GameManager.Instance.spellBookUI = this;
 
         spellBookPanel.SetActive(false);
-        yield return new WaitUntil(() => SpellManager.Instance != null);
-
-        // wait a few frames for TMP and UI Toolkit to finish loading
-        yield return new WaitForEndOfFrame();
-        yield return new WaitForEndOfFrame();
+        yield return new WaitUntil(() => GameManager.Instance.spellManager != null);
 
         UpdateSpellSlot();
         UpdateCounter();
         initialized = true;
     }
+
 
 
     public void OpenSpellBook()

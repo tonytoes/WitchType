@@ -6,7 +6,10 @@ public class GameManager : MonoBehaviour
 
     public DialogueManager DialogueManager;
     public DialogueHistoryTracker DialogueHistoryTracker;
-    public LocationHistoryTracker LocationHistoryTracker;   
+    public LocationHistoryTracker LocationHistoryTracker;
+    public SpellBookUI spellBookUI;
+    public SpellManager spellManager;
+
 
     [Header("Persistent Objects")]
     public GameObject[] persistentObjects;
