@@ -135,7 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
   speed: 15
   lifetime: 0.5
-  kbForce: 10
+  kbForce: 2
   knockbackTime: 2
   stunTime: 2
 --- !u!61 &4323945044443613131
