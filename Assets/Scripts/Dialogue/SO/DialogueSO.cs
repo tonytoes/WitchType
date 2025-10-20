@@ -7,6 +7,7 @@ public class DialogueSO : ScriptableObject
 
     [Header("Optional (Conditional Requirements)")]
     public ActorSO[] requiredNPCS;
+    public LocationSO[] requiredLocations;
 
     public bool IsConditionMet()
     {
@@ -20,6 +21,18 @@ public class DialogueSO : ScriptableObject
                 }
             }
         }
+
+        if(requiredLocations.Length > 0)
+        {
+            foreach (var location in requiredLocations)
+            {
+                if(!LocationHistoryTracker.Instance.HasVisited(location))
+                {
+                    return false;
+                }
+            }
+        }
+
         return true;
     }
 
