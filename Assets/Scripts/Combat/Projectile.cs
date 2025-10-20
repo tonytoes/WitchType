@@ -61,7 +61,7 @@ public class Projectile : MonoBehaviour
             if (knockback != null)
                 knockback.KnockBack(transform, kbForce, knockbackTime, stunTime);
                 
-            Destroy(gameObject); // destroy after hit
+            
         }
     }
 }

@@ -13,6 +13,9 @@ public class SceneTrigger : MonoBehaviour
     [Header("New Player Position in Next Scene")]
     [SerializeField] private Vector2 newPlayerPosition;
 
+    public AudioSource sfxSource;        
+    public AudioClip DoorSound;
+
     private void Awake()
     {
 #if UNITY_EDITOR
@@ -25,6 +28,8 @@ public class SceneTrigger : MonoBehaviour
         if (!other.CompareTag("Player") || string.IsNullOrEmpty(sceneName))
             return;
 
+        if (sfxSource != null && DoorSound != null)
+            sfxSource.PlayOneShot(DoorSound);
 
         PlayerSpawnManager.nextPosition = newPlayerPosition;
 
