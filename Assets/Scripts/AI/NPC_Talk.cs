@@ -1,11 +1,15 @@
+using NUnit.Framework;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class NPC_Talk : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
     public Animator interactAnim;
-    public DialogueSO dialogue;
+
+    public List<DialogueSO> conversations;
+    public DialogueSO currentConversation;
 
     private void Awake()
     {
@@ -38,7 +42,21 @@ public class NPC_Talk : MonoBehaviour
             }
             else
             {
-                DialogueManager.Instance.StartDialogue(dialogue);   
+                CheckForNewConversation();  
+                DialogueManager.Instance.StartDialogue(currentConversation);   
+            }
+        }
+    }
+
+    private void CheckForNewConversation()
+    {
+        for (int i = conversations.Count - 1; i >= 0; i++)
+        {
+            var convo = conversations[i];
+            if(convo !=null && convo.IsConditionMet())
+            {
+                conversations.RemoveAt(i);
+                currentConversation = convo;     
             }
         }
     }
