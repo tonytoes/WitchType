@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public int currentHealth;
     public int maxHealth;
     public HealthDisplay health;
+    [SerializeField] GameObject gameoverPanel;
 
     private DamageFlashPlayer _damageFlash;
 
@@ -46,9 +47,15 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            gameObject.SetActive(false);
+            GameOver();
         }
 
 
+    }
+
+    private void GameOver()
+    {
+        gameObject.SetActive(false);
+        gameoverPanel.SetActive(true);  
     }
 }
