@@ -6,13 +6,17 @@ public class Switch : MonoBehaviour
     public bool isOn = false;
     public Animator animator;
     private bool playerInRange;
-    private AudioManager audioManager;
+
+    [Header("SFX")]
+    public AudioSource sfxSource; 
+    public AudioClip sound; 
+    
 
 
     private void Start()
     {
 
-        audioManager = UnityEngine.Object.FindFirstObjectByType<AudioManager>();
+        
         if (animator != null)
             animator.SetBool("IsOn", isOn);
     }
@@ -23,7 +27,8 @@ public class Switch : MonoBehaviour
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
             ToggleSwitch();
-            audioManager.PlaySFX("Switch");
+            if (sfxSource != null && sound != null)
+            sfxSource.PlayOneShot(sound);
         }
     }
 
