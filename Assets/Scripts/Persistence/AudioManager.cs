@@ -1,106 +1,70 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
-    [Header("-------------[ Audio Source ]-------------")]
-    [SerializeField] AudioSource musicSource;
-    [SerializeField] AudioSource sfxSource;
+    public static AudioManager Instance;
+    public Sound[] musicSounds, sfxSounds;
+    public AudioSource musicSource, sfxSource;
 
-    [Header("-------------[ BGM Clips ]-------------")]
-    public AudioClip[] backgroundTracks;
 
-    [Header("-------------[ SFX Clips ]-------------")]
-    public AudioClip collect;
-    public AudioClip win;
-    public AudioClip death;
-    public AudioClip UI_click;
-
-    [Header("-------------[ Entity Clips ]-------------")]
-    public AudioClip player_walk_grass;
-    public AudioClip player_walk_stone;
-    public AudioClip player_walk_wood;
-
-    [Header("-------------[ Sliders ]-------------")]
-    [SerializeField] Slider musicSlider;
-    [SerializeField] Slider sfxSlider;
-
-    private int currentTrackIndex = 0;
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // optional but good if persistent
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {
-        // Load saved volumes first
-        float savedMusicVolume = PlayerPrefs.GetFloat("MusicVolume", 0.4f); // default 1
-        float savedSFXVolume = PlayerPrefs.GetFloat("SFXVolume", 1f);
+        PlayMusic("Theme");
+    }
 
-        SetMusicVolume(savedMusicVolume);
-        SetSFXVolume(savedSFXVolume);
+    public void PlayMusic(string name)
+    {
+        Sound s = Array.Find(musicSounds, x => x.name == name);
 
-        // Apply to sliders (if assigned)
-        if (musicSlider != null)
+        if (s == null)
         {
-            musicSlider.value = savedMusicVolume;
-            musicSlider.onValueChanged.AddListener(SetMusicVolume);
+            Debug.Log("Sounds not found");
         }
-
-        if (sfxSlider != null)
+        else
         {
-            sfxSlider.value = savedSFXVolume;
-            sfxSlider.onValueChanged.AddListener(SetSFXVolume);
-        }
-
-        // Play music
-        if (backgroundTracks.Length > 0)
-        {
-            PlayBackground(currentTrackIndex);
+            musicSource.clip = s.clip;
+            musicSource.Play();
         }
     }
-
-    public void PlayBackground(int index)
+    public void PlaySFX(string name)
     {
-        if (index < 0 || index >= backgroundTracks.Length)
+        Sound s = Array.Find(sfxSounds, x => x.name == name);
+
+        if (s == null)
         {
-            Debug.LogWarning("Invalid track index!");
-            return;
+            Debug.Log("Sounds not found");
         }
-
-        currentTrackIndex = index;
-        musicSource.clip = backgroundTracks[index];
-        musicSource.loop = true;
-        musicSource.Play();
+        else
+        {
+            sfxSource.clip = s.clip;
+            sfxSource.Play();
+        }
     }
 
-    public void SetMusicVolume(float volume)
+
+    public void MusicVolume(float volume)
     {
-        musicSource.volume = Mathf.Clamp01(volume);
-        PlayerPrefs.SetFloat("MusicVolume", musicSource.volume);
-        PlayerPrefs.Save();
+        musicSource.volume = volume;
+    }
+    public void SFXVolume(float volume)
+    {
+        sfxSource.volume = volume;
     }
 
-    public void SetSFXVolume(float volume)
-    {
-        sfxSource.volume = Mathf.Clamp01(volume);
-        PlayerPrefs.SetFloat("SFXVolume", sfxSource.volume);
-        PlayerPrefs.Save();
-    }
 
-    public void Mute()
-    {
-        musicSource.mute = true;
-    }
-
-    public void Unmute()
-    {
-        musicSource.mute = false;
-    }
-
-    public void PlaySFX(AudioClip clip)
-    {
-        if (clip != null) sfxSource.PlayOneShot(clip);
-    }
-
-    public void CollideSFX(AudioClip clip)
-    {
-        if (clip != null) sfxSource.PlayOneShot(clip, 1f);
-    }
 }
