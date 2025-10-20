@@ -4,7 +4,7 @@ using UnityEngine;
 public class LocationHistoryTracker : MonoBehaviour
 {
     public static LocationHistoryTracker Instance;
-    private List<LocationSO> locationsVisited = new List<LocationSO>();
+    private HashSet<LocationSO> locationsVisited = new HashSet<LocationSO>();
 
     public void Awake()
     {

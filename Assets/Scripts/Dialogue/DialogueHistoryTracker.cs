@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class DialogueHistoryTracker : MonoBehaviour
 {
     public static DialogueHistoryTracker Instance;
-    private List<ActorSO> spokenNPCS = new List<ActorSO>();
+    private HashSet<ActorSO> spokenNPCS = new HashSet<ActorSO>();
 
     public void Awake()
     {
