@@ -12,15 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee3ef3871cf2cdb49b912311959757c7, type: 3}
   m_Name: Tutorial_CH1_L1_R1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
-  lines:
-  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
-    text: (She slowly sits up, holding her head, looking around the empty chamber.)
-  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
-    text: "Meguchii\u2026? Where are you?"
-  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
-    text: (She notices the ominous tome on the ground, glowing faintly with a corrupted
-      aura.)
-  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
-    text: (She notices the ominous tome on the ground, glowing faintly with a corrupted
-      aura.)
+  lines: []
   options: []
