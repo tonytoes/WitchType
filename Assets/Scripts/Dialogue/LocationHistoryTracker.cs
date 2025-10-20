@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class LocationHistoryTracker : MonoBehaviour
 {
-    private HashSet<LocationSO> locationsVisited = new HashSet<LocationSO>();
+    private HashSet<LocationSO> locationsVisited = new HashSet<LocationSO>();   
 
     public void RecordLocation(LocationSO locationSO)
     {
