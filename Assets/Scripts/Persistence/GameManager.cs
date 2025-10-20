@@ -3,7 +3,14 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+
+    [Header("Persistent Objects")]
     public GameObject[] persistentObjects;
+
+    [Header("Destroy Objects gameplay → main menu")]
+    public GameObject[] groupA;
+    [Header("Destroy Objects main menu → gameplay")]
+    public GameObject[] groupB;
     
     private void Awake()
     {
@@ -30,14 +37,39 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-    
+
     private void CleanUpAndDestroy()
     {
-        foreach(GameObject obj in persistentObjects)
+        foreach (GameObject obj in persistentObjects)
         {
-           Destroy(obj);
+            Destroy(obj);
         }
         Destroy(gameObject);
+    }
+    
+
+
+    public void DestroyPersistentObjects(GameObject[] objectsToDestroy)
+    {
+        foreach (GameObject obj in objectsToDestroy)
+        {
+            if (obj != null)
+            {
+                Destroy(obj);
+                Debug.Log($"Destroyed: {obj.name}");
+            }
+        }
+    }
+
+    
+    public void DestroyGroupA()
+    {
+        DestroyPersistentObjects(groupA);
+    }
+
+    public void DestroyGroupB()
+    {
+        DestroyPersistentObjects(groupB);
     }
 
 }
