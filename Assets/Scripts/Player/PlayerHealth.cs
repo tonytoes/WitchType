@@ -7,10 +7,14 @@ public class PlayerHealth : MonoBehaviour
     public int currentHealth;
     public int maxHealth;
     public HealthDisplay health;
+    [SerializeField] GameObject gameoverPanel;
+
+    private DamageFlashPlayer _damageFlash;
 
     void Start()
     {
         StartCoroutine(InitializeHealthUI());
+        _damageFlash = GetComponent<DamageFlashPlayer>();
     }
 
     private IEnumerator InitializeHealthUI()
@@ -25,7 +29,7 @@ public class PlayerHealth : MonoBehaviour
         {
             health.UpdateHearts(currentHealth, maxHealth);
         }
-            
+
     }
 
     public void ChangeHealth(int amount)
@@ -33,12 +37,25 @@ public class PlayerHealth : MonoBehaviour
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
+        if (amount < 0 && _damageFlash != null)
+        {
+            _damageFlash.CallDamageFlash();
+        }
+
         if (health != null)
             health.UpdateHearts(currentHealth, maxHealth);
 
         if (currentHealth <= 0)
         {
-            gameObject.SetActive(false);
+            GameOver();
         }
+
+
+    }
+
+    private void GameOver()
+    {
+        gameObject.SetActive(false);
+        gameoverPanel.SetActive(true);  
     }
 }

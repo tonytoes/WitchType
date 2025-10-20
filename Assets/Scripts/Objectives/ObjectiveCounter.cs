@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ObjectiveCounter : MonoBehaviour
 {
-    public ObjectiveData objectiveToComplete;
+    public ObjectiveOS objectiveToComplete;
     public int targetCount = 3;
     private int current = 0;
 
