@@ -11,6 +11,11 @@ public class EnemyHealth : MonoBehaviour, IDamagable
 
     private Enemy enemy;
 
+    public AudioSource sfxSource;
+    public AudioClip death_sound;
+    public AudioClip hit_sound;
+
+
     public bool HasTakenDamage { get; set; }
 
     void Start()
@@ -35,10 +40,14 @@ public class EnemyHealth : MonoBehaviour, IDamagable
         if(enemy != null && health > 0)
         {
             enemy.OnDamagedByPlayer(attackDirection);
+            if (sfxSource != null && hit_sound != null)
+            sfxSource.PlayOneShot(hit_sound);
         }
 
         if (health <= 0)
         {
+            if (sfxSource != null && death_sound != null)
+            sfxSource.PlayOneShot(death_sound);
             enemy.Die();
         }
 

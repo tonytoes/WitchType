@@ -11,6 +11,9 @@ public class PlayerHealth : MonoBehaviour
 
     private DamageFlashPlayer _damageFlash;
 
+    public AudioSource sfxSource;      
+    public AudioClip moan_when_hit;
+
     void Start()
     {
         StartCoroutine(InitializeHealthUI());
@@ -39,7 +42,10 @@ public class PlayerHealth : MonoBehaviour
 
         if (amount < 0 && _damageFlash != null)
         {
+
             _damageFlash.CallDamageFlash();
+            if (sfxSource != null && moan_when_hit != null)
+            sfxSource.PlayOneShot(moan_when_hit);
         }
 
         if (health != null)
@@ -47,6 +53,8 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            if (sfxSource != null && moan_when_hit != null)
+            sfxSource.PlayOneShot(moan_when_hit);
             GameOver();
         }
 
