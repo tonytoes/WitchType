@@ -9,18 +9,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource musicSource, sfxSource;
 
 
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // optional but good if persistent
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+    
 
     private void Start()
     {
@@ -38,6 +27,7 @@ public class AudioManager : MonoBehaviour
         else
         {
             musicSource.clip = s.clip;
+            musicSource.loop = true; 
             musicSource.Play();
         }
     }

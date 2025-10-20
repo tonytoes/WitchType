@@ -47,40 +47,40 @@ MonoBehaviour:
   selectedSpells: []
   unlockedSpells: []
   allSpells:
-  - spellName: fireball
+  - spellName: Fireball
     spellIcon: {fileID: 21300000, guid: c07b18e2ef4a1304b8ea2123b6a4e095, type: 3}
     spellPrefab: {fileID: 672589652610436096, guid: b90d2034bb1eb714982a5a6ad1e38a56, type: 3}
   - spellName: Heal
     spellIcon: {fileID: 21300000, guid: 404a35a962ddde34a9e22eb0341b64b8, type: 3}
-    spellPrefab: {fileID: 672589652610436096, guid: b90d2034bb1eb714982a5a6ad1e38a56, type: 3}
+    spellPrefab: {fileID: 8065185760812705168, guid: 7b3245a3e9b10ab4c84e8f23d31ff675, type: 3}
   - spellName: Shield
-    spellIcon: {fileID: 21300000, guid: 4d2a84199a2756f4a9b8ea9703d75fde, type: 3}
-    spellPrefab: {fileID: 672589652610436096, guid: b90d2034bb1eb714982a5a6ad1e38a56, type: 3}
-  - spellName: FireSlash
+    spellIcon: {fileID: -4394142436544833066, guid: 9ca8bdb4ede825942a2dc7450cfb70db, type: 3}
+    spellPrefab: {fileID: 4877971988364270094, guid: 3e26e4ee410231c429202d07671cc312, type: 3}
+  - spellName: ScorchingWave
     spellIcon: {fileID: 21300000, guid: 6c9f13ab3af5f7e439ad830ce82ea640, type: 3}
     spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
-  - spellName: FireSlash
-    spellIcon: {fileID: 21300000, guid: 2f03ed64f8acd1b468f683bfea19e6b6, type: 3}
-    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
-  - spellName: FireSlash
+  - spellName: WaterSpike
+    spellIcon: {fileID: 21300000, guid: 597faf60532e04540943ee2f4d9053c7, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: ad465cee7755b654a974330b076ed0ab, type: 3}
+  - spellName: WindBurst
     spellIcon: {fileID: 21300000, guid: ea9dd249f8fbcb54fb32b141f7bd26a3, type: 3}
-    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
-  - spellName: FireSlash
+    spellPrefab: {fileID: 969676591896952384, guid: fb5cb43c05c6a9f4c90dee766797243d, type: 3}
+  - spellName: LightingBeam
     spellIcon: {fileID: 21300000, guid: 7767c616aab805445b02e41feaf117a1, type: 3}
-    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
-  - spellName: FireSlash
+    spellPrefab: {fileID: 969676591896952384, guid: 97ffefd825bc47b4288919de36cb72bd, type: 3}
+  - spellName: FireBurst
     spellIcon: {fileID: 21300000, guid: 7658d7520c4d17441a70cb6b3ec494f7, type: 3}
-    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
-  - spellName: FireSlash
-    spellIcon: {fileID: 21300000, guid: 95f663e130dc7fa4c8b64aa8ae721e8c, type: 3}
-    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
-  - spellName: FireSlash
+    spellPrefab: {fileID: 969676591896952384, guid: 73d77dfe71c345c47939985464e81999, type: 3}
+  - spellName: ElectricShock
+    spellIcon: {fileID: 21300000, guid: 8cd3a033de739cf41a552faab791446c, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: af72dcb65901e5d4b8d09212b700b7d8, type: 3}
+  - spellName: FortifiedFossil
     spellIcon: {fileID: 21300000, guid: ea280b2b9366f0541b3c02b784188795, type: 3}
-    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
-  - spellName: FireSlash
+    spellPrefab: {fileID: 969676591896952384, guid: eea6c8b7b7a378a4aa868ee8cbc5e1cc, type: 3}
+  - spellName: FlashStrike
     spellIcon: {fileID: 21300000, guid: 1f71bf30149441b428047563835e7453, type: 3}
-    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
-  - spellName: FireSlash
+    spellPrefab: {fileID: 969676591896952384, guid: 6ffdb751b9157d3428d8568cf40c77c6, type: 3}
+  - spellName: ShockBomb
     spellIcon: {fileID: 21300000, guid: db95af7f11c30d74ebe4bd1d542b676c, type: 3}
-    spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: e6af4f9abb92bc24d92af3f37986e636, type: 3}
   maxSpells: 1
