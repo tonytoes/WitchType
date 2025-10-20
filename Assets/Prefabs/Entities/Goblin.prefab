@@ -388,5 +388,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a49ca785be00e4845a8c394f17efe8e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 2
+  maxHealth: 10
   damageParticles: {fileID: 6286881156315922479, guid: 9b24380d9a38e754b9d0e42335463531, type: 3}
