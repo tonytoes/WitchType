@@ -2,17 +2,19 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [CreateAssetMenu(fileName = "NewObjective", menuName = "Objective System/Objective")]
-public class ObjectiveData : ScriptableObject
+public class ObjectiveOS : ScriptableObject
 {
     [Header("Objective Info")]
     [TextArea] public string description;
+
+    public DialogueSO dialogueSO;
 
     [Header("State")]
     public bool isCompleted;
 
     [Header("Events")]
-    public UnityEvent onStart;     
-    public UnityEvent onComplete;  
+    public UnityEvent onStart;
+    public UnityEvent onComplete;
 
     public void StartObjective()
     {

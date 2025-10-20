@@ -8,6 +8,7 @@ public class ObjectiveManager : MonoBehaviour
     public TMP_Text objectiveText;
     public Canvas objectivePanel;
     private int currentIndex = 0;
+    public DialogueSO dialogueSO;
 
     private void Start()
     {
@@ -46,6 +47,12 @@ public class ObjectiveManager : MonoBehaviour
             objectiveText.text = obj.description;
 
         ShowObjective();
+
+        if (obj.dialogueSO != null && DialogueManager.Instance != null)
+        {
+            DialogueManager.Instance.StartDialogue(obj.dialogueSO);
+        }
+
         obj.onComplete.AddListener(HandleObjectiveCompleted);
     }
 
