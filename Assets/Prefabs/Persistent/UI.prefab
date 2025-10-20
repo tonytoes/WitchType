@@ -1000,6 +1000,8 @@ GameObject:
   - component: {fileID: 4756189669498182671}
   - component: {fileID: 5696246811739102529}
   - component: {fileID: 2871892551479407353}
+  - component: {fileID: 3279970561857684678}
+  - component: {fileID: 1456713203168939358}
   m_Layer: 5
   m_Name: DialogueCanvas
   m_TagString: Untagged
@@ -1129,6 +1131,30 @@ MonoBehaviour:
   - {fileID: 5079891563274781795}
   - {fileID: 6654422474079998197}
   nextButton: {fileID: 1718304928007587089}
+--- !u!114 &3279970561857684678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552099822466430861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 758d178cbe4fc2041ba0f2aa4b076e0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueHistoryTracker
+--- !u!114 &1456713203168939358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552099822466430861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d433ac8b5e171748afc0a77dc7b26c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocationHistoryTracker
 --- !u!1 &579024524345031512
 GameObject:
   m_ObjectHideFlags: 0
