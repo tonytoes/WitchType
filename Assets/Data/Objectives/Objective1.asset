@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Objective1
   m_EditorClassIdentifier: Assembly-CSharp::ObjectiveData
   description: 'ESCAPE THE DUNGEON '
+  dialogueSO: {fileID: 11400000, guid: cc0c6ffeec7501a478d3fffc1a70ea43, type: 2}
   isCompleted: 0
   onStart:
     m_PersistentCalls:
