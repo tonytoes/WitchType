@@ -70,6 +70,8 @@ public class DialogueManager : MonoBehaviour
     private void ShowDialogue()
     {
         DialogueLine line = currentDialogue.lines[dialogueIndex];
+
+        DialogueHistoryTracker.Instance.RecordNPC(line.speaker);
         potrait.sprite = line.speaker.portrait;
         actorName.text = line.speaker.actorName;
 
