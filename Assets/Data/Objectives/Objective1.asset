@@ -15,7 +15,7 @@ MonoBehaviour:
   description: 'Find Yumi
 
 '
-  dialogueSO: {fileID: 0}
+  dialogueSO: {fileID: 11400000, guid: 390573db582eba341af29cf3c27322f4, type: 2}
   isCompleted: 0
   onStart:
     m_PersistentCalls:

@@ -71,8 +71,8 @@ public class NPC_Talk : MonoBehaviour
                     }
                 }
              
-                break;
             }
+            break;
         }
     }
 }

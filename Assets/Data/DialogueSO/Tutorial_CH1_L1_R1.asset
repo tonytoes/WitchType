@@ -12,5 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee3ef3871cf2cdb49b912311959757c7, type: 3}
   m_Name: Tutorial_CH1_L1_R1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
-  lines: []
+  lines:
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: (Yumi shivering from the cold she wakes up confused)
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: Ack! my head..
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: To think that I would pass out inside a dungeon of all places...
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: I need to escape this dungeon as soon as possible.
   options: []
+  requiredNPCS: []
+  requiredLocations: []
+  removeAfterPlay: 0
+  removeTheseOnPlay: []
