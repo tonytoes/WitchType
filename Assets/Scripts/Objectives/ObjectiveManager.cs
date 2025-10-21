@@ -8,7 +8,6 @@ public class ObjectiveManager : MonoBehaviour
     public TMP_Text objectiveText;
     public Canvas objectivePanel;
     private int currentIndex = 0;
-    public DialogueSO dialogueSO;
 
     private void Start()
     {
