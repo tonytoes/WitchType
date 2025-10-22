@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67f6acf12f5c93946b875898a7148d1b, type: 3}
   m_Name: Objective1
   m_EditorClassIdentifier: Assembly-CSharp::ObjectiveData
-  description: 'Find Yumi
-
-'
+  description: Escape The Dungeon
   dialogueSO: {fileID: 11400000, guid: 390573db582eba341af29cf3c27322f4, type: 2}
   isCompleted: 0
   onStart:
