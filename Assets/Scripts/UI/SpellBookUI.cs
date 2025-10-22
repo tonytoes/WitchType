@@ -106,8 +106,7 @@ public class SpellBookUI : MonoBehaviour
         animator.Update(0.10f);
 
         animator.SetTrigger("Flip");
-        audioManager?.PlaySFX("PageFlip");
-
+       
         yield return new WaitForSeconds(1.30f);
 
         for (int i = 0; i < pages.Length; i++)
