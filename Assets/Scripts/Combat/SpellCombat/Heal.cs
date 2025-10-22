@@ -21,6 +21,11 @@ public class Heal : MonoBehaviour
         if (player != null)
         {
             PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+
+            transform.SetParent(player.transform);
+            transform.localPosition = new Vector3(0f, -0.9f, 0f);
+            transform.localRotation = Quaternion.identity;
+
             if (playerHealth != null)
             {
                 playerHealth.ChangeHealth(healAmount);

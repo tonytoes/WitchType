@@ -55,8 +55,6 @@ public class SpellManager : MonoBehaviour
     }
 
 
-
-
     public void ToggleSpellByIndex(int index)
     {
 
