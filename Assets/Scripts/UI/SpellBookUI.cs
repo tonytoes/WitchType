@@ -5,16 +5,13 @@ using System.Collections;
 
 public class SpellBookUI : MonoBehaviour
 {
-    public TMP_Text counterText;
+   // public TMP_Text counterText;
     public GameObject spellBookPanel;
     [SerializeField] private GameObject[] spellSlots;
 
     [SerializeField] private GameObject[] pages;
     [SerializeField] private GameObject buttonsGroup;
     private int currentPage = 0;
-
-    [SerializeField] private Animator animator;
-    private bool isFlipping = false;
 
     private bool initialized = false;
     private AudioManager audioManager;
@@ -26,7 +23,7 @@ public class SpellBookUI : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             if (!spellBookPanel.activeSelf)
-                OpenSpellBook(currentPage); 
+                OpenSpellBook(currentPage);
             else
                 CloseSpellBook();
         }
@@ -42,9 +39,8 @@ public class SpellBookUI : MonoBehaviour
         yield return new WaitUntil(() => GameManager.Instance.spellManager != null);
 
         UpdateSpellSlot();
-        UpdateCounter();
+        //UpdateCounter();
         initialized = true;
-
 
         for (int i = 0; i < pages.Length; i++)
             pages[i].SetActive(i == 0);
@@ -53,8 +49,8 @@ public class SpellBookUI : MonoBehaviour
     public void OpenSpellBook(int pageIndex = 0)
     {
         spellBookPanel.SetActive(true);
-        GoToPage(pageIndex, false); 
-        UpdateCounter();
+        GoToPage(pageIndex);
+        //UpdateCounter();
         audioManager?.PlaySFX("Click");
     }
 
@@ -72,59 +68,26 @@ public class SpellBookUI : MonoBehaviour
         }
         else
         {
-            GoToPage(targetPage, true);
+            GoToPage(targetPage);
         }
     }
 
-    private void GoToPage(int targetPage, bool withAnimation)
+    private void GoToPage(int targetPage)
     {
         if (targetPage < 0 || targetPage >= pages.Length) return;
-        if (isFlipping) return;
-
-        if (withAnimation)
-            StartCoroutine(FlipPage(targetPage));
-        else
-        {
-            for (int i = 0; i < pages.Length; i++)
-                pages[i].SetActive(i == targetPage);
-
-            currentPage = targetPage;
-        }
-    }
-
-    private IEnumerator FlipPage(int targetPage)
-    {
-        if (isFlipping) yield break;
-        isFlipping = true;
-
-        if (buttonsGroup) buttonsGroup.SetActive(false);
-
-        foreach (var page in pages)
-            page.SetActive(false);
-
-        animator.Rebind();
-        animator.Update(0.10f);
-
-        animator.SetTrigger("Flip");
-       
-        yield return new WaitForSeconds(1.30f);
 
         for (int i = 0; i < pages.Length; i++)
             pages[i].SetActive(i == targetPage);
 
-        if (buttonsGroup) buttonsGroup.SetActive(true);
-
         currentPage = targetPage;
-        isFlipping = false;
     }
 
-
-    public void UpdateCounter()
+    /*public void UpdateCounter()
     {
         var sm = SpellManager.Instance;
         if (sm == null) return;
         counterText.text = $"SPELL BOOK [{sm.selectedSpells.Count} / {sm.maxSpells}]";
-    }
+    }*/
 
     public void UpdateSpellSlot()
     {
