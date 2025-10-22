@@ -23,7 +23,7 @@ public class ToggleSpellBook : MonoBehaviour
             {
                 spellManager.ToggleSpellByIndex(spellIndex);
                 selectedBorderImage.enabled = spellManager.selectedSpells.Contains(spell);
-               // FindFirstObjectByType<SpellBookUI>()?.UpdateCounter();
+                FindFirstObjectByType<SpellBookUI>()?.UpdateCounter();
             }
         }
     }
