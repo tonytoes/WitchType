@@ -3534,7 +3534,6 @@ GameObject:
   - component: {fileID: 965977877554800619}
   - component: {fileID: 8017977378629186406}
   - component: {fileID: 7864822800014225818}
-  - component: {fileID: 5534446610090872983}
   m_Layer: 0
   m_Name: SpellBookParent
   m_TagString: Untagged
@@ -3604,28 +3603,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!95 &5534446610090872983
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3163523088374177321}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ec74b153cd12a2e47a8f5f12d8e6c316, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3199046569797186063
 GameObject:
   m_ObjectHideFlags: 0
@@ -8512,7 +8489,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8583968377070550556
 RectTransform:
   m_ObjectHideFlags: 0
