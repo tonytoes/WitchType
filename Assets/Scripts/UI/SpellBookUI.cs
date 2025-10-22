@@ -13,9 +13,6 @@ public class SpellBookUI : MonoBehaviour
     [SerializeField] private GameObject buttonsGroup;
     private int currentPage = 0;
 
-    [SerializeField] private Animator animator;
-    private bool isFlipping = false;
-
     private bool initialized = false;
     private AudioManager audioManager;
 
@@ -53,15 +50,19 @@ public class SpellBookUI : MonoBehaviour
     public void OpenSpellBook(int pageIndex = 0)
     {
         spellBookPanel.SetActive(true);
-        GoToPage(pageIndex, false); 
+
+        spellBookPanel.GetComponent<RectTransform>().localScale = Vector3.zero;
+        StartCoroutine(ScaleAnimation(true));
+
+        GoToPage(pageIndex, false);
         UpdateCounter();
         audioManager?.PlaySFX("Click");
     }
 
     public void CloseSpellBook()
     {
-        spellBookPanel.SetActive(false);
         audioManager?.PlaySFX("Click");
+        StartCoroutine(ScaleAnimation(false));
     }
 
     public void GoToPageButton(int targetPage)
@@ -79,10 +80,7 @@ public class SpellBookUI : MonoBehaviour
     private void GoToPage(int targetPage, bool withAnimation)
     {
         if (targetPage < 0 || targetPage >= pages.Length) return;
-        if (isFlipping) return;
-
-        if (withAnimation)
-            StartCoroutine(FlipPage(targetPage));
+       
         else
         {
             for (int i = 0; i < pages.Length; i++)
@@ -92,31 +90,28 @@ public class SpellBookUI : MonoBehaviour
         }
     }
 
-    private IEnumerator FlipPage(int targetPage)
+    private IEnumerator ScaleAnimation(bool opening)
     {
-        if (isFlipping) yield break;
-        isFlipping = true;
+        RectTransform rect = spellBookPanel.GetComponent<RectTransform>();
+        Vector3 startScale = rect.localScale;
+        Vector3 endScale = opening ? Vector3.one : Vector3.zero; 
+        float duration = 0.25f; 
+        float time = 0f;
 
-        if (buttonsGroup) buttonsGroup.SetActive(false);
+        while (time < duration)
+        {
+            time += Time.unscaledDeltaTime; 
+            float t = Mathf.SmoothStep(0, 1, time / duration);
+            rect.localScale = Vector3.Lerp(startScale, endScale, t);
+            yield return null;
+        }
 
-        foreach (var page in pages)
-            page.SetActive(false);
+        rect.localScale = endScale;
 
-        animator.Rebind();
-        animator.Update(0.10f);
-
-        animator.SetTrigger("Flip");
-       
-        yield return new WaitForSeconds(1.30f);
-
-        for (int i = 0; i < pages.Length; i++)
-            pages[i].SetActive(i == targetPage);
-
-        if (buttonsGroup) buttonsGroup.SetActive(true);
-
-        currentPage = targetPage;
-        isFlipping = false;
+        if (!opening)
+            spellBookPanel.SetActive(false);
     }
+
 
 
     public void UpdateCounter()
