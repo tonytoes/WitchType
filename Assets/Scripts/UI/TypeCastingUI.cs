@@ -1,4 +1,3 @@
-//  [小鈎ハレ]  //
 using System.Linq;
 using TMPro;
 using UnityEngine;
@@ -9,13 +8,11 @@ public class TypeCastingUI : MonoBehaviour
 {
     public static bool TypeCastingMode = false;
 
-    // References 
     public PlayerMovement playermovement;
     public PauseMenu pausemenu;
     public Typer typer;
     public Transform firePoint;
 
-    // UI
     public GameObject TypeCastUI;
     public GameObject spellContainer;
     public TMP_InputField TypeCastField;

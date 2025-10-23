@@ -9,11 +9,11 @@ public class Projectile : MonoBehaviour
     public float knockbackTime = .15f;
     public float stunTime = 1f;
     public int damage = 1;
-    public float maxDistance = 10f; // max travel distance
+    public float maxDistance = 10f; 
 
     [Header("SFX")]
-    public AudioSource sfxSource;        // 🎯 Drag this from prefab
-    public AudioClip launchSound;        // 🚀 Optional launch sound
+    public AudioSource sfxSource;       
+    public AudioClip launchSound;        
 
     private Rigidbody2D rb;
     private Vector3 spawnPosition;
@@ -32,7 +32,6 @@ public class Projectile : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
-        // 🔊 Play launch SFX if assigned
         if (sfxSource != null && launchSound != null)
             sfxSource.PlayOneShot(launchSound);
 
