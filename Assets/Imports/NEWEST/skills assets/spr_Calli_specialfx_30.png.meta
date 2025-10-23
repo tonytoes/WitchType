@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: fc40772e37946bd498d06884fc8ff648
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 560655600754544652
+    second: spr_Calli_specialfx_30_0
+  - first:
+      213: 5183268012642453703
+    second: spr_Calli_specialfx_30_1
+  - first:
+      213: -121773284402943095
+    second: spr_Calli_specialfx_30_2
+  - first:
+      213: 3108131299701181647
+    second: spr_Calli_specialfx_30_3
+  - first:
+      213: -9191675823080059833
+    second: spr_Calli_specialfx_30_4
+  - first:
+      213: -6876656195711478675
+    second: spr_Calli_specialfx_30_5
+  - first:
+      213: 5020405788191894543
+    second: spr_Calli_specialfx_30_6
+  - first:
+      213: -4633847533987435532
+    second: spr_Calli_specialfx_30_7
+  - first:
+      213: 4152759218193445804
+    second: spr_Calli_specialfx_30_8
+  - first:
+      213: -8476449578369794812
+    second: spr_Calli_specialfx_30_9
+  - first:
+      213: -8134031725905769141
+    second: spr_Calli_specialfx_30_10
+  - first:
+      213: -6792273140771856289
+    second: spr_Calli_specialfx_30_11
+  - first:
+      213: -4450096247182516166
+    second: spr_Calli_specialfx_30_12
+  - first:
+      213: 3768750926267057927
+    second: spr_Calli_specialfx_30_13
+  - first:
+      213: -569260746770109229
+    second: spr_Calli_specialfx_30_14
+  - first:
+      213: 1165172900070268060
+    second: spr_Calli_specialfx_30_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 157
+        width: 90
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00de446c49d7c700800000000000000
+      internalID: 560655600754544652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 193
+        width: 126
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8c23d9bcaaee740800000000000000
+      internalID: 5183268012642453703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 179
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ba700d7df5f4ef0800000000000000
+      internalID: -121773284402943095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_3
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 161
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc46f113fc422b20800000000000000
+      internalID: 3108131299701181647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 124
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c44cad98b907080800000000000000
+      internalID: -9191675823080059833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 128
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64d024cf953190a0800000000000000
+      internalID: -6876656195711478675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 127
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c2e7117701ca540800000000000000
+      internalID: 5020405788191894543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbeb51183441bfb0800000000000000
+      internalID: -4633847533987435532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 61
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca33626b18091a930800000000000000
+      internalID: 4152759218193445804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 25
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d32c4c40a9d5a80800000000000000
+      internalID: -8476449578369794812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 46
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d01a1cd3d1e1f80800000000000000
+      internalID: -8134031725905769141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 24
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50edd2c09ffcb1a0800000000000000
+      internalID: -6792273140771856289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_12
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 30
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3023627a051e32c0800000000000000
+      internalID: -4450096247182516166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_13
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 6
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707821feffa4d4430800000000000000
+      internalID: 3768750926267057927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 11
+        width: 74
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dca13ced549918f0800000000000000
+      internalID: -569260746770109229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Calli_specialfx_30_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 83
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c999a44968b2010800000000000000
+      internalID: 1165172900070268060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_Calli_specialfx_30_0: 560655600754544652
+      spr_Calli_specialfx_30_1: 5183268012642453703
+      spr_Calli_specialfx_30_10: -8134031725905769141
+      spr_Calli_specialfx_30_11: -6792273140771856289
+      spr_Calli_specialfx_30_12: -4450096247182516166
+      spr_Calli_specialfx_30_13: 3768750926267057927
+      spr_Calli_specialfx_30_14: -569260746770109229
+      spr_Calli_specialfx_30_15: 1165172900070268060
+      spr_Calli_specialfx_30_2: -121773284402943095
+      spr_Calli_specialfx_30_3: 3108131299701181647
+      spr_Calli_specialfx_30_4: -9191675823080059833
+      spr_Calli_specialfx_30_5: -6876656195711478675
+      spr_Calli_specialfx_30_6: 5020405788191894543
+      spr_Calli_specialfx_30_7: -4633847533987435532
+      spr_Calli_specialfx_30_8: 4152759218193445804
+      spr_Calli_specialfx_30_9: -8476449578369794812
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

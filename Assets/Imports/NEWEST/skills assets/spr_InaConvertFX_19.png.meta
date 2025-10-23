@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 1109591716b431546b7d1a5a35823011
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5790233237123669512
+    second: spr_InaConvertFX_19_0
+  - first:
+      213: 4427933922999868088
+    second: spr_InaConvertFX_19_1
+  - first:
+      213: -6101120902801602076
+    second: spr_InaConvertFX_19_2
+  - first:
+      213: 4352897448099061917
+    second: spr_InaConvertFX_19_3
+  - first:
+      213: 6893561786961472052
+    second: spr_InaConvertFX_19_4
+  - first:
+      213: -2504304285642856198
+    second: spr_InaConvertFX_19_5
+  - first:
+      213: 553629322607199319
+    second: spr_InaConvertFX_19_6
+  - first:
+      213: -79888186433894550
+    second: spr_InaConvertFX_19_7
+  - first:
+      213: 8703508869890750462
+    second: spr_InaConvertFX_19_8
+  - first:
+      213: -510339594144681223
+    second: spr_InaConvertFX_19_9
+  - first:
+      213: 8870309882495952491
+    second: spr_InaConvertFX_19_10
+  - first:
+      213: -6184028788415438843
+    second: spr_InaConvertFX_19_11
+  - first:
+      213: 4653631984779058274
+    second: spr_InaConvertFX_19_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1659e7c85f4afa0800000000000000
+      internalID: -5790233237123669512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 71
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba1f49517e237d30800000000000000
+      internalID: 4427933922999868088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 64
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9ccc03dd6745ba0800000000000000
+      internalID: -6101120902801602076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 59
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9026a99a29986c30800000000000000
+      internalID: 4352897448099061917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 69
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43aab0debe9daaf50800000000000000
+      internalID: 6893561786961472052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_5
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 54
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8e4c4458cee3dd0800000000000000
+      internalID: -2504304285642856198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 6
+        width: 87
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7540e378fe2eea700800000000000000
+      internalID: 553629322607199319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_7
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 47
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a678bd12e1e24eef0800000000000000
+      internalID: -79888186433894550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7bc49343319c870800000000000000
+      internalID: 8703508869890750462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 35
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f27030d7d8eae8f0800000000000000
+      internalID: -510339594144681223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 22
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66eec957dba91b70800000000000000
+      internalID: 8870309882495952491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 8
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50065b1d49aed2aa0800000000000000
+      internalID: -6184028788415438843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_InaConvertFX_19_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cd62852a5059040800000000000000
+      internalID: 4653631984779058274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_InaConvertFX_19_0: -5790233237123669512
+      spr_InaConvertFX_19_1: 4427933922999868088
+      spr_InaConvertFX_19_10: 8870309882495952491
+      spr_InaConvertFX_19_11: -6184028788415438843
+      spr_InaConvertFX_19_12: 4653631984779058274
+      spr_InaConvertFX_19_2: -6101120902801602076
+      spr_InaConvertFX_19_3: 4352897448099061917
+      spr_InaConvertFX_19_4: 6893561786961472052
+      spr_InaConvertFX_19_5: -2504304285642856198
+      spr_InaConvertFX_19_6: 553629322607199319
+      spr_InaConvertFX_19_7: -79888186433894550
+      spr_InaConvertFX_19_8: 8703508869890750462
+      spr_InaConvertFX_19_9: -510339594144681223
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
