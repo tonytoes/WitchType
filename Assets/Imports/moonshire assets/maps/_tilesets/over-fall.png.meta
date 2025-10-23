@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: caf3dd9234703b547abed87c47f7e716
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -100001031408122631
+    second: over-fall_0
+  - first:
+      213: 7623376929693242657
+    second: over-fall_1
+  - first:
+      213: -8866433032840099598
+    second: over-fall_2
+  - first:
+      213: 9205869617715923698
+    second: over-fall_3
+  - first:
+      213: -673682208066516217
+    second: over-fall_4
+  - first:
+      213: 1808573831066677489
+    second: over-fall_5
+  - first:
+      213: -5496685812672014080
+    second: over-fall_6
+  - first:
+      213: -7898266830352999667
+    second: over-fall_7
+  - first:
+      213: 5616371902829939076
+    second: over-fall_8
+  - first:
+      213: -926658327444991632
+    second: over-fall_9
+  - first:
+      213: 7802089318495226547
+    second: over-fall_10
+  - first:
+      213: 4088627553427136623
+    second: over-fall_11
+  - first:
+      213: -8685265979122740376
+    second: over-fall_12
+  - first:
+      213: 6511190873253465617
+    second: over-fall_13
+  - first:
+      213: -528019089952448988
+    second: over-fall_14
+  - first:
+      213: -379288449800500247
+    second: over-fall_15
+  - first:
+      213: 4077393541596603922
+    second: over-fall_16
+  - first:
+      213: -4353786817234359809
+    second: over-fall_17
+  - first:
+      213: -4035819857697704700
+    second: over-fall_18
+  - first:
+      213: -4127095124741726465
+    second: over-fall_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: over-fall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 129
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f40fbd7799bc9ef0800000000000000
+      internalID: -100001031408122631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 143
+        width: 146
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125164b5decabc960800000000000000
+      internalID: 7623376929693242657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 316
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8c6cc022a14f480800000000000000
+      internalID: -8866433032840099598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 265
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fac48c74a1d1cf70800000000000000
+      internalID: 9205869617715923698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 65
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bc1b0e99996a6f0800000000000000
+      internalID: -673682208066516217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 159
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0fbce2158591910800000000000000
+      internalID: 1808573831066677489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 176
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00951c54069d7b3b0800000000000000
+      internalID: -5496685812672014080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b1f832a28b36290800000000000000
+      internalID: -7898266830352999667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 147
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489c9a22d7c51fd40800000000000000
+      internalID: 5616371902829939076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 177
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071db7c2929d323f0800000000000000
+      internalID: -926658327444991632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 127
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba07ced5e6964c60800000000000000
+      internalID: 7802089318495226547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_11
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 95
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6026ece819bdb830800000000000000
+      internalID: 4088627553427136623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 127
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8639a96cb9cb77780800000000000000
+      internalID: -8685265979122740376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 96
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ec909f9956c5a50800000000000000
+      internalID: 6511190873253465617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 47
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e52cc6f691ca8f0800000000000000
+      internalID: -528019089952448988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 47
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb8b3a1a2f7cbaf0800000000000000
+      internalID: -379288449800500247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2166658b2dfc59830800000000000000
+      internalID: 4077393541596603922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 32
+        width: 146
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9a7f205fd3493c0800000000000000
+      internalID: -4353786817234359809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 79
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405f57cd833edf7c0800000000000000
+      internalID: -4035819857697704700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: over-fall_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 31
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffed58fa9dc99b6c0800000000000000
+      internalID: -4127095124741726465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      over-fall_0: -100001031408122631
+      over-fall_1: 7623376929693242657
+      over-fall_10: 7802089318495226547
+      over-fall_11: 4088627553427136623
+      over-fall_12: -8685265979122740376
+      over-fall_13: 6511190873253465617
+      over-fall_14: -528019089952448988
+      over-fall_15: -379288449800500247
+      over-fall_16: 4077393541596603922
+      over-fall_17: -4353786817234359809
+      over-fall_18: -4035819857697704700
+      over-fall_19: -4127095124741726465
+      over-fall_2: -8866433032840099598
+      over-fall_3: 9205869617715923698
+      over-fall_4: -673682208066516217
+      over-fall_5: 1808573831066677489
+      over-fall_6: -5496685812672014080
+      over-fall_7: -7898266830352999667
+      over-fall_8: 5616371902829939076
+      over-fall_9: -926658327444991632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

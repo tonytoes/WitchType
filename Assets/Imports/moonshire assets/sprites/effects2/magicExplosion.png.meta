@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 46606797ac6285d40aaab4cd06e93562
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1285445005690816424
+    second: magicExplosion_0
+  - first:
+      213: -6339597833941137449
+    second: magicExplosion_1
+  - first:
+      213: -665314280161027709
+    second: magicExplosion_2
+  - first:
+      213: -963150136279657488
+    second: magicExplosion_3
+  - first:
+      213: 6744009729027536707
+    second: magicExplosion_4
+  - first:
+      213: -4864577724918208451
+    second: magicExplosion_5
+  - first:
+      213: -6019612808758449426
+    second: magicExplosion_6
+  - first:
+      213: 6792966278760147822
+    second: magicExplosion_7
+  - first:
+      213: 4964083420377216515
+    second: magicExplosion_8
+  - first:
+      213: -5705520905759142718
+    second: magicExplosion_9
+  - first:
+      213: -3197961523503274391
+    second: magicExplosion_10
+  - first:
+      213: 6760270846148487195
+    second: magicExplosion_11
+  - first:
+      213: -8693723818457962934
+    second: magicExplosion_12
+  - first:
+      213: -5857685413476717629
+    second: magicExplosion_13
+  - first:
+      213: -1920105316732679378
+    second: magicExplosion_14
+  - first:
+      213: 5678631545185777960
+    second: magicExplosion_15
+  - first:
+      213: 5029347583501200873
+    second: magicExplosion_16
+  - first:
+      213: -4481201664437340066
+    second: magicExplosion_17
+  - first:
+      213: 3486796258500596211
+    second: magicExplosion_18
+  - first:
+      213: -752640354651878163
+    second: magicExplosion_19
+  - first:
+      213: -2038442293986014606
+    second: magicExplosion_20
+  - first:
+      213: 7006874873761192077
+    second: magicExplosion_21
+  - first:
+      213: -6285154842936915136
+    second: magicExplosion_22
+  - first:
+      213: 3178922451452957864
+    second: magicExplosion_23
+  - first:
+      213: 3410721145314379004
+    second: magicExplosion_24
+  - first:
+      213: 6126282761405271683
+    second: magicExplosion_25
+  - first:
+      213: 6477145092519898331
+    second: magicExplosion_26
+  - first:
+      213: -6879748348726081069
+    second: magicExplosion_27
+  - first:
+      213: -8915747991133798570
+    second: magicExplosion_28
+  - first:
+      213: -3274678383106038257
+    second: magicExplosion_29
+  - first:
+      213: 7589539549217535864
+    second: magicExplosion_30
+  - first:
+      213: 2838793900218943421
+    second: magicExplosion_31
+  - first:
+      213: 7246455918001684934
+    second: magicExplosion_32
+  - first:
+      213: 8459828743747335638
+    second: magicExplosion_33
+  - first:
+      213: 7021791825424988176
+    second: magicExplosion_34
+  - first:
+      213: 8910532463813383928
+    second: magicExplosion_35
+  - first:
+      213: 8394966491496720876
+    second: magicExplosion_36
+  - first:
+      213: -2874754637009729593
+    second: magicExplosion_37
+  - first:
+      213: 1444722082193720474
+    second: magicExplosion_38
+  - first:
+      213: 7883705976946775396
+    second: magicExplosion_39
+  - first:
+      213: -2416102876276420451
+    second: magicExplosion_40
+  - first:
+      213: -2391245015993066410
+    second: magicExplosion_41
+  - first:
+      213: -7419175399088277528
+    second: magicExplosion_42
+  - first:
+      213: -6892729093220682296
+    second: magicExplosion_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: magicExplosion_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858bf71f39e292ee0800000000000000
+      internalID: -1285445005690816424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d74a11db593508a0800000000000000
+      internalID: -6339597833941137449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389d10bef2454c6f0800000000000000
+      internalID: -665314280161027709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_3
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f39ea5dd0432a2f0800000000000000
+      internalID: -963150136279657488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 55
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347f6740e19879d50800000000000000
+      internalID: 6744009729027536707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_5
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 49
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38e8f3355c8d7cb0800000000000000
+      internalID: -4864577724918208451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 55
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeaaf803b0a067ca0800000000000000
+      internalID: -6019612808758449426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_7
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 52
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ba4b007d6754e50800000000000000
+      internalID: 6792966278760147822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 43
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3067dfae197f3e440800000000000000
+      internalID: 4964083420377216515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 50
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc49a127fae1d0b0800000000000000
+      internalID: -5705520905759142718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 189
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966683a10fe8e93d0800000000000000
+      internalID: -3197961523503274391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b182c12648e41dd50800000000000000
+      internalID: 6760270846148487195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 32
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46e5799f30b95780800000000000000
+      internalID: -8693723818457962934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 41
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbabbbd62255bea0800000000000000
+      internalID: -5857685413476717629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 48
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b4fc8336a6a55e0800000000000000
+      internalID: -1920105316732679378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_15
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 32
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829302dbd4d8ece40800000000000000
+      internalID: 5678631545185777960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_16
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 44
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edee860bf4dbc540800000000000000
+      internalID: 5029347583501200873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58b25024d29fc1c0800000000000000
+      internalID: -4481201664437340066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_18
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 38
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1d61829b6936030800000000000000
+      internalID: 3486796258500596211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 31
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decc959c5951e85f0800000000000000
+      internalID: -752640354651878163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_20
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 32
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ac4d3a88ff5b3e0800000000000000
+      internalID: -2038442293986014606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_21
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 30
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88552cd29b6d3160800000000000000
+      internalID: 7006874873761192077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_22
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 39
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b4b6478f4a6c8a0800000000000000
+      internalID: -6285154842936915136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 13
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a41e5f702dcd1c20800000000000000
+      internalID: 3178922451452957864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_24
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 17
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf480669fc0555f20800000000000000
+      internalID: 3410721145314379004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 22
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e092b86bde40550800000000000000
+      internalID: 6126282761405271683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_26
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc205ee42173e950800000000000000
+      internalID: 6477145092519898331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_27
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 13
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d90a1ac3593680a0800000000000000
+      internalID: -6879748348726081069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_28
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f31919076e44480800000000000000
+      internalID: -8915747991133798570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_29
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06605d4c510e82d0800000000000000
+      internalID: -3274678383106038257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_30
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 10
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877b3e74206735960800000000000000
+      internalID: 7589539549217535864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_31
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7881df20c656720800000000000000
+      internalID: 2838793900218943421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_32
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 20
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c184099345909460800000000000000
+      internalID: 7246455918001684934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5f2bb9b69576570800000000000000
+      internalID: 8459828743747335638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_34
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 20
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018b231567a627160800000000000000
+      internalID: 7021791825424988176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_35
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 7
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6de29d01298ab70800000000000000
+      internalID: 8910532463813383928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_36
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce928faab89e08470800000000000000
+      internalID: 8394966491496720876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_37
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 8
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7c0a483e1da18d0800000000000000
+      internalID: -2874754637009729593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_38
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94c15c441fac0410800000000000000
+      internalID: 1444722082193720474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_39
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 6
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465598df0dc886d60800000000000000
+      internalID: 7883705976946775396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_40
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 10
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d909ebe2c37487ed0800000000000000
+      internalID: -2416102876276420451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_41
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 4
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c5fcac35790ded0800000000000000
+      internalID: -2391245015993066410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_42
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7b603784bc90990800000000000000
+      internalID: -7419175399088277528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicExplosion_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5b491b86b1850a0800000000000000
+      internalID: -6892729093220682296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      magicExplosion_0: -1285445005690816424
+      magicExplosion_1: -6339597833941137449
+      magicExplosion_10: -3197961523503274391
+      magicExplosion_11: 6760270846148487195
+      magicExplosion_12: -8693723818457962934
+      magicExplosion_13: -5857685413476717629
+      magicExplosion_14: -1920105316732679378
+      magicExplosion_15: 5678631545185777960
+      magicExplosion_16: 5029347583501200873
+      magicExplosion_17: -4481201664437340066
+      magicExplosion_18: 3486796258500596211
+      magicExplosion_19: -752640354651878163
+      magicExplosion_2: -665314280161027709
+      magicExplosion_20: -2038442293986014606
+      magicExplosion_21: 7006874873761192077
+      magicExplosion_22: -6285154842936915136
+      magicExplosion_23: 3178922451452957864
+      magicExplosion_24: 3410721145314379004
+      magicExplosion_25: 6126282761405271683
+      magicExplosion_26: 6477145092519898331
+      magicExplosion_27: -6879748348726081069
+      magicExplosion_28: -8915747991133798570
+      magicExplosion_29: -3274678383106038257
+      magicExplosion_3: -963150136279657488
+      magicExplosion_30: 7589539549217535864
+      magicExplosion_31: 2838793900218943421
+      magicExplosion_32: 7246455918001684934
+      magicExplosion_33: 8459828743747335638
+      magicExplosion_34: 7021791825424988176
+      magicExplosion_35: 8910532463813383928
+      magicExplosion_36: 8394966491496720876
+      magicExplosion_37: -2874754637009729593
+      magicExplosion_38: 1444722082193720474
+      magicExplosion_39: 7883705976946775396
+      magicExplosion_4: 6744009729027536707
+      magicExplosion_40: -2416102876276420451
+      magicExplosion_41: -2391245015993066410
+      magicExplosion_42: -7419175399088277528
+      magicExplosion_43: -6892729093220682296
+      magicExplosion_5: -4864577724918208451
+      magicExplosion_6: -6019612808758449426
+      magicExplosion_7: 6792966278760147822
+      magicExplosion_8: 4964083420377216515
+      magicExplosion_9: -5705520905759142718
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2990 @@
+fileFormatVersion: 2
+guid: 0b351f4b811f86449931bafe105cc647
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7825240584950355207
+    second: cloudBoss_0
+  - first:
+      213: 1569414172095447851
+    second: cloudBoss_1
+  - first:
+      213: -3313175645588262617
+    second: cloudBoss_2
+  - first:
+      213: -3070244441138570842
+    second: cloudBoss_3
+  - first:
+      213: 1178005472763652670
+    second: cloudBoss_4
+  - first:
+      213: -956024794999738047
+    second: cloudBoss_5
+  - first:
+      213: 7286357716914841918
+    second: cloudBoss_6
+  - first:
+      213: -6616112593710345692
+    second: cloudBoss_7
+  - first:
+      213: 2480046627870472767
+    second: cloudBoss_8
+  - first:
+      213: 2850698621715879258
+    second: cloudBoss_9
+  - first:
+      213: -6472683039363971482
+    second: cloudBoss_10
+  - first:
+      213: 7296413250528870770
+    second: cloudBoss_11
+  - first:
+      213: -7776655530182846093
+    second: cloudBoss_12
+  - first:
+      213: 5279999908251424924
+    second: cloudBoss_13
+  - first:
+      213: -6147631503455598023
+    second: cloudBoss_14
+  - first:
+      213: -4628168249863422703
+    second: cloudBoss_15
+  - first:
+      213: 1313502725968843995
+    second: cloudBoss_16
+  - first:
+      213: -2669198550706424845
+    second: cloudBoss_17
+  - first:
+      213: -8052765654414196019
+    second: cloudBoss_18
+  - first:
+      213: 6214676454189545424
+    second: cloudBoss_19
+  - first:
+      213: 2018833014392461762
+    second: cloudBoss_20
+  - first:
+      213: 4854226150011178978
+    second: cloudBoss_21
+  - first:
+      213: 6449389248683462011
+    second: cloudBoss_22
+  - first:
+      213: -1792643510822041312
+    second: cloudBoss_23
+  - first:
+      213: -5915259377936227778
+    second: cloudBoss_24
+  - first:
+      213: 4492518843495996710
+    second: cloudBoss_25
+  - first:
+      213: -7321466220155448442
+    second: cloudBoss_26
+  - first:
+      213: -7355869174156888173
+    second: cloudBoss_27
+  - first:
+      213: 3288702814465164839
+    second: cloudBoss_28
+  - first:
+      213: -7195715622458715685
+    second: cloudBoss_29
+  - first:
+      213: -1782439601798028162
+    second: cloudBoss_30
+  - first:
+      213: 7368984411738066621
+    second: cloudBoss_31
+  - first:
+      213: -6475288087551100661
+    second: cloudBoss_32
+  - first:
+      213: -575495945589784330
+    second: cloudBoss_33
+  - first:
+      213: 4411511478820985103
+    second: cloudBoss_34
+  - first:
+      213: -5838761913695556304
+    second: cloudBoss_35
+  - first:
+      213: 1433534055070167471
+    second: cloudBoss_36
+  - first:
+      213: -643409450532346470
+    second: cloudBoss_37
+  - first:
+      213: 8950287049101385208
+    second: cloudBoss_38
+  - first:
+      213: 5895754168663878759
+    second: cloudBoss_39
+  - first:
+      213: 6416009941845437077
+    second: cloudBoss_40
+  - first:
+      213: 480338501361686790
+    second: cloudBoss_41
+  - first:
+      213: 4810746964521296185
+    second: cloudBoss_42
+  - first:
+      213: 117419352358075462
+    second: cloudBoss_43
+  - first:
+      213: -6208514674967793991
+    second: cloudBoss_44
+  - first:
+      213: 5613913150475936657
+    second: cloudBoss_45
+  - first:
+      213: -6603514843000432238
+    second: cloudBoss_46
+  - first:
+      213: 8943649657787207530
+    second: cloudBoss_47
+  - first:
+      213: -3162100162321898508
+    second: cloudBoss_48
+  - first:
+      213: 2212269926408722165
+    second: cloudBoss_49
+  - first:
+      213: 2470709249572197917
+    second: cloudBoss_50
+  - first:
+      213: 1878602488244207048
+    second: cloudBoss_51
+  - first:
+      213: 7076745753920448303
+    second: cloudBoss_52
+  - first:
+      213: -6966109394324567777
+    second: cloudBoss_53
+  - first:
+      213: -1691730072835996347
+    second: cloudBoss_54
+  - first:
+      213: -5353115058881720097
+    second: cloudBoss_55
+  - first:
+      213: -2061303620878158433
+    second: cloudBoss_56
+  - first:
+      213: -6722872654072771867
+    second: cloudBoss_57
+  - first:
+      213: 8683630847695462615
+    second: cloudBoss_58
+  - first:
+      213: 1331172917391583944
+    second: cloudBoss_59
+  - first:
+      213: 5728236503960745339
+    second: cloudBoss_60
+  - first:
+      213: -1358094380547944699
+    second: cloudBoss_61
+  - first:
+      213: 3974325915598874439
+    second: cloudBoss_62
+  - first:
+      213: 1182742877489307582
+    second: cloudBoss_63
+  - first:
+      213: -6415715827270778848
+    second: cloudBoss_64
+  - first:
+      213: 6626219231959117528
+    second: cloudBoss_65
+  - first:
+      213: -2949856216604811650
+    second: cloudBoss_66
+  - first:
+      213: 3742746392295754132
+    second: cloudBoss_67
+  - first:
+      213: -4712984920308056503
+    second: cloudBoss_68
+  - first:
+      213: 4867339615808750266
+    second: cloudBoss_69
+  - first:
+      213: 6118500366068082646
+    second: cloudBoss_70
+  - first:
+      213: 6785617005993163230
+    second: cloudBoss_71
+  - first:
+      213: 3564911069678004974
+    second: cloudBoss_72
+  - first:
+      213: -8097371563569227536
+    second: cloudBoss_73
+  - first:
+      213: -5419700788015012859
+    second: cloudBoss_74
+  - first:
+      213: -7007425104319013367
+    second: cloudBoss_75
+  - first:
+      213: -5284981334580841122
+    second: cloudBoss_76
+  - first:
+      213: -9023225940340398483
+    second: cloudBoss_77
+  - first:
+      213: 4192678958932078426
+    second: cloudBoss_78
+  - first:
+      213: -7976279894880965107
+    second: cloudBoss_79
+  - first:
+      213: 7811119609292171326
+    second: cloudBoss_80
+  - first:
+      213: -7564652182266262349
+    second: cloudBoss_81
+  - first:
+      213: -8813951510835434775
+    second: cloudBoss_82
+  - first:
+      213: 6356000456665038543
+    second: cloudBoss_83
+  - first:
+      213: 4084939839564328510
+    second: cloudBoss_84
+  - first:
+      213: 5127860519622923155
+    second: cloudBoss_85
+  - first:
+      213: 4368462056258006127
+    second: cloudBoss_86
+  - first:
+      213: -246027521980458834
+    second: cloudBoss_87
+  - first:
+      213: 3793717496706731126
+    second: cloudBoss_88
+  - first:
+      213: -196268692818057439
+    second: cloudBoss_89
+  - first:
+      213: 538891794800329420
+    second: cloudBoss_90
+  - first:
+      213: -3014003355393762403
+    second: cloudBoss_91
+  - first:
+      213: -6594123460251242948
+    second: cloudBoss_92
+  - first:
+      213: -6280350139024148787
+    second: cloudBoss_93
+  - first:
+      213: -7346572616576985501
+    second: cloudBoss_94
+  - first:
+      213: -5046086664100821392
+    second: cloudBoss_95
+  - first:
+      213: -4658039433438322148
+    second: cloudBoss_96
+  - first:
+      213: 8321546369505704488
+    second: cloudBoss_97
+  - first:
+      213: 3371412532077281786
+    second: cloudBoss_98
+  - first:
+      213: 5104353446190410164
+    second: cloudBoss_99
+  - first:
+      213: 7042195039981060425
+    second: cloudBoss_100
+  - first:
+      213: -8145927346679580089
+    second: cloudBoss_101
+  - first:
+      213: 4506482173629681240
+    second: cloudBoss_102
+  - first:
+      213: 8263741090689550840
+    second: cloudBoss_103
+  - first:
+      213: 4614954318608475709
+    second: cloudBoss_104
+  - first:
+      213: -2265536943932971973
+    second: cloudBoss_105
+  - first:
+      213: -3124871841760594469
+    second: cloudBoss_106
+  - first:
+      213: 2569498835179917614
+    second: cloudBoss_107
+  - first:
+      213: 689648426118227151
+    second: cloudBoss_108
+  - first:
+      213: 3939508516826210354
+    second: cloudBoss_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cloudBoss_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 644
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7059fe32ad6d89c60800000000000000
+      internalID: 7825240584950355207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 644
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b238639dfdda7c510800000000000000
+      internalID: 1569414172095447851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 643
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7217c36ed4c3502d0800000000000000
+      internalID: -3313175645588262617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 644
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9515892fc4465d0800000000000000
+      internalID: -3070244441138570842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 644
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a2b837cbd195010800000000000000
+      internalID: 1178005472763652670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 644
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1413391a3848bb2f0800000000000000
+      internalID: -956024794999738047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 644
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39a22f1db75e1560800000000000000
+      internalID: 7286357716914841918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_7
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 644
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42218e156a8de24a0800000000000000
+      internalID: -6616112593710345692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_8
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 644
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aff98a445ea6220800000000000000
+      internalID: 2480046627870472767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 576
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a551215fa47bf8720800000000000000
+      internalID: 2850698621715879258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 577
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666c307c1196c26a0800000000000000
+      internalID: -6472683039363971482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 579
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2710a3c7131124560800000000000000
+      internalID: 7296413250528870770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 580
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379dfde6ff4c31490800000000000000
+      internalID: -7776655530182846093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 580
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98db6121f3564940800000000000000
+      internalID: 5279999908251424924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 580
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a478a18b93faaa0800000000000000
+      internalID: -6147631503455598023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_15
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 580
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d36227f7175cfb0800000000000000
+      internalID: -4628168249863422703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 578
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd451e025cf7a3210800000000000000
+      internalID: 1313502725968843995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_17
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 584
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3f7266f0a15fad0800000000000000
+      internalID: -2669198550706424845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_18
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 575
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc20d2d7d44de3090800000000000000
+      internalID: -8052765654414196019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 575
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7b3fdee47fe3650800000000000000
+      internalID: 6214676454189545424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 513
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c991bb2ee5540c10800000000000000
+      internalID: 2018833014392461762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 515
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef04d2f6fcad5340800000000000000
+      internalID: 4854226150011178978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_22
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 511
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d4002f955d08950800000000000000
+      internalID: 6449389248683462011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0290b8889304f17e0800000000000000
+      internalID: -1792643510822041312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_24
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 516
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3220d7afe6c8eda0800000000000000
+      internalID: -5915259377936227778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 516
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dd355f512a85e30800000000000000
+      internalID: 4492518843495996710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_26
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 516
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683dc98734de46a90800000000000000
+      internalID: -7321466220155448442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_27
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 516
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397f12c85f3bae990800000000000000
+      internalID: -7355869174156888173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_28
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 514
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726060419c1d3ad20800000000000000
+      internalID: 3288702814465164839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_29
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 511
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd19e9214cea32c90800000000000000
+      internalID: -7195715622458715685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_30
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 520
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e746d3d30a08347e0800000000000000
+      internalID: -1782439601798028162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_31
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 516
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbec909a744e34660800000000000000
+      internalID: 7368984411738066621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_32
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 511
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09b23bbac72326a0800000000000000
+      internalID: -6475288087551100661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_33
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 449
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f081719c7d6308f0800000000000000
+      internalID: -575495945589784330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 451
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09dea91156d83d30800000000000000
+      internalID: 4411511478820985103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_35
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 447
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03da81e79fc88fea0800000000000000
+      internalID: -5838761913695556304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1f1edb0afe4e310800000000000000
+      internalID: 1433534055070167471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_37
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 452
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95e3ef73862217f0800000000000000
+      internalID: -643409450532346470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_38
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 452
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd977786aec53c70800000000000000
+      internalID: 8950287049101385208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_39
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 452
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c2d3aed2de1d150800000000000000
+      internalID: 5895754168663878759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_40
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 452
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a62137c0f3a0950800000000000000
+      internalID: 6416009941845437077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_41
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 450
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6095b9172518aa600800000000000000
+      internalID: 480338501361686790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_42
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 447
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931a49430e433c240800000000000000
+      internalID: 4810746964521296185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_43
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 456
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c3f03674821a100800000000000000
+      internalID: 117419352358075462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_44
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 452
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9beaeb71ccce6d9a0800000000000000
+      internalID: -6208514674967793991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_45
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 388
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193230e3440a8ed40800000000000000
+      internalID: 5613913150475936657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_46
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 447
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29990f9bc3a9b54a0800000000000000
+      internalID: -6603514843000432238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_47
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 389
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f43ff6af93e1c70800000000000000
+      internalID: 8943649657787207530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 387
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f32998e7a6fd14d0800000000000000
+      internalID: -3162100162321898508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_49
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 387
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f61fd6e6cf83be10800000000000000
+      internalID: 2212269926408722165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_50
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 387
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16d50cd8f8b94220800000000000000
+      internalID: 2470709249572197917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_51
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 387
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdf5f18203221a10800000000000000
+      internalID: 1878602488244207048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_52
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 387
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27ae2cd4c6a53260800000000000000
+      internalID: 7076745753920448303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_53
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 387
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19c5c4f968635f90800000000000000
+      internalID: -6966109394324567777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_54
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 387
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545c3c04674c588e0800000000000000
+      internalID: -1691730072835996347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_55
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 393
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd09f89473ae5b5b0800000000000000
+      internalID: -5353115058881720097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_56
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 397
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95b45f2747c463e0800000000000000
+      internalID: -2061303620878158433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_57
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 440
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea0ecfb0fe83b2a0800000000000000
+      internalID: -6722872654072771867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_58
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 388
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d023858f34728870800000000000000
+      internalID: 8683630847695462615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_59
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 439
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8caeebb27b6497210800000000000000
+      internalID: 1331172917391583944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_60
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 439
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75710830c8ce7f40800000000000000
+      internalID: 5728236503960745339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_61
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 386
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f4cfb3b54172de0800000000000000
+      internalID: -1358094380547944699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_62
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 388
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74766e40d54a72730800000000000000
+      internalID: 3974325915598874439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf9f517162f96010800000000000000
+      internalID: 1182742877489307582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 326
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0208caf627cc6f6a0800000000000000
+      internalID: -6415715827270778848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_65
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 376
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dee8c4c84f05fb50800000000000000
+      internalID: 6626219231959117528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_66
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 326
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7edac666610017d0800000000000000
+      internalID: -2949856216604811650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_67
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 376
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499c92d8308e0f330800000000000000
+      internalID: 3742746392295754132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_68
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 376
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ef3497f2d189eb0800000000000000
+      internalID: -4712984920308056503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_69
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 366
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab28771a7934c8340800000000000000
+      internalID: 4867339615808750266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_70
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 326
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7e59d6aa749e450800000000000000
+      internalID: 6118500366068082646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_71
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 326
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9721817ba5b2e50800000000000000
+      internalID: 6785617005993163230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_72
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 322
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeae30ceabb197130800000000000000
+      internalID: 3564911069678004974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_73
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 326
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f85b13f67b50af80800000000000000
+      internalID: -8097371563569227536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_74
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 326
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504e57d19da59c4b0800000000000000
+      internalID: -5419700788015012859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_75
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 327
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e19ea9eff90ce90800000000000000
+      internalID: -7007425104319013367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_76
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 325
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e553dbb2a79f7a6b0800000000000000
+      internalID: -5284981334580841122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_77
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 319
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66abe970df07c280800000000000000
+      internalID: -9023225940340398483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_78
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 319
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fa664ac436f2a30800000000000000
+      internalID: 4192678958932078426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_79
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 257
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ea78c12bf8e4190800000000000000
+      internalID: -7976279894880965107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_80
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 262
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38a2f946eba66c60800000000000000
+      internalID: 7811119609292171326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_81
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 259
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcc2a26be4f40790800000000000000
+      internalID: -7564652182266262349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_82
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 263
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eae2299ccd8ea580800000000000000
+      internalID: -8813951510835434775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_83
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 255
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce7db36dbc053850800000000000000
+      internalID: 6356000456665038543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_84
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 259
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ea212242f90b830800000000000000
+      internalID: 4084939839564328510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_85
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 196
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393dfd959f1d92740800000000000000
+      internalID: 5127860519622923155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_86
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 196
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ce7065815ef9c30800000000000000
+      internalID: 4368462056258006127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_87
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 195
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea89263b54fe59cf0800000000000000
+      internalID: -246027521980458834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_88
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 196
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c836996fdf5a430800000000000000
+      internalID: 3793717496706731126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_89
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 196
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127ac0ce9a6b64df0800000000000000
+      internalID: -196268692818057439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_90
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 196
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc242717b378a7700800000000000000
+      internalID: 538891794800329420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_91
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 196
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b5be9caeb1c26d0800000000000000
+      internalID: -3014003355393762403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_92
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 196
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ea7aa66a7fc74a0800000000000000
+      internalID: -6594123460251242948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_93
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 196
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6f362c2d6b7d8a0800000000000000
+      internalID: -6280350139024148787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_94
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3661158012bbb0a90800000000000000
+      internalID: -7346572616576985501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_95
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 129
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0764f601ae2b8f9b0800000000000000
+      internalID: -5046086664100821392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_96
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 131
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12a52c80d15b5fb0800000000000000
+      internalID: -4658039433438322148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_97
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 132
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a345865521c7370800000000000000
+      internalID: 8321546369505704488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 132
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af144cdd5d9a9ce20800000000000000
+      internalID: 3371412532077281786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_99
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 132
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b968305a6e46d640800000000000000
+      internalID: 5104353446190410164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_100
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 132
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941c615e317eab160800000000000000
+      internalID: 7042195039981060425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_101
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 130
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74af507bc3ad3fe80800000000000000
+      internalID: -8145927346679580089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_102
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ec3d919ad3a8e30800000000000000
+      internalID: 4506482173629681240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_103
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 127
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f989522db4bea270800000000000000
+      internalID: 8263741090689550840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_104
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 127
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36205f608c9b0040800000000000000
+      internalID: 4614954318608475709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_105
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 68
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34e95f17223f80e0800000000000000
+      internalID: -2265536943932971973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_106
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd53d3fbd9932a4d0800000000000000
+      internalID: -3124871841760594469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_107
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 16
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21dda9a391b8a320800000000000000
+      internalID: 2569498835179917614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_108
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 16
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc42fa2f69f129900800000000000000
+      internalID: 689648426118227151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudBoss_109
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 16
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2306d07af12fba630800000000000000
+      internalID: 3939508516826210354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cloudBoss_0: 7825240584950355207
+      cloudBoss_1: 1569414172095447851
+      cloudBoss_10: -6472683039363971482
+      cloudBoss_100: 7042195039981060425
+      cloudBoss_101: -8145927346679580089
+      cloudBoss_102: 4506482173629681240
+      cloudBoss_103: 8263741090689550840
+      cloudBoss_104: 4614954318608475709
+      cloudBoss_105: -2265536943932971973
+      cloudBoss_106: -3124871841760594469
+      cloudBoss_107: 2569498835179917614
+      cloudBoss_108: 689648426118227151
+      cloudBoss_109: 3939508516826210354
+      cloudBoss_11: 7296413250528870770
+      cloudBoss_12: -7776655530182846093
+      cloudBoss_13: 5279999908251424924
+      cloudBoss_14: -6147631503455598023
+      cloudBoss_15: -4628168249863422703
+      cloudBoss_16: 1313502725968843995
+      cloudBoss_17: -2669198550706424845
+      cloudBoss_18: -8052765654414196019
+      cloudBoss_19: 6214676454189545424
+      cloudBoss_2: -3313175645588262617
+      cloudBoss_20: 2018833014392461762
+      cloudBoss_21: 4854226150011178978
+      cloudBoss_22: 6449389248683462011
+      cloudBoss_23: -1792643510822041312
+      cloudBoss_24: -5915259377936227778
+      cloudBoss_25: 4492518843495996710
+      cloudBoss_26: -7321466220155448442
+      cloudBoss_27: -7355869174156888173
+      cloudBoss_28: 3288702814465164839
+      cloudBoss_29: -7195715622458715685
+      cloudBoss_3: -3070244441138570842
+      cloudBoss_30: -1782439601798028162
+      cloudBoss_31: 7368984411738066621
+      cloudBoss_32: -6475288087551100661
+      cloudBoss_33: -575495945589784330
+      cloudBoss_34: 4411511478820985103
+      cloudBoss_35: -5838761913695556304
+      cloudBoss_36: 1433534055070167471
+      cloudBoss_37: -643409450532346470
+      cloudBoss_38: 8950287049101385208
+      cloudBoss_39: 5895754168663878759
+      cloudBoss_4: 1178005472763652670
+      cloudBoss_40: 6416009941845437077
+      cloudBoss_41: 480338501361686790
+      cloudBoss_42: 4810746964521296185
+      cloudBoss_43: 117419352358075462
+      cloudBoss_44: -6208514674967793991
+      cloudBoss_45: 5613913150475936657
+      cloudBoss_46: -6603514843000432238
+      cloudBoss_47: 8943649657787207530
+      cloudBoss_48: -3162100162321898508
+      cloudBoss_49: 2212269926408722165
+      cloudBoss_5: -956024794999738047
+      cloudBoss_50: 2470709249572197917
+      cloudBoss_51: 1878602488244207048
+      cloudBoss_52: 7076745753920448303
+      cloudBoss_53: -6966109394324567777
+      cloudBoss_54: -1691730072835996347
+      cloudBoss_55: -5353115058881720097
+      cloudBoss_56: -2061303620878158433
+      cloudBoss_57: -6722872654072771867
+      cloudBoss_58: 8683630847695462615
+      cloudBoss_59: 1331172917391583944
+      cloudBoss_6: 7286357716914841918
+      cloudBoss_60: 5728236503960745339
+      cloudBoss_61: -1358094380547944699
+      cloudBoss_62: 3974325915598874439
+      cloudBoss_63: 1182742877489307582
+      cloudBoss_64: -6415715827270778848
+      cloudBoss_65: 6626219231959117528
+      cloudBoss_66: -2949856216604811650
+      cloudBoss_67: 3742746392295754132
+      cloudBoss_68: -4712984920308056503
+      cloudBoss_69: 4867339615808750266
+      cloudBoss_7: -6616112593710345692
+      cloudBoss_70: 6118500366068082646
+      cloudBoss_71: 6785617005993163230
+      cloudBoss_72: 3564911069678004974
+      cloudBoss_73: -8097371563569227536
+      cloudBoss_74: -5419700788015012859
+      cloudBoss_75: -7007425104319013367
+      cloudBoss_76: -5284981334580841122
+      cloudBoss_77: -9023225940340398483
+      cloudBoss_78: 4192678958932078426
+      cloudBoss_79: -7976279894880965107
+      cloudBoss_8: 2480046627870472767
+      cloudBoss_80: 7811119609292171326
+      cloudBoss_81: -7564652182266262349
+      cloudBoss_82: -8813951510835434775
+      cloudBoss_83: 6356000456665038543
+      cloudBoss_84: 4084939839564328510
+      cloudBoss_85: 5127860519622923155
+      cloudBoss_86: 4368462056258006127
+      cloudBoss_87: -246027521980458834
+      cloudBoss_88: 3793717496706731126
+      cloudBoss_89: -196268692818057439
+      cloudBoss_9: 2850698621715879258
+      cloudBoss_90: 538891794800329420
+      cloudBoss_91: -3014003355393762403
+      cloudBoss_92: -6594123460251242948
+      cloudBoss_93: -6280350139024148787
+      cloudBoss_94: -7346572616576985501
+      cloudBoss_95: -5046086664100821392
+      cloudBoss_96: -4658039433438322148
+      cloudBoss_97: 8321546369505704488
+      cloudBoss_98: 3371412532077281786
+      cloudBoss_99: 5104353446190410164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

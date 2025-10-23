@@ -56,12 +56,12 @@ public class SpellBookUI : MonoBehaviour
 
         GoToPage(pageIndex, false);
         UpdateCounter();
-        audioManager?.PlaySFX("Click");
+        audioManager?.PlaySFX("BookOpen");
     }
 
     public void CloseSpellBook()
     {
-        audioManager?.PlaySFX("Click");
+        audioManager?.PlaySFX("BookClose");
         StartCoroutine(ScaleAnimation(false));
     }
 

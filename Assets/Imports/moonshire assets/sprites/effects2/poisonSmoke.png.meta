@@ -1,0 +1,3848 @@
+fileFormatVersion: 2
+guid: 410fd954d2d4df54abd5048f4c3f21e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4875257200889610329
+    second: poisonSmoke_0
+  - first:
+      213: -5389967115836328222
+    second: poisonSmoke_1
+  - first:
+      213: 917630529038446405
+    second: poisonSmoke_2
+  - first:
+      213: -2775680856209586660
+    second: poisonSmoke_3
+  - first:
+      213: 5300666040040844384
+    second: poisonSmoke_4
+  - first:
+      213: -4770146623364383904
+    second: poisonSmoke_5
+  - first:
+      213: -2157251450027070104
+    second: poisonSmoke_6
+  - first:
+      213: 3495687399077003695
+    second: poisonSmoke_7
+  - first:
+      213: -2990024631790741584
+    second: poisonSmoke_8
+  - first:
+      213: 5375372341034657158
+    second: poisonSmoke_9
+  - first:
+      213: 2392992381961129282
+    second: poisonSmoke_10
+  - first:
+      213: 5499787928289293544
+    second: poisonSmoke_11
+  - first:
+      213: -4797110134334629013
+    second: poisonSmoke_12
+  - first:
+      213: -1061463465198694134
+    second: poisonSmoke_13
+  - first:
+      213: 1907247257707962250
+    second: poisonSmoke_14
+  - first:
+      213: 6750732263442705220
+    second: poisonSmoke_15
+  - first:
+      213: 4428621128672644544
+    second: poisonSmoke_16
+  - first:
+      213: 8715040357042326842
+    second: poisonSmoke_17
+  - first:
+      213: 8686070901100633192
+    second: poisonSmoke_18
+  - first:
+      213: 2178185820257671111
+    second: poisonSmoke_19
+  - first:
+      213: 5623255554985182823
+    second: poisonSmoke_20
+  - first:
+      213: -7908049051325224577
+    second: poisonSmoke_21
+  - first:
+      213: -4843642835051804033
+    second: poisonSmoke_22
+  - first:
+      213: 3900248411653083366
+    second: poisonSmoke_23
+  - first:
+      213: 8829373117614298859
+    second: poisonSmoke_24
+  - first:
+      213: 2489790457762623057
+    second: poisonSmoke_25
+  - first:
+      213: -7173715183491514708
+    second: poisonSmoke_26
+  - first:
+      213: -5587278170876425679
+    second: poisonSmoke_27
+  - first:
+      213: 681243840618396893
+    second: poisonSmoke_28
+  - first:
+      213: -5402635415102223920
+    second: poisonSmoke_29
+  - first:
+      213: 673790458401785291
+    second: poisonSmoke_30
+  - first:
+      213: 6068235709011156198
+    second: poisonSmoke_31
+  - first:
+      213: 6992083673616043531
+    second: poisonSmoke_32
+  - first:
+      213: 55381944238610973
+    second: poisonSmoke_33
+  - first:
+      213: -3389538601036011372
+    second: poisonSmoke_34
+  - first:
+      213: 810077097586566848
+    second: poisonSmoke_35
+  - first:
+      213: 7877089516569716827
+    second: poisonSmoke_36
+  - first:
+      213: 821544090600905572
+    second: poisonSmoke_37
+  - first:
+      213: 4734839112451376188
+    second: poisonSmoke_38
+  - first:
+      213: 6230592968948557687
+    second: poisonSmoke_39
+  - first:
+      213: 229454825197356010
+    second: poisonSmoke_40
+  - first:
+      213: 863593555914139143
+    second: poisonSmoke_41
+  - first:
+      213: -5501852599266209664
+    second: poisonSmoke_42
+  - first:
+      213: -5384891322729497155
+    second: poisonSmoke_43
+  - first:
+      213: -3912053174411367552
+    second: poisonSmoke_44
+  - first:
+      213: 3133205034281543730
+    second: poisonSmoke_45
+  - first:
+      213: -1103120251711447128
+    second: poisonSmoke_46
+  - first:
+      213: 9126823702417319911
+    second: poisonSmoke_47
+  - first:
+      213: 1093967018881120675
+    second: poisonSmoke_48
+  - first:
+      213: 9020451429782581154
+    second: poisonSmoke_49
+  - first:
+      213: 2548600990243171044
+    second: poisonSmoke_50
+  - first:
+      213: -8100492088593207169
+    second: poisonSmoke_51
+  - first:
+      213: 2502206671799717527
+    second: poisonSmoke_52
+  - first:
+      213: 3943641145722502683
+    second: poisonSmoke_53
+  - first:
+      213: -3247225391869253878
+    second: poisonSmoke_54
+  - first:
+      213: -2253371187480189629
+    second: poisonSmoke_55
+  - first:
+      213: -3192490949857505922
+    second: poisonSmoke_56
+  - first:
+      213: -7229433977623293299
+    second: poisonSmoke_57
+  - first:
+      213: -1345885237064800324
+    second: poisonSmoke_58
+  - first:
+      213: -6192231742110600400
+    second: poisonSmoke_59
+  - first:
+      213: 1783197070007099019
+    second: poisonSmoke_60
+  - first:
+      213: 4952472654268145485
+    second: poisonSmoke_61
+  - first:
+      213: -8950034101806414338
+    second: poisonSmoke_62
+  - first:
+      213: -3016794350290974380
+    second: poisonSmoke_63
+  - first:
+      213: 1945083813621153517
+    second: poisonSmoke_64
+  - first:
+      213: 2576225385661308724
+    second: poisonSmoke_65
+  - first:
+      213: -4199533850518878620
+    second: poisonSmoke_66
+  - first:
+      213: -3590345668040154190
+    second: poisonSmoke_67
+  - first:
+      213: -7273973577685221994
+    second: poisonSmoke_68
+  - first:
+      213: 5505520549825577650
+    second: poisonSmoke_69
+  - first:
+      213: 2154715783274726736
+    second: poisonSmoke_70
+  - first:
+      213: -6213576836600305898
+    second: poisonSmoke_71
+  - first:
+      213: 4855286309053817751
+    second: poisonSmoke_72
+  - first:
+      213: 2899189653593864169
+    second: poisonSmoke_73
+  - first:
+      213: -6712791773431683629
+    second: poisonSmoke_74
+  - first:
+      213: 2953009890422101426
+    second: poisonSmoke_75
+  - first:
+      213: 7063865218393582218
+    second: poisonSmoke_76
+  - first:
+      213: -8339430913037239856
+    second: poisonSmoke_77
+  - first:
+      213: -2982683695867583961
+    second: poisonSmoke_78
+  - first:
+      213: 8562076467595690683
+    second: poisonSmoke_79
+  - first:
+      213: -7539555625103970708
+    second: poisonSmoke_80
+  - first:
+      213: -8452639840440558975
+    second: poisonSmoke_81
+  - first:
+      213: -6293567843886962897
+    second: poisonSmoke_82
+  - first:
+      213: -4297551674858529530
+    second: poisonSmoke_83
+  - first:
+      213: 3748395181931047477
+    second: poisonSmoke_84
+  - first:
+      213: -1367246319064736233
+    second: poisonSmoke_85
+  - first:
+      213: -3202308964299257813
+    second: poisonSmoke_86
+  - first:
+      213: -1597868950921898114
+    second: poisonSmoke_87
+  - first:
+      213: -7578329771092576011
+    second: poisonSmoke_88
+  - first:
+      213: 2577052898876205734
+    second: poisonSmoke_89
+  - first:
+      213: 7882894025100392205
+    second: poisonSmoke_90
+  - first:
+      213: -4656970844585791963
+    second: poisonSmoke_91
+  - first:
+      213: 3306454659289621119
+    second: poisonSmoke_92
+  - first:
+      213: 4572213659318164391
+    second: poisonSmoke_93
+  - first:
+      213: -30254525189187628
+    second: poisonSmoke_94
+  - first:
+      213: -1416639025019761007
+    second: poisonSmoke_95
+  - first:
+      213: -489835078213133236
+    second: poisonSmoke_96
+  - first:
+      213: -7448421140649985647
+    second: poisonSmoke_97
+  - first:
+      213: 131965118221976680
+    second: poisonSmoke_98
+  - first:
+      213: 7223073366800136591
+    second: poisonSmoke_99
+  - first:
+      213: -4238347765097782815
+    second: poisonSmoke_100
+  - first:
+      213: 7533357841709376333
+    second: poisonSmoke_101
+  - first:
+      213: -6575053480386536884
+    second: poisonSmoke_102
+  - first:
+      213: 5569067986339114805
+    second: poisonSmoke_103
+  - first:
+      213: 7098168507363376037
+    second: poisonSmoke_104
+  - first:
+      213: -4306983511280680885
+    second: poisonSmoke_105
+  - first:
+      213: -5086156616910436841
+    second: poisonSmoke_106
+  - first:
+      213: 2267697151357198165
+    second: poisonSmoke_107
+  - first:
+      213: -8497734292211727575
+    second: poisonSmoke_108
+  - first:
+      213: 5462898535689615800
+    second: poisonSmoke_109
+  - first:
+      213: 457144882801157247
+    second: poisonSmoke_110
+  - first:
+      213: -7853818969483923943
+    second: poisonSmoke_111
+  - first:
+      213: -5168897353828552205
+    second: poisonSmoke_112
+  - first:
+      213: -8637684516321351188
+    second: poisonSmoke_113
+  - first:
+      213: 4496846179666722160
+    second: poisonSmoke_114
+  - first:
+      213: 7091294429163923194
+    second: poisonSmoke_115
+  - first:
+      213: -1339770588029708600
+    second: poisonSmoke_116
+  - first:
+      213: -1674025759442563473
+    second: poisonSmoke_117
+  - first:
+      213: -9206766828246308728
+    second: poisonSmoke_118
+  - first:
+      213: 8408211667084365800
+    second: poisonSmoke_119
+  - first:
+      213: 2273171436877381335
+    second: poisonSmoke_120
+  - first:
+      213: 6128213849005775664
+    second: poisonSmoke_121
+  - first:
+      213: 4418570227725017997
+    second: poisonSmoke_122
+  - first:
+      213: 3364449786434941800
+    second: poisonSmoke_123
+  - first:
+      213: -6538397984427262237
+    second: poisonSmoke_124
+  - first:
+      213: -7569879084975652572
+    second: poisonSmoke_125
+  - first:
+      213: -8933289714981532696
+    second: poisonSmoke_126
+  - first:
+      213: -7971260720842770384
+    second: poisonSmoke_127
+  - first:
+      213: 7466057506176782934
+    second: poisonSmoke_128
+  - first:
+      213: 2182695364065343782
+    second: poisonSmoke_129
+  - first:
+      213: -7860702888434020548
+    second: poisonSmoke_130
+  - first:
+      213: 8861406953689950217
+    second: poisonSmoke_131
+  - first:
+      213: 3368626165252125781
+    second: poisonSmoke_132
+  - first:
+      213: -8413887369213452160
+    second: poisonSmoke_133
+  - first:
+      213: 5198971092936537813
+    second: poisonSmoke_134
+  - first:
+      213: 3934318725794795949
+    second: poisonSmoke_135
+  - first:
+      213: -6919009262981741118
+    second: poisonSmoke_136
+  - first:
+      213: 6634892523462700432
+    second: poisonSmoke_137
+  - first:
+      213: -2699422402010834834
+    second: poisonSmoke_138
+  - first:
+      213: 2483533805803993987
+    second: poisonSmoke_139
+  - first:
+      213: -3844504868688563304
+    second: poisonSmoke_140
+  - first:
+      213: 117363339414531963
+    second: poisonSmoke_141
+  - first:
+      213: -5259465256664953678
+    second: poisonSmoke_142
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: poisonSmoke_0
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 382
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af3f40f76b975cb0800000000000000
+      internalID: -4875257200889610329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 444
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6f985277df235b0800000000000000
+      internalID: -5389967115836328222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 410
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fe366ba141cbc00800000000000000
+      internalID: 917630529038446405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 449
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1686cba7fcca79d0800000000000000
+      internalID: -2775680856209586660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_4
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 456
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c6c95edafbf8940800000000000000
+      internalID: 5300666040040844384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 453
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b36db5be80dcdb0800000000000000
+      internalID: -4770146623364383904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_6
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 414
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86da0fd5c37ef02e0800000000000000
+      internalID: -2157251450027070104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_7
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 427
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa14bc32b2d238030800000000000000
+      internalID: 3495687399077003695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 449
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7d170707c4186d0800000000000000
+      internalID: -2990024631790741584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_9
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 447
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685a4da0aa8299a40800000000000000
+      internalID: 5375372341034657158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 360
+        width: 100
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d420d84ed953120800000000000000
+      internalID: 2392992381961129282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_11
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 385
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e43aad4bfb235c40800000000000000
+      internalID: 5499787928289293544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 423
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bde8ebfbd3d6db0800000000000000
+      internalID: -4797110134334629013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_13
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 364
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01d6ce2a9ce441f0800000000000000
+      internalID: -1061463465198694134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_14
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 358
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f558e9647e77a10800000000000000
+      internalID: 1907247257707962250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_15
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 389
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b65480a3b6fad50800000000000000
+      internalID: 6750732263442705220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_16
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 344
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd8253e37f957d30800000000000000
+      internalID: 4428621128672644544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_17
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 379
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d83bcc70b02f870800000000000000
+      internalID: 8715040357042326842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_18
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 379
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cd5f9b67f1b8870800000000000000
+      internalID: 8686070901100633192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_19
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 377
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7504786787a3e10800000000000000
+      internalID: 2178185820257671111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_20
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 368
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766422c4221d90e40800000000000000
+      internalID: 5623255554985182823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_21
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 360
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7925655947f04290800000000000000
+      internalID: -7908049051325224577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_22
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 372
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a0fd5118ce7ccb0800000000000000
+      internalID: -4843642835051804033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_23
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 365
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e01d581447702630800000000000000
+      internalID: 3900248411653083366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_24
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 336
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be698c8021c388a70800000000000000
+      internalID: 8829373117614298859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_25
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 343
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e2918da338d8220800000000000000
+      internalID: 2489790457762623057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_26
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 334
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae79207c08d17c90800000000000000
+      internalID: -7173715183491514708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_27
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 357
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13acd933b100672b0800000000000000
+      internalID: -5587278170876425679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_28
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 328
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc7b75e9a3447900800000000000000
+      internalID: 681243840618396893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_29
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 324
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d903efd6bbf505b0800000000000000
+      internalID: -5402635415102223920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_30
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 333
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5061e1ad8c95900800000000000000
+      internalID: 673790458401785291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 282
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec53f8f934b63450800000000000000
+      internalID: 6068235709011156198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_32
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 295
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e41b53e0fd80160800000000000000
+      internalID: 6992083673616043531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_33
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 305
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a1059b591c4c000800000000000000
+      internalID: 55381944238610973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_34
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 289
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49826c4d990f5f0d0800000000000000
+      internalID: -3389538601036011372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_35
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 297
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6a35a04d8fd3b00800000000000000
+      internalID: 810077097586566848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_36
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 291
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5867134e2b015d60800000000000000
+      internalID: 7877089516569716827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_37
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 282
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b96976ff5b66b00800000000000000
+      internalID: 821544090600905572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_38
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 297
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c344a46261785b140800000000000000
+      internalID: 4734839112451376188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_39
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 305
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777a93e4b43877650800000000000000
+      internalID: 6230592968948557687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_40
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 308
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae343e3a2ff2f2300800000000000000
+      internalID: 229454825197356010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_41
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 307
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706249a73c91cfb00800000000000000
+      internalID: 863593555914139143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_42
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 290
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0809d26063e75a3b0800000000000000
+      internalID: -5501852599266209664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_43
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 294
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdff925fd50545b0800000000000000
+      internalID: -5384891322729497155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_44
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 283
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b65c46d5895b9c0800000000000000
+      internalID: -3912053174411367552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_45
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 298
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23821d4d0616b7b20800000000000000
+      internalID: 3133205034281543730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_46
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 306
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af1334c9fde0b0f0800000000000000
+      internalID: -1103120251711447128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_47
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 309
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e723362dcdf8ae70800000000000000
+      internalID: 9126823702417319911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_48
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 291
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9f664253d8e2f00800000000000000
+      internalID: 1093967018881120675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_49
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 302
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afead178c41f2d70800000000000000
+      internalID: 9020451429782581154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_50
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 295
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea27a9f8137e5320800000000000000
+      internalID: 2548600990243171044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_51
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 263
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f703a891d55459f80800000000000000
+      internalID: -8100492088593207169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_52
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 269
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e0c33f5bf99b220800000000000000
+      internalID: 2502206671799717527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_53
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 257
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e776c4ab0aab630800000000000000
+      internalID: 3943641145722502683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_54
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 270
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07210ce5b98fe2d0800000000000000
+      internalID: -3247225391869253878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_55
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 271
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345a42708da6ab0e0800000000000000
+      internalID: -2253371187480189629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_56
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 270
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d0819456ef1b3d0800000000000000
+      internalID: -3192490949857505922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_57
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 271
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82df9cb914ebab90800000000000000
+      internalID: -7229433977623293299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_58
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 272
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb76f48f184725de0800000000000000
+      internalID: -1345885237064800324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_59
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 270
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0337994d906c01aa0800000000000000
+      internalID: -6192231742110600400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 253
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e5a4299403fb810800000000000000
+      internalID: 1783197070007099019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 256
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f1d75c3a7bab440800000000000000
+      internalID: 4952472654268145485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_62
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 254
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5423a57671bc380800000000000000
+      internalID: -8950034101806414338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_63
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 257
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4594086a5813226d0800000000000000
+      internalID: -3016794350290974380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_64
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 256
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee30494c635efa10800000000000000
+      internalID: 1945083813621153517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_65
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 258
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f9fadb65790c320800000000000000
+      internalID: 2576225385661308724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_66
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 247
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4660899863248b5c0800000000000000
+      internalID: -4199533850518878620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_67
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 236
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3aa9b23a78c2ec0800000000000000
+      internalID: -3590345668040154190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_68
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 236
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dbe7cf197ad0b90800000000000000
+      internalID: -7273973577685221994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_69
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 225
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b287f345c9876c40800000000000000
+      internalID: 5505520549825577650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_70
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 232
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0558406b69617ed10800000000000000
+      internalID: 2154715783274726736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_71
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 232
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617e7ddb9c0f4c9a0800000000000000
+      internalID: -6213576836600305898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_72
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 233
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79368f57c21716340800000000000000
+      internalID: 4855286309053817751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_73
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 217
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e733fe11adfb3820800000000000000
+      internalID: 2899189653593864169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_74
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 214
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5a07da27f57d2a0800000000000000
+      internalID: -6712791773431683629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_75
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 225
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b513d089d23bf820800000000000000
+      internalID: 2953009890422101426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_76
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 214
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a269b7df3e70260800000000000000
+      internalID: 7063865218393582218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_77
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 225
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9f08fc4c3644c80800000000000000
+      internalID: -8339430913037239856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_78
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 214
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722a6764bf06b96d0800000000000000
+      internalID: -2982683695867583961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_79
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 217
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2c5c6fe2b92d670800000000000000
+      internalID: 8562076467595690683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_80
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 217
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e2161fa1e1e5790800000000000000
+      internalID: -7539555625103970708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_81
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 199
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ad93069d032ba80800000000000000
+      internalID: -8452639840440558975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_82
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 196
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27eb470461c8a8a0800000000000000
+      internalID: -6293567843886962897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_83
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 204
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d1c2865870c54c0800000000000000
+      internalID: -4297551674858529530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_84
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 199
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a29c0ee89f40430800000000000000
+      internalID: 3748395181931047477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_85
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 199
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e9faf77b0960de0800000000000000
+      internalID: -1367246319064736233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_86
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 204
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28c4e9a6fc1f83d0800000000000000
+      internalID: -3202308964299257813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_87
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 198
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e779caea7aa33d9e0800000000000000
+      internalID: -1597868950921898114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_88
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 193
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f87243993d54d690800000000000000
+      internalID: -7578329771092576011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_89
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 203
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa28ec25f783c320800000000000000
+      internalID: 2577052898876205734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_90
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 179
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d077828b95aa56d60800000000000000
+      internalID: 7882894025100392205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_91
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 171
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52eec17c0bd1f5fb0800000000000000
+      internalID: -4656970844585791963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_92
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 171
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72a4e88ef2e2ed20800000000000000
+      internalID: 3306454659289621119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_93
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 180
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab19d83914c37f30800000000000000
+      internalID: 4572213659318164391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_94
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 180
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7104d6ba3849ff0800000000000000
+      internalID: -30254525189187628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_95
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 178
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ecdbaff46175ce0800000000000000
+      internalID: -1416639025019761007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_96
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 170
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c94947791c339f0800000000000000
+      internalID: -489835078213133236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_97
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 178
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1993c0e9f64e1a890800000000000000
+      internalID: -7448421140649985647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_98
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 169
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8640d5a6395d4d100800000000000000
+      internalID: 131965118221976680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_99
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 8
+        width: 96
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89f4b625f28d3460800000000000000
+      internalID: 7223073366800136591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_100
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 162
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1a6c2d92d5e25c0800000000000000
+      internalID: -4238347765097782815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_101
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 171
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43adf82b0ddb8860800000000000000
+      internalID: 7533357841709376333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_102
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 170
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a5d5a12b7b0c4a0800000000000000
+      internalID: -6575053480386536884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_103
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 170
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f2ebfc3dd494d40800000000000000
+      internalID: 5569067986339114805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_104
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 149
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab324556a2c18260800000000000000
+      internalID: 7098168507363376037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_105
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 150
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4086acd0558a34c0800000000000000
+      internalID: -4306983511280680885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_106
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 132
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7160d0921875a69b0800000000000000
+      internalID: -5086156616910436841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_107
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 150
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f9fcc5b8a787f10800000000000000
+      internalID: 2267697151357198165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_108
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 150
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92380152fabf11a80800000000000000
+      internalID: -8497734292211727575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_109
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 145
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9f7c7464d10db40800000000000000
+      internalID: 5462898535689615800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_110
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 142
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74204e49da185600800000000000000
+      internalID: 457144882801157247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_111
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 151
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91eafa13241a10390800000000000000
+      internalID: -7853818969483923943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_112
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 139
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1b7902e336448b0800000000000000
+      internalID: -5168897353828552205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_113
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 136
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce926c262b7c02880800000000000000
+      internalID: -8637684516321351188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_114
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 141
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d7b9c66c1086e30800000000000000
+      internalID: 4496846179666722160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_115
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 137
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6a50846b6596260800000000000000
+      internalID: 7091294429163923194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_116
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 111
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c619f3afbd286de0800000000000000
+      internalID: -1339770588029708600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_117
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 113
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e829fe07aa4c8e0800000000000000
+      internalID: -1674025759442563473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_118
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 123
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8886788695efa3080800000000000000
+      internalID: -9206766828246308728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_119
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 111
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efcbdc66f7ffa470800000000000000
+      internalID: 8408211667084365800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_120
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 112
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7def3a8c06deb8f10800000000000000
+      internalID: 2273171436877381335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_121
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 123
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b5e99e60acb0550800000000000000
+      internalID: 6128213849005775664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_122
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 112
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83aaa6263ae15d30800000000000000
+      internalID: 4418570227725017997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_123
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 113
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863f711514de0be20800000000000000
+      internalID: 3364449786434941800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_124
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee3512dca1f245a0800000000000000
+      internalID: -6538397984427262237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_125
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 98
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4210e53441362f690800000000000000
+      internalID: -7569879084975652572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_126
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 96
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb00e6b554960480800000000000000
+      internalID: -8933289714981532696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_127
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 98
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0387422ab94606190800000000000000
+      internalID: -7971260720842770384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_128
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 18
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6525e48beb3cc9760800000000000000
+      internalID: 7466057506176782934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_129
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629b1048edd7a4e10800000000000000
+      internalID: 2182695364065343782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_130
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fc00aee5c29e290800000000000000
+      internalID: -7860702888434020548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_131
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 65
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908add4bcaa0afa70800000000000000
+      internalID: 8861406953689950217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_132
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 38
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55470f846a3cfbe20800000000000000
+      internalID: 3368626165252125781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_133
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 33
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080e2e1340edb3b80800000000000000
+      internalID: -8413887369213452160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_134
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 54
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6b108e9a4762840800000000000000
+      internalID: 5198971092936537813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_135
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da19a244902899630800000000000000
+      internalID: 3934318725794795949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_136
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 33
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5065adbbdbaff90800000000000000
+      internalID: -6919009262981741118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_137
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 18
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09da3efc89fd31c50800000000000000
+      internalID: 6634892523462700432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_138
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 9
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e689965a0a9b98ad0800000000000000
+      internalID: -2699422402010834834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_139
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 9
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bfe9a86d8477220800000000000000
+      internalID: 2483533805803993987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_140
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 9
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893fe84e03395aac0800000000000000
+      internalID: -3844504868688563304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_141
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 8
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fe47bd555f0a100800000000000000
+      internalID: 117363339414531963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poisonSmoke_142
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc0af30730a207b0800000000000000
+      internalID: -5259465256664953678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      poisonSmoke_0: -4875257200889610329
+      poisonSmoke_1: -5389967115836328222
+      poisonSmoke_10: 2392992381961129282
+      poisonSmoke_100: -4238347765097782815
+      poisonSmoke_101: 7533357841709376333
+      poisonSmoke_102: -6575053480386536884
+      poisonSmoke_103: 5569067986339114805
+      poisonSmoke_104: 7098168507363376037
+      poisonSmoke_105: -4306983511280680885
+      poisonSmoke_106: -5086156616910436841
+      poisonSmoke_107: 2267697151357198165
+      poisonSmoke_108: -8497734292211727575
+      poisonSmoke_109: 5462898535689615800
+      poisonSmoke_11: 5499787928289293544
+      poisonSmoke_110: 457144882801157247
+      poisonSmoke_111: -7853818969483923943
+      poisonSmoke_112: -5168897353828552205
+      poisonSmoke_113: -8637684516321351188
+      poisonSmoke_114: 4496846179666722160
+      poisonSmoke_115: 7091294429163923194
+      poisonSmoke_116: -1339770588029708600
+      poisonSmoke_117: -1674025759442563473
+      poisonSmoke_118: -9206766828246308728
+      poisonSmoke_119: 8408211667084365800
+      poisonSmoke_12: -4797110134334629013
+      poisonSmoke_120: 2273171436877381335
+      poisonSmoke_121: 6128213849005775664
+      poisonSmoke_122: 4418570227725017997
+      poisonSmoke_123: 3364449786434941800
+      poisonSmoke_124: -6538397984427262237
+      poisonSmoke_125: -7569879084975652572
+      poisonSmoke_126: -8933289714981532696
+      poisonSmoke_127: -7971260720842770384
+      poisonSmoke_128: 7466057506176782934
+      poisonSmoke_129: 2182695364065343782
+      poisonSmoke_13: -1061463465198694134
+      poisonSmoke_130: -7860702888434020548
+      poisonSmoke_131: 8861406953689950217
+      poisonSmoke_132: 3368626165252125781
+      poisonSmoke_133: -8413887369213452160
+      poisonSmoke_134: 5198971092936537813
+      poisonSmoke_135: 3934318725794795949
+      poisonSmoke_136: -6919009262981741118
+      poisonSmoke_137: 6634892523462700432
+      poisonSmoke_138: -2699422402010834834
+      poisonSmoke_139: 2483533805803993987
+      poisonSmoke_14: 1907247257707962250
+      poisonSmoke_140: -3844504868688563304
+      poisonSmoke_141: 117363339414531963
+      poisonSmoke_142: -5259465256664953678
+      poisonSmoke_15: 6750732263442705220
+      poisonSmoke_16: 4428621128672644544
+      poisonSmoke_17: 8715040357042326842
+      poisonSmoke_18: 8686070901100633192
+      poisonSmoke_19: 2178185820257671111
+      poisonSmoke_2: 917630529038446405
+      poisonSmoke_20: 5623255554985182823
+      poisonSmoke_21: -7908049051325224577
+      poisonSmoke_22: -4843642835051804033
+      poisonSmoke_23: 3900248411653083366
+      poisonSmoke_24: 8829373117614298859
+      poisonSmoke_25: 2489790457762623057
+      poisonSmoke_26: -7173715183491514708
+      poisonSmoke_27: -5587278170876425679
+      poisonSmoke_28: 681243840618396893
+      poisonSmoke_29: -5402635415102223920
+      poisonSmoke_3: -2775680856209586660
+      poisonSmoke_30: 673790458401785291
+      poisonSmoke_31: 6068235709011156198
+      poisonSmoke_32: 6992083673616043531
+      poisonSmoke_33: 55381944238610973
+      poisonSmoke_34: -3389538601036011372
+      poisonSmoke_35: 810077097586566848
+      poisonSmoke_36: 7877089516569716827
+      poisonSmoke_37: 821544090600905572
+      poisonSmoke_38: 4734839112451376188
+      poisonSmoke_39: 6230592968948557687
+      poisonSmoke_4: 5300666040040844384
+      poisonSmoke_40: 229454825197356010
+      poisonSmoke_41: 863593555914139143
+      poisonSmoke_42: -5501852599266209664
+      poisonSmoke_43: -5384891322729497155
+      poisonSmoke_44: -3912053174411367552
+      poisonSmoke_45: 3133205034281543730
+      poisonSmoke_46: -1103120251711447128
+      poisonSmoke_47: 9126823702417319911
+      poisonSmoke_48: 1093967018881120675
+      poisonSmoke_49: 9020451429782581154
+      poisonSmoke_5: -4770146623364383904
+      poisonSmoke_50: 2548600990243171044
+      poisonSmoke_51: -8100492088593207169
+      poisonSmoke_52: 2502206671799717527
+      poisonSmoke_53: 3943641145722502683
+      poisonSmoke_54: -3247225391869253878
+      poisonSmoke_55: -2253371187480189629
+      poisonSmoke_56: -3192490949857505922
+      poisonSmoke_57: -7229433977623293299
+      poisonSmoke_58: -1345885237064800324
+      poisonSmoke_59: -6192231742110600400
+      poisonSmoke_6: -2157251450027070104
+      poisonSmoke_60: 1783197070007099019
+      poisonSmoke_61: 4952472654268145485
+      poisonSmoke_62: -8950034101806414338
+      poisonSmoke_63: -3016794350290974380
+      poisonSmoke_64: 1945083813621153517
+      poisonSmoke_65: 2576225385661308724
+      poisonSmoke_66: -4199533850518878620
+      poisonSmoke_67: -3590345668040154190
+      poisonSmoke_68: -7273973577685221994
+      poisonSmoke_69: 5505520549825577650
+      poisonSmoke_7: 3495687399077003695
+      poisonSmoke_70: 2154715783274726736
+      poisonSmoke_71: -6213576836600305898
+      poisonSmoke_72: 4855286309053817751
+      poisonSmoke_73: 2899189653593864169
+      poisonSmoke_74: -6712791773431683629
+      poisonSmoke_75: 2953009890422101426
+      poisonSmoke_76: 7063865218393582218
+      poisonSmoke_77: -8339430913037239856
+      poisonSmoke_78: -2982683695867583961
+      poisonSmoke_79: 8562076467595690683
+      poisonSmoke_8: -2990024631790741584
+      poisonSmoke_80: -7539555625103970708
+      poisonSmoke_81: -8452639840440558975
+      poisonSmoke_82: -6293567843886962897
+      poisonSmoke_83: -4297551674858529530
+      poisonSmoke_84: 3748395181931047477
+      poisonSmoke_85: -1367246319064736233
+      poisonSmoke_86: -3202308964299257813
+      poisonSmoke_87: -1597868950921898114
+      poisonSmoke_88: -7578329771092576011
+      poisonSmoke_89: 2577052898876205734
+      poisonSmoke_9: 5375372341034657158
+      poisonSmoke_90: 7882894025100392205
+      poisonSmoke_91: -4656970844585791963
+      poisonSmoke_92: 3306454659289621119
+      poisonSmoke_93: 4572213659318164391
+      poisonSmoke_94: -30254525189187628
+      poisonSmoke_95: -1416639025019761007
+      poisonSmoke_96: -489835078213133236
+      poisonSmoke_97: -7448421140649985647
+      poisonSmoke_98: 131965118221976680
+      poisonSmoke_99: 7223073366800136591
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

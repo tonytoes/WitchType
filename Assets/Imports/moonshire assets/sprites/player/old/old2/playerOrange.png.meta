@@ -1,0 +1,1560 @@
+fileFormatVersion: 2
+guid: c0919f3210dc2fd4d8bfc8ae8740498c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1489845013949261527
+    second: playerOrange_0
+  - first:
+      213: 1763458000108810912
+    second: playerOrange_1
+  - first:
+      213: -3055257061156697733
+    second: playerOrange_2
+  - first:
+      213: -340545244542852981
+    second: playerOrange_3
+  - first:
+      213: 4852466285051517523
+    second: playerOrange_4
+  - first:
+      213: 5901450894275933456
+    second: playerOrange_5
+  - first:
+      213: -3344812012370531975
+    second: playerOrange_6
+  - first:
+      213: 2911862562425562205
+    second: playerOrange_7
+  - first:
+      213: 5563343651149871142
+    second: playerOrange_8
+  - first:
+      213: -1601519587038289481
+    second: playerOrange_9
+  - first:
+      213: -1891722818657911175
+    second: playerOrange_10
+  - first:
+      213: -934474826385629142
+    second: playerOrange_11
+  - first:
+      213: -2650425275341433938
+    second: playerOrange_12
+  - first:
+      213: -7134034167547405963
+    second: playerOrange_13
+  - first:
+      213: -3520325160950252427
+    second: playerOrange_14
+  - first:
+      213: 1280251068725882970
+    second: playerOrange_15
+  - first:
+      213: -2617049402548896164
+    second: playerOrange_16
+  - first:
+      213: 7860726509528995287
+    second: playerOrange_17
+  - first:
+      213: -2088351940620638698
+    second: playerOrange_18
+  - first:
+      213: -3881531795541338230
+    second: playerOrange_19
+  - first:
+      213: 8310780585817467472
+    second: playerOrange_20
+  - first:
+      213: -6469415881799351023
+    second: playerOrange_21
+  - first:
+      213: -6002892402354621497
+    second: playerOrange_22
+  - first:
+      213: -8977991921965955595
+    second: playerOrange_23
+  - first:
+      213: -1330354203699157733
+    second: playerOrange_24
+  - first:
+      213: 4146723987991818840
+    second: playerOrange_25
+  - first:
+      213: -2038233651047222158
+    second: playerOrange_26
+  - first:
+      213: -8608847569842042334
+    second: playerOrange_27
+  - first:
+      213: 8011400146161687288
+    second: playerOrange_28
+  - first:
+      213: 5305394656901406976
+    second: playerOrange_29
+  - first:
+      213: -4735683033789819691
+    second: playerOrange_30
+  - first:
+      213: 4253669559658042060
+    second: playerOrange_31
+  - first:
+      213: 6886506489070132144
+    second: playerOrange_32
+  - first:
+      213: 4982690378147273699
+    second: playerOrange_33
+  - first:
+      213: -1783460361423948476
+    second: playerOrange_34
+  - first:
+      213: 4255706918968932175
+    second: playerOrange_35
+  - first:
+      213: 3477450820842705023
+    second: playerOrange_36
+  - first:
+      213: 8033797395128535005
+    second: playerOrange_37
+  - first:
+      213: -4800152127110295168
+    second: playerOrange_38
+  - first:
+      213: -383257886854912690
+    second: playerOrange_39
+  - first:
+      213: 8106416842889766007
+    second: playerOrange_40
+  - first:
+      213: 2252127325750823357
+    second: playerOrange_41
+  - first:
+      213: 4835797024171003672
+    second: playerOrange_42
+  - first:
+      213: 26573947266943582
+    second: playerOrange_43
+  - first:
+      213: 1132845235564882432
+    second: playerOrange_44
+  - first:
+      213: 3076462710564741984
+    second: playerOrange_45
+  - first:
+      213: 4405308059155062032
+    second: playerOrange_46
+  - first:
+      213: 1261067378411832099
+    second: playerOrange_47
+  - first:
+      213: 5664283900666828439
+    second: playerOrange_48
+  - first:
+      213: -2296689596204125014
+    second: playerOrange_49
+  - first:
+      213: 4290691833022085790
+    second: playerOrange_50
+  - first:
+      213: -7132437293379720361
+    second: playerOrange_51
+  - first:
+      213: -8866759268584258074
+    second: playerOrange_52
+  - first:
+      213: 447115951090145923
+    second: playerOrange_53
+  - first:
+      213: 5370728365846584097
+    second: playerOrange_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: playerOrange_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 233
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d625da852efca410800000000000000
+      internalID: 1489845013949261527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 234
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a27ec835bf097810800000000000000
+      internalID: 1763458000108810912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 232
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79404ce3eb8995d0800000000000000
+      internalID: -3055257061156697733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 233
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80231587e3264bf0800000000000000
+      internalID: -340545244542852981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 233
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a1e05706c675340800000000000000
+      internalID: 4852466285051517523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 232
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0157ab4325a26e150800000000000000
+      internalID: 5901450894275933456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 212
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979e1324237d491d0800000000000000
+      internalID: -3344812012370531975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 212
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d546224a293096820800000000000000
+      internalID: 2911862562425562205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 211
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628763a2397f43d40800000000000000
+      internalID: 5563343651149871142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 212
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1a0c9bb6246c9e0800000000000000
+      internalID: -1601519587038289481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 212
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ef4648e104fb5e0800000000000000
+      internalID: -1891722818657911175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 211
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a206db1b8141803f0800000000000000
+      internalID: -934474826385629142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea39e8f214cc73bd0800000000000000
+      internalID: -2650425275341433938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 190
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57956dbe8b1defc90800000000000000
+      internalID: -7134034167547405963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 190
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cb0b7eaea452fc0800000000000000
+      internalID: -3520325160950252427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 190
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5078be509d54c110800000000000000
+      internalID: 1280251068725882970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 190
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ebc612f6f5eabd0800000000000000
+      internalID: -2617049402548896164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 190
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5d8fccc19e61d60800000000000000
+      internalID: 7860726509528995287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6162f4d79fea403e0800000000000000
+      internalID: -2088351940620638698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 169
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87df5ea567022ac0800000000000000
+      internalID: -3881531795541338230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_20
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 169
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05aecdf09e2d55370800000000000000
+      internalID: 8310780585817467472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 169
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115441d28840836a0800000000000000
+      internalID: -6469415881799351023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 169
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3f2cc2a2171bca0800000000000000
+      internalID: -6002892402354621497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_23
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f584e61ae3c76380800000000000000
+      internalID: -8977991921965955595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15601776e1a98de0800000000000000
+      internalID: -1330354203699157733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 148
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852f7dd2f7f1c8930800000000000000
+      internalID: 4146723987991818840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 148
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274351c1b4db6b3e0800000000000000
+      internalID: -2038233651047222158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_27
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 148
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a84123fba378880800000000000000
+      internalID: -8608847569842042334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_28
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 148
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fada799cf53e2f60800000000000000
+      internalID: 8011400146161687288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0012dddc45c80a940800000000000000
+      internalID: 5305394656901406976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 127
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d41d1a1f59774eb0800000000000000
+      internalID: -4735683033789819691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 127
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc25f477de1180b30800000000000000
+      internalID: 4253669559658042060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_32
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 127
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb92706a29c19f50800000000000000
+      internalID: 6886506489070132144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_33
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 127
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb993fdf72162540800000000000000
+      internalID: 4982690378147273699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_34
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 127
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445f55e1040ef37e0800000000000000
+      internalID: -1783460361423948476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 106
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47b05525ee4f0b30800000000000000
+      internalID: 4255706918968932175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 106
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f705834e813624030800000000000000
+      internalID: 3477450820842705023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_37
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 106
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7481e7a28cd7f60800000000000000
+      internalID: 8033797395128535005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_38
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 106
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08151cb921f626db0800000000000000
+      internalID: -4800152127110295168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_39
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 106
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4565a48bf46eaaf0800000000000000
+      internalID: -383257886854912690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_40
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 106
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77420b14b27cf7070800000000000000
+      internalID: 8106416842889766007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_41
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 106
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db90458ded9214f10800000000000000
+      internalID: 2252127325750823357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_42
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 106
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f8a97b5c33c1340800000000000000
+      internalID: 4835797024171003672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 85
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a402f3dd86e5000800000000000000
+      internalID: 26573947266943582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_44
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 85
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00aa65b5dbca8bf00800000000000000
+      internalID: 1132845235564882432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06362f3198ac1ba20800000000000000
+      internalID: 3076462710564741984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_46
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 63
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d5a18e65cc22d30800000000000000
+      internalID: 4405308059155062032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_47
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32302186916308110800000000000000
+      internalID: 1261067378411832099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_48
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 63
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796d53e62349b9e40800000000000000
+      internalID: 5664283900666828439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 43
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4faea0bf48020e0800000000000000
+      internalID: -2296689596204125014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_50
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 43
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a73f33d799b8b30800000000000000
+      internalID: 4290691833022085790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_51
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 43
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b6a59221e740d90800000000000000
+      internalID: -7132437293379720361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_52
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 43
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5022f5c61f2f480800000000000000
+      internalID: -8866759268584258074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 22
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a932ea699743600800000000000000
+      internalID: 447115951090145923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerOrange_54
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 22
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b566f4ef8a88a40800000000000000
+      internalID: 5370728365846584097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      playerOrange_0: 1489845013949261527
+      playerOrange_1: 1763458000108810912
+      playerOrange_10: -1891722818657911175
+      playerOrange_11: -934474826385629142
+      playerOrange_12: -2650425275341433938
+      playerOrange_13: -7134034167547405963
+      playerOrange_14: -3520325160950252427
+      playerOrange_15: 1280251068725882970
+      playerOrange_16: -2617049402548896164
+      playerOrange_17: 7860726509528995287
+      playerOrange_18: -2088351940620638698
+      playerOrange_19: -3881531795541338230
+      playerOrange_2: -3055257061156697733
+      playerOrange_20: 8310780585817467472
+      playerOrange_21: -6469415881799351023
+      playerOrange_22: -6002892402354621497
+      playerOrange_23: -8977991921965955595
+      playerOrange_24: -1330354203699157733
+      playerOrange_25: 4146723987991818840
+      playerOrange_26: -2038233651047222158
+      playerOrange_27: -8608847569842042334
+      playerOrange_28: 8011400146161687288
+      playerOrange_29: 5305394656901406976
+      playerOrange_3: -340545244542852981
+      playerOrange_30: -4735683033789819691
+      playerOrange_31: 4253669559658042060
+      playerOrange_32: 6886506489070132144
+      playerOrange_33: 4982690378147273699
+      playerOrange_34: -1783460361423948476
+      playerOrange_35: 4255706918968932175
+      playerOrange_36: 3477450820842705023
+      playerOrange_37: 8033797395128535005
+      playerOrange_38: -4800152127110295168
+      playerOrange_39: -383257886854912690
+      playerOrange_4: 4852466285051517523
+      playerOrange_40: 8106416842889766007
+      playerOrange_41: 2252127325750823357
+      playerOrange_42: 4835797024171003672
+      playerOrange_43: 26573947266943582
+      playerOrange_44: 1132845235564882432
+      playerOrange_45: 3076462710564741984
+      playerOrange_46: 4405308059155062032
+      playerOrange_47: 1261067378411832099
+      playerOrange_48: 5664283900666828439
+      playerOrange_49: -2296689596204125014
+      playerOrange_5: 5901450894275933456
+      playerOrange_50: 4290691833022085790
+      playerOrange_51: -7132437293379720361
+      playerOrange_52: -8866759268584258074
+      playerOrange_53: 447115951090145923
+      playerOrange_54: 5370728365846584097
+      playerOrange_6: -3344812012370531975
+      playerOrange_7: 2911862562425562205
+      playerOrange_8: 5563343651149871142
+      playerOrange_9: -1601519587038289481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

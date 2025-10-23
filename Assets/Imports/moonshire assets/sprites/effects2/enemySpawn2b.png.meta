@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 5aa774803123ac2448090bba5eb4aff9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2216824707235335479
+    second: enemySpawn2b_0
+  - first:
+      213: -5249430730963856806
+    second: enemySpawn2b_1
+  - first:
+      213: 4662495361640069314
+    second: enemySpawn2b_2
+  - first:
+      213: -2052500952130241807
+    second: enemySpawn2b_3
+  - first:
+      213: 3916330013280350065
+    second: enemySpawn2b_4
+  - first:
+      213: -2101198911152836579
+    second: enemySpawn2b_5
+  - first:
+      213: 2470627436973884161
+    second: enemySpawn2b_6
+  - first:
+      213: 4694354239726053720
+    second: enemySpawn2b_7
+  - first:
+      213: 8826862422877845089
+    second: enemySpawn2b_8
+  - first:
+      213: 2581742643613813549
+    second: enemySpawn2b_9
+  - first:
+      213: 4040819527830985820
+    second: enemySpawn2b_10
+  - first:
+      213: -6493618050376975014
+    second: enemySpawn2b_11
+  - first:
+      213: -6443483421261220869
+    second: enemySpawn2b_12
+  - first:
+      213: 5430608744622932748
+    second: enemySpawn2b_13
+  - first:
+      213: -1591002070722156588
+    second: enemySpawn2b_14
+  - first:
+      213: 2714102583608054294
+    second: enemySpawn2b_15
+  - first:
+      213: 6653570509320355851
+    second: enemySpawn2b_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemySpawn2b_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d4214735eb3ce10800000000000000
+      internalID: 2216824707235335479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 140
+        width: 58
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5251e710964627b0800000000000000
+      internalID: -5249430730963856806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_2
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 6
+        width: 108
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8767514d284b040800000000000000
+      internalID: 4662495361640069314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_3
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 3
+        width: 156
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa3027324d0483e0800000000000000
+      internalID: -2052500952130241807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 123
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fa6c0c569995630800000000000000
+      internalID: 3916330013280350065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 37
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d103c4219ba07d2e0800000000000000
+      internalID: -2101198911152836579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 123
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1038921609e694220800000000000000
+      internalID: 2470627436973884161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_7
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 63
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85968bc2f42b52140800000000000000
+      internalID: 4694354239726053720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_8
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 63
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166b0ec5b905f7a70800000000000000
+      internalID: 8826862422877845089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_9
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 25
+        width: 269
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b4416714134d320800000000000000
+      internalID: 2581742643613813549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 38
+        width: 16
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cd3dd83ffd31830800000000000000
+      internalID: 4040819527830985820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 21
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d3730b9c802e5a0800000000000000
+      internalID: -6493618050376975014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_12
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 21
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf33b97a7f52496a0800000000000000
+      internalID: -6443483421261220869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 38
+        width: 16
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03416171e56d5b40800000000000000
+      internalID: 5430608744622932748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_14
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 36
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7e1b1db00abe9e0800000000000000
+      internalID: -1591002070722156588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_15
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 36
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6129deb7bed6aa520800000000000000
+      internalID: 2714102583608054294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemySpawn2b_16
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 10
+        width: 58
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b000e08402b365c50800000000000000
+      internalID: 6653570509320355851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemySpawn2b_0: 2216824707235335479
+      enemySpawn2b_1: -5249430730963856806
+      enemySpawn2b_10: 4040819527830985820
+      enemySpawn2b_11: -6493618050376975014
+      enemySpawn2b_12: -6443483421261220869
+      enemySpawn2b_13: 5430608744622932748
+      enemySpawn2b_14: -1591002070722156588
+      enemySpawn2b_15: 2714102583608054294
+      enemySpawn2b_16: 6653570509320355851
+      enemySpawn2b_2: 4662495361640069314
+      enemySpawn2b_3: -2052500952130241807
+      enemySpawn2b_4: 3916330013280350065
+      enemySpawn2b_5: -2101198911152836579
+      enemySpawn2b_6: 2470627436973884161
+      enemySpawn2b_7: 4694354239726053720
+      enemySpawn2b_8: 8826862422877845089
+      enemySpawn2b_9: 2581742643613813549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

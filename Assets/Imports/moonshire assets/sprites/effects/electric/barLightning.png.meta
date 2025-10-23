@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 78cf678fdff0be14f985504ffbc2e823
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2157971842569192808
+    second: barLightning_0
+  - first:
+      213: 6716039857569115828
+    second: barLightning_1
+  - first:
+      213: 8560038451424287195
+    second: barLightning_2
+  - first:
+      213: 1561347983238544191
+    second: barLightning_3
+  - first:
+      213: 7710421651274207831
+    second: barLightning_4
+  - first:
+      213: -2052120239890634193
+    second: barLightning_5
+  - first:
+      213: -8738319752455747017
+    second: barLightning_6
+  - first:
+      213: 9013330484473243355
+    second: barLightning_7
+  - first:
+      213: 8354627003405684306
+    second: barLightning_8
+  - first:
+      213: 3816274951895930912
+    second: barLightning_9
+  - first:
+      213: -3072213381185587487
+    second: barLightning_10
+  - first:
+      213: -5874508656137324303
+    second: barLightning_11
+  - first:
+      213: -3658683562102988979
+    second: barLightning_12
+  - first:
+      213: -5939668338725994613
+    second: barLightning_13
+  - first:
+      213: -4871564967931099818
+    second: barLightning_14
+  - first:
+      213: -5812052622407325754
+    second: barLightning_15
+  - first:
+      213: -4010079313235213524
+    second: barLightning_16
+  - first:
+      213: 8250958482180253032
+    second: barLightning_17
+  - first:
+      213: -5452045216949152929
+    second: barLightning_18
+  - first:
+      213: 5665127354125129897
+    second: barLightning_19
+  - first:
+      213: -5732531411646538982
+    second: barLightning_20
+  - first:
+      213: -2622336235845625183
+    second: barLightning_21
+  - first:
+      213: -5168127193188657603
+    second: barLightning_22
+  - first:
+      213: 1653318469514785087
+    second: barLightning_23
+  - first:
+      213: -5826554335811578250
+    second: barLightning_24
+  - first:
+      213: 273878468905077346
+    second: barLightning_25
+  - first:
+      213: 5037792224484366270
+    second: barLightning_26
+  - first:
+      213: 936154461964587835
+    second: barLightning_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barLightning_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 83
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a3e58ea085d02e0800000000000000
+      internalID: -2157971842569192808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 9
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bea5c7daaa243d50800000000000000
+      internalID: 6716039857569115828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd954d85e9d5bc670800000000000000
+      internalID: 8560038451424287195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 8
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bb4b7e7b50ba510800000000000000
+      internalID: 1561347983238544191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 8
+        width: 85
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7521ea8e3abe00b60800000000000000
+      internalID: 7710421651274207831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 8
+        width: 190
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2aede0b3876583e0800000000000000
+      internalID: -2052120239890634193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_6
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 13
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a88159b704bb680800000000000000
+      internalID: -8738319752455747017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_7
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 9
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd62a3a2258c51d70800000000000000
+      internalID: 9013330484473243355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_8
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 12
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ec1e0bef891f370800000000000000
+      internalID: 8354627003405684306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_9
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 13
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0285af869d126f430800000000000000
+      internalID: 3816274951895930912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_10
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 13
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e63b34053e4d55d0800000000000000
+      internalID: -3072213381185587487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_11
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 16
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f83af0708d897ea0800000000000000
+      internalID: -5874508656137324303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_12
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 7
+        width: 81
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f5a4f4faeb93dc0800000000000000
+      internalID: -3658683562102988979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_13
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 7
+        width: 87
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f3a9a9d1f029da0800000000000000
+      internalID: -5939668338725994613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_14
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 7
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655ca3ae879b46cb0800000000000000
+      internalID: -4871564967931099818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_15
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7a889fee0775fa0800000000000000
+      internalID: -5812052622407325754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_16
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 11
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2309756c165958c0800000000000000
+      internalID: -4010079313235213524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_17
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 16
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865a9da260b418270800000000000000
+      internalID: 8250958482180253032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_18
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 12
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53d068e2c17654b0800000000000000
+      internalID: -5452045216949152929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_19
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 13
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a81afd30539e9e40800000000000000
+      internalID: 5665127354125129897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_20
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 8
+        width: 85
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b1a09ad05f170b0800000000000000
+      internalID: -5732531411646538982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_21
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 8
+        width: 88
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa59c456179b9bd0800000000000000
+      internalID: -2622336235845625183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_22
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 9
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3614ff13bf1748b0800000000000000
+      internalID: -5168127193188657603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_23
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 9
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31750c6364c1f610800000000000000
+      internalID: 1653318469514785087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_24
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 10
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6765075b3bbe32fa0800000000000000
+      internalID: -5826554335811578250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_25
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 8
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a07b234030dc300800000000000000
+      internalID: 273878468905077346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_26
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 11
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb79d983655d9e540800000000000000
+      internalID: 5037792224484366270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barLightning_27
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 11
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33db40f583edfc00800000000000000
+      internalID: 936154461964587835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      barLightning_0: -2157971842569192808
+      barLightning_1: 6716039857569115828
+      barLightning_10: -3072213381185587487
+      barLightning_11: -5874508656137324303
+      barLightning_12: -3658683562102988979
+      barLightning_13: -5939668338725994613
+      barLightning_14: -4871564967931099818
+      barLightning_15: -5812052622407325754
+      barLightning_16: -4010079313235213524
+      barLightning_17: 8250958482180253032
+      barLightning_18: -5452045216949152929
+      barLightning_19: 5665127354125129897
+      barLightning_2: 8560038451424287195
+      barLightning_20: -5732531411646538982
+      barLightning_21: -2622336235845625183
+      barLightning_22: -5168127193188657603
+      barLightning_23: 1653318469514785087
+      barLightning_24: -5826554335811578250
+      barLightning_25: 273878468905077346
+      barLightning_26: 5037792224484366270
+      barLightning_27: 936154461964587835
+      barLightning_3: 1561347983238544191
+      barLightning_4: 7710421651274207831
+      barLightning_5: -2052120239890634193
+      barLightning_6: -8738319752455747017
+      barLightning_7: 9013330484473243355
+      barLightning_8: 8354627003405684306
+      barLightning_9: 3816274951895930912
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
