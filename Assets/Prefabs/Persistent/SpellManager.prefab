@@ -83,4 +83,22 @@ MonoBehaviour:
   - spellName: ShockBomb
     spellIcon: {fileID: 21300000, guid: db95af7f11c30d74ebe4bd1d542b676c, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: e6af4f9abb92bc24d92af3f37986e636, type: 3}
+  - spellName: DarkShot
+    spellIcon: {fileID: 21300000, guid: b7acfd41d89e2504c8f0bdc97f78332f, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: e6af4f9abb92bc24d92af3f37986e636, type: 3}
+  - spellName: Explosion
+    spellIcon: {fileID: 21300000, guid: 38c45a0683828544785362aad26dc98a, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: e6af4f9abb92bc24d92af3f37986e636, type: 3}
+  - spellName: SharkSummon
+    spellIcon: {fileID: 21300000, guid: 53df66622c8b934408bc8f78354eb3d5, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: e6af4f9abb92bc24d92af3f37986e636, type: 3}
+  - spellName: WoodenNeedle
+    spellIcon: {fileID: 21300000, guid: 0e47cf3835d946d4d95500bfa95d1fc3, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: e6af4f9abb92bc24d92af3f37986e636, type: 3}
+  - spellName: AngleOfDeath
+    spellIcon: {fileID: 21300000, guid: 202ac07abcbe0904abd7bfc253038a50, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: e6af4f9abb92bc24d92af3f37986e636, type: 3}
+  - spellName: CursedCircle
+    spellIcon: {fileID: 21300000, guid: 2efd70338bda95c49a181669bfcb3557, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: e6af4f9abb92bc24d92af3f37986e636, type: 3}
   maxSpells: 1
