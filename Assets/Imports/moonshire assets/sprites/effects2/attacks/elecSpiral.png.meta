@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 9ea1b65775a1d564287c452f68a95bd4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8805080628134346856
+    second: elecSpiral_0
+  - first:
+      213: -110894769109168070
+    second: elecSpiral_1
+  - first:
+      213: 9102252182288574082
+    second: elecSpiral_2
+  - first:
+      213: -946425496937411982
+    second: elecSpiral_3
+  - first:
+      213: -889739242100009312
+    second: elecSpiral_4
+  - first:
+      213: -3968694467092698529
+    second: elecSpiral_5
+  - first:
+      213: -3482083417095774984
+    second: elecSpiral_6
+  - first:
+      213: 8575577547725516943
+    second: elecSpiral_7
+  - first:
+      213: 420200723972019699
+    second: elecSpiral_8
+  - first:
+      213: -570150664222241939
+    second: elecSpiral_9
+  - first:
+      213: -7681844494278269585
+    second: elecSpiral_10
+  - first:
+      213: -7567191215152587407
+    second: elecSpiral_11
+  - first:
+      213: 5575398456031314068
+    second: elecSpiral_12
+  - first:
+      213: -4940578692566783772
+    second: elecSpiral_13
+  - first:
+      213: 3886700758927897525
+    second: elecSpiral_14
+  - first:
+      213: 3225012311378107218
+    second: elecSpiral_15
+  - first:
+      213: -8288622968686777178
+    second: elecSpiral_16
+  - first:
+      213: -7455038459306637927
+    second: elecSpiral_17
+  - first:
+      213: -3310977249753316453
+    second: elecSpiral_18
+  - first:
+      213: 8146444148636841178
+    second: elecSpiral_19
+  - first:
+      213: 8007664251010482287
+    second: elecSpiral_20
+  - first:
+      213: -9030834326659812655
+    second: elecSpiral_21
+  - first:
+      213: 4387827907381926901
+    second: elecSpiral_22
+  - first:
+      213: -3872693036908787521
+    second: elecSpiral_23
+  - first:
+      213: -1435435118284066152
+    second: elecSpiral_24
+  - first:
+      213: -869097218100508698
+    second: elecSpiral_25
+  - first:
+      213: -3077516921879703309
+    second: elecSpiral_26
+  - first:
+      213: -2035488294449026101
+    second: elecSpiral_27
+  - first:
+      213: -7197374496376179242
+    second: elecSpiral_28
+  - first:
+      213: -3300095020320667303
+    second: elecSpiral_29
+  - first:
+      213: -7512748909384830472
+    second: elecSpiral_30
+  - first:
+      213: 5060804677965146123
+    second: elecSpiral_31
+  - first:
+      213: 3778815181169756465
+    second: elecSpiral_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elecSpiral_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ff06de1d11ec580800000000000000
+      internalID: -8805080628134346856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a309cc78bc5067ef0800000000000000
+      internalID: -110894769109168070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286a55d4222b15e70800000000000000
+      internalID: 9102252182288574082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a4ca0660f9dd2f0800000000000000
+      internalID: -946425496937411982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a657e39fd207a3f0800000000000000
+      internalID: -889739242100009312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5aa1e2c86d5ce8c0800000000000000
+      internalID: -3968694467092698529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 5
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc5abdb4972dafc0800000000000000
+      internalID: -3482083417095774984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80bef32852920770800000000000000
+      internalID: 8575577547725516943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5d6b6055ad4d500800000000000000
+      internalID: 420200723972019699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b849eddfa6618f0800000000000000
+      internalID: -570150664222241939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_10
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65e0c2f12b946590800000000000000
+      internalID: -7681844494278269585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d9f59beafebf690800000000000000
+      internalID: -7567191215152587407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 4
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49002052b5bcf5d40800000000000000
+      internalID: 5575398456031314068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e861bcfad98f6bb0800000000000000
+      internalID: -4940578692566783772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b373246fb550f530800000000000000
+      internalID: 3886700758927897525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 4
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b14ff3c9b81cc20800000000000000
+      internalID: 3225012311378107218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ace7423355e8fc80800000000000000
+      internalID: -8288622968686777178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_17
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995072e05026a8890800000000000000
+      internalID: -7455038459306637927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_18
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93cd01dbbb0d02d0800000000000000
+      internalID: -3310977249753316453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4fe0e9acbfd0170800000000000000
+      internalID: 8146444148636841178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60031ab530f02f60800000000000000
+      internalID: 8007664251010482287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2b90ef6080ca280800000000000000
+      internalID: -9030834326659812655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_22
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 7
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb9b0beb32b4ec30800000000000000
+      internalID: 4387827907381926901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_23
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb84cea833e614ac0800000000000000
+      internalID: -3872693036908787521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_24
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892be8c7d5f441ce0800000000000000
+      internalID: -1435435118284066152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_25
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 3
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7c6df4fa850f3f0800000000000000
+      internalID: -869097218100508698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_26
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f05b193aa67a45d0800000000000000
+      internalID: -3077516921879703309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_27
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb66e04e2e70c3e0800000000000000
+      internalID: -2035488294449026101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_28
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5ba04670acd1c90800000000000000
+      internalID: -7197374496376179242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_29
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95940cc4015b332d0800000000000000
+      internalID: -3300095020320667303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1f961dbaa5db790800000000000000
+      internalID: -7512748909384830472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b086fb39a079b3640800000000000000
+      internalID: 5060804677965146123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecSpiral_32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1390a71e26c017430800000000000000
+      internalID: 3778815181169756465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      elecSpiral_0: -8805080628134346856
+      elecSpiral_1: -110894769109168070
+      elecSpiral_10: -7681844494278269585
+      elecSpiral_11: -7567191215152587407
+      elecSpiral_12: 5575398456031314068
+      elecSpiral_13: -4940578692566783772
+      elecSpiral_14: 3886700758927897525
+      elecSpiral_15: 3225012311378107218
+      elecSpiral_16: -8288622968686777178
+      elecSpiral_17: -7455038459306637927
+      elecSpiral_18: -3310977249753316453
+      elecSpiral_19: 8146444148636841178
+      elecSpiral_2: 9102252182288574082
+      elecSpiral_20: 8007664251010482287
+      elecSpiral_21: -9030834326659812655
+      elecSpiral_22: 4387827907381926901
+      elecSpiral_23: -3872693036908787521
+      elecSpiral_24: -1435435118284066152
+      elecSpiral_25: -869097218100508698
+      elecSpiral_26: -3077516921879703309
+      elecSpiral_27: -2035488294449026101
+      elecSpiral_28: -7197374496376179242
+      elecSpiral_29: -3300095020320667303
+      elecSpiral_3: -946425496937411982
+      elecSpiral_30: -7512748909384830472
+      elecSpiral_31: 5060804677965146123
+      elecSpiral_32: 3778815181169756465
+      elecSpiral_4: -889739242100009312
+      elecSpiral_5: -3968694467092698529
+      elecSpiral_6: -3482083417095774984
+      elecSpiral_7: 8575577547725516943
+      elecSpiral_8: 420200723972019699
+      elecSpiral_9: -570150664222241939
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

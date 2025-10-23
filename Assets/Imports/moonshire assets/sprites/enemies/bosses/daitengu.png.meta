@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: e26489b28dbef8549a2c7d082dea9998
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4473863915700388799
+    second: daitengu_0
+  - first:
+      213: 1798928803985123944
+    second: daitengu_1
+  - first:
+      213: -2801459953414767602
+    second: daitengu_2
+  - first:
+      213: 8392711072422676425
+    second: daitengu_3
+  - first:
+      213: -4698368499475115821
+    second: daitengu_4
+  - first:
+      213: -2641558405942234480
+    second: daitengu_5
+  - first:
+      213: -1364493783222171182
+    second: daitengu_6
+  - first:
+      213: -5300990859499577201
+    second: daitengu_7
+  - first:
+      213: -3586212436263532814
+    second: daitengu_8
+  - first:
+      213: -8741454230125139347
+    second: daitengu_9
+  - first:
+      213: -2527554711494075129
+    second: daitengu_10
+  - first:
+      213: -2363232953988526197
+    second: daitengu_11
+  - first:
+      213: -8451783200077053487
+    second: daitengu_12
+  - first:
+      213: -4740503332756986107
+    second: daitengu_13
+  - first:
+      213: 7801456585325620201
+    second: daitengu_14
+  - first:
+      213: 3168557667405474396
+    second: daitengu_15
+  - first:
+      213: 2271244660261082861
+    second: daitengu_16
+  - first:
+      213: 833184058513850031
+    second: daitengu_17
+  - first:
+      213: -5757448167733828948
+    second: daitengu_18
+  - first:
+      213: 4028625893782182245
+    second: daitengu_19
+  - first:
+      213: -1490112746842181651
+    second: daitengu_20
+  - first:
+      213: -2348912761382519777
+    second: daitengu_21
+  - first:
+      213: -3744840775379896856
+    second: daitengu_22
+  - first:
+      213: -5824915179643287481
+    second: daitengu_23
+  - first:
+      213: 5261021168245421379
+    second: daitengu_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: daitengu_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c7d33e874a9e1c0800000000000000
+      internalID: -4473863915700388799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 192
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a60c1573417f810800000000000000
+      internalID: 1798928803985123944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 192
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cfa30e3073f19d0800000000000000
+      internalID: -2801459953414767602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 192
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7cd3ef046e87470800000000000000
+      internalID: 8392711072422676425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 128
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d096e42eba0cceb0800000000000000
+      internalID: -4698368499475115821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 128
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092bd5810ac475bd0800000000000000
+      internalID: -2641558405942234480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 128
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d940d03228501de0800000000000000
+      internalID: -1364493783222171182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 128
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f806fed26e81f66b0800000000000000
+      internalID: -5300990859499577201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f68c6f2ac63b3ec0800000000000000
+      internalID: -3586212436263532814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 64
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a2e0121bd10b680800000000000000
+      internalID: -8741454230125139347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 64
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dd707a1625cecd0800000000000000
+      internalID: -2527554711494075129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_11
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 64
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f4408362c143fd0800000000000000
+      internalID: -2363232953988526197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_12
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 64
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d10bc085fb35ba80800000000000000
+      internalID: -8451783200077053487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_13
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 64
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507e67ac559563eb0800000000000000
+      internalID: -4740503332756986107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 64
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb27f23e67544c60800000000000000
+      internalID: 7801456585325620201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_15
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 64
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a2b08296af8fb20800000000000000
+      internalID: 3168557667405474396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_16
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 64
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de65dd42cf4158f10800000000000000
+      internalID: 2271244660261082861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae7c30ac70109b00800000000000000
+      internalID: 833184058513850031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2608d456f6910b0800000000000000
+      internalID: -5757448167733828948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569d3d3e7ed88e730800000000000000
+      internalID: 4028625893782182245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defa0390a5e025be0800000000000000
+      internalID: -1490112746842181651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_21
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cb961e94cf66fd0800000000000000
+      internalID: -2348912761382519777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_22
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 0
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e53513e727a70cc0800000000000000
+      internalID: -3744840775379896856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_23
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748c49e718eb92fa0800000000000000
+      internalID: -5824915179643287481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daitengu_24
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3453411e0e6e20940800000000000000
+      internalID: 5261021168245421379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      daitengu_0: -4473863915700388799
+      daitengu_1: 1798928803985123944
+      daitengu_10: -2527554711494075129
+      daitengu_11: -2363232953988526197
+      daitengu_12: -8451783200077053487
+      daitengu_13: -4740503332756986107
+      daitengu_14: 7801456585325620201
+      daitengu_15: 3168557667405474396
+      daitengu_16: 2271244660261082861
+      daitengu_17: 833184058513850031
+      daitengu_18: -5757448167733828948
+      daitengu_19: 4028625893782182245
+      daitengu_2: -2801459953414767602
+      daitengu_20: -1490112746842181651
+      daitengu_21: -2348912761382519777
+      daitengu_22: -3744840775379896856
+      daitengu_23: -5824915179643287481
+      daitengu_24: 5261021168245421379
+      daitengu_3: 8392711072422676425
+      daitengu_4: -4698368499475115821
+      daitengu_5: -2641558405942234480
+      daitengu_6: -1364493783222171182
+      daitengu_7: -5300990859499577201
+      daitengu_8: -3586212436263532814
+      daitengu_9: -8741454230125139347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

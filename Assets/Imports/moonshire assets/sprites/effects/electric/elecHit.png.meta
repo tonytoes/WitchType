@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: cfa85d5b8c2429d46a6bc4507c06abbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5734199675380307257
+    second: elecHit_0
+  - first:
+      213: 7893240977176691832
+    second: elecHit_1
+  - first:
+      213: -7412415097058666699
+    second: elecHit_2
+  - first:
+      213: 7334786435860900686
+    second: elecHit_3
+  - first:
+      213: 4621619913446082691
+    second: elecHit_4
+  - first:
+      213: -1384831339733554252
+    second: elecHit_5
+  - first:
+      213: 514809082924724769
+    second: elecHit_6
+  - first:
+      213: 8059294887942891389
+    second: elecHit_7
+  - first:
+      213: 5946461563391707698
+    second: elecHit_8
+  - first:
+      213: -9193790663678662870
+    second: elecHit_9
+  - first:
+      213: 2690094506539637925
+    second: elecHit_10
+  - first:
+      213: 6622167664141811878
+    second: elecHit_11
+  - first:
+      213: 2952379335570273754
+    second: elecHit_12
+  - first:
+      213: 3515700882431547810
+    second: elecHit_13
+  - first:
+      213: 5261094689105824207
+    second: elecHit_14
+  - first:
+      213: 4383597028101434467
+    second: elecHit_15
+  - first:
+      213: -976978885015340040
+    second: elecHit_16
+  - first:
+      213: -6211291545384401818
+    second: elecHit_17
+  - first:
+      213: -5570344890206133118
+    second: elecHit_18
+  - first:
+      213: -6140444901801909427
+    second: elecHit_19
+  - first:
+      213: -668633083108329359
+    second: elecHit_20
+  - first:
+      213: 5759174268186697793
+    second: elecHit_21
+  - first:
+      213: 6905924631611590403
+    second: elecHit_22
+  - first:
+      213: -5497030373776329627
+    second: elecHit_23
+  - first:
+      213: 2928207892655130857
+    second: elecHit_24
+  - first:
+      213: 2714057214468965889
+    second: elecHit_25
+  - first:
+      213: -6536960161131514355
+    second: elecHit_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elecHit_0
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 11
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93514324938f39f40800000000000000
+      internalID: 5734199675380307257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 8
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8748c2b39dc6a8d60800000000000000
+      internalID: 7893240977176691832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 5
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537531cedbfc12990800000000000000
+      internalID: -7412415097058666699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 43
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ba7dce6656ac560800000000000000
+      internalID: 7334786435860900686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 40
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38843db23da432040800000000000000
+      internalID: 4621619913446082691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 47
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb6a51db3718cce0800000000000000
+      internalID: -1384831339733554252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 0
+        width: 93
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1227fd22228f42700800000000000000
+      internalID: 514809082924724769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7725f7200e58df60800000000000000
+      internalID: 8059294887942891389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 12
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a0a744943168250800000000000000
+      internalID: 5946461563391707698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_9
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 12
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2761282a18196080800000000000000
+      internalID: -9193790663678662870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_10
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac568273b2255520800000000000000
+      internalID: 2690094506539637925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_11
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 12
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a04040a76aa6eb50800000000000000
+      internalID: 6622167664141811878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 24
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5bed20d55f8f820800000000000000
+      internalID: 2952379335570273754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 19
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a91cd953574ac030800000000000000
+      internalID: 3515700882431547810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 22
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9c8d9ceb9230940800000000000000
+      internalID: 5261094689105824207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_15
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 23
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ca172954aa5dc30800000000000000
+      internalID: 4383597028101434467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb7a9d51e21172f0800000000000000
+      internalID: -976978885015340040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_17
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664c9f09f3f0dc9a0800000000000000
+      internalID: -6211291545384401818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_18
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284e9d6d5d822b2b0800000000000000
+      internalID: -5570344890206133118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 11
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d432d3135e1c8caa0800000000000000
+      internalID: -6140444901801909427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_20
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 3
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178f044e0c988b6f0800000000000000
+      internalID: -668633083108329359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_21
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 3
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140a6d6cb72bcef40800000000000000
+      internalID: 5759174268186697793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_22
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 11
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30744d00dd5c6df50800000000000000
+      internalID: 6905924631611590403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_23
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 12
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5647783efff96b3b0800000000000000
+      internalID: -5497030373776329627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_24
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 11
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e84436609513a820800000000000000
+      internalID: 2928207892655130857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_25
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106428828a44aa520800000000000000
+      internalID: 2714057214468965889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecHit_26
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0630e42e5d0845a0800000000000000
+      internalID: -6536960161131514355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      elecHit_0: 5734199675380307257
+      elecHit_1: 7893240977176691832
+      elecHit_10: 2690094506539637925
+      elecHit_11: 6622167664141811878
+      elecHit_12: 2952379335570273754
+      elecHit_13: 3515700882431547810
+      elecHit_14: 5261094689105824207
+      elecHit_15: 4383597028101434467
+      elecHit_16: -976978885015340040
+      elecHit_17: -6211291545384401818
+      elecHit_18: -5570344890206133118
+      elecHit_19: -6140444901801909427
+      elecHit_2: -7412415097058666699
+      elecHit_20: -668633083108329359
+      elecHit_21: 5759174268186697793
+      elecHit_22: 6905924631611590403
+      elecHit_23: -5497030373776329627
+      elecHit_24: 2928207892655130857
+      elecHit_25: 2714057214468965889
+      elecHit_26: -6536960161131514355
+      elecHit_3: 7334786435860900686
+      elecHit_4: 4621619913446082691
+      elecHit_5: -1384831339733554252
+      elecHit_6: 514809082924724769
+      elecHit_7: 8059294887942891389
+      elecHit_8: 5946461563391707698
+      elecHit_9: -9193790663678662870
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

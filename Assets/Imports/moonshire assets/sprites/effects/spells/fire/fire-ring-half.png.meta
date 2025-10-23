@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: b987bafcdc56e1a4e8d67d285bd7cd7e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6198453198538656676
+    second: fire-ring-half_0
+  - first:
+      213: -9191765935336455444
+    second: fire-ring-half_1
+  - first:
+      213: 7510847772436330569
+    second: fire-ring-half_2
+  - first:
+      213: 1756745706817060701
+    second: fire-ring-half_3
+  - first:
+      213: 5127000508100168050
+    second: fire-ring-half_4
+  - first:
+      213: -7273789081995217084
+    second: fire-ring-half_5
+  - first:
+      213: 5367353415498421600
+    second: fire-ring-half_6
+  - first:
+      213: -1337834857834495445
+    second: fire-ring-half_7
+  - first:
+      213: 2828684702738089937
+    second: fire-ring-half_8
+  - first:
+      213: 2612515002661752902
+    second: fire-ring-half_9
+  - first:
+      213: -1110958082384171766
+    second: fire-ring-half_10
+  - first:
+      213: -82623172058519399
+    second: fire-ring-half_11
+  - first:
+      213: -4251481792183577543
+    second: fire-ring-half_12
+  - first:
+      213: 5522684146999238195
+    second: fire-ring-half_13
+  - first:
+      213: 4676329806265987178
+    second: fire-ring-half_14
+  - first:
+      213: -8114174557433411062
+    second: fire-ring-half_15
+  - first:
+      213: 5516695259007435213
+    second: fire-ring-half_16
+  - first:
+      213: -6527144047294450330
+    second: fire-ring-half_17
+  - first:
+      213: 6495584751596679348
+    second: fire-ring-half_18
+  - first:
+      213: -8580796481729861121
+    second: fire-ring-half_19
+  - first:
+      213: 3344546738214488069
+    second: fire-ring-half_20
+  - first:
+      213: -4952111028466787837
+    second: fire-ring-half_21
+  - first:
+      213: -7828709895417635418
+    second: fire-ring-half_22
+  - first:
+      213: 2924992053498245749
+    second: fire-ring-half_23
+  - first:
+      213: -2315622528644421282
+    second: fire-ring-half_24
+  - first:
+      213: 3426889542532560874
+    second: fire-ring-half_25
+  - first:
+      213: 338971587036882304
+    second: fire-ring-half_26
+  - first:
+      213: -1545624722667048583
+    second: fire-ring-half_27
+  - first:
+      213: -3373628935945075406
+    second: fire-ring-half_28
+  - first:
+      213: -3597831456145449507
+    second: fire-ring-half_29
+  - first:
+      213: -6969783373710015715
+    second: fire-ring-half_30
+  - first:
+      213: -3817646801203085933
+    second: fire-ring-half_31
+  - first:
+      213: 2209217833657967319
+    second: fire-ring-half_32
+  - first:
+      213: 4601841368595821834
+    second: fire-ring-half_33
+  - first:
+      213: 3374157375683937942
+    second: fire-ring-half_34
+  - first:
+      213: -4082146859848376424
+    second: fire-ring-half_35
+  - first:
+      213: 3126136891454677486
+    second: fire-ring-half_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire-ring-half_0
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 20
+        width: 67
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abc7cfd754550650800000000000000
+      internalID: 6198453198538656676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 17
+        width: 75
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce20cb5f499407080800000000000000
+      internalID: -9191765935336455444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_2
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 15
+        width: 80
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948f91e3144eb3860800000000000000
+      internalID: 7510847772436330569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 14
+        width: 81
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ff587a9e6316810800000000000000
+      internalID: 1756745706817060701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_4
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 25
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279ce805cc3c62740800000000000000
+      internalID: 5127000508100168050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_5
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 75
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4477f8c3e5f4e0b90800000000000000
+      internalID: -7273789081995217084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 76
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06553c27e7bac7a40800000000000000
+      internalID: 5367353415498421600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_7
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 66
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22c3a2f84e0f6de0800000000000000
+      internalID: -1337834857834495445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_8
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 76
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7094800c1814720800000000000000
+      internalID: 2828684702738089937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_9
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 63
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6405800ad84814420800000000000000
+      internalID: 2612515002661752902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_10
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 74
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d642b92851590f0800000000000000
+      internalID: -1110958082384171766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_11
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 76
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9986c3ba9a67adef0800000000000000
+      internalID: -82623172058519399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_12
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 72
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9345bd7d5d3bff4c0800000000000000
+      internalID: -4251481792183577543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_13
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 74
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e1294a8f384ac40800000000000000
+      internalID: 5522684146999238195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_14
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 77
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a603e0bbe29a5e040800000000000000
+      internalID: 4676329806265987178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_15
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 55
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a4ba21b39a46f80800000000000000
+      internalID: -8114174557433411062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_16
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 11
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1483ffb1d3f8c40800000000000000
+      internalID: 5516695259007435213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_17
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 23
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665753f321dea65a0800000000000000
+      internalID: -6527144047294450330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_18
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 42
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b03d5f9ae3f42a50800000000000000
+      internalID: 6495584751596679348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_19
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 63
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9e1981013eae880800000000000000
+      internalID: -8580796481729861121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_20
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 56
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50847f9c9873a6e20800000000000000
+      internalID: 3344546738214488069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_21
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 62
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a51fbc141964bb0800000000000000
+      internalID: -4952111028466787837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_22
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 34
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6addb0214d5da5390800000000000000
+      internalID: -7828709895417635418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_23
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 44
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5727a9f76c8a79820800000000000000
+      internalID: 2924992053498245749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_24
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 38
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59e14234914ddfd0800000000000000
+      internalID: -2315622528644421282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_25
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 28
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7772be1e1ce8f20800000000000000
+      internalID: 3426889542532560874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_26
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 16
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085a84accd444b400800000000000000
+      internalID: 338971587036882304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_27
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 24
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9717e59f086dc8ae0800000000000000
+      internalID: -1545624722667048583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_28
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 33
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235c3056b567e21d0800000000000000
+      internalID: -3373628935945075406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_29
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 19
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd59be4a5fe11ec0800000000000000
+      internalID: -3597831456145449507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_30
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 23
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d134798f2fa564f90800000000000000
+      internalID: -6969783373710015715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_31
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 40
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d3268067ef40bc0800000000000000
+      internalID: -3817646801203085933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_32
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 15
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d224ae2ae7b8ae10800000000000000
+      internalID: 2209217833657967319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_33
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 12
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05f9d7d7560ddf30800000000000000
+      internalID: 4601841368595821834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_34
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 11
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696c7e1914a63de20800000000000000
+      internalID: 3374157375683937942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_35
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 19
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fd2c12f0d4957c0800000000000000
+      internalID: -4082146859848376424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-ring-half_36
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 11
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1666690f4426b20800000000000000
+      internalID: 3126136891454677486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire-ring-half_0: 6198453198538656676
+      fire-ring-half_1: -9191765935336455444
+      fire-ring-half_10: -1110958082384171766
+      fire-ring-half_11: -82623172058519399
+      fire-ring-half_12: -4251481792183577543
+      fire-ring-half_13: 5522684146999238195
+      fire-ring-half_14: 4676329806265987178
+      fire-ring-half_15: -8114174557433411062
+      fire-ring-half_16: 5516695259007435213
+      fire-ring-half_17: -6527144047294450330
+      fire-ring-half_18: 6495584751596679348
+      fire-ring-half_19: -8580796481729861121
+      fire-ring-half_2: 7510847772436330569
+      fire-ring-half_20: 3344546738214488069
+      fire-ring-half_21: -4952111028466787837
+      fire-ring-half_22: -7828709895417635418
+      fire-ring-half_23: 2924992053498245749
+      fire-ring-half_24: -2315622528644421282
+      fire-ring-half_25: 3426889542532560874
+      fire-ring-half_26: 338971587036882304
+      fire-ring-half_27: -1545624722667048583
+      fire-ring-half_28: -3373628935945075406
+      fire-ring-half_29: -3597831456145449507
+      fire-ring-half_3: 1756745706817060701
+      fire-ring-half_30: -6969783373710015715
+      fire-ring-half_31: -3817646801203085933
+      fire-ring-half_32: 2209217833657967319
+      fire-ring-half_33: 4601841368595821834
+      fire-ring-half_34: 3374157375683937942
+      fire-ring-half_35: -4082146859848376424
+      fire-ring-half_36: 3126136891454677486
+      fire-ring-half_4: 5127000508100168050
+      fire-ring-half_5: -7273789081995217084
+      fire-ring-half_6: 5367353415498421600
+      fire-ring-half_7: -1337834857834495445
+      fire-ring-half_8: 2828684702738089937
+      fire-ring-half_9: 2612515002661752902
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

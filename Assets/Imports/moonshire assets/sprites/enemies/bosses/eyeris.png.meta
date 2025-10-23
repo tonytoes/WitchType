@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: e2ac84ad840c72b4f8bd214b69e0409b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1754029367730048969
+    second: eyeris_0
+  - first:
+      213: -2024900485527713009
+    second: eyeris_1
+  - first:
+      213: 8214953221675075024
+    second: eyeris_2
+  - first:
+      213: 2407717580758776670
+    second: eyeris_3
+  - first:
+      213: -59754377631511144
+    second: eyeris_4
+  - first:
+      213: -7842642530895752179
+    second: eyeris_5
+  - first:
+      213: -1747720925937231623
+    second: eyeris_6
+  - first:
+      213: -3883092053010413002
+    second: eyeris_7
+  - first:
+      213: -6425443955480606515
+    second: eyeris_8
+  - first:
+      213: -3841961283132333252
+    second: eyeris_9
+  - first:
+      213: 8133635720896597938
+    second: eyeris_10
+  - first:
+      213: -5534919980767495897
+    second: eyeris_11
+  - first:
+      213: -5697766032795489375
+    second: eyeris_12
+  - first:
+      213: 3410267907195552591
+    second: eyeris_13
+  - first:
+      213: -2199039229493378694
+    second: eyeris_14
+  - first:
+      213: 4088710919425629531
+    second: eyeris_15
+  - first:
+      213: 7241108734230616106
+    second: eyeris_16
+  - first:
+      213: 2974928531598705664
+    second: eyeris_17
+  - first:
+      213: -1138296696836808309
+    second: eyeris_18
+  - first:
+      213: -7835231872752934345
+    second: eyeris_19
+  - first:
+      213: 2890397106098252360
+    second: eyeris_20
+  - first:
+      213: -3505650422931216634
+    second: eyeris_21
+  - first:
+      213: -764932916727018130
+    second: eyeris_22
+  - first:
+      213: -1421356993945619270
+    second: eyeris_23
+  - first:
+      213: -4276539026677743325
+    second: eyeris_24
+  - first:
+      213: -2893868303151089396
+    second: eyeris_25
+  - first:
+      213: -4675797499441523994
+    second: eyeris_26
+  - first:
+      213: -1579464759522667752
+    second: eyeris_27
+  - first:
+      213: -7676006533646897262
+    second: eyeris_28
+  - first:
+      213: 5405808536486013586
+    second: eyeris_29
+  - first:
+      213: -1064351209085229283
+    second: eyeris_30
+  - first:
+      213: 4357481250853744012
+    second: eyeris_31
+  - first:
+      213: 6165989555292837827
+    second: eyeris_32
+  - first:
+      213: 7511442762857663990
+    second: eyeris_33
+  - first:
+      213: 1019294047007799989
+    second: eyeris_34
+  - first:
+      213: 2721236653675314040
+    second: eyeris_35
+  - first:
+      213: -3584266019073317034
+    second: eyeris_36
+  - first:
+      213: 4858468224091716828
+    second: eyeris_37
+  - first:
+      213: 7523885555978454607
+    second: eyeris_38
+  - first:
+      213: 5510697687333326794
+    second: eyeris_39
+  - first:
+      213: -5348910014852232719
+    second: eyeris_40
+  - first:
+      213: 8223788958469807193
+    second: eyeris_41
+  - first:
+      213: 2863770772341498528
+    second: eyeris_42
+  - first:
+      213: -4773074136459541490
+    second: eyeris_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eyeris_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 242
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730f8d2559f68a7e0800000000000000
+      internalID: -1754029367730048969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 242
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bca9e9cbb16e3e0800000000000000
+      internalID: -2024900485527713009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 240
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5c4603e60610270800000000000000
+      internalID: 8214953221675075024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 240
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5bf690126ee96120800000000000000
+      internalID: 2407717580758776670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dcf7bc5b5bb2ff0800000000000000
+      internalID: -59754377631511144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 196
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0496959b26592390800000000000000
+      internalID: -7842642530895752179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 192
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f89ef2e319deb7e0800000000000000
+      internalID: -1747720925937231623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 194
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a0c2ee95c7c1ac0800000000000000
+      internalID: -3883092053010413002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 194
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8c56514cc34d6a0800000000000000
+      internalID: -6425443955480606515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_9
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 192
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33e71e819c9eaac0800000000000000
+      internalID: -3841961283132333252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_10
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 192
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf4874289a70e070800000000000000
+      internalID: 8133635720896597938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_11
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 194
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729342e4a930033b0800000000000000
+      internalID: -5534919980767495897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_12
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 194
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab20f13bf77de0b0800000000000000
+      internalID: -5697766032795489375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_13
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 192
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f434e4dd794b35f20800000000000000
+      internalID: 3410267907195552591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_14
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 196
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7106e6c8717b71e0800000000000000
+      internalID: -2199039229493378694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_15
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 193
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d10a51be40eb830800000000000000
+      internalID: 4088710919425629531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_16
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a285bcb57069d7460800000000000000
+      internalID: 7241108734230616106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0048d16dcb1194920800000000000000
+      internalID: 2974928531598705664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 148
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81aa086f25f330f0800000000000000
+      internalID: -1138296696836808309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_19
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 147
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7322eb3ef1aa34390800000000000000
+      internalID: -7835231872752934345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 146
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84aadc0aad0cc1820800000000000000
+      internalID: 2890397106098252360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 148
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607ac7a938d695fc0800000000000000
+      internalID: -3505650422931216634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_22
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 147
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d8b75a0996265f0800000000000000
+      internalID: -764932916727018130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 146
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4badc3853564ce0800000000000000
+      internalID: -1421356993945619270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_24
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 153
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32147cec96ea6a4c0800000000000000
+      internalID: -4276539026677743325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 157
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09bae35c1ae6d7d0800000000000000
+      internalID: -2893868303151089396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_26
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 143
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2d02c92fa3c1fb0800000000000000
+      internalID: -4675797499441523994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_27
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 146
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81357696b2d941ae0800000000000000
+      internalID: -1579464759522667752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_28
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 144
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f26641ab8597590800000000000000
+      internalID: -7676006533646897262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ae505093a450b40800000000000000
+      internalID: 5405808536486013586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17a73ae63aaa31f0800000000000000
+      internalID: -1064351209085229283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8def885c12e87c30800000000000000
+      internalID: 4357481250853744012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c79ffbe4def19550800000000000000
+      internalID: 6165989555292837827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_33
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 48
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd4fce35610e3860800000000000000
+      internalID: 7511442762857663990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_34
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 48
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5baf1990982452e00800000000000000
+      internalID: 1019294047007799989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 52
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bf61c9156c3c520800000000000000
+      internalID: 2721236653675314040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_36
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 51
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657a1a0cb01224ec0800000000000000
+      internalID: -3584266019073317034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_37
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 50
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc7289cb1fbc6340800000000000000
+      internalID: 4858468224091716828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_38
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 52
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46c9c6cc063a6860800000000000000
+      internalID: 7523885555978454607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_39
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 51
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfc116895ee97c40800000000000000
+      internalID: 5510697687333326794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_40
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 50
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f904356eaad4c5b0800000000000000
+      internalID: -5348910014852232719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_41
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 50
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c5f597c74c02270800000000000000
+      internalID: 8223788958469807193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2af8338582eb720800000000000000
+      internalID: 2863770772341498528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeris_43
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0489b99c52a2cdb0800000000000000
+      internalID: -4773074136459541490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      eyeris_0: -1754029367730048969
+      eyeris_1: -2024900485527713009
+      eyeris_10: 8133635720896597938
+      eyeris_11: -5534919980767495897
+      eyeris_12: -5697766032795489375
+      eyeris_13: 3410267907195552591
+      eyeris_14: -2199039229493378694
+      eyeris_15: 4088710919425629531
+      eyeris_16: 7241108734230616106
+      eyeris_17: 2974928531598705664
+      eyeris_18: -1138296696836808309
+      eyeris_19: -7835231872752934345
+      eyeris_2: 8214953221675075024
+      eyeris_20: 2890397106098252360
+      eyeris_21: -3505650422931216634
+      eyeris_22: -764932916727018130
+      eyeris_23: -1421356993945619270
+      eyeris_24: -4276539026677743325
+      eyeris_25: -2893868303151089396
+      eyeris_26: -4675797499441523994
+      eyeris_27: -1579464759522667752
+      eyeris_28: -7676006533646897262
+      eyeris_29: 5405808536486013586
+      eyeris_3: 2407717580758776670
+      eyeris_30: -1064351209085229283
+      eyeris_31: 4357481250853744012
+      eyeris_32: 6165989555292837827
+      eyeris_33: 7511442762857663990
+      eyeris_34: 1019294047007799989
+      eyeris_35: 2721236653675314040
+      eyeris_36: -3584266019073317034
+      eyeris_37: 4858468224091716828
+      eyeris_38: 7523885555978454607
+      eyeris_39: 5510697687333326794
+      eyeris_4: -59754377631511144
+      eyeris_40: -5348910014852232719
+      eyeris_41: 8223788958469807193
+      eyeris_42: 2863770772341498528
+      eyeris_43: -4773074136459541490
+      eyeris_5: -7842642530895752179
+      eyeris_6: -1747720925937231623
+      eyeris_7: -3883092053010413002
+      eyeris_8: -6425443955480606515
+      eyeris_9: -3841961283132333252
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

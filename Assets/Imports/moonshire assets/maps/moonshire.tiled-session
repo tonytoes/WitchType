@@ -1,0 +1,1058 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "overworld/a1.tmx",
+    "expandedProjectPaths": [
+        "caves",
+        "misc",
+        ".",
+        "dungeons/cloud",
+        "dungeons",
+        "_tilesets/_export",
+        "_tilesets2/_export",
+        "overworld",
+        "_tilesets2"
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "1_meadow.tmx": {
+            "expandedObjectLayers": [
+                3,
+                9,
+                19,
+                18,
+                8,
+                12,
+                6,
+                7,
+                10,
+                25
+            ],
+            "scale": 5.5,
+            "selectedLayer": 22,
+            "viewCenter": {
+                "x": 639.5454545454545,
+                "y": 399.54545454545456
+            }
+        },
+        "1_meadow.tmx#overworld": {
+            "scaleInDock": 2
+        },
+        "1_meadow.tmx#terrain": {
+            "scaleInDock": 2,
+            "scaleInEditor": 3
+        },
+        "1_meadow.tmx#water": {
+            "scaleInDock": 3
+        },
+        "2_forest.tmx": {
+            "expandedObjectLayers": [
+                3,
+                9,
+                19,
+                18,
+                8,
+                12,
+                26,
+                6,
+                7,
+                10,
+                22
+            ],
+            "scale": 2,
+            "selectedLayer": 23,
+            "viewCenter": {
+                "x": 329.75,
+                "y": 242.25
+            }
+        },
+        "2_forest.tmx#overworld": {
+            "scaleInDock": 3
+        },
+        "2_forest.tmx#terrain": {
+            "scaleInDock": 3,
+            "scaleInEditor": 11
+        },
+        "2_forest.tmx#water": {
+            "scaleInDock": 1.5
+        },
+        "3_forest-central.tmx": {
+            "scale": 1.4583079268292682,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 375.43511210996706,
+                "y": 425.49312705796274
+            }
+        },
+        "3_forest-central.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "3_forest-central.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "3_forest-central.tmx#water": {
+            "scaleInDock": 1
+        },
+        "3_town.tmx": {
+            "expandedObjectLayers": [
+                27,
+                10,
+                3,
+                23,
+                25,
+                9,
+                12,
+                14,
+                6,
+                8,
+                7,
+                21
+            ],
+            "scale": 4,
+            "selectedLayer": 19,
+            "viewCenter": {
+                "x": 502.75,
+                "y": 362.625
+            }
+        },
+        "3_town.tmx#houses": {
+            "scaleInDock": 2
+        },
+        "3_town.tmx#objects": {
+            "scaleInDock": 1
+        },
+        "3_town.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "3_town.tmx#terrain": {
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "3_town.tmx#water": {
+            "scaleInDock": 3,
+            "scaleInEditor": 4
+        },
+        "4_camp.tmx": {
+            "expandedObjectLayers": [
+                10,
+                3,
+                9,
+                12,
+                14,
+                8,
+                7
+            ],
+            "scale": 3,
+            "selectedLayer": 11,
+            "viewCenter": {
+                "x": 736,
+                "y": 415.83333333333326
+            }
+        },
+        "4_camp.tmx#houses": {
+            "scaleInDock": 1
+        },
+        "4_camp.tmx#objects": {
+            "scaleInDock": 4
+        },
+        "4_camp.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "4_camp.tmx#terrain": {
+            "scaleInDock": 4
+        },
+        "4_camp.tmx#water": {
+            "scaleInDock": 0.75
+        },
+        "4_town.tmx": {
+            "expandedObjectLayers": [
+                7,
+                14,
+                25,
+                8,
+                21,
+                3,
+                6,
+                9
+            ],
+            "scale": 3,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 772,
+                "y": 359.83333333333326
+            }
+        },
+        "4_town.tmx#houses": {
+            "scaleInDock": 1
+        },
+        "4_town.tmx#objects": {
+            "scaleInDock": 1
+        },
+        "4_town.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "4_town.tmx#water": {
+            "scaleInDock": 1
+        },
+        "5_prairie.tmx": {
+            "scale": 1.6244628906249998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.4770807658782,
+                "y": 288.4030178244011
+            }
+        },
+        "5_prairie.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "5_prairie.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "5_prairie.tmx#water": {
+            "scaleInDock": 1
+        },
+        "5_prairie2.tmx": {
+            "scale": 1.6244628906249998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 685.4573326520185,
+                "y": 297.636839099462
+            }
+        },
+        "5_prairie2.tmx#houses": {
+            "scaleInDock": 1
+        },
+        "5_prairie2.tmx#objects": {
+            "scaleInDock": 1
+        },
+        "5_prairie2.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "5_prairie2.tmx#water": {
+            "scaleInDock": 1
+        },
+        "5_swamp.tmx": {
+            "expandedObjectLayers": [
+                3,
+                9,
+                12,
+                28,
+                7,
+                21
+            ],
+            "scale": 4,
+            "selectedLayer": 20,
+            "viewCenter": {
+                "x": 493.25,
+                "y": 476.625
+            }
+        },
+        "5_swamp.tmx#houses": {
+            "scaleInDock": 1
+        },
+        "5_swamp.tmx#objects": {
+            "scaleInDock": 5.5
+        },
+        "5_swamp.tmx#overworld": {
+            "scaleInDock": 4
+        },
+        "5_swamp.tmx#terrain": {
+            "scaleInDock": 2
+        },
+        "5_swamp.tmx#water": {
+            "scaleInDock": 1
+        },
+        "6_ruins.tmx": {
+            "expandedObjectLayers": [
+                27,
+                25,
+                9,
+                12,
+                26,
+                14,
+                7
+            ],
+            "scale": 2,
+            "selectedLayer": 12,
+            "viewCenter": {
+                "x": 512,
+                "y": 383.75
+            }
+        },
+        "6_ruins.tmx#dungeon": {
+            "scaleInDock": 1
+        },
+        "6_ruins.tmx#houses": {
+            "scaleInDock": 1
+        },
+        "6_ruins.tmx#objects": {
+            "scaleInDock": 1
+        },
+        "6_ruins.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "6_ruins.tmx#terrain": {
+            "scaleInDock": 1.5
+        },
+        "6_ruins.tmx#water": {
+            "scaleInDock": 1
+        },
+        "6_ruins2.tmx": {
+            "expandedObjectLayers": [
+                14,
+                25,
+                12,
+                27,
+                26,
+                24
+            ],
+            "scale": 3,
+            "selectedLayer": 12,
+            "viewCenter": {
+                "x": 509.16666666666663,
+                "y": 381.16666666666663
+            }
+        },
+        "6_ruins2.tmx#houses": {
+            "scaleInDock": 1
+        },
+        "6_ruins2.tmx#objects": {
+            "scaleInDock": 1
+        },
+        "6_ruins2.tmx#terrain": {
+            "scaleInDock": 0.75
+        },
+        "6_ruins2.tmx#water": {
+            "scaleInDock": 1
+        },
+        "7_port.tmx": {
+            "scale": 4,
+            "selectedLayer": 17,
+            "viewCenter": {
+                "x": 545.125,
+                "y": 287.125
+            }
+        },
+        "7_port.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "7_port.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "7_port.tmx#water": {
+            "scaleInDock": 1
+        },
+        "7_waterfall.tmx": {
+            "expandedObjectLayers": [
+                10,
+                3,
+                25,
+                9,
+                12,
+                26,
+                6,
+                8,
+                7
+            ],
+            "scale": 8,
+            "selectedLayer": 15,
+            "viewCenter": {
+                "x": 640,
+                "y": 575.9375
+            }
+        },
+        "7_waterfall.tmx#terrain": {
+            "scaleInDock": 1.5
+        },
+        "7_waterfall.tmx#water": {
+            "scaleInDock": 1
+        },
+        "8_forest-south.tmx": {
+            "expandedObjectLayers": [
+                8,
+                20,
+                24,
+                6,
+                19,
+                9
+            ],
+            "scale": 16,
+            "selectedLayer": 13,
+            "viewCenter": {
+                "x": 364.25,
+                "y": 202.78125
+            }
+        },
+        "8_forest-south.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "8_forest-south.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "8_forest-south.tmx#water": {
+            "scaleInDock": 1
+        },
+        "C:/Projects/legend/maps/_tilesets/_export/water.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kylej/Downloads/rpg-village-tileset v1.0 (wonderdot)/rpg-village-tileset v1.0 (wonderdot)/Tiled/Example.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 325.3333333333333,
+                "y": 966.3333333333333
+            }
+        },
+        "C:/Users/kylej/Downloads/rpg-village-tileset v1.0 (wonderdot)/rpg-village-tileset v1.0 (wonderdot)/Tiled/Example.tmx#AltRooves_Tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kylej/Downloads/rpg-village-tileset v1.0 (wonderdot)/rpg-village-tileset v1.0 (wonderdot)/Tiled/Village_Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "_old/3_forest-central.tmx": {
+            "scale": 1.4583079268292682,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 376.46370145821356,
+                "y": 328.1200020906288
+            }
+        },
+        "_old/3_forest-central.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "_old/3_forest-central.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "_old/3_forest-central.tmx#water": {
+            "scaleInDock": 1
+        },
+        "_old/5_prairie2.tmx": {
+            "expandedObjectLayers": [
+                9
+            ],
+            "scale": 4,
+            "selectedLayer": 12,
+            "viewCenter": {
+                "x": 894.875,
+                "y": 290.375
+            }
+        },
+        "_old/5_prairie2.tmx#houses": {
+            "scaleInDock": 1
+        },
+        "_old/5_prairie2.tmx#objects": {
+            "scaleInDock": 1
+        },
+        "_old/5_prairie2.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "_old/5_prairie2.tmx#water": {
+            "scaleInDock": 1
+        },
+        "_old/7_port.tmx": {
+            "expandedObjectLayers": [
+                21
+            ],
+            "scale": 5.5,
+            "selectedLayer": 22,
+            "viewCenter": {
+                "x": 519.8181818181818,
+                "y": 261.9090909090909
+            }
+        },
+        "_old/7_port.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "_old/7_port.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "_old/7_port.tmx#water": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "_tilesets/_export/terrain.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 3
+        },
+        "_tilesets/_export/water.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 4
+        },
+        "_tilesets2/_export/terrain.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 4
+        },
+        "caves/c_cloudRuins.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 813.909090909091,
+                "y": 523.5454545454545
+            }
+        },
+        "caves/c_cloudRuins.tmx#cave": {
+            "scaleInDock": 1
+        },
+        "caves/c_cloudRuins.tmx#water": {
+            "scaleInDock": 1
+        },
+        "caves/c_cloudRuins2.tmx": {
+            "expandedObjectLayers": [
+                24,
+                19,
+                3,
+                8
+            ],
+            "scale": 5.5,
+            "selectedLayer": 14,
+            "viewCenter": {
+                "x": 631.4545454545455,
+                "y": 395
+            }
+        },
+        "caves/c_cloudRuins2.tmx#cave": {
+            "scaleInDock": 2
+        },
+        "caves/c_cloudRuins2.tmx#cave2": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "caves/c_cloudRuins2.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "caves/c_cloudRuins2.tmx#water": {
+            "scaleInDock": 1
+        },
+        "caves/c_eyeris.tmx": {
+            "expandedObjectLayers": [
+                27,
+                10,
+                3,
+                26,
+                6
+            ],
+            "scale": 3,
+            "selectedLayer": 22,
+            "viewCenter": {
+                "x": 796.6666666666665,
+                "y": 527.8333333333333
+            }
+        },
+        "caves/c_eyeris.tmx#cave": {
+            "scaleInDock": 3
+        },
+        "caves/c_eyeris.tmx#water": {
+            "scaleInDock": 1
+        },
+        "caves/c_forest.tmx": {
+            "expandedObjectLayers": [
+                8,
+                21,
+                6,
+                19,
+                3
+            ],
+            "scale": 4,
+            "selectedLayer": 22,
+            "viewCenter": {
+                "x": 1115.875,
+                "y": 562.875
+            }
+        },
+        "caves/c_forest.tmx#cave": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "caves/c_forest.tmx#cave2": {
+            "scaleInDock": 1
+        },
+        "caves/c_forest.tmx#water": {
+            "scaleInDock": 1
+        },
+        "caves/c_marsh.tmx": {
+            "expandedObjectLayers": [
+                27,
+                3,
+                12,
+                26,
+                29,
+                6,
+                8,
+                21,
+                7
+            ],
+            "scale": 5.5,
+            "selectedLayer": 20,
+            "viewCenter": {
+                "x": 1024,
+                "y": 623.909090909091
+            }
+        },
+        "caves/c_marsh.tmx#cave": {
+            "scaleInDock": 1.5
+        },
+        "caves/c_marsh.tmx#water": {
+            "scaleInDock": 1
+        },
+        "caves/c_swamp.tmx": {
+            "expandedObjectLayers": [
+                3,
+                19,
+                8,
+                27,
+                12,
+                6,
+                7,
+                10,
+                21
+            ],
+            "scale": 3,
+            "selectedLayer": 18,
+            "viewCenter": {
+                "x": 1103.6666666666665,
+                "y": 623.1666666666666
+            }
+        },
+        "caves/c_swamp.tmx#cave": {
+            "scaleInDock": 3
+        },
+        "caves/c_swamp.tmx#water": {
+            "scaleInDock": 1.5
+        },
+        "caves/c_volcano.tmx": {
+            "expandedObjectLayers": [
+                19,
+                7,
+                3,
+                8
+            ],
+            "scale": 5.5,
+            "selectedLayer": 16,
+            "viewCenter": {
+                "x": 928.7272727272727,
+                "y": 679.5454545454545
+            }
+        },
+        "caves/c_volcano.tmx#cave": {
+            "scaleInDock": 2
+        },
+        "caves/c_volcano.tmx#water": {
+            "scaleInDock": 1
+        },
+        "caves/c_waterfall.tmx": {
+            "expandedObjectLayers": [
+                3,
+                29,
+                7,
+                10
+            ],
+            "scale": 2,
+            "selectedLayer": 17,
+            "viewCenter": {
+                "x": 512,
+                "y": 224.25
+            }
+        },
+        "caves/c_waterfall.tmx#cave": {
+            "scaleInDock": 2
+        },
+        "caves/c_waterfall.tmx#water": {
+            "scaleInDock": 1
+        },
+        "dungeons/cloud/cloudBoss.tmx": {
+            "expandedObjectLayers": [
+                26,
+                28,
+                6,
+                10
+            ],
+            "scale": 32,
+            "selectedLayer": 15,
+            "viewCenter": {
+                "x": 762.4375,
+                "y": 458.140625
+            }
+        },
+        "dungeons/cloud/cloudBoss.tmx#cloud": {
+            "scaleInDock": 3
+        },
+        "dungeons/cloud/cloudBoss.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "dungeons/cloud/cloudEast.tmx": {
+            "expandedObjectLayers": [
+                3,
+                9,
+                19,
+                8,
+                12,
+                24,
+                26,
+                6,
+                7,
+                10,
+                25
+            ],
+            "scale": 5.5,
+            "selectedLayer": 14,
+            "viewCenter": {
+                "x": 704,
+                "y": 399.90909090909093
+            }
+        },
+        "dungeons/cloud/cloudEast.tmx#cloud": {
+            "scaleInDock": 2
+        },
+        "dungeons/cloud/cloudEast.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "dungeons/cloud/cloudMain.tmx": {
+            "expandedObjectLayers": [
+                3,
+                9,
+                19,
+                8,
+                12,
+                24,
+                26,
+                28,
+                6,
+                7,
+                10,
+                25,
+                14
+            ],
+            "scale": 4,
+            "selectedLayer": 23,
+            "viewCenter": {
+                "x": 704,
+                "y": 511.875
+            }
+        },
+        "dungeons/cloud/cloudMain.tmx#cloud": {
+            "scaleInDock": 2,
+            "scaleInEditor": 8
+        },
+        "dungeons/cloud/cloudMain.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "dungeons/cloud/cloudWest.tmx": {
+            "expandedObjectLayers": [
+                3,
+                9,
+                19,
+                8,
+                24,
+                26,
+                6,
+                7,
+                10,
+                25
+            ],
+            "scale": 8,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1040,
+                "y": 943.9375
+            }
+        },
+        "dungeons/cloud/cloudWest.tmx#cloud": {
+            "scaleInDock": 2
+        },
+        "dungeons/cloud/cloudWest.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud.tmx": {
+            "expandedObjectLayers": [
+                20,
+                12,
+                17,
+                22,
+                9
+            ],
+            "scale": 1.5,
+            "selectedLayer": 19,
+            "viewCenter": {
+                "x": 1174.3333333333333,
+                "y": 450.33333333333326
+            }
+        },
+        "dungeons/d_cloud.tmx#cave": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud.tmx#cloud": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud.tmx#dungeon": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud.tmx#water": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud2.tmx": {
+            "expandedObjectLayers": [
+                7,
+                8,
+                21,
+                3,
+                12
+            ],
+            "scale": 1.5,
+            "selectedLayer": 14,
+            "viewCenter": {
+                "x": 1054.3333333333333,
+                "y": 479
+            }
+        },
+        "dungeons/d_cloud2.tmx#cave": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud2.tmx#cloud": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud2.tmx#dungeon": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud2.tmx#water": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud_boss.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1598.5,
+                "y": 478.75
+            }
+        },
+        "dungeons/d_cloud_boss.tmx#cave": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud_boss.tmx#cloud": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud_boss.tmx#dungeon": {
+            "scaleInDock": 1
+        },
+        "dungeons/d_cloud_boss.tmx#water": {
+            "scaleInDock": 1
+        },
+        "interiors/i_town.tmx": {
+            "expandedObjectLayers": [
+                20,
+                15,
+                3,
+                11,
+                16,
+                7
+            ],
+            "scale": 1.5,
+            "selectedLayer": 10,
+            "viewCenter": {
+                "x": 1504,
+                "y": 256.33333333333326
+            }
+        },
+        "interiors/i_town.tmx#interior": {
+            "scaleInDock": 4
+        },
+        "interiors/i_town.tmx#objects": {
+            "scaleInDock": 2
+        },
+        "interiors/i_town.tmx#terrain": {
+            "scaleInDock": 1.5
+        },
+        "misc/ocean.tmx": {
+            "expandedObjectLayers": [
+                10,
+                3,
+                28
+            ],
+            "scale": 3,
+            "selectedLayer": 21,
+            "viewCenter": {
+                "x": 416,
+                "y": 287.8333333333333
+            }
+        },
+        "misc/ocean.tmx#houses": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "misc/ocean.tmx#objects": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "misc/ocean.tmx#overworld": {
+            "scaleInDock": 1,
+            "scaleInEditor": 0.125
+        },
+        "misc/ocean.tmx#terrain": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "misc/ocean.tmx#water": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "overworld/a1.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4
+            ],
+            "scale": 4,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 186,
+                "y": 186.375
+            }
+        },
+        "overworld/a1.tmx#terrain": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "overworld/a2.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4
+            ],
+            "scale": 3,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 185.66666666666663,
+                "y": 146.83333333333334
+            }
+        },
+        "overworld/a2.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "overworld/b1.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 304,
+                "y": 160.25
+            }
+        },
+        "overworld/b1.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "overworld/b2.tmx": {
+            "scale": 2.4607638888888888,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 288.12191336249475,
+                "y": 160.31607168054188
+            }
+        },
+        "overworld/b2.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "overworld/test1.tmx": {
+            "scale": 2.33125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 304.98659517426273,
+                "y": 165.3619302949062
+            }
+        },
+        "overworld/test1.tmx#houses": {
+            "scaleInDock": 1
+        },
+        "overworld/test1.tmx#objects": {
+            "scaleInDock": 1
+        },
+        "overworld/test1.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "overworld/test1.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "overworld/test1.tmx#water": {
+            "scaleInDock": 1
+        },
+        "test.tmx": {
+            "scale": 1.6151855468749998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.3250400556244,
+                "y": 288.20218265364736
+            }
+        },
+        "test.tmx#water": {
+            "scaleInDock": 1
+        },
+        "test1.tmx": {
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 283,
+                "y": 192.25
+            }
+        },
+        "test1.tmx#houses": {
+            "scaleInDock": 1
+        },
+        "test1.tmx#objects": {
+            "scaleInDock": 1
+        },
+        "test1.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "test1.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "test1.tmx#water": {
+            "scaleInDock": 1
+        }
+    },
+    "frame.defaultDuration": 150,
+    "last.exportedFilePath": "C:/Projects/moonshire/maps/overworld",
+    "last.externalTilesetPath": "C:/Projects/moonshire/maps/_tilesets2/_export",
+    "last.imagePath": "C:/Projects/moonshire/maps/_tilesets2",
+    "map.lastUsedExportFilter": "Lua files (*.lua)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 36,
+    "openFiles": [
+        "misc/ocean.tmx",
+        "3_town.tmx",
+        "4_camp.tmx",
+        "6_ruins.tmx",
+        "overworld/a1.tmx",
+        "overworld/a2.tmx",
+        "overworld/b1.tmx",
+        "overworld/b2.tmx",
+        "7_waterfall.tmx",
+        "caves/c_marsh.tmx",
+        "caves/c_eyeris.tmx"
+    ],
+    "project": "moonshire.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "misc/ocean.tmx",
+        "3_town.tmx",
+        "4_camp.tmx",
+        "6_ruins.tmx",
+        "caves/c_eyeris.tmx",
+        "caves/c_marsh.tmx",
+        "7_waterfall.tmx",
+        "overworld/b2.tmx",
+        "overworld/b1.tmx",
+        "overworld/a2.tmx",
+        "overworld/a1.tmx",
+        "dungeons/cloud/cloudBoss.tmx"
+    ],
+    "resizeMap.removeObjects": false,
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

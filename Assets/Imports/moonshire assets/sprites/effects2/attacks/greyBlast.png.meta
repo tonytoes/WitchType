@@ -1,0 +1,2184 @@
+fileFormatVersion: 2
+guid: adb5c06567f56594c850870de02beae5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6362992568108707488
+    second: greyBlast_0
+  - first:
+      213: 7907221381244256064
+    second: greyBlast_1
+  - first:
+      213: -1742936210278475361
+    second: greyBlast_2
+  - first:
+      213: -3159341474661606126
+    second: greyBlast_3
+  - first:
+      213: 6318280504646377236
+    second: greyBlast_4
+  - first:
+      213: 6007205250572580072
+    second: greyBlast_5
+  - first:
+      213: 247745709013856224
+    second: greyBlast_6
+  - first:
+      213: 4915442961789937360
+    second: greyBlast_7
+  - first:
+      213: -49859501847791272
+    second: greyBlast_8
+  - first:
+      213: -691018151589916080
+    second: greyBlast_9
+  - first:
+      213: 732851889999028253
+    second: greyBlast_10
+  - first:
+      213: 4618827787902515373
+    second: greyBlast_11
+  - first:
+      213: 8689165086702817583
+    second: greyBlast_12
+  - first:
+      213: -3530606523094239296
+    second: greyBlast_13
+  - first:
+      213: -4787634945093808282
+    second: greyBlast_14
+  - first:
+      213: -2095063596623205675
+    second: greyBlast_15
+  - first:
+      213: 8451874008193488998
+    second: greyBlast_16
+  - first:
+      213: 8603833984786608886
+    second: greyBlast_17
+  - first:
+      213: 5762869354369503161
+    second: greyBlast_18
+  - first:
+      213: 78337390311068853
+    second: greyBlast_19
+  - first:
+      213: -4583244654915345846
+    second: greyBlast_20
+  - first:
+      213: -4659109240452688645
+    second: greyBlast_21
+  - first:
+      213: -905489624724179590
+    second: greyBlast_22
+  - first:
+      213: 4109898998545831165
+    second: greyBlast_23
+  - first:
+      213: 4261221362252381526
+    second: greyBlast_24
+  - first:
+      213: -7606729478556902190
+    second: greyBlast_25
+  - first:
+      213: 7467409950443935566
+    second: greyBlast_26
+  - first:
+      213: -7391563942554184629
+    second: greyBlast_27
+  - first:
+      213: -5499659881105119292
+    second: greyBlast_28
+  - first:
+      213: 5930369130391326702
+    second: greyBlast_29
+  - first:
+      213: -742915425570945030
+    second: greyBlast_30
+  - first:
+      213: -1955781700489684406
+    second: greyBlast_31
+  - first:
+      213: 7194616764293205097
+    second: greyBlast_32
+  - first:
+      213: -9194901008395057989
+    second: greyBlast_33
+  - first:
+      213: -7404833567227519108
+    second: greyBlast_34
+  - first:
+      213: 8022643209418310234
+    second: greyBlast_35
+  - first:
+      213: 8656016867612713278
+    second: greyBlast_36
+  - first:
+      213: 1090589081996600165
+    second: greyBlast_37
+  - first:
+      213: 5888793748946359741
+    second: greyBlast_38
+  - first:
+      213: 1342512752919323522
+    second: greyBlast_39
+  - first:
+      213: -2560424427637059654
+    second: greyBlast_40
+  - first:
+      213: -2798848411465789361
+    second: greyBlast_41
+  - first:
+      213: 4650676809401664624
+    second: greyBlast_42
+  - first:
+      213: -8488797899729666430
+    second: greyBlast_43
+  - first:
+      213: 3993831660538722538
+    second: greyBlast_44
+  - first:
+      213: 1291268469252173270
+    second: greyBlast_45
+  - first:
+      213: -3363523959449511876
+    second: greyBlast_46
+  - first:
+      213: -1318913147696238678
+    second: greyBlast_47
+  - first:
+      213: -3558507781864866868
+    second: greyBlast_48
+  - first:
+      213: 7360470401924201706
+    second: greyBlast_49
+  - first:
+      213: 1884382684706733328
+    second: greyBlast_50
+  - first:
+      213: 3409617253975095436
+    second: greyBlast_51
+  - first:
+      213: -2573060751012472335
+    second: greyBlast_52
+  - first:
+      213: 6535394489221808091
+    second: greyBlast_53
+  - first:
+      213: 7822542806004923991
+    second: greyBlast_54
+  - first:
+      213: 3371623210896701722
+    second: greyBlast_55
+  - first:
+      213: -2137088760631652074
+    second: greyBlast_56
+  - first:
+      213: -6836046294895743922
+    second: greyBlast_57
+  - first:
+      213: -5067608764229739955
+    second: greyBlast_58
+  - first:
+      213: 7512661524307584524
+    second: greyBlast_59
+  - first:
+      213: 2391296442115268896
+    second: greyBlast_60
+  - first:
+      213: -6994592191673635565
+    second: greyBlast_61
+  - first:
+      213: -7743739312692085463
+    second: greyBlast_62
+  - first:
+      213: -6510997997449731995
+    second: greyBlast_63
+  - first:
+      213: -2908081942312482478
+    second: greyBlast_64
+  - first:
+      213: -5781135141834731619
+    second: greyBlast_65
+  - first:
+      213: 9106135736074648623
+    second: greyBlast_66
+  - first:
+      213: -6280831302275339771
+    second: greyBlast_67
+  - first:
+      213: 6405348950029816304
+    second: greyBlast_68
+  - first:
+      213: 3385822056878963866
+    second: greyBlast_69
+  - first:
+      213: -104572421403352706
+    second: greyBlast_70
+  - first:
+      213: -5530207361149422534
+    second: greyBlast_71
+  - first:
+      213: -4941486376273676542
+    second: greyBlast_72
+  - first:
+      213: 7320971755258136030
+    second: greyBlast_73
+  - first:
+      213: -6081082678669633664
+    second: greyBlast_74
+  - first:
+      213: 3439821169440289598
+    second: greyBlast_75
+  - first:
+      213: 6769726502228373442
+    second: greyBlast_76
+  - first:
+      213: -3192259625127863229
+    second: greyBlast_77
+  - first:
+      213: 5859596833200153098
+    second: greyBlast_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: greyBlast_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 19
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aee1923704ed4850800000000000000
+      internalID: 6362992568108707488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 53
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fff65b3f71cbd60800000000000000
+      internalID: 7907221381244256064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 59
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f999f2050c8dfc7e0800000000000000
+      internalID: -1742936210278475361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_3
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 53
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dd2aeeaa3c724d0800000000000000
+      internalID: -3159341474661606126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 59
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f19bea4aa0fa750800000000000000
+      internalID: 6318280504646377236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_5
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 63
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e47d3d0951ed5350800000000000000
+      internalID: 6007205250572580072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_6
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 64
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efe564e86b207300800000000000000
+      internalID: 247745709013856224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_7
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 59
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6ee23a459273440800000000000000
+      internalID: 4915442961789937360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_8
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 66
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8593fa71c0dde4ff0800000000000000
+      internalID: -49859501847791272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 65
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052d22df6a20966f0800000000000000
+      internalID: -691018151589916080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_10
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 70
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10ad5049ec9b2a00800000000000000
+      internalID: 732851889999028253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_11
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 66
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8f1a8c66f591040800000000000000
+      internalID: 4618827787902515373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_12
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 68
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21d5a3fb9d169870800000000000000
+      internalID: 8689165086702817583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_13
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 66
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c77a4db214c00fc0800000000000000
+      internalID: -3530606523094239296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_14
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 71
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fcf672267ee8db0800000000000000
+      internalID: -4787634945093808282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_15
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 66
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5daeb6d42c6dce2e0800000000000000
+      internalID: -2095063596623205675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668dab861a61b4570800000000000000
+      internalID: 8451874008193488998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_17
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 74
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2b3a19c65f66770800000000000000
+      internalID: 8603833984786608886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_18
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfcd221523d9ff40800000000000000
+      internalID: 5762869354369503161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_19
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b45f12017f461100800000000000000
+      internalID: 78337390311068853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_20
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a422019f44b0560c0800000000000000
+      internalID: -4583244654915345846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_21
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 70
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4d311b4d4875fb0800000000000000
+      internalID: -4659109240452688645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_22
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 71
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75738adbfd0f63f0800000000000000
+      internalID: -905489624724179590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_23
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 48
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4de0f2d5b490930800000000000000
+      internalID: 4109898998545831165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_24
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 15
+        width: 109
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65dfb568046e22b30800000000000000
+      internalID: 4261221362252381526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 28
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc9f1867d77f6690800000000000000
+      internalID: -7606729478556902190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_26
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 34
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e479d6039c191a760800000000000000
+      internalID: 7467409950443935566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_27
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 34
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44d875a1c3eb6990800000000000000
+      internalID: -7391563942554184629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_28
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 50
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c723410a784da3b0800000000000000
+      internalID: -5499659881105119292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_29
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 45
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefcaebbd47ec4250800000000000000
+      internalID: 5930369130391326702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_30
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 52
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af78fa84b52a0b5f0800000000000000
+      internalID: -742915425570945030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_31
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 52
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a5a14d7eaabd4e0800000000000000
+      internalID: -1955781700489684406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_32
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c44c214d968d360800000000000000
+      internalID: 7194616764293205097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_33
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 59
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb44bb1ef36256080800000000000000
+      internalID: -9194901008395057989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_34
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fd3846a1fbc3990800000000000000
+      internalID: -7404833567227519108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_35
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 59
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5204114e77265f60800000000000000
+      internalID: 8022643209418310234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_36
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3168d3ca79502870800000000000000
+      internalID: 8656016867612713278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563a35cedfc822f00800000000000000
+      internalID: 1090589081996600165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_38
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 33
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db51d79e6b239b150800000000000000
+      internalID: 5888793748946359741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_39
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 42
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28320306c3091a210800000000000000
+      internalID: 1342512752919323522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_40
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 51
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfc57c7c8b877cd0800000000000000
+      internalID: -2560424427637059654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_41
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 44
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f405a6ed23e7829d0800000000000000
+      internalID: -2798848411465789361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_42
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0748885fae58a8040800000000000000
+      internalID: 4650676809401664624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_43
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 49
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ef788294bb13a80800000000000000
+      internalID: -8488797899729666430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_44
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 15
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae87e1b2cb0fc6730800000000000000
+      internalID: 3993831660538722538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_45
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 15
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd2073d4d18be110800000000000000
+      internalID: 1291268469252173270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 34
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c381f7397cc5251d0800000000000000
+      internalID: -3363523959449511876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_47
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 32
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf29f5ea7742bde0800000000000000
+      internalID: -1318913147696238678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_48
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb3b73b604ad9ec0800000000000000
+      internalID: -3558507781864866868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_49
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 32
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecf77645d4a52660800000000000000
+      internalID: 7360470401924201706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_50
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 41
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d77de511ca62a10800000000000000
+      internalID: 1884382684706733328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_51
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c887a3bd3d4615f20800000000000000
+      internalID: 3409617253975095436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_52
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9d66e21e6aa4cd0800000000000000
+      internalID: -2573060751012472335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_53
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf7c1579a262ba50800000000000000
+      internalID: 6535394489221808091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_54
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 16
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ef5388c314f8c60800000000000000
+      internalID: 7822542806004923991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_55
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 24
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19b5f952796ace20800000000000000
+      internalID: 3371623210896701722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_56
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 12
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611121158198752e0800000000000000
+      internalID: -2137088760631652074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_57
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 12
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c2d9c1d1c7121a0800000000000000
+      internalID: -6836046294895743922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_58
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 31
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a1e63adac3ca9b0800000000000000
+      internalID: -5067608764229739955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_59
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0629124ad5524860800000000000000
+      internalID: 7512661524307584524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_60
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021afe8c1779f2120800000000000000
+      internalID: 2391296442115268896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_61
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 21
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d629ae5773eee90800000000000000
+      internalID: -6994592191673635565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_62
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 20
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92db2c98f16b88490800000000000000
+      internalID: -7743739312692085463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_63
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 11
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560aabc61d944a5a0800000000000000
+      internalID: -6510997997449731995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 19
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2598cb291ea64a7d0800000000000000
+      internalID: -2908081942312482478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_65
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fc960e73845cfa0800000000000000
+      internalID: -5781135141834731619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_66
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 17
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c3831a43e7f5e70800000000000000
+      internalID: 9106135736074648623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_67
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 20
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a69b5353106d8a0800000000000000
+      internalID: -6280831302275339771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_68
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 11
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1d2fcdeee54e850800000000000000
+      internalID: 6405348950029816304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_69
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 11
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cf3fcc83bdcfe20800000000000000
+      internalID: 3385822056878963866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_70
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 20
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7163f0dfeb7c8ef0800000000000000
+      internalID: -104572421403352706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_71
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34307094b1c043b0800000000000000
+      internalID: -5530207361149422534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_72
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 18
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20776c762505c6bb0800000000000000
+      internalID: -4941486376273676542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_73
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed544d2f501599560800000000000000
+      internalID: 7320971755258136030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_74
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0879d10d587ab9ba0800000000000000
+      internalID: -6081082678669633664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_75
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 11
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e337b5fe023bcbf20800000000000000
+      internalID: 3439821169440289598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_76
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 15
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfaedfd266e2fd50800000000000000
+      internalID: 6769726502228373442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_77
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c9e65c8c0d2b3d0800000000000000
+      internalID: -3192259625127863229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greyBlast_78
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0226e93648715150800000000000000
+      internalID: 5859596833200153098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      greyBlast_0: 6362992568108707488
+      greyBlast_1: 7907221381244256064
+      greyBlast_10: 732851889999028253
+      greyBlast_11: 4618827787902515373
+      greyBlast_12: 8689165086702817583
+      greyBlast_13: -3530606523094239296
+      greyBlast_14: -4787634945093808282
+      greyBlast_15: -2095063596623205675
+      greyBlast_16: 8451874008193488998
+      greyBlast_17: 8603833984786608886
+      greyBlast_18: 5762869354369503161
+      greyBlast_19: 78337390311068853
+      greyBlast_2: -1742936210278475361
+      greyBlast_20: -4583244654915345846
+      greyBlast_21: -4659109240452688645
+      greyBlast_22: -905489624724179590
+      greyBlast_23: 4109898998545831165
+      greyBlast_24: 4261221362252381526
+      greyBlast_25: -7606729478556902190
+      greyBlast_26: 7467409950443935566
+      greyBlast_27: -7391563942554184629
+      greyBlast_28: -5499659881105119292
+      greyBlast_29: 5930369130391326702
+      greyBlast_3: -3159341474661606126
+      greyBlast_30: -742915425570945030
+      greyBlast_31: -1955781700489684406
+      greyBlast_32: 7194616764293205097
+      greyBlast_33: -9194901008395057989
+      greyBlast_34: -7404833567227519108
+      greyBlast_35: 8022643209418310234
+      greyBlast_36: 8656016867612713278
+      greyBlast_37: 1090589081996600165
+      greyBlast_38: 5888793748946359741
+      greyBlast_39: 1342512752919323522
+      greyBlast_4: 6318280504646377236
+      greyBlast_40: -2560424427637059654
+      greyBlast_41: -2798848411465789361
+      greyBlast_42: 4650676809401664624
+      greyBlast_43: -8488797899729666430
+      greyBlast_44: 3993831660538722538
+      greyBlast_45: 1291268469252173270
+      greyBlast_46: -3363523959449511876
+      greyBlast_47: -1318913147696238678
+      greyBlast_48: -3558507781864866868
+      greyBlast_49: 7360470401924201706
+      greyBlast_5: 6007205250572580072
+      greyBlast_50: 1884382684706733328
+      greyBlast_51: 3409617253975095436
+      greyBlast_52: -2573060751012472335
+      greyBlast_53: 6535394489221808091
+      greyBlast_54: 7822542806004923991
+      greyBlast_55: 3371623210896701722
+      greyBlast_56: -2137088760631652074
+      greyBlast_57: -6836046294895743922
+      greyBlast_58: -5067608764229739955
+      greyBlast_59: 7512661524307584524
+      greyBlast_6: 247745709013856224
+      greyBlast_60: 2391296442115268896
+      greyBlast_61: -6994592191673635565
+      greyBlast_62: -7743739312692085463
+      greyBlast_63: -6510997997449731995
+      greyBlast_64: -2908081942312482478
+      greyBlast_65: -5781135141834731619
+      greyBlast_66: 9106135736074648623
+      greyBlast_67: -6280831302275339771
+      greyBlast_68: 6405348950029816304
+      greyBlast_69: 3385822056878963866
+      greyBlast_7: 4915442961789937360
+      greyBlast_70: -104572421403352706
+      greyBlast_71: -5530207361149422534
+      greyBlast_72: -4941486376273676542
+      greyBlast_73: 7320971755258136030
+      greyBlast_74: -6081082678669633664
+      greyBlast_75: 3439821169440289598
+      greyBlast_76: 6769726502228373442
+      greyBlast_77: -3192259625127863229
+      greyBlast_78: 5859596833200153098
+      greyBlast_8: -49859501847791272
+      greyBlast_9: -691018151589916080
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

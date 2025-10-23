@@ -1,0 +1,5 @@
+local lclNarration = {
+
+}
+
+return lclNarration

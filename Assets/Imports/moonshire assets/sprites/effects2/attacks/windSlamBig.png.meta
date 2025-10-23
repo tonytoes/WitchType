@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: b448b9ee470fd914ca5174777c61f833
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2495822243590226107
+    second: windSlamBig_0
+  - first:
+      213: 7261727232372799902
+    second: windSlamBig_1
+  - first:
+      213: 8131055808499828758
+    second: windSlamBig_2
+  - first:
+      213: 585031493558222114
+    second: windSlamBig_3
+  - first:
+      213: 3334261451587714869
+    second: windSlamBig_4
+  - first:
+      213: 7694319605788704291
+    second: windSlamBig_5
+  - first:
+      213: 8398710792275666467
+    second: windSlamBig_6
+  - first:
+      213: -1020948918731568489
+    second: windSlamBig_7
+  - first:
+      213: -5837398191008176026
+    second: windSlamBig_8
+  - first:
+      213: -4430554221716569978
+    second: windSlamBig_9
+  - first:
+      213: 1946630270849234836
+    second: windSlamBig_10
+  - first:
+      213: 4952854813874574512
+    second: windSlamBig_11
+  - first:
+      213: 9191406747700060011
+    second: windSlamBig_12
+  - first:
+      213: -6265011646432819588
+    second: windSlamBig_13
+  - first:
+      213: 2342112147068044220
+    second: windSlamBig_14
+  - first:
+      213: -6675117467380812883
+    second: windSlamBig_15
+  - first:
+      213: -9099359506162724191
+    second: windSlamBig_16
+  - first:
+      213: -1328643162217490250
+    second: windSlamBig_17
+  - first:
+      213: 1468031081455494164
+    second: windSlamBig_18
+  - first:
+      213: -8599293774422773431
+    second: windSlamBig_19
+  - first:
+      213: -1149786124804091953
+    second: windSlamBig_20
+  - first:
+      213: 8962867921965199919
+    second: windSlamBig_21
+  - first:
+      213: 1212917576663579641
+    second: windSlamBig_22
+  - first:
+      213: -4273376491806409066
+    second: windSlamBig_23
+  - first:
+      213: 3589957095389665942
+    second: windSlamBig_24
+  - first:
+      213: 6018318210102973106
+    second: windSlamBig_25
+  - first:
+      213: -8721105114121298886
+    second: windSlamBig_26
+  - first:
+      213: 1401672472049673818
+    second: windSlamBig_27
+  - first:
+      213: 1072566029587090464
+    second: windSlamBig_28
+  - first:
+      213: 4729606994753682400
+    second: windSlamBig_29
+  - first:
+      213: 9115393170884285948
+    second: windSlamBig_30
+  - first:
+      213: 5759592165207111937
+    second: windSlamBig_31
+  - first:
+      213: -6046538320858485194
+    second: windSlamBig_32
+  - first:
+      213: -7517984197129984238
+    second: windSlamBig_33
+  - first:
+      213: -4457578054385818566
+    second: windSlamBig_34
+  - first:
+      213: 8896911078485974706
+    second: windSlamBig_35
+  - first:
+      213: 4152813032521893010
+    second: windSlamBig_36
+  - first:
+      213: -1707654140671752403
+    second: windSlamBig_37
+  - first:
+      213: -4741143051344480211
+    second: windSlamBig_38
+  - first:
+      213: -762813450722204637
+    second: windSlamBig_39
+  - first:
+      213: 6093836918559369254
+    second: windSlamBig_40
+  - first:
+      213: -5926969965886185641
+    second: windSlamBig_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: windSlamBig_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 21
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f394494ee0d5dd0800000000000000
+      internalID: -2495822243590226107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 12
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e997c5d8176d6c460800000000000000
+      internalID: 7261727232372799902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618428a7d2057d070800000000000000
+      internalID: 8131055808499828758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 4
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d34f33b037e1800800000000000000
+      internalID: 585031493558222114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ff922ef1da54e20800000000000000
+      internalID: 3334261451587714869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 12
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32efb5b4ae6b7ca60800000000000000
+      internalID: 7694319605788704291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 40
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326a4d0a7f63e8470800000000000000
+      internalID: 8398710792275666467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_7
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 9
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a8f2d1e5cd4d1f0800000000000000
+      internalID: -1020948918731568489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668237ce5456dfea0800000000000000
+      internalID: -5837398191008176026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6800a70d8628382c0800000000000000
+      internalID: -4430554221716569978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_10
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 49
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497bdfaeae1d30b10800000000000000
+      internalID: 1946630270849234836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_11
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 39
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4d31d36331cb440800000000000000
+      internalID: 4952854813874574512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_12
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 45
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f5ac62dbf6e8f70800000000000000
+      internalID: 9191406747700060011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 51
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76cfacd9153e09a0800000000000000
+      internalID: -6265011646432819588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_14
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb34e16b69ad08020800000000000000
+      internalID: 2342112147068044220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 40
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3f2ca97083d53a0800000000000000
+      internalID: -6675117467380812883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_16
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 55
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2d8975db498b180800000000000000
+      internalID: -9099359506162724191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_17
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 29
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b856ca5516bf8de0800000000000000
+      internalID: -1328643162217490250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_18
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 52
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41423699d7e7f5410800000000000000
+      internalID: 1468031081455494164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_19
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9417d488fdb29a880800000000000000
+      internalID: -8599293774422773431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_20
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 40
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf016f7c932b00f0800000000000000
+      internalID: -1149786124804091953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_21
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 41
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22ba7143e0826c70800000000000000
+      internalID: 8962867921965199919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_22
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb3cd21c1625d010800000000000000
+      internalID: 1212917576663579641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ebf56d8bae1b4c0800000000000000
+      internalID: -4273376491806409066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_24
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 11
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a189535f612d130800000000000000
+      internalID: 3589957095389665942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_25
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2d372968c558350800000000000000
+      internalID: 6018318210102973106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_26
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c15f7ea1968f680800000000000000
+      internalID: -8721105114121298886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_27
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56e6fbdfadb37310800000000000000
+      internalID: 1401672472049673818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_28
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c80b70f1582ee00800000000000000
+      internalID: 1072566029587090464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_29
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebfe71d080f2a140800000000000000
+      internalID: 4729606994753682400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_30
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 18
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf554922bc1608e70800000000000000
+      internalID: 9115393170884285948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_31
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 15
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109fa420f8e2eef40800000000000000
+      internalID: 5759592165207111937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_32
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 21
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e6170ee61661ca0800000000000000
+      internalID: -6046538320858485194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_33
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 9
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21721176431caa790800000000000000
+      internalID: -7517984197129984238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_34
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 6
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34a1c570608322c0800000000000000
+      internalID: -4457578054385818566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_35
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bed46fec7d287b70800000000000000
+      internalID: 8896911078485974706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_36
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 12
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29484165371c1a930800000000000000
+      internalID: 4152813032521893010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_37
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27090a4b913d48e0800000000000000
+      internalID: -1707654140671752403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_38
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28fc43b383143eb0800000000000000
+      internalID: -4741143051344480211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_39
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 0
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32420d74531f965f0800000000000000
+      internalID: -762813450722204637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_40
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62864e11468a19450800000000000000
+      internalID: 6093836918559369254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windSlamBig_41
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fd1fce73c2fbda0800000000000000
+      internalID: -5926969965886185641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      windSlamBig_0: -2495822243590226107
+      windSlamBig_1: 7261727232372799902
+      windSlamBig_10: 1946630270849234836
+      windSlamBig_11: 4952854813874574512
+      windSlamBig_12: 9191406747700060011
+      windSlamBig_13: -6265011646432819588
+      windSlamBig_14: 2342112147068044220
+      windSlamBig_15: -6675117467380812883
+      windSlamBig_16: -9099359506162724191
+      windSlamBig_17: -1328643162217490250
+      windSlamBig_18: 1468031081455494164
+      windSlamBig_19: -8599293774422773431
+      windSlamBig_2: 8131055808499828758
+      windSlamBig_20: -1149786124804091953
+      windSlamBig_21: 8962867921965199919
+      windSlamBig_22: 1212917576663579641
+      windSlamBig_23: -4273376491806409066
+      windSlamBig_24: 3589957095389665942
+      windSlamBig_25: 6018318210102973106
+      windSlamBig_26: -8721105114121298886
+      windSlamBig_27: 1401672472049673818
+      windSlamBig_28: 1072566029587090464
+      windSlamBig_29: 4729606994753682400
+      windSlamBig_3: 585031493558222114
+      windSlamBig_30: 9115393170884285948
+      windSlamBig_31: 5759592165207111937
+      windSlamBig_32: -6046538320858485194
+      windSlamBig_33: -7517984197129984238
+      windSlamBig_34: -4457578054385818566
+      windSlamBig_35: 8896911078485974706
+      windSlamBig_36: 4152813032521893010
+      windSlamBig_37: -1707654140671752403
+      windSlamBig_38: -4741143051344480211
+      windSlamBig_39: -762813450722204637
+      windSlamBig_4: 3334261451587714869
+      windSlamBig_40: 6093836918559369254
+      windSlamBig_41: -5926969965886185641
+      windSlamBig_5: 7694319605788704291
+      windSlamBig_6: 8398710792275666467
+      windSlamBig_7: -1020948918731568489
+      windSlamBig_8: -5837398191008176026
+      windSlamBig_9: -4430554221716569978
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

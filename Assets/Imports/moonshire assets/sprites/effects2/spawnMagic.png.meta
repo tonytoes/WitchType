@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: e2e53a1e9e7c52343b037c8283dd704f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5087875336963811007
+    second: spawnMagic_0
+  - first:
+      213: -8252064322556676157
+    second: spawnMagic_1
+  - first:
+      213: -8127472250494405971
+    second: spawnMagic_2
+  - first:
+      213: -5385996667569048358
+    second: spawnMagic_3
+  - first:
+      213: 5320007811201179479
+    second: spawnMagic_4
+  - first:
+      213: 7186689021732349711
+    second: spawnMagic_5
+  - first:
+      213: -4282094755102126149
+    second: spawnMagic_6
+  - first:
+      213: 140829148956943143
+    second: spawnMagic_7
+  - first:
+      213: 7744591401286568057
+    second: spawnMagic_8
+  - first:
+      213: -3855266573183857534
+    second: spawnMagic_9
+  - first:
+      213: -4716969594071923042
+    second: spawnMagic_10
+  - first:
+      213: -6657087039226655540
+    second: spawnMagic_11
+  - first:
+      213: -9096235822968054333
+    second: spawnMagic_12
+  - first:
+      213: 4352483037076778602
+    second: spawnMagic_13
+  - first:
+      213: -1530255949538790886
+    second: spawnMagic_14
+  - first:
+      213: 2441657067592615394
+    second: spawnMagic_15
+  - first:
+      213: -4340567135049380478
+    second: spawnMagic_16
+  - first:
+      213: -2405020908170408443
+    second: spawnMagic_17
+  - first:
+      213: 2132008993370042236
+    second: spawnMagic_18
+  - first:
+      213: 1889062769983105982
+    second: spawnMagic_19
+  - first:
+      213: 7454010654757601317
+    second: spawnMagic_20
+  - first:
+      213: 98666925420240797
+    second: spawnMagic_21
+  - first:
+      213: 900265696857727390
+    second: spawnMagic_22
+  - first:
+      213: -1564477374983023684
+    second: spawnMagic_23
+  - first:
+      213: -7847206896925297173
+    second: spawnMagic_24
+  - first:
+      213: 7311788208651210217
+    second: spawnMagic_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spawnMagic_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6e23989a3cb9640800000000000000
+      internalID: 5087875336963811007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 55
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7b55e4837ca7d80800000000000000
+      internalID: -8252064322556676157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 51
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2bf63ac0b653f80800000000000000
+      internalID: -8127472250494405971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 46
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4fb1c21981145b0800000000000000
+      internalID: -5385996667569048358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 51
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f13fceae674d940800000000000000
+      internalID: 5320007811201179479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_5
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 46
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f076e8ba69f3cb360800000000000000
+      internalID: 7186689021732349711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_6
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 40
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf039bf181f294c0800000000000000
+      internalID: -4282094755102126149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 42
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72369956d5354f100800000000000000
+      internalID: 140829148956943143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 31
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9780b3cc8d05a7b60800000000000000
+      internalID: 7744591401286568057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_9
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c40fe4a775f7ac0800000000000000
+      internalID: -3855266573183857534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_10
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 36
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9646015525f98eb0800000000000000
+      internalID: -4716969594071923042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 37
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccc90ccb964d93a0800000000000000
+      internalID: -6657087039226655540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 20
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd5ec286bda3c180800000000000000
+      internalID: -9096235822968054333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_13
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 12
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6eefd30340276c30800000000000000
+      internalID: 4352483037076778602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 22
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12ff40525073cae0800000000000000
+      internalID: -1530255949538790886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_15
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e50e21aa2282e120800000000000000
+      internalID: 2441657067592615394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 13
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d85af103533c3c0800000000000000
+      internalID: -4340567135049380478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_17
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 22
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e8d13f936af9ed0800000000000000
+      internalID: -2405020908170408443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_18
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 22
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f62c332ea669d10800000000000000
+      internalID: 2132008993370042236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_19
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 14
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb2243a49c473a10800000000000000
+      internalID: 1889062769983105982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_20
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 19
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520cdcc8237f17760800000000000000
+      internalID: 7454010654757601317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_21
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fd0c0cb098e5100800000000000000
+      internalID: 98666925420240797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_22
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 6
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91aca8a1e26e7c00800000000000000
+      internalID: 900265696857727390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_23
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3500dcd1cd94ae0800000000000000
+      internalID: -1564477374983023684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_24
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 6
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5b5cd47ee191390800000000000000
+      internalID: -7847206896925297173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawnMagic_25
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed8b81e2a0b87560800000000000000
+      internalID: 7311788208651210217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spawnMagic_0: 5087875336963811007
+      spawnMagic_1: -8252064322556676157
+      spawnMagic_10: -4716969594071923042
+      spawnMagic_11: -6657087039226655540
+      spawnMagic_12: -9096235822968054333
+      spawnMagic_13: 4352483037076778602
+      spawnMagic_14: -1530255949538790886
+      spawnMagic_15: 2441657067592615394
+      spawnMagic_16: -4340567135049380478
+      spawnMagic_17: -2405020908170408443
+      spawnMagic_18: 2132008993370042236
+      spawnMagic_19: 1889062769983105982
+      spawnMagic_2: -8127472250494405971
+      spawnMagic_20: 7454010654757601317
+      spawnMagic_21: 98666925420240797
+      spawnMagic_22: 900265696857727390
+      spawnMagic_23: -1564477374983023684
+      spawnMagic_24: -7847206896925297173
+      spawnMagic_25: 7311788208651210217
+      spawnMagic_3: -5385996667569048358
+      spawnMagic_4: 5320007811201179479
+      spawnMagic_5: 7186689021732349711
+      spawnMagic_6: -4282094755102126149
+      spawnMagic_7: 140829148956943143
+      spawnMagic_8: 7744591401286568057
+      spawnMagic_9: -3855266573183857534
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

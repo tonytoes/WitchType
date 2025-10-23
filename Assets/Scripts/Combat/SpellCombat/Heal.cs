@@ -3,7 +3,7 @@ using UnityEngine;
 public class Heal : MonoBehaviour
 {
     public int healAmount = 1;
-    public float destroyDelay = 1f; // Match this to your animation length
+    public float destroyDelay = 1f;
 
     private Animator anim;
 
