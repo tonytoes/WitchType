@@ -2,6 +2,7 @@
 using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -45,6 +46,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         playerAnimator.enabled = true;
+
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
     public void Pause()
