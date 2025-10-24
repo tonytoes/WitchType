@@ -23,7 +23,21 @@ public class PlayerMana : MonoBehaviour
     private void Start()
     {
         currentMana = maxMana;
+        SetupSlider();
         UpdateManaUI();
+    }
+
+    private void SetupSlider()
+    {
+        if (manaSlider != null)
+        {
+            manaSlider.minValue = 0f;
+            manaSlider.maxValue = maxMana;
+        }
+        else
+        {
+            Debug.LogWarning("Mana Slider not assigned!");
+        }
     }
 
     public bool HasEnoughMana(float cost)
@@ -52,18 +66,13 @@ public class PlayerMana : MonoBehaviour
     {
         if (manaSlider != null)
         {
-            manaSlider.value = currentMana / maxMana;
+            manaSlider.value = currentMana;
             Debug.Log($"Mana UI Updated: {currentMana}/{maxMana}");
-        }
-        else
-        {
-            Debug.LogWarning("Mana Slider not assigned!");
         }
     }
 
-
     private void Update()
     {
-        RegenerateMana(Time.deltaTime * 1f);
+        RegenerateMana(Time.deltaTime * 10f);
     }
 }
