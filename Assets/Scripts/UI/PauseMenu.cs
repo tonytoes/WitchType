@@ -10,6 +10,16 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject ButtonPause;
     [SerializeField] private Animator playerAnimator;
+
+
+    void Start()
+    {
+        pauseMenuUI.SetActive(false);
+        ButtonPause.SetActive(true);
+        GameIsPaused = false;
+        Time.timeScale = 1f;
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
