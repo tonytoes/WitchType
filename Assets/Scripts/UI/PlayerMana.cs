@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerMana : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerMana : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private Slider manaSlider;
+    [SerializeField] private TMP_Text manaText; 
 
     private void Awake()
     {
@@ -65,14 +67,14 @@ public class PlayerMana : MonoBehaviour
     private void UpdateManaUI()
     {
         if (manaSlider != null)
-        {
             manaSlider.value = currentMana;
-            Debug.Log($"Mana UI Updated: {currentMana}/{maxMana}");
-        }
+
+        if (manaText != null)
+            manaText.text = $"{Mathf.RoundToInt(currentMana)}"; 
     }
 
     private void Update()
     {
-        RegenerateMana(Time.deltaTime * 10f);
+        RegenerateMana(Time.deltaTime * 2f);
     }
 }
