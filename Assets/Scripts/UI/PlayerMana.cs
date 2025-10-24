@@ -75,6 +75,6 @@ public class PlayerMana : MonoBehaviour
 
     private void Update()
     {
-        RegenerateMana(Time.deltaTime * 2f);
+        RegenerateMana(Time.deltaTime * 5f);
     }
 }
