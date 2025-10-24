@@ -98,7 +98,7 @@ MonoBehaviour:
   - spellName: AngleOfDeath
     spellIcon: {fileID: 21300000, guid: 202ac07abcbe0904abd7bfc253038a50, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: 19c3180c58360a64daad0687d050fb04, type: 3}
-  - spellName: CursedCircle
-    spellIcon: {fileID: 21300000, guid: 2efd70338bda95c49a181669bfcb3557, type: 3}
-    spellPrefab: {fileID: 969676591896952384, guid: d8dcb779edc23384e938b5442416a2cf, type: 3}
+  - spellName: LightningStrike
+    spellIcon: {fileID: 21300000, guid: 86748fc1ea8275f42831bc7625b14ebb, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: 614b0f262f5199b4aa188ef9005d0ab7, type: 3}
   maxSpells: 1

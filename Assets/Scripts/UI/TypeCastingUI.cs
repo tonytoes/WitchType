@@ -86,11 +86,20 @@ public class TypeCastingUI : MonoBehaviour
     private void CastSpell()
     {
         var spell = SpellManager.Instance.selectedSpells.FirstOrDefault();
-        if (spell != null && spell.spellPrefab != null)
+        if (spell == null || spell.spellPrefab == null)
+            return;
+
+        // 🔥 Check if we have enough mana before casting
+        if (PlayerMana.Instance != null && !PlayerMana.Instance.HasEnoughMana(spell.manaCost))
         {
-            Instantiate(spell.spellPrefab, firePoint.position, firePoint.rotation);
+            Debug.Log("❌ Not enough mana to cast " + spell.spellName);
+            return; // no mana = no spell cast
         }
-      
+
+        // ✅ consume mana and spawn spell
+        PlayerMana.Instance.UseMana(spell.manaCost);
+        Instantiate(spell.spellPrefab, firePoint.position, firePoint.rotation);
     }
+
 }
 

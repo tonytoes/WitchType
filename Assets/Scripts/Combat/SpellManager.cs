@@ -85,6 +85,7 @@ public class SpellManager : MonoBehaviour
         public string spellName;
         public Sprite spellIcon;
         public GameObject spellPrefab;
+         public float manaCost = 0f;
     }
 
 }

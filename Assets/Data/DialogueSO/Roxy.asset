@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee3ef3871cf2cdb49b912311959757c7, type: 3}
-  m_Name: Seia1
+  m_Name: Roxy
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   lines:
-  - speaker: {fileID: 11400000, guid: ea44e5dc10c801f4699acf4354253935, type: 2}
-    text: Hello there!
-  - speaker: {fileID: 11400000, guid: ea44e5dc10c801f4699acf4354253935, type: 2}
-    text: I'm Seia! The defender of this village.
-  - speaker: {fileID: 11400000, guid: ea44e5dc10c801f4699acf4354253935, type: 2}
-    text: You can ask me for help when you are in danger.
-  options: []
+  - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
+    text: Hi there i am roxy!
+  - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
+    text: Do you want to play with me?
+  options:
+  - optionText: Yes
+    nextDialogue: {fileID: 11400000, guid: b48f9043bf1f10e4280edc788bd3a584, type: 2}
+  - optionText: No
+    nextDialogue: {fileID: 11400000, guid: d6f5c1f560fad0649a19630043b32098, type: 2}
   requiredNPCS: []
   requiredLocations: []
   removeAfterPlay: 0
