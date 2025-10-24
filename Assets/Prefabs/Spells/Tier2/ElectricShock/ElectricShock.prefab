@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 4905852673627584492}
   - component: {fileID: 106811068125471496}
   - component: {fileID: -7546780843507971496}
-  - component: {fileID: -1733031732843903674}
   - component: {fileID: 4323945044443613131}
   - component: {fileID: 5262723534179941184}
   - component: {fileID: 3328790067365563959}
   - component: {fileID: 4028162857498803750}
+  - component: {fileID: -9021492169785144668}
   m_Layer: 0
   m_Name: ElectricShock
   m_TagString: Untagged
@@ -123,27 +123,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-1733031732843903674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969676591896952384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da97bfae442d70c4db6ed2e36fc4197c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  speed: 0
-  lifetime: 0.4
-  kbForce: 2
-  knockbackTime: 0.3
-  stunTime: 2
-  damage: 1
-  maxDistance: 10
-  sfxSource: {fileID: 3328790067365563959}
-  launchSound: {fileID: 8300000, guid: 13d69423fbc9e3945b46f3473f3d03f2, type: 3}
 --- !u!61 &4323945044443613131
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -361,3 +340,23 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &-9021492169785144668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969676591896952384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c32f3c9515aa404186fb49748220a33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AOE
+  lifetime: 0.5
+  kbForce: 10
+  knockbackTime: 0.15
+  stunTime: 1
+  damage: 1
+  maxDistance: 0
+  sfxSource: {fileID: 3328790067365563959}
+  launchSound: {fileID: 8300000, guid: 13d69423fbc9e3945b46f3473f3d03f2, type: 3}
