@@ -16,21 +16,21 @@ public class AOE : MonoBehaviour
 
     private void Start()
     {
-        // Get the direction from player to mouse
+        
         Vector3 playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
         Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mouseWorld.z = 0f;
 
         Vector3 direction = (mouseWorld - playerPos).normalized;
 
-        // Set the position to max distance in front of player
+        
         transform.position = playerPos + direction * maxDistance;
 
-        // Play launch sound
+        
         if (sfxSource != null && launchSound != null)
             sfxSource.PlayOneShot(launchSound);
 
-        // Destroy after lifetime expires
+        
         Destroy(gameObject, lifetime);
     }
 
@@ -42,7 +42,7 @@ public class AOE : MonoBehaviour
             EnemyKnockback knockback = other.GetComponent<EnemyKnockback>();
 
             if (enemy != null)
-                enemy.TakeDamage(damage, Vector2.zero); // no specific direction needed for AOE
+                enemy.TakeDamage(damage, Vector2.zero);
 
             if (knockback != null)
                 knockback.KnockBack(transform, kbForce, knockbackTime, stunTime);
