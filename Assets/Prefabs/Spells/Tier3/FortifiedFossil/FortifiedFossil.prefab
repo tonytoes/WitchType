@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 106811068125471496}
   - component: {fileID: -7546780843507971496}
   - component: {fileID: 8224844204882507818}
+  - component: {fileID: 8525269691910806581}
   m_Layer: 0
   m_Name: FortifiedFossil
   m_TagString: Untagged
@@ -178,3 +179,19 @@ PolygonCollider2D:
       - {x: 0.20351222, y: 0.0661368}
       - {x: 0.06032928, y: 0.21894872}
   m_UseDelaunayMesh: 0
+--- !u!114 &8525269691910806581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969676591896952384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5af94582ad101994999735864f5f78db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BoulderSpell
+  lifetime: 10
+  maxDistance: 2
+  sfxSource: {fileID: 0}
+  summonSound: {fileID: 0}
