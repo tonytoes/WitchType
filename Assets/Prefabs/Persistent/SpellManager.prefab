@@ -97,8 +97,8 @@ MonoBehaviour:
     spellPrefab: {fileID: 969676591896952384, guid: a1b2e2e84f871f24bb548fadb8e3bc1c, type: 3}
   - spellName: AngleOfDeath
     spellIcon: {fileID: 21300000, guid: 202ac07abcbe0904abd7bfc253038a50, type: 3}
-    spellPrefab: {fileID: 969676591896952384, guid: e6af4f9abb92bc24d92af3f37986e636, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: 19c3180c58360a64daad0687d050fb04, type: 3}
   - spellName: CursedCircle
     spellIcon: {fileID: 21300000, guid: 2efd70338bda95c49a181669bfcb3557, type: 3}
-    spellPrefab: {fileID: 969676591896952384, guid: e6af4f9abb92bc24d92af3f37986e636, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: d8dcb779edc23384e938b5442416a2cf, type: 3}
   maxSpells: 1

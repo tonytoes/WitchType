@@ -2230,6 +2230,10 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 4ce5349cd1ab04f44a2b85dfa3a0a80e, type: 3}
   - name: Click
     clip: {fileID: 8300000, guid: b7e5c0a53bc7791409a79ef9db1e84fc, type: 3}
+  - name: BookOpen
+    clip: {fileID: 8300000, guid: 396070e697bf4014284a95705ee374ce, type: 3}
+  - name: BookClose
+    clip: {fileID: 8300000, guid: 1d6707123e134a3429fd3b8bdb7c2b1a, type: 3}
   musicSource: {fileID: 2925837278514588178}
   sfxSource: {fileID: 6697791980549151468}
 --- !u!1 &7587400181360991376
