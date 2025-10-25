@@ -16,7 +16,6 @@ public class BoulderSpell : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player == null)
         {
-            Debug.LogWarning("No Player object found with tag 'Player'");
             return;
         }
 
