@@ -139,6 +139,12 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(detectionPoint.position, playerDetectionRange);
+    }
+
     public void OnDamagedByPlayer(Vector2 attackDirection)
     {
         FaceAttackDirection(attackDirection);

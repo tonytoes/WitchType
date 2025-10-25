@@ -79,6 +79,13 @@ public class SpellManager : MonoBehaviour
         }
     }
 
+    public void SelectOnly(Spell spell)
+    {
+        selectedSpells.Clear();  
+        selectedSpells.Add(spell);
+    }
+
+
     [System.Serializable]
     public class Spell
     {
