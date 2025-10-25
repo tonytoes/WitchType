@@ -5,7 +5,6 @@ using System.Collections;
 
 public class SpellBookUI : MonoBehaviour
 {
-    public TMP_Text counterText;
     public GameObject spellBookPanel;
     [SerializeField] private GameObject[] spellSlots;
 
@@ -32,6 +31,9 @@ public class SpellBookUI : MonoBehaviour
     private IEnumerator Start()
     {
         audioManager = FindFirstObjectByType<AudioManager>();
+        yield return new WaitUntil(() => GameManager.Instance != null && GameManager.Instance.spellManager != null);
+
+        yield return null;
         GameManager.Instance.spellBookUI = this;
 
         spellBookPanel.SetActive(false);
@@ -39,7 +41,6 @@ public class SpellBookUI : MonoBehaviour
         yield return new WaitUntil(() => GameManager.Instance.spellManager != null);
 
         UpdateSpellSlot();
-        UpdateCounter();
         initialized = true;
 
 
@@ -55,7 +56,6 @@ public class SpellBookUI : MonoBehaviour
         StartCoroutine(ScaleAnimation(true));
 
         GoToPage(pageIndex, false);
-        UpdateCounter();
         audioManager?.PlaySFX("BookOpen");
     }
 
@@ -110,15 +110,6 @@ public class SpellBookUI : MonoBehaviour
 
         if (!opening)
             spellBookPanel.SetActive(false);
-    }
-
-
-
-    public void UpdateCounter()
-    {
-        var sm = SpellManager.Instance;
-        if (sm == null) return;
-        counterText.text = $"SPELL BOOK [{sm.selectedSpells.Count} / {sm.maxSpells}]";
     }
 
     public void UpdateSpellSlot()

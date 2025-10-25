@@ -97,6 +97,8 @@ MonoBehaviour:
   DialogueManager: {fileID: 0}
   DialogueHistoryTracker: {fileID: 0}
   LocationHistoryTracker: {fileID: 0}
+  spellBookUI: {fileID: 8351958045881789517, guid: a77259c3ce477474787ee1f21054f8a1, type: 3}
+  spellManager: {fileID: 3144131112893328270, guid: c7b730decb8eadb4d86838ba48b53a91, type: 3}
   persistentObjects:
   - {fileID: 0}
   - {fileID: 0}

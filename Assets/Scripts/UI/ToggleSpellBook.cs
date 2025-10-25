@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
 
 public class ToggleSpellBook : MonoBehaviour
 {
@@ -19,11 +20,17 @@ public class ToggleSpellBook : MonoBehaviour
         if (spellIndex >= 0 && spellIndex < spellManager.allSpells.Count)
         {
             var spell = spellManager.allSpells[spellIndex];
+
             if (spellManager.unlockedSpells.Contains(spell))
             {
-                spellManager.ToggleSpellByIndex(spellIndex);
-                selectedBorderImage.enabled = spellManager.selectedSpells.Contains(spell);
-                FindFirstObjectByType<SpellBookUI>()?.UpdateCounter();
+                spellManager.SelectOnly(spell);
+
+                var toggles = Object.FindObjectsByType<ToggleSpellBook>(FindObjectsSortMode.None);
+                foreach (var toggle in toggles)
+                {
+                    var s = spellManager.allSpells[toggle.spellIndex];
+                    toggle.selectedBorderImage.enabled = spellManager.selectedSpells.Contains(s);
+                }
             }
         }
     }
