@@ -19,8 +19,13 @@ public class TypeCastingUI : MonoBehaviour
     public Image spellIcon;
 
 
-    public TMP_Text manaWarningText; 
+    public TMP_Text manaWarningText;
     private bool isManaWarningActive = false;
+    
+
+    [Header("SFX")]
+    public AudioSource sfxSource;
+    public AudioClip manawarningsound;
     
    
 
@@ -96,7 +101,9 @@ public class TypeCastingUI : MonoBehaviour
         // 🔥 Check if we have enough mana before casting
         if (PlayerMana.Instance != null && !PlayerMana.Instance.HasEnoughMana(spell.manaCost))
         {
-            Debug.Log("❌ Not enough mana to cast " + spell.spellName);
+            if (sfxSource != null && manawarningsound != null)
+                sfxSource.PlayOneShot(manawarningsound);
+            
             StartCoroutine(ShowManaWarning());
             return; // no mana = no spell cast
         }
