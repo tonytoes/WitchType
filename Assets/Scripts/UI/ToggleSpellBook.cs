@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Linq;
 
 public class ToggleSpellBook : MonoBehaviour
 {
@@ -9,7 +8,8 @@ public class ToggleSpellBook : MonoBehaviour
 
     private void Start()
     {
-        selectedBorderImage.enabled = false;
+        if (selectedBorderImage != null)
+            selectedBorderImage.enabled = false;
     }
 
     public void Toggle()
@@ -25,12 +25,7 @@ public class ToggleSpellBook : MonoBehaviour
             {
                 spellManager.SelectOnly(spell);
 
-                var toggles = Object.FindObjectsByType<ToggleSpellBook>(FindObjectsSortMode.None);
-                foreach (var toggle in toggles)
-                {
-                    var s = spellManager.allSpells[toggle.spellIndex];
-                    toggle.selectedBorderImage.enabled = spellManager.selectedSpells.Contains(s);
-                }
+                GameManager.Instance.spellBookUI?.RefreshAllToggles();
             }
         }
     }
