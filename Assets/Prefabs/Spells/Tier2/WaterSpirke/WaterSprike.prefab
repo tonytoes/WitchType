@@ -135,13 +135,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da97bfae442d70c4db6ed2e36fc4197c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  speed: 10
+  speed: 15
   lifetime: 5
-  kbForce: 2
+  kbForce: 10
   knockbackTime: 0.15
-  stunTime: 1
-  damage: 1
-  maxDistance: 10
+  stunTime: 0
+  damage: 2
+  maxDistance: 13
   sfxSource: {fileID: 3615800066050143729}
   launchSound: {fileID: 8300000, guid: 75e8d1705ec213645838e39e24bc7692, type: 3}
 --- !u!61 &4323945044443613131

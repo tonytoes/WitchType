@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3328790067365563959}
   - component: {fileID: 4028162857498803750}
   - component: {fileID: 4316632665495019110}
-  - component: {fileID: -6014023377571529886}
+  - component: {fileID: 8221609853821010571}
   m_Layer: 0
   m_Name: DeathAngel
   m_TagString: Untagged
@@ -340,7 +340,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-6014023377571529886
+--- !u!114 &8221609853821010571
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -349,14 +349,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 969676591896952384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c32f3c9515aa404186fb49748220a33, type: 3}
+  m_Script: {fileID: 11500000, guid: f6c72e9f9519e8645ab6bf0d313b285f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AOE
+  m_EditorClassIdentifier: Assembly-CSharp::DamageOvertimeAOE
   lifetime: 1.9
-  kbForce: 5
-  knockbackTime: 0.5
-  stunTime: 0
-  damage: 7
+  kbForce: 0
+  knockbackTime: 0
+  stunTime: 1.9
+  damage: 3
+  damageInterval: 0.1
   maxDistance: 0
   sfxSource: {fileID: 3328790067365563959}
   launchSound: {fileID: 8300000, guid: 67a820ab87314a641bab25f4b7e8d4d0, type: 3}

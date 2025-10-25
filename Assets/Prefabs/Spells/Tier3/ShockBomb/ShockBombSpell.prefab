@@ -135,12 +135,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da97bfae442d70c4db6ed2e36fc4197c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  speed: 10
+  speed: 12
   lifetime: 5
-  kbForce: 2
-  knockbackTime: 0.15
-  stunTime: 1
-  damage: 1
+  kbForce: 15
+  knockbackTime: 0.3
+  stunTime: 0.5
+  damage: 10
   maxDistance: 4
   sfxSource: {fileID: -644756382556120386}
   launchSound: {fileID: 8300000, guid: 67a820ab87314a641bab25f4b7e8d4d0, type: 3}
@@ -178,7 +178,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.019432843, y: 0.05829835}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -188,7 +188,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.56, y: 0.95}
+  m_Size: {x: 2.4644094, y: 2.4657545}
   m_EdgeRadius: 0
 --- !u!95 &2117448567614944368
 Animator:

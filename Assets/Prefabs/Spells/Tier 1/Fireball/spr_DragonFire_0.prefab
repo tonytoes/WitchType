@@ -159,13 +159,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
   speed: 10
   lifetime: 5
-  kbForce: 2
-  knockbackTime: 0.15
-  stunTime: 1
+  kbForce: 0
+  knockbackTime: 0
+  stunTime: 0
   damage: 1
   maxDistance: 10
   sfxSource: {fileID: -8976878374654655426}
-  hitSound: {fileID: 8300000, guid: f585e4907e09e2c4592500ef5879257f, type: 3}
   launchSound: {fileID: 8300000, guid: 9fa73d20c3e7dd24f9f5433f736856c9, type: 3}
 --- !u!58 &7455127250352068440
 CircleCollider2D:

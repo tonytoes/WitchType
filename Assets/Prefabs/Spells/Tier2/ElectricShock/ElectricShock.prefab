@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5262723534179941184}
   - component: {fileID: 3328790067365563959}
   - component: {fileID: 4028162857498803750}
-  - component: {fileID: -9021492169785144668}
+  - component: {fileID: 2894049937618753953}
   m_Layer: 0
   m_Name: ElectricShock
   m_TagString: Untagged
@@ -157,7 +157,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.009087563, y: -0.01791972}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -167,7 +167,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.56, y: 0.95}
+  m_Size: {x: 3.449831, y: 2.509028}
   m_EdgeRadius: 0
 --- !u!95 &5262723534179941184
 Animator:
@@ -340,7 +340,7 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!114 &-9021492169785144668
+--- !u!114 &2894049937618753953
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -349,14 +349,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 969676591896952384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c32f3c9515aa404186fb49748220a33, type: 3}
+  m_Script: {fileID: 11500000, guid: f6c72e9f9519e8645ab6bf0d313b285f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AOE
+  m_EditorClassIdentifier: Assembly-CSharp::DamageOvertimeAOE
   lifetime: 0.5
-  kbForce: 10
-  knockbackTime: 0.15
-  stunTime: 1
+  kbForce: 0
+  knockbackTime: 0
+  stunTime: 3
   damage: 1
+  damageInterval: 0.1
   maxDistance: 0
   sfxSource: {fileID: 3328790067365563959}
   launchSound: {fileID: 8300000, guid: 13d69423fbc9e3945b46f3473f3d03f2, type: 3}
