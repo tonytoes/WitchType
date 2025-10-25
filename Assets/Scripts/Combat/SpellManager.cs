@@ -1,6 +1,6 @@
-
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class SpellManager : MonoBehaviour
 {
@@ -9,6 +9,9 @@ public class SpellManager : MonoBehaviour
     public List<Spell> unlockedSpells = new List<Spell>();
     public List<Spell> allSpells; 
     public int maxSpells = 1;
+
+    [Header("UI")]
+    public TextMeshProUGUI selectedSpellText; // TMP variable
 
     private void Awake()
     {
@@ -30,6 +33,7 @@ public class SpellManager : MonoBehaviour
         if (selectedSpells.Count < maxSpells && !selectedSpells.Contains(spell))
         {
             selectedSpells.Add(spell);
+            UpdateSelectedSpellText(spell.spellName);
         }
     }
 
@@ -38,6 +42,7 @@ public class SpellManager : MonoBehaviour
         if (selectedSpells.Contains(spell))
         {
             selectedSpells.Remove(spell);
+            UpdateSelectedSpellText(selectedSpells.Count > 0 ? selectedSpells[0].spellName : "");
         }
     }
 
@@ -57,11 +62,9 @@ public class SpellManager : MonoBehaviour
 
     public void ToggleSpellByIndex(int index)
     {
-
         if (index >= 0 && index < allSpells.Count)
         {
             Spell spell = allSpells[index];
-
 
             if (!unlockedSpells.Contains(spell))
             {
@@ -71,10 +74,12 @@ public class SpellManager : MonoBehaviour
             if (selectedSpells.Contains(spell))
             {
                 selectedSpells.Remove(spell);
+                UpdateSelectedSpellText(selectedSpells.Count > 0 ? selectedSpells[0].spellName : "");
             }
             else if (selectedSpells.Count < maxSpells)
             {
                 selectedSpells.Add(spell);
+                UpdateSelectedSpellText(spell.spellName);
             }
         }
     }
@@ -83,8 +88,18 @@ public class SpellManager : MonoBehaviour
     {
         selectedSpells.Clear();  
         selectedSpells.Add(spell);
+        UpdateSelectedSpellText(spell.spellName);
     }
 
+    private void UpdateSelectedSpellText(string spellName)
+    {
+        if (selectedSpellText != null)
+        {
+            selectedSpellText.text = string.IsNullOrEmpty(spellName)
+                ? ""
+                : $"{spellName}";
+        }
+    }
 
     [System.Serializable]
     public class Spell
@@ -92,7 +107,7 @@ public class SpellManager : MonoBehaviour
         public string spellName;
         public Sprite spellIcon;
         public GameObject spellPrefab;
-         public float manaCost = 0f;
+        public float manaCost = 0f;
     }
 
 }
