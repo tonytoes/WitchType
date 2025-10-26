@@ -4,7 +4,7 @@ public class EnemyHealth : MonoBehaviour, IDamagable
 {
     [SerializeField] private float maxHealth = 5f;
     [SerializeField] private ParticleSystem damageParticles;
-    [SerializeField] private FloatingHealthBar floatingHealthBar; // 🩸 link to UI
+    [SerializeField] private FloatingHealthBar floatingHealthBar; 
 
     private float health;
     private DamageFlash _damageFlash;
@@ -23,11 +23,8 @@ public class EnemyHealth : MonoBehaviour, IDamagable
         _damageFlash = GetComponent<DamageFlash>();
         enemy = GetComponent<Enemy>();
 
-        // if not assigned manually, try to find one on children
         if (floatingHealthBar == null)
             floatingHealthBar = GetComponentInChildren<FloatingHealthBar>();
-
-        // initialize bar
         if (floatingHealthBar != null)
             floatingHealthBar.UpdateHealth(health, maxHealth);
     }
@@ -39,12 +36,14 @@ public class EnemyHealth : MonoBehaviour, IDamagable
         health -= damage;
         health = Mathf.Clamp(health, 0, maxHealth);
 
-        // update the health bar after damage
         if (floatingHealthBar != null)
             floatingHealthBar.UpdateHealth(health, maxHealth);
 
         SpawnDamageParticles(attackDirection);
         _damageFlash.CallDamageFlash();
+
+        if (CinemachineShake.Instance != null)
+            CinemachineShake.Instance.Shake(1f);
 
         if (enemy != null && health > 0)
         {
@@ -57,6 +56,9 @@ public class EnemyHealth : MonoBehaviour, IDamagable
         {
             if (sfxSource != null && death_sound != null)
                 sfxSource.PlayOneShot(death_sound);
+
+            if(CinemachineShake.Instance != null)
+                CinemachineShake.Instance.Shake(2f);
             enemy.Die();
         }
     }
