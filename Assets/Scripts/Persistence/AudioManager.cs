@@ -7,13 +7,16 @@ public class AudioManager : MonoBehaviour
     public Sound[] musicSounds, sfxSounds;
     public AudioSource musicSource, sfxSource;
 
+    public VolumeSettings volumemixer;
+
     private void Start()
     {
-        // Detect scene and play music
         string currentScene = SceneManager.GetActiveScene().name;
         PlaySceneMusic(currentScene);
+        volumemixer.LoadVolume();
     }
 
+  
     private void PlaySceneMusic(string sceneName)
     {
         switch (sceneName)
