@@ -125,9 +125,28 @@ public class SpellManager : MonoBehaviour
     [System.Serializable]
     public class Spell
     {
+        [Header("Importnat Details")]
         public string spellName;
         public Sprite spellIcon;
         public GameObject spellPrefab;
         public float manaCost = 0f;
+
+        [Header("Description Details")]
+        public string spellType;
+        public string spellDescription;
+        public int spellDamage;
+        public int spellSpeed;
+        public int spellKnockback;
+        public int spellStun;
+        public int spellRange;
+        public int spellRadius;
+        public int spellHealAmount;
+        public string Duration;
+        public bool AOE;
+        public bool Projectile;
+        public bool Heal;
+        public bool Shield;
+        public bool Stone;
+
     }
 }
