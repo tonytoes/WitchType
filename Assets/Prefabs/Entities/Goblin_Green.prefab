@@ -471,7 +471,6 @@ GameObject:
   - component: {fileID: 2593517845543328024}
   - component: {fileID: 8164278912280555244}
   - component: {fileID: 5632252754151403277}
-  - component: {fileID: 7205045144048444031}
   - component: {fileID: 8196768766587001969}
   - component: {fileID: 5055692698014127576}
   - component: {fileID: 8118027237950338349}
@@ -738,26 +737,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &7205045144048444031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7333490386804538773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 230fcd068c5c5f04fb75f1cc23ba1175, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DamageFlash
-  _flashColor: {r: 1, g: 1, b: 1, a: 1}
-  _flashTime: 0.25
-  _flashSpeedCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!114 &8196768766587001969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -782,7 +761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a49ca785be00e4845a8c394f17efe8e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 10
+  maxHealth: 30
   damageParticles: {fileID: 6286881156315922479, guid: 9b24380d9a38e754b9d0e42335463531, type: 3}
   floatingHealthBar: {fileID: 7901413216104743971}
   sfxSource: {fileID: 8118027237950338349}
