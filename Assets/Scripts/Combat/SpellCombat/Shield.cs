@@ -3,8 +3,13 @@ using System.Collections;
 
 public class Shield : MonoBehaviour
 {
-    public float duration = 5f; 
+    public float duration = 5f;
     private PlayerHealth playerHealth;
+    
+    [Header("SFX")]
+    public AudioSource sfxSource;
+    public AudioClip shieldsound;
+
 
     private void Start()
     {
@@ -19,6 +24,8 @@ public class Shield : MonoBehaviour
 
             if (playerHealth != null)
                 playerHealth.SetShield(true);
+                if (sfxSource != null && shieldsound != null)
+                    sfxSource.PlayOneShot(shieldsound);
         }
         StartCoroutine(AutoDisable());
     }
@@ -32,6 +39,8 @@ public class Shield : MonoBehaviour
     {
         if (playerHealth != null)
             playerHealth.SetShield(false);
+            if (sfxSource != null && shieldsound != null)
+                    sfxSource.PlayOneShot(shieldsound);
 
         Destroy(gameObject);
     }
