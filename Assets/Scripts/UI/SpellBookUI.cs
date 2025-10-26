@@ -87,6 +87,7 @@ public class SpellBookUI : MonoBehaviour
                 pages[i].SetActive(i == targetPage);
 
             currentPage = targetPage;
+            GameManager.Instance.spellBookUI?.RefreshAllToggles();
         }
     }
 
@@ -138,4 +139,21 @@ public class SpellBookUI : MonoBehaviour
             }
         }
     }
+
+    public void RefreshAllToggles()
+    {
+        var toggles = Resources.FindObjectsOfTypeAll<ToggleSpellBook>(); 
+        var spellManager = SpellManager.Instance;
+        if (spellManager == null) return;
+
+        foreach (var toggle in toggles)
+        {
+            if (toggle == null || toggle.selectedBorderImage == null) continue;
+            if (toggle.spellIndex < 0 || toggle.spellIndex >= spellManager.allSpells.Count) continue;
+
+            var spell = spellManager.allSpells[toggle.spellIndex];
+            toggle.selectedBorderImage.enabled = spellManager.selectedSpells.Contains(spell);
+        }
+    }
+
 }
