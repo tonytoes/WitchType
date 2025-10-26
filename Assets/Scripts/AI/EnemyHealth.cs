@@ -43,7 +43,7 @@ public class EnemyHealth : MonoBehaviour, IDamagable
         _damageFlash.CallDamageFlash();
 
         if (CinemachineShake.Instance != null)
-            CinemachineShake.Instance.Shake(1f);
+            CinemachineShake.Instance.ShakeOnce(0.7f);
 
         if (enemy != null && health > 0)
         {
@@ -57,8 +57,6 @@ public class EnemyHealth : MonoBehaviour, IDamagable
             if (sfxSource != null && death_sound != null)
                 sfxSource.PlayOneShot(death_sound);
 
-            if(CinemachineShake.Instance != null)
-                CinemachineShake.Instance.Shake(2f);
             enemy.Die();
         }
     }
