@@ -12,7 +12,7 @@ public class CinemachineShake : MonoBehaviour
         _impulseSource = GetComponent<CinemachineImpulseSource>();
     }
 
-    public void Shake(float intensity = 1f)
+    public void Shake(float intensity = 0.5f)
     {
         _impulseSource.GenerateImpulse(intensity);
     }

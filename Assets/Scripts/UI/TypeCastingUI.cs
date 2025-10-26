@@ -102,17 +102,15 @@ public class TypeCastingUI : MonoBehaviour
         if (spell == null || spell.spellPrefab == null)
             return;
 
-        // 🔥 Check if we have enough mana before casting
         if (PlayerMana.Instance != null && !PlayerMana.Instance.HasEnoughMana(spell.manaCost))
         {
             if (sfxSource != null && manawarningsound != null)
                 sfxSource.PlayOneShot(manawarningsound);
             
             StartCoroutine(ShowManaWarning());
-            return; // no mana = no spell cast
+            return; 
         }
 
-        // ✅ consume mana and spawn spell
         PlayerMana.Instance.UseMana(spell.manaCost);
         Instantiate(spell.spellPrefab, firePoint.position, firePoint.rotation);
     }
@@ -120,17 +118,16 @@ public class TypeCastingUI : MonoBehaviour
 
     private IEnumerator ShowManaWarning()
     {
-        if (isManaWarningActive) yield break; // Prevent overlap
+        if (isManaWarningActive) yield break;
         isManaWarningActive = true;
 
         manaWarningText.gameObject.SetActive(true);
 
-        // If you use Animator on the TMP text, trigger it here:
+       
         var anim = manaWarningText.GetComponent<Animator>();
         if (anim != null)
             anim.SetTrigger("Show");
 
-        // Wait for animation length (you can adjust)
         yield return new WaitForSeconds(2f);
 
         manaWarningText.gameObject.SetActive(false);
