@@ -43,7 +43,7 @@ public class EnemyHealth : MonoBehaviour, IDamagable
         _damageFlash.CallDamageFlash();
 
         if (CinemachineShake.Instance != null)
-            CinemachineShake.Instance.ShakeOnce(0.7f);
+            CinemachineShake.Instance.Shake(0.7f);
 
         if (enemy != null && health > 0)
         {
