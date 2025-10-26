@@ -13,7 +13,7 @@ public class CinemachineShake : MonoBehaviour
         Instance = this;
         _impulseSource = GetComponent<CinemachineImpulseSource>();
     }
-    public void Shake(float intensity = 0.5f)
+    public void ShakeOnce(float intensity = 0.5f)
     {
         if (Time.time - lastShakeTime < shakeCooldown)
             return;
