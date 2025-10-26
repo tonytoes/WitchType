@@ -50,55 +50,75 @@ MonoBehaviour:
   - spellName: Fireball
     spellIcon: {fileID: 21300000, guid: c07b18e2ef4a1304b8ea2123b6a4e095, type: 3}
     spellPrefab: {fileID: 672589652610436096, guid: b90d2034bb1eb714982a5a6ad1e38a56, type: 3}
+    manaCost: 10
   - spellName: Heal
     spellIcon: {fileID: 21300000, guid: 404a35a962ddde34a9e22eb0341b64b8, type: 3}
     spellPrefab: {fileID: 8065185760812705168, guid: 7b3245a3e9b10ab4c84e8f23d31ff675, type: 3}
+    manaCost: 40
   - spellName: Shield
     spellIcon: {fileID: -4394142436544833066, guid: 9ca8bdb4ede825942a2dc7450cfb70db, type: 3}
     spellPrefab: {fileID: 4877971988364270094, guid: 3e26e4ee410231c429202d07671cc312, type: 3}
-  - spellName: ScorchingWave
+    manaCost: 60
+  - spellName: Fire Slash
     spellIcon: {fileID: 21300000, guid: 6c9f13ab3af5f7e439ad830ce82ea640, type: 3}
     spellPrefab: {fileID: 9091409580765712465, guid: 90a3ef2790586664d8701dfd1e190cf2, type: 3}
-  - spellName: WaterSpike
+    manaCost: 30
+  - spellName: Water Spike
     spellIcon: {fileID: 21300000, guid: 597faf60532e04540943ee2f4d9053c7, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: ad465cee7755b654a974330b076ed0ab, type: 3}
-  - spellName: WindBurst
+    manaCost: 25
+  - spellName: Wind Burst
     spellIcon: {fileID: 21300000, guid: ea9dd249f8fbcb54fb32b141f7bd26a3, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: fb5cb43c05c6a9f4c90dee766797243d, type: 3}
-  - spellName: LightingBeam
+    manaCost: 32
+  - spellName: Lighting Beam
     spellIcon: {fileID: 21300000, guid: 7767c616aab805445b02e41feaf117a1, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: 97ffefd825bc47b4288919de36cb72bd, type: 3}
-  - spellName: FireBurst
+    manaCost: 15
+  - spellName: Fire Burst
     spellIcon: {fileID: 21300000, guid: 7658d7520c4d17441a70cb6b3ec494f7, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: 73d77dfe71c345c47939985464e81999, type: 3}
-  - spellName: ElectricShock
+    manaCost: 20
+  - spellName: Electric Shock
     spellIcon: {fileID: 21300000, guid: 8cd3a033de739cf41a552faab791446c, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: af72dcb65901e5d4b8d09212b700b7d8, type: 3}
-  - spellName: FortifiedFossil
+    manaCost: 50
+  - spellName: Fortified Fossil
     spellIcon: {fileID: 21300000, guid: ea280b2b9366f0541b3c02b784188795, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: eea6c8b7b7a378a4aa868ee8cbc5e1cc, type: 3}
-  - spellName: FlashStrike
+    manaCost: 50
+  - spellName: Flash Strike
     spellIcon: {fileID: 21300000, guid: 1f71bf30149441b428047563835e7453, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: 6ffdb751b9157d3428d8568cf40c77c6, type: 3}
-  - spellName: ShockBomb
+    manaCost: 35
+  - spellName: Shock Bomb
     spellIcon: {fileID: 21300000, guid: db95af7f11c30d74ebe4bd1d542b676c, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: e6af4f9abb92bc24d92af3f37986e636, type: 3}
-  - spellName: DarkShot
+    manaCost: 40
+  - spellName: Dark Shot
     spellIcon: {fileID: 21300000, guid: b7acfd41d89e2504c8f0bdc97f78332f, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: 7944867d3bdac8e4da677a194a73f3d1, type: 3}
+    manaCost: 13
   - spellName: Explosion
     spellIcon: {fileID: 21300000, guid: 38c45a0683828544785362aad26dc98a, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: 32cae0d24e12de0418c97f84bb12fce4, type: 3}
-  - spellName: SharkSummon
+    manaCost: 70
+  - spellName: Shark Summon
     spellIcon: {fileID: 21300000, guid: 53df66622c8b934408bc8f78354eb3d5, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: 358c035cb87684546b5885bcfe97691b, type: 3}
-  - spellName: TreeSpike
+    manaCost: 60
+  - spellName: Tree Spike
     spellIcon: {fileID: 21300000, guid: 0e47cf3835d946d4d95500bfa95d1fc3, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: a1b2e2e84f871f24bb548fadb8e3bc1c, type: 3}
-  - spellName: AngleOfDeath
+    manaCost: 40
+  - spellName: Angle Of Death
     spellIcon: {fileID: 21300000, guid: 202ac07abcbe0904abd7bfc253038a50, type: 3}
     spellPrefab: {fileID: 969676591896952384, guid: 19c3180c58360a64daad0687d050fb04, type: 3}
-  - spellName: LightningStrike
-    spellIcon: {fileID: 21300000, guid: 86748fc1ea8275f42831bc7625b14ebb, type: 3}
-    spellPrefab: {fileID: 969676591896952384, guid: 614b0f262f5199b4aa188ef9005d0ab7, type: 3}
+    manaCost: 90
+  - spellName: Cursed Circle
+    spellIcon: {fileID: 21300000, guid: bcdf644ae7df30841afcd8d8d28f5662, type: 3}
+    spellPrefab: {fileID: 969676591896952384, guid: d8dcb779edc23384e938b5442416a2cf, type: 3}
+    manaCost: 100
   maxSpells: 1
+  selectedSpellText: {fileID: 0}
+  manaCostText: {fileID: 0}

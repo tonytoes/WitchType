@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 662144561305169595}
   - component: {fileID: 2169208817995553943}
   - component: {fileID: 2754181705810105947}
+  - component: {fileID: 3499401007178523264}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -89,7 +90,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -59
+  m_SortingOrder: -52
   m_Sprite: {fileID: -1211665267114736735, guid: cb1f1ccfd9dbe9e42b48c9041c8aac66, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -518,6 +519,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3499401007178523264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081904415680747092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a6bbe18fa85a6e4baf6954b728d7198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMana
+  maxMana: 100
+  currentMana: 100
+  manaSlider: {fileID: 0}
+  manaText: {fileID: 0}
 --- !u!1 &8164237230122146800
 GameObject:
   m_ObjectHideFlags: 0
