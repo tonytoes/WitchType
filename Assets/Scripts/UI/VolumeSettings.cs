@@ -3,11 +3,11 @@ using UnityEngine.Audio;
 using UnityEngine.UI;
 public class VolumeSettings : MonoBehaviour
 {
-    [SerializeField] private AudioMixer myMixer;
-    [SerializeField] private Slider musicSlider;
-    [SerializeField] private Slider SFXSlider;
+    [SerializeField] public AudioMixer myMixer;
+    [SerializeField] public Slider musicSlider;
+    [SerializeField] public Slider SFXSlider;
 
-    private void Start()
+    public void Start()
     {
         if (PlayerPrefs.HasKey("musicVolume"))
         {
@@ -32,7 +32,7 @@ public class VolumeSettings : MonoBehaviour
         myMixer.SetFloat("SFX", Mathf.Log10(volume) * 20);
         PlayerPrefs.SetFloat("SFXVolume", volume);
     }
-    private void LoadVolume()
+    public void LoadVolume()
     {
         musicSlider.value = PlayerPrefs.GetFloat("musicVolume");
         SFXSlider.value = PlayerPrefs.GetFloat("SFXVolume");
