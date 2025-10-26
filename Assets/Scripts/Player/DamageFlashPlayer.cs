@@ -8,6 +8,10 @@ public class DamageFlashPlayer : MonoBehaviour
     [SerializeField] private float _flashTime = 0.25f;
     [SerializeField] private AnimationCurve _flashSpeedCurve;
 
+    [Header("UI Panel Settings")]
+    [SerializeField] private GameObject _damagePanel; 
+    [SerializeField] private float _panelDuration = 0.25f; 
+
     private SpriteRenderer[] _spriteRenderers;
     private Material[] _materials;
 
@@ -32,6 +36,8 @@ public class DamageFlashPlayer : MonoBehaviour
     public void CallDamageFlash()
     {
         _damageFlashCoroutine = StartCoroutine(DamageFlasher());
+        if (_damagePanel != null)
+            StartCoroutine(ShowPanel());
     }
 
     private IEnumerator DamageFlasher()
@@ -47,8 +53,14 @@ public class DamageFlashPlayer : MonoBehaviour
             SetFlashAmount(currentFlashAmount);
 
             yield return null;
-
         }
+    }
+
+    private IEnumerator ShowPanel()
+    {
+        _damagePanel.SetActive(true);
+        yield return new WaitForSeconds(_panelDuration);
+        _damagePanel.SetActive(false);
     }
 
     private void SetFlashColor()
