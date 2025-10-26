@@ -20,6 +20,8 @@ public class TypeCastingUI : MonoBehaviour
 
     public TMP_Text manaWarningText;
     private bool isManaWarningActive = false;
+
+    [SerializeField] private PauseMenu pausemenu;
     
 
     [Header("SFX")]
@@ -55,6 +57,7 @@ public class TypeCastingUI : MonoBehaviour
         TypeCastUI.SetActive(true);
         playermovement.enabled = false;
         TypeCastingMode = true;
+        
 
         var spell = SpellManager.Instance.selectedSpells.FirstOrDefault();
         if (spell != null && spell.spellPrefab != null)
@@ -69,6 +72,7 @@ public class TypeCastingUI : MonoBehaviour
             spellIcon.enabled = false;
         }
 
+        pausemenu.Resume();
 
         typer.ResetWord();
 
@@ -76,12 +80,14 @@ public class TypeCastingUI : MonoBehaviour
 
     public void DeactivateTypeCasting()
     {
+        
         EventSystem.current.sendNavigationEvents = true;
         TypeCastUI.SetActive(false);
         playermovement.enabled = true;
         TypeCastingMode = false;
         TypeCastField.text = string.Empty;
         EventSystem.current.SetSelectedGameObject(null);
+        pausemenu.Resume();
     }
     
     private void HandleWordComplete()
