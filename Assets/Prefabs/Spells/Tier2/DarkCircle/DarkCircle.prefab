@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4028162857498803750}
   - component: {fileID: 4316632665495019110}
   - component: {fileID: 8657541944291549865}
+  - component: {fileID: 6181466312524026446}
   m_Layer: 0
   m_Name: DarkCircle
   m_TagString: Untagged
@@ -360,4 +361,18 @@ MonoBehaviour:
   damageInterval: 0.1
   maxDistance: 12
   sfxSource: {fileID: 3328790067365563959}
-  launchSound: {fileID: 8300000, guid: 67a820ab87314a641bab25f4b7e8d4d0, type: 3}
+  launchSound: {fileID: 8300000, guid: f0ea2e6daddd3b1449d0b0f62768ae79, type: 3}
+--- !u!114 &6181466312524026446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969676591896952384}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c636de7333b70324192a233a8de545b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  sfxSource: {fileID: 3328790067365563959}
+  boomsound: {fileID: 8300000, guid: c59bebca9c0c99a448fd44d270b315e5, type: 3}
