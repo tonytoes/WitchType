@@ -27,11 +27,13 @@ public class TypeCastingUI : MonoBehaviour
     [Header("SFX")]
     public AudioSource sfxSource;
     public AudioClip manawarningsound;
+    private AudioManager audioManager;
     
    
 
     private void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         typer.OnWordComplete += HandleWordComplete;
     }
     void Update()
@@ -52,6 +54,8 @@ public class TypeCastingUI : MonoBehaviour
 
     public void ActivateTypeCasting()
     {
+        audioManager?.PlaySFX("Typecast");
+
         EventSystem.current.sendNavigationEvents = false;
         playermovement.StopMovement();
         TypeCastUI.SetActive(true);

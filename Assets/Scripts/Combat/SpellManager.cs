@@ -10,10 +10,16 @@ public class SpellManager : MonoBehaviour
     public List<Spell> allSpells;
     public int maxSpells = 1;
 
+    private AudioManager audioManager;
+
     [Header("UI")]
     public TextMeshProUGUI selectedSpellText; 
-    public TextMeshProUGUI manaCostText;     
+    public TextMeshProUGUI manaCostText;
 
+    void Start()
+    {
+        audioManager = FindFirstObjectByType<AudioManager>();
+    }
     private void Awake()
     {
         if (Instance == null)
@@ -35,6 +41,7 @@ public class SpellManager : MonoBehaviour
         {
             selectedSpells.Add(spell);
             UpdateSelectedSpellUI(spell.spellName, spell.manaCost);
+            
         }
     }
 
@@ -47,6 +54,7 @@ public class SpellManager : MonoBehaviour
             {
                 Spell next = selectedSpells[0];
                 UpdateSelectedSpellUI(next.spellName, next.manaCost);
+                
             }
             else
             {
@@ -84,10 +92,12 @@ public class SpellManager : MonoBehaviour
                 {
                     Spell next = selectedSpells[0];
                     UpdateSelectedSpellUI(next.spellName, next.manaCost);
+                    
                 }
                 else
                 {
                     UpdateSelectedSpellUI("", 0);
+                    
                 }
             }
             else if (selectedSpells.Count < maxSpells)
@@ -103,6 +113,7 @@ public class SpellManager : MonoBehaviour
         selectedSpells.Clear();
         selectedSpells.Add(spell);
         UpdateSelectedSpellUI(spell.spellName, spell.manaCost);
+        
     }
 
     private void UpdateSelectedSpellUI(string spellName, float manaCost)
@@ -112,6 +123,7 @@ public class SpellManager : MonoBehaviour
             selectedSpellText.text = string.IsNullOrEmpty(spellName)
                 ? ""
                 : $"{spellName}";
+                audioManager?.PlaySFX("selectspell");
         }
 
         if (manaCostText != null)

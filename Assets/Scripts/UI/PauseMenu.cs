@@ -11,9 +11,12 @@ public class PauseMenu : MonoBehaviour
     public GameObject ButtonPause;
     [SerializeField] private Animator playerAnimator;
 
+    private AudioManager audioManager;
+
 
     void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         pauseMenuUI.SetActive(false);
         ButtonPause.SetActive(true);
         GameIsPaused = false;
@@ -25,6 +28,8 @@ public class PauseMenu : MonoBehaviour
         if (TypeCastingUI.TypeCastingMode) return; // ignore pause input during typing
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            audioManager?.PlaySFX("Pause");
+
             if (GameIsPaused)
                 Resume();
             else
@@ -75,3 +80,4 @@ public class PauseMenu : MonoBehaviour
         playerAnimator.enabled = true;
     }
 }
+
