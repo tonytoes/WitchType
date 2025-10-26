@@ -22,16 +22,13 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
+        if (TypeCastingUI.TypeCastingMode) return; // ignore pause input during typing
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GameIsPaused)
-            {
                 Resume();
-            }
             else
-            {
                 Pause();
-            }
         }
     }
 

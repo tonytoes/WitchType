@@ -9,7 +9,6 @@ public class TypeCastingUI : MonoBehaviour
     public static bool TypeCastingMode = false;
 
     public PlayerMovement playermovement;
-    public PauseMenu pausemenu;
     public Typer typer;
     public Transform firePoint;
 
@@ -51,11 +50,11 @@ public class TypeCastingUI : MonoBehaviour
 
     public void ActivateTypeCasting()
     {
+        EventSystem.current.sendNavigationEvents = false;
         playermovement.StopMovement();
         TypeCastUI.SetActive(true);
         playermovement.enabled = false;
         TypeCastingMode = true;
-        pausemenu.enabled = false;
 
         var spell = SpellManager.Instance.selectedSpells.FirstOrDefault();
         if (spell != null && spell.spellPrefab != null)
@@ -73,15 +72,14 @@ public class TypeCastingUI : MonoBehaviour
 
         typer.ResetWord();
 
-       
     }
 
     public void DeactivateTypeCasting()
     {
+        EventSystem.current.sendNavigationEvents = true;
         TypeCastUI.SetActive(false);
         playermovement.enabled = true;
         TypeCastingMode = false;
-        pausemenu.enabled = true;
         TypeCastField.text = string.Empty;
         EventSystem.current.SetSelectedGameObject(null);
     }
