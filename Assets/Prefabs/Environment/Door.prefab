@@ -94,9 +94,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SceneTrigger
   sceneAsset: {fileID: 102900000, guid: b9d48046937fc9b49874817da3aaeb40, type: 3}
   newPlayerPosition: {x: 9.54, y: 8.779999}
+  delayBeforeLoad: 1
+  transitionImage: {fileID: 0}
   sfxSource: {fileID: 4513291727841998031}
-  DoorSound: {fileID: 8300000, guid: 208eeaedbe80e0e41885dce4fa9d6cc8, type: 3}
-  fadeAnim: {fileID: 0}
+  DoorSound: {fileID: 8300000, guid: fc9a7e7139e23a54c8b3554753a21606, type: 3}
 --- !u!82 &4513291727841998031
 AudioSource:
   m_ObjectHideFlags: 0
