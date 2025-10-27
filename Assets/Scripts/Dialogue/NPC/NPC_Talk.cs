@@ -70,9 +70,8 @@ public class NPC_Talk : MonoBehaviour
                         conversations.Remove(toRemove);
                     }
                 }
-             
+                break;
             }
-            break;
         }
     }
 }
