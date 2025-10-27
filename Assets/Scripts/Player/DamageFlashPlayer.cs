@@ -15,6 +15,14 @@ public class DamageFlashPlayer : MonoBehaviour
     private SpriteRenderer[] _spriteRenderers;
     private Material[] _materials;
 
+    [Header("Shield Panel Settings")]
+    [SerializeField] private GameObject _shieldPanel;
+    [SerializeField] private float _shieldPanelDuration = 0.25f;
+
+    [Header("SFX")]
+    public AudioSource sfxSource;
+    public AudioClip shieldhitsfx;
+
     private Coroutine _damageFlashCoroutine;
 
     private void Awake()
@@ -79,4 +87,23 @@ public class DamageFlashPlayer : MonoBehaviour
             _materials[i].SetFloat("_FlashAmount", amount);
         }
     }
+
+    public void CallShieldFlash()
+    {
+        if (sfxSource != null && shieldhitsfx != null)
+            sfxSource.PlayOneShot(shieldhitsfx);
+        // No red flash or damage flash — just the UI feedback
+        CinemachineShake.Instance.ShakeOnce(0.5f); // softer shake for shield hit
+
+        if (_shieldPanel != null)
+            StartCoroutine(ShowShieldPanel());
+    }
+
+    private IEnumerator ShowShieldPanel()
+    {
+        _shieldPanel.SetActive(true);
+        yield return new WaitForSeconds(_shieldPanelDuration);
+        _shieldPanel.SetActive(false);
+    }
+
 }

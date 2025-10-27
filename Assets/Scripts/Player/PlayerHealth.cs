@@ -43,7 +43,10 @@ public class PlayerHealth : MonoBehaviour
     {
         if (shieldActive && amount < 0)
         {
-            return;
+            if (_damageFlash != null)
+                _damageFlash.CallShieldFlash(); // <- call blue shield flash instead
+
+            return; // don't take damage
         }
 
         currentHealth += amount;
