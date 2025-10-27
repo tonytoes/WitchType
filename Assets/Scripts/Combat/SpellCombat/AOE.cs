@@ -30,6 +30,7 @@ public class AOE : MonoBehaviour
 
         if (sfxSource != null && launchSound != null)
             sfxSource.PlayOneShot(launchSound);
+            
 
         Destroy(gameObject, lifetime);
     }
@@ -43,6 +44,7 @@ public class AOE : MonoBehaviour
 
             if (enemy != null)
                 enemy.TakeDamage(damage, Vector2.zero);
+            CinemachineShake.Instance.ShakeOnce(1f);
 
             if (knockback != null)
                 knockback.KnockBack(transform, kbForce, knockbackTime, stunTime);

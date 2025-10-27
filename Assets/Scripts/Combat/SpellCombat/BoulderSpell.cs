@@ -29,9 +29,11 @@ public class BoulderSpell : MonoBehaviour
         
         transform.position = playerPos + direction * maxDistance;
 
-        
+
         if (sfxSource != null && summonSound != null)
             sfxSource.PlayOneShot(summonSound);
+
+        CinemachineShake.Instance.ShakeOnce(1f);
 
         
         Destroy(gameObject, lifetime);

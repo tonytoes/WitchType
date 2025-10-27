@@ -35,6 +35,7 @@ public class DamageFlashPlayer : MonoBehaviour
 
     public void CallDamageFlash()
     {
+        CinemachineShake.Instance.ShakeOnce(1f);
         _damageFlashCoroutine = StartCoroutine(DamageFlasher());
         if (_damagePanel != null)
             StartCoroutine(ShowPanel());
