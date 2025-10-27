@@ -70,37 +70,37 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void Home()
-    {
-        audioManager?.PlaySFX("click");
-        Time.timeScale = 1f;
-        GameIsPaused = false;
-        playerAnimator.enabled = true;
+{
+    audioManager?.PlaySFX("Click");
+    Time.timeScale = 1f;
+    GameIsPaused = false;
+    playerAnimator.enabled = true;
 
-        StartCoroutine(PlayTransitionAndLoad("MAIN MENU"));
+    StartCoroutine(PlayTransitionAndLoad("MAIN MENU"));
+}
+
+private IEnumerator PlayTransitionAndLoad(string sceneName)
+{
+    float transitionTime = 1f; // length of your transition animation
+
+    if (transitionImage != null)
+    {
+        transitionImage.SetActive(true);
+        Animator anim = transitionImage.GetComponent<Animator>();
+        if (anim != null)
+            anim.SetTrigger("Play");
+
+        yield return new WaitForSeconds(transitionTime);
     }
 
-    private IEnumerator PlayTransitionAndLoad(string sceneName)
-    {
-        float transitionTime = 1f; // length of your transition animation
+    SceneManager.LoadScene(sceneName);
 
-        if (transitionImage != null)
-        {
-            transitionImage.SetActive(true);
-            Animator anim = transitionImage.GetComponent<Animator>();
-            if (anim != null)
-                anim.SetTrigger("Play");
+    // delay before destroying groupA
+    yield return new WaitForSeconds(0.5f);
 
-            yield return new WaitForSeconds(transitionTime);
-        }
-
-        SceneManager.LoadScene(sceneName);
-
-        // delay before destroying groupA
-        yield return new WaitForSeconds(0.5f);
-
-        if (GameManager.Instance != null)
-            GameManager.Instance.DestroyGroupA();
-    }
+    if (GameManager.Instance != null)
+        GameManager.Instance.DestroyGroupA();
+}
 
 
 }
