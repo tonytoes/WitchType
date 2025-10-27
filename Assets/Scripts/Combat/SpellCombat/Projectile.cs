@@ -55,6 +55,7 @@ public class Projectile : MonoBehaviour
             EnemyKnockback knockback = other.GetComponent<EnemyKnockback>();
 
             if (enemy != null)
+                CinemachineShake.Instance.ShakeOnce(1f);
                 enemy.TakeDamage(damage, transform.right);
 
             if (knockback != null)

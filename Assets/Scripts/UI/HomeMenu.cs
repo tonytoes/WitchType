@@ -9,6 +9,7 @@ public class HomeMenu : MonoBehaviour
     [Header("Transition UI")]
     [SerializeField] private GameObject transitionImage; 
 
+
     private void Start()
     {
         audioManager = FindFirstObjectByType<AudioManager>();
