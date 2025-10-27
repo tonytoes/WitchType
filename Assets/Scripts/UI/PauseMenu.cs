@@ -3,6 +3,7 @@ using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using System.Collections;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private Animator playerAnimator;
 
     private AudioManager audioManager;
+
+    [Header("Transition UI")]
+    [SerializeField] private GameObject transitionImage; // transition image like fade effect
 
 
     void Start()
@@ -39,16 +43,10 @@ public class PauseMenu : MonoBehaviour
 
     public void ButtonClickPause()
     {
-
         if (GameIsPaused)
-        {
             Resume();
-        }
         else
-        {
             Pause();
-        }
-
     }
 
     public void Resume()
@@ -71,13 +69,38 @@ public class PauseMenu : MonoBehaviour
         playerAnimator.enabled = false;
     }
 
-
     public void Home()
     {
-        SceneManager.LoadScene("MAIN MENU");
+        audioManager?.PlaySFX("click");
         Time.timeScale = 1f;
         GameIsPaused = false;
         playerAnimator.enabled = true;
-    }
-}
 
+        StartCoroutine(PlayTransitionAndLoad("MAIN MENU"));
+    }
+
+    private IEnumerator PlayTransitionAndLoad(string sceneName)
+    {
+        float transitionTime = 1f; // length of your transition animation
+
+        if (transitionImage != null)
+        {
+            transitionImage.SetActive(true);
+            Animator anim = transitionImage.GetComponent<Animator>();
+            if (anim != null)
+                anim.SetTrigger("Play");
+
+            yield return new WaitForSeconds(transitionTime);
+        }
+
+        SceneManager.LoadScene(sceneName);
+
+        // delay before destroying groupA
+        yield return new WaitForSeconds(0.5f);
+
+        if (GameManager.Instance != null)
+            GameManager.Instance.DestroyGroupA();
+    }
+
+
+}
