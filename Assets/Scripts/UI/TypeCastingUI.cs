@@ -21,7 +21,8 @@ public class TypeCastingUI : MonoBehaviour
     public TMP_Text manaWarningText;
     private bool isManaWarningActive = false;
 
-    [SerializeField] private PauseMenu pausemenu;
+    private PauseMenu pausemenu;
+    private SpellBookUI spellBookUI;
     
 
     [Header("SFX")]
@@ -34,6 +35,8 @@ public class TypeCastingUI : MonoBehaviour
     private void Start()
     {
         audioManager = FindFirstObjectByType<AudioManager>();
+        pausemenu = FindFirstObjectByType<PauseMenu>();
+        spellBookUI = FindFirstObjectByType<SpellBookUI>();
         typer.OnWordComplete += HandleWordComplete;
     }
     void Update()
@@ -77,6 +80,7 @@ public class TypeCastingUI : MonoBehaviour
         }
 
         pausemenu.Resume();
+        spellBookUI.CloseSpellBook();
 
         typer.ResetWord();
 
