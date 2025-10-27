@@ -10,6 +10,7 @@ public class Projectile : MonoBehaviour
     public float stunTime = 1f;
     public int damage = 1;
     public float maxDistance = 10f; 
+    public float shakeduration = 1f;
 
     [Header("SFX")]
     public AudioSource sfxSource;       
@@ -55,7 +56,7 @@ public class Projectile : MonoBehaviour
             EnemyKnockback knockback = other.GetComponent<EnemyKnockback>();
 
             if (enemy != null)
-                CinemachineShake.Instance.ShakeOnce(1f);
+                CinemachineShake.Instance.ShakeOnce(shakeduration);
                 enemy.TakeDamage(damage, transform.right);
 
             if (knockback != null)

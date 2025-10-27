@@ -359,5 +359,6 @@ MonoBehaviour:
   damage: 5
   damageInterval: 0.2
   maxDistance: 10
+  shakeduration: 0.5
   sfxSource: {fileID: 3328790067365563959}
   launchSound: {fileID: 8300000, guid: 2f16ac7b90339104fac3ca612e1e78c9, type: 3}

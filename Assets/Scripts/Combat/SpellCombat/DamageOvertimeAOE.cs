@@ -12,6 +12,7 @@ public class DamageOvertimeAOE : MonoBehaviour
     public int damage = 1;
     public float damageInterval = 0.2f; // how often damage is applied
     public float maxDistance = 10f;
+    public float shakeduration = 1f;
 
     [Header("SFX")]
     public AudioSource sfxSource;
@@ -44,6 +45,7 @@ public class DamageOvertimeAOE : MonoBehaviour
 
         // Start damaging enemies over time
         StartCoroutine(DamageOverTime());
+        CinemachineShake.Instance.ShakeOnce(shakeduration);
 
         // Auto-destroy after lifetime
         Destroy(gameObject, lifetime);
