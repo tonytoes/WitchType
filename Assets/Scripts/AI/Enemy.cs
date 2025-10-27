@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     private float cooldownTimer;
     private int facingDirection = -1;
     private EnemyState enemyState;
+    public System.Action OnEnemyDeath;
 
     Rigidbody2D rb;
     private Transform player;
@@ -163,8 +164,10 @@ public class Enemy : MonoBehaviour
     public void Die ()
     {
         isDead = true;
-        rb.linearVelocity = Vector2.zero;  
+        rb.linearVelocity = Vector2.zero;
         anim.SetTrigger("Die");
+        OnEnemyDeath?.Invoke();
+
 
         Destroy(gameObject, 1f);
     }    

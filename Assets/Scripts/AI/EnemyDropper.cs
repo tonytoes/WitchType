@@ -11,12 +11,13 @@ public class EnemyDropper : MonoBehaviour
 
     private void OnDestroy()
     {
-        // Skip if game is quitting or if it already dropped
-        if (hasDropped || Application.isPlaying == false) return;
+        if (!Application.isPlaying || hasDropped || gameObject.scene.isLoaded == false)
+            return;
 
         hasDropped = true;
-        DropLoot();
+        Instantiate(dropPrefab, transform.position, Quaternion.identity);
     }
+
 
     private void DropLoot()
     {
