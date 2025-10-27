@@ -12,14 +12,15 @@ public class PlayerHealth : MonoBehaviour
 
     private DamageFlashPlayer _damageFlash;
 
+    private AudioManager audioManager;
+
     public AudioSource sfxSource;
     [Header("Hit Sounds")]
     public AudioClip[] moanWhenHitClips; 
-    [Header("Death Sound")]
-    public AudioClip deathClip; 
 
     void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         StartCoroutine(InitializeHealthUI());
         _damageFlash = GetComponent<DamageFlashPlayer>();
     }
@@ -64,25 +65,14 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    //WE NEED DEATH ANIMATION HERE
+
     private void GameOver()
     {
-
-        if (sfxSource != null && deathClip != null)
-        {
-            sfxSource.PlayOneShot(deathClip);
-        }
-
-
-        StartCoroutine(HandleDeathAfterSFX());
-    }
-
-    private IEnumerator HandleDeathAfterSFX()
-    {
-        yield return new WaitForSeconds(deathClip != null ? deathClip.length : 0.3f);
+        audioManager.PlaySFX("death_player");
         gameObject.SetActive(false);
         gameoverPanel.SetActive(true);
     }
+
 
     private void PlayRandomMoan()
     {
