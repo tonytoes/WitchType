@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using System.Collections;
 public class Heal : MonoBehaviour
 {
     public int healAmount = 1;
@@ -9,8 +9,11 @@ public class Heal : MonoBehaviour
 
 
     [Header("SFX")]
-    public AudioSource sfxSource;        
-    public AudioClip HealSound;       
+    public AudioSource sfxSource;
+    public AudioClip HealSound;
+
+    [SerializeField] private GameObject _healpanel; 
+    [SerializeField] private float _panelDuration = 0.25f; 
 
 
     private void Start()
@@ -38,9 +41,21 @@ public class Heal : MonoBehaviour
 
             if (sfxSource != null && HealSound != null)
                 sfxSource.PlayOneShot(HealSound);
-            
+
+            if (_healpanel != null)
+                StartCoroutine(ShowPanel());
+
         }
 
         Destroy(gameObject, destroyDelay);
     }
+
+
+    private IEnumerator ShowPanel()
+    {
+        _healpanel.SetActive(true);
+        yield return new WaitForSeconds(_panelDuration);
+        _healpanel.SetActive(false);
+    }
+    
 }
