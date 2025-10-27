@@ -15,6 +15,8 @@ public class PlayerHealth : MonoBehaviour
     public AudioSource sfxSource;
     [Header("Hit Sounds")]
     public AudioClip[] moanWhenHitClips; 
+    [Header("Death Sound")]
+    public AudioClip deathClip; 
 
     void Start()
     {
@@ -62,8 +64,22 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    //WE NEED DEATH ANIMATION HERE
     private void GameOver()
     {
+
+        if (sfxSource != null && deathClip != null)
+        {
+            sfxSource.PlayOneShot(deathClip);
+        }
+
+
+        StartCoroutine(HandleDeathAfterSFX());
+    }
+
+    private IEnumerator HandleDeathAfterSFX()
+    {
+        yield return new WaitForSeconds(deathClip != null ? deathClip.length : 0.3f);
         gameObject.SetActive(false);
         gameoverPanel.SetActive(true);
     }
