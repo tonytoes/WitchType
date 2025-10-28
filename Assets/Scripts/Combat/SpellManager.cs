@@ -156,8 +156,7 @@ public class SpellManager : MonoBehaviour
         public bool AOE;
         public bool Projectile;
         public bool Heal;
-        public bool Shield;
-        public bool Stone;
+        public bool ShieldorRock;
 
     }
 }

@@ -9,19 +9,44 @@ public class SpellBookUI : MonoBehaviour
     public GameObject spellBookPanel;
     [SerializeField] private GameObject[] spellSlots;
 
-    [Header("Spell Description Panel (Outside Pages)")]
+    [Header("Spell Description Panel")]
     [SerializeField] private GameObject descriptionPanel;
     [SerializeField] private TMP_Text spellNameText;
     [SerializeField] private TMP_Text spellTypeText;
     [SerializeField] private TMP_Text manaCostNumberText;
     [SerializeField] private TMP_Text descriptionText;
+    [SerializeField] private Image spellIconImage;
+
+    [Header("Projectile")]
     [SerializeField] private TMP_Text damageText;
     [SerializeField] private TMP_Text stunText;
     [SerializeField] private TMP_Text speedText;
     [SerializeField] private TMP_Text rangeText;
     [SerializeField] private TMP_Text knockbackText;
     [SerializeField] private TMP_Text durationText;
-    [SerializeField] private Image spellIconImage;
+
+    [Header("AOE")]
+    [SerializeField] private TMP_Text AOEdamage;
+    [SerializeField] private TMP_Text AOEradius;
+    [SerializeField] private TMP_Text AOEduration;
+    [SerializeField] private TMP_Text AOEstun;
+    [SerializeField] private TMP_Text AOErange;
+    [SerializeField] private TMP_Text AOEknockback;
+
+    [Header("Heal")]
+    [SerializeField] private TMP_Text HealAmountText;
+
+    [Header("Shield and Rock")]
+    [SerializeField] private TMP_Text SASduration;
+
+
+    [Header("Stats Panel")]
+    [SerializeField] private GameObject projectilePanel;
+    [SerializeField] private GameObject AOEPanel;
+    [SerializeField] private GameObject healPanel;
+    [SerializeField] private GameObject shieldRockPanel;
+
+
 
     [Header("Page Control")]
     [SerializeField] private GameObject[] pages;
@@ -183,20 +208,77 @@ public class SpellBookUI : MonoBehaviour
 
    public void ShowSpellDetails(SpellManager.Spell spell)
     {
-      if (spell == null) return;
+        if (spell == null) return;
 
-     spellNameText.text = spell.spellName;
-     spellTypeText.text = spell.spellType;
-     manaCostNumberText.text = spell.manaCost.ToString();
-     descriptionText.text = spell.spellDescription;
-     damageText.text = $"Damage: {spell.spellDamage}";
-     stunText.text = $"Stun: {spell.spellStun}";
-     speedText.text = $"Speed: {spell.spellSpeed}";
-     rangeText.text = $"Range: {spell.spellRange}";
-     knockbackText.text = $"Knockback: {spell.spellKnockback}";
-     durationText.text = $"Duration: {spell.Duration}";
+        // Hide all panels first
+        projectilePanel?.SetActive(false);
+        AOEPanel?.SetActive(false);
+        healPanel?.SetActive(false);
+        shieldRockPanel?.SetActive(false);
 
-     if (spellIconImage != null)
-        spellIconImage.sprite = spell.spellIcon;
-   }
+        // Basic info
+        spellNameText.text = spell.spellName;
+        spellTypeText.text = spell.spellType;
+        manaCostNumberText.text = spell.manaCost.ToString();
+        descriptionText.text = spell.spellDescription;
+
+        // --- Panel toggling based on spell type ---
+        if (spell.Projectile)
+        {
+            projectilePanel?.SetActive(true);
+            damageText.text = $"Damage: {spell.spellDamage}";
+            stunText.text = $"Stun: {spell.spellStun}";
+            speedText.text = $"Speed: {spell.spellSpeed}";
+            rangeText.text = $"Range: {spell.spellRange}";
+            knockbackText.text = $"Knockback: {spell.spellKnockback}";
+            durationText.text = $"Duration: {spell.Duration}";
+        }
+        else if (spell.AOE)
+        {
+            AOEPanel?.SetActive(true);
+            AOEdamage.text = $"Damage: {spell.spellDamage}";
+            AOEradius.text = $"Radius: {spell.spellRadius}";
+            AOEduration.text = $"Duration: {spell.Duration}";
+            AOEstun.text = $"Stun: {spell.spellStun}";
+            AOErange.text = $"Range: {spell.spellRange}";
+            AOEknockback.text = $"Knockback: {spell.spellKnockback}";
+        }
+        else if (spell.Heal)
+        {
+            healPanel?.SetActive(true);
+            HealAmountText.text = $"Heal: +{spell.spellHealAmount}";
+        }
+        else if (spell.ShieldorRock)
+        {
+            shieldRockPanel?.SetActive(true);
+            SASduration.text = $"Duration: {spell.Duration}";
+        }
+        
+        switch (spell.spellType.ToLower())
+        {
+            case "aoe":
+                ColorUtility.TryParseHtmlString("#A020F0", out Color purple); 
+                spellTypeText.color = purple;
+                break;
+
+            case "projectile":
+                ColorUtility.TryParseHtmlString("#FF3B3B", out Color red); 
+                spellTypeText.color = red;
+                break;
+
+            case "support":
+                ColorUtility.TryParseHtmlString("#00FF7F", out Color green); 
+                spellTypeText.color = green;
+                break;
+
+            default:
+                spellTypeText.color = Color.white; // fallback
+                break;
+        }
+
+        // Icon
+        if (spellIconImage != null)
+            spellIconImage.sprite = spell.spellIcon;
+    }
+
 }
