@@ -147,12 +147,12 @@ public class SpellManager : MonoBehaviour
         public string spellDescription;
         public int spellDamage;
         public int spellSpeed;
-        public int spellKnockback;
-        public int spellStun;
+        public float spellKnockback;
+        public string spellStun = "0s";
         public int spellRange;
         public int spellRadius;
         public int spellHealAmount;
-        public string Duration;
+        public string Duration = "0s";
         public bool AOE;
         public bool Projectile;
         public bool Heal;

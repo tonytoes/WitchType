@@ -136,11 +136,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
   speed: 12
-  lifetime: 5
-  kbForce: 15
+  lifetime: 1
+  kbForce: 40
   knockbackTime: 0.3
   stunTime: 0.5
-  damage: 20
+  damage: 30
   maxDistance: 4
   shakeduration: 1
   sfxSource: {fileID: -644756382556120386}

@@ -9,6 +9,9 @@ public class SpellBookUI : MonoBehaviour
     public GameObject spellBookPanel;
     [SerializeField] private GameObject[] spellSlots;
 
+    [Header("Description Panel")]
+    [SerializeField] private GameObject DescriptionPanel;
+
     [Header("Spell Description Panel")]
     [SerializeField] private GameObject descriptionPanel;
     [SerializeField] private TMP_Text spellNameText;
@@ -48,6 +51,7 @@ public class SpellBookUI : MonoBehaviour
 
 
 
+
     [Header("Page Control")]
     [SerializeField] private GameObject[] pages;
     [SerializeField] private GameObject buttonsGroup;
@@ -71,6 +75,8 @@ public class SpellBookUI : MonoBehaviour
 
     private IEnumerator Start()
     {
+
+        DescriptionPanel.SetActive(false);
         audioManager = FindFirstObjectByType<AudioManager>();
         yield return new WaitUntil(() => GameManager.Instance != null && GameManager.Instance.spellManager != null);
 
@@ -211,6 +217,7 @@ public class SpellBookUI : MonoBehaviour
         if (spell == null) return;
 
         // Hide all panels first
+        DescriptionPanel.SetActive(true);
         projectilePanel?.SetActive(false);
         AOEPanel?.SetActive(false);
         healPanel?.SetActive(false);

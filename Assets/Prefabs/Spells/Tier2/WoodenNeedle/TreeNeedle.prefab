@@ -356,7 +356,7 @@ MonoBehaviour:
   kbForce: 0
   knockbackTime: 0
   stunTime: 0.2
-  damage: 15
-  maxDistance: 10
+  damage: 80
+  maxDistance: 20
   sfxSource: {fileID: 3328790067365563959}
   launchSound: {fileID: 8300000, guid: 67a820ab87314a641bab25f4b7e8d4d0, type: 3}
