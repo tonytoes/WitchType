@@ -51,12 +51,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectSpeedBoost
   speedMultiplier: 2
-  boostDuration: 5
+  boostDuration: 2
   destroyDelay: 1
   sfxSource: {fileID: 1276430811394209420}
   pickupSound: {fileID: 8300000, guid: 80a9425195ebd2e4fa6433bb426af6e0, type: 3}
   _speedPanel: {fileID: 7980166853280239184}
-  _panelDuration: 0.25
+  _panelDuration: 2
   visualChild: {fileID: 3330272953721791054}
   lightChild: {fileID: 7414568928030813695}
 --- !u!82 &1276430811394209420
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b80ec33dbea210b44b329480bf31a49d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd5082e6b7efc5243aefef383481517f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -589,7 +589,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7980166853280239184}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b591dffba51a44946987b5a49358e18b, type: 2}
   m_CullingMode: 0
