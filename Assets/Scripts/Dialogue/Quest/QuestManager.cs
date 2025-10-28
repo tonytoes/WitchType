@@ -5,13 +5,13 @@ public class QuestManager : MonoBehaviour
 {
     private Dictionary<QuestSO, Dictionary<QuestObjective, int>> questProgress = new();
 
-    public void UpdateObjectiveProgress(QuestSO, questSO, QuestObjective objective)
+    /*public void UpdateObjectiveProgress(QuestSO, questSO, QuestObjective objective)//
     public string GetProgressText(QuestSO questSO)
     {
         int currentAmount = 0;
 
-        if (currentAmount >= objective.requireedAmount)
-        {
+       if (currentAmount >= objective.requireedAmount)
+       {
             return "Complete";
         }
         else if (objective.targetItem != null)
@@ -20,8 +20,8 @@ public class QuestManager : MonoBehaviour
         }
 
         else
-            return "In Progress";
+            return "In Progress" 
 
-    }
+    } */
 
 }

@@ -140,8 +140,9 @@ MonoBehaviour:
   kbForce: 5
   knockbackTime: 0.15
   stunTime: 0
-  damage: 6
+  damage: 25
   maxDistance: 15
+  shakeduration: 1
   sfxSource: {fileID: 7086969483552860064}
   launchSound: {fileID: 8300000, guid: 5a56a61b2074f9a45ad448b4995b0090, type: 3}
 --- !u!61 &4323945044443613131

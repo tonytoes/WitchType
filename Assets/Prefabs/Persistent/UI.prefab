@@ -4975,7 +4975,6 @@ RectTransform:
   m_Children:
   - {fileID: 6629942297736248124}
   - {fileID: 3739368071073819203}
-  - {fileID: 5854509986699855260}
   - {fileID: 6909405453137208235}
   - {fileID: 7850113374245707338}
   m_Father: {fileID: 965977877554800619}
@@ -5722,6 +5721,7 @@ RectTransform:
   - {fileID: 905718363259600439}
   - {fileID: 312460567239139878}
   - {fileID: 6995950281953491274}
+  - {fileID: 5854509986699855260}
   - {fileID: 4413918517283500396}
   m_Father: {fileID: 8583968377070550556}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6981,6 +6981,18 @@ MonoBehaviour:
   - {fileID: 433575385546073095}
   - {fileID: 7221894942407321519}
   - {fileID: 8142504044354901829}
+  descriptionPanel: {fileID: 0}
+  spellNameText: {fileID: 0}
+  spellTypeText: {fileID: 0}
+  manaCostNumberText: {fileID: 0}
+  descriptionText: {fileID: 0}
+  damageText: {fileID: 0}
+  stunText: {fileID: 0}
+  speedText: {fileID: 0}
+  rangeText: {fileID: 0}
+  knockbackText: {fileID: 0}
+  durationText: {fileID: 0}
+  spellIconImage: {fileID: 0}
   pages:
   - {fileID: 2857342359710182562}
   - {fileID: 2247263316078303087}
@@ -12691,7 +12703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8583968377070550556
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15679,7 +15691,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8183782315063938188}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -16720,7 +16732,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8723999657042033867}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16739,11 +16751,11 @@ RectTransform:
   - {fileID: 2777347519624105911}
   - {fileID: 5240792704037762817}
   - {fileID: 4517897769106611141}
-  m_Father: {fileID: 905718363259600439}
+  m_Father: {fileID: 965977877554800619}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 193.52945, y: 0}
+  m_AnchoredPosition: {x: 193.53, y: -11.863}
   m_SizeDelta: {x: -387.059, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &911213576860654160

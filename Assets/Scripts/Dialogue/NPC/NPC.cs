@@ -9,7 +9,7 @@ public class NPC : MonoBehaviour
         Idle,
         Patrol,
         Wander,
-        Talk
+        Talk,
     }
 
     private NPCState currentState = NPCState.Idle;
