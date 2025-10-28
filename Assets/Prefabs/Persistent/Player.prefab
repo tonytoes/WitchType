@@ -422,6 +422,12 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  _damagePanel: {fileID: 0}
+  _panelDuration: 0.45
+  _shieldPanel: {fileID: 0}
+  _shieldPanelDuration: 0.45
+  sfxSource: {fileID: 2754181705810105947}
+  shieldhitsfx: {fileID: 8300000, guid: d17401e77c6fc3a41998f80ad63b0a7f, type: 3}
 --- !u!82 &2754181705810105947
 AudioSource:
   m_ObjectHideFlags: 0

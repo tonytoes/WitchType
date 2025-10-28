@@ -25,6 +25,8 @@ public class ToggleSpellBook : MonoBehaviour
             {
                 spellManager.SelectOnly(spell);
                 GameManager.Instance.spellBookUI?.RefreshAllToggles();
+                GameManager.Instance.spellBookUI.ShowSpellDetails(spell);
+
             }
         }
     }

@@ -43,8 +43,10 @@ public class NPC_Talk : MonoBehaviour
             else
             {
                 if(GameManager.Instance.DialogueManager.CanStartDialogue())
-                CheckForNewConversation();
-                GameManager.Instance.DialogueManager.StartDialogue(currentConversation);   
+                {
+                    CheckForNewConversation();
+                    GameManager.Instance.DialogueManager.StartDialogue(currentConversation);
+                }
             }
         }
     }
@@ -67,12 +69,12 @@ public class NPC_Talk : MonoBehaviour
                 {
                     foreach (var toRemove in convo.removeTheseOnPlay)
                     {
-                        conversations.Remove(toRemove);
+                        if (conversations.Contains(toRemove))
+                            conversations.Remove(toRemove);
                     }
                 }
-             
+                break;
             }
-            break;
         }
     }
 }

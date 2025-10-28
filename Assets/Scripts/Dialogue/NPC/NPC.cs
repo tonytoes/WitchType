@@ -8,13 +8,15 @@ public class NPC : MonoBehaviour
         Default,
         Idle,
         Patrol,
-        Talk
+        Wander,
+        Talk,
     }
 
     private NPCState currentState = NPCState.Idle;
     public NPCState defaultState;
 
     public NPC_Patrol patrol;
+    public NPC_Wander wander;
     public NPC_Talk talk;
 
     void Start()
@@ -28,6 +30,7 @@ public class NPC : MonoBehaviour
         currentState = newState;
 
         patrol.enabled = newState == NPCState.Patrol;
+        wander.enabled = newState == NPCState.Wander;
         talk.enabled = newState == NPCState.Talk;
 
     }

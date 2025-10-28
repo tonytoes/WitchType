@@ -31,6 +31,16 @@ public class KeyCollectUI : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (other.CompareTag("Player"))
+        {
+            ShowPopup();
+        }
+    }
+
+
     public void ShowPopup()
     {
         if (popupObject == null)

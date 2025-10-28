@@ -113,7 +113,6 @@ public class SpellManager : MonoBehaviour
         selectedSpells.Clear();
         selectedSpells.Add(spell);
         UpdateSelectedSpellUI(spell.spellName, spell.manaCost);
-        
     }
 
     private void UpdateSelectedSpellUI(string spellName, float manaCost)

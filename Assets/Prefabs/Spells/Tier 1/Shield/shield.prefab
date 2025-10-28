@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f03efeab77e780944baaea34d8e1856a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shield
-  duration: 20
+  duration: 5
   sfxSource: {fileID: 5389991720937852766}
   shieldsound: {fileID: 8300000, guid: 928a0c7fd9082b048b8d528a228962d8, type: 3}
 --- !u!82 &5389991720937852766

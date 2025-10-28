@@ -13,17 +13,17 @@ public class NPC_Wander: MonoBehaviour
     public float speed = 2f;
     public Vector2 target;
 
-    private Rigidbody rb;
+    private Rigidbody2D rb;
     private Animator anim;
     private bool isPaused;
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
         anim  = GetComponentInChildren<Animator>();
     }
 
-    private void OnEable()
+    private void OnEnable()
     {
         StartCoroutine(PauseAndPickNewTarget());
     }
@@ -37,7 +37,7 @@ public class NPC_Wander: MonoBehaviour
         }
            
 
-        if (Vector2.Distance(transform.position,target) < .1f)
+        if (!isPaused && Vector2.Distance(transform.position,target) < .1f)
            StartCoroutine(PauseAndPickNewTarget()); 
 
        Move();
@@ -66,6 +66,7 @@ public class NPC_Wander: MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        if (!isPaused)
         StartCoroutine(PauseAndPickNewTarget());
     }
 

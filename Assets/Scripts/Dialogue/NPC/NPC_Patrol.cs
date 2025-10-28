@@ -35,7 +35,7 @@ public class NPC_Patrol : MonoBehaviour
             transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
         rb.linearVelocity = direction * speed;
 
-        if(Vector2.Distance(transform.position, target) < .1f)
+        if(!isPaused && Vector2.Distance(transform.position, target) < .1f)
         {
             StartCoroutine(SetPatrolPoint());
         }
@@ -50,5 +50,6 @@ public class NPC_Patrol : MonoBehaviour
         currentPatrolIndex = (currentPatrolIndex + 1) % patrolPoints.Length;
         target = patrolPoints[currentPatrolIndex];
         isPaused = false;
+        anim.Play("Walk");
     }
 }
