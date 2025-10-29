@@ -78,25 +78,27 @@ public class PlayerHealth : MonoBehaviour
 
     public void RespawnPlayer()
     {
-
         gameObject.SetActive(true);
-
-
         currentHealth = maxHealth;
 
-    
+        // 🧭 move player to last checkpoint if exists
+        if (RespawnController.latestRespawnPoint != null)
+        {
+            transform.position = RespawnController.latestRespawnPoint.position;
+        }
+
         if (health != null)
             health.UpdateHearts(currentHealth, maxHealth);
 
-
         if (gameoverPanel != null)
             gameoverPanel.SetActive(false);
-            
+
         if (_damageFlash != null)
-        _damageFlash.ResetFlashState();
+            _damageFlash.ResetFlashState();
 
         audioManager.PlaySFX("respawn_player");
     }
+
 
 
     private void PlayRandomMoan()
