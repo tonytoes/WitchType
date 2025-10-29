@@ -9,8 +9,8 @@ public class Heal : MonoBehaviour
 
 
     [Header("SFX")]
-    public AudioSource sfxSource;
-    public AudioClip HealSound;
+    private AudioManager audioManager;
+    public string sfx;
 
     [SerializeField] private GameObject _healpanel; 
     [SerializeField] private float _panelDuration = 0.25f; 
@@ -18,6 +18,7 @@ public class Heal : MonoBehaviour
 
     private void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         anim = GetComponent<Animator>();
 
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -39,8 +40,7 @@ public class Heal : MonoBehaviour
         {
             anim.Play("HealEffect");
 
-            if (sfxSource != null && HealSound != null)
-                sfxSource.PlayOneShot(HealSound);
+            audioManager?.PlaySFX(sfx);
 
             if (_healpanel != null)
                 StartCoroutine(ShowPanel());

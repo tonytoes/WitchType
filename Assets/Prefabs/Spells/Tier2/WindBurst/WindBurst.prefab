@@ -142,8 +142,7 @@ MonoBehaviour:
   damage: 10
   maxDistance: 8
   shakeduration: 1
-  sfxSource: {fileID: 9074570468829367385}
-  launchSound: {fileID: 8300000, guid: ea23302e10a92a541a4940ac5a14ae94, type: 3}
+  sfx: windburst sfx
 --- !u!61 &4323945044443613131
 BoxCollider2D:
   m_ObjectHideFlags: 0

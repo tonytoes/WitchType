@@ -361,8 +361,7 @@ MonoBehaviour:
   damageInterval: 0.1
   maxDistance: 23
   shakeduration: 0
-  sfxSource: {fileID: 3328790067365563959}
-  launchSound: {fileID: 8300000, guid: f0ea2e6daddd3b1449d0b0f62768ae79, type: 3}
+  sfx: CC1 sfx
 --- !u!114 &6181466312524026446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,5 +374,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c636de7333b70324192a233a8de545b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  sfxSource: {fileID: 3328790067365563959}
-  boomsound: {fileID: 8300000, guid: c59bebca9c0c99a448fd44d270b315e5, type: 3}
+  sfx: CC2 sfx

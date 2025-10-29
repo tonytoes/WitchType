@@ -53,8 +53,7 @@ MonoBehaviour:
   speedMultiplier: 2
   boostDuration: 2
   destroyDelay: 1
-  sfxSource: {fileID: 1276430811394209420}
-  pickupSound: {fileID: 8300000, guid: 80a9425195ebd2e4fa6433bb426af6e0, type: 3}
+  pickupSound: speedboost_Sfx
   _speedPanel: {fileID: 7980166853280239184}
   _panelDuration: 2
   visualChild: {fileID: 3330272953721791054}

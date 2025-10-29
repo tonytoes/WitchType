@@ -194,8 +194,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BoulderSpell
   lifetime: 10
   maxDistance: 2
-  sfxSource: {fileID: -7342348894346098387}
-  summonSound: {fileID: 8300000, guid: a3c1fcc3fe076a444ab568190dcbbca7, type: 3}
+  shakeduration: 1
+  sfx: rock sfx
 --- !u!82 &-7342348894346098387
 AudioSource:
   m_ObjectHideFlags: 0

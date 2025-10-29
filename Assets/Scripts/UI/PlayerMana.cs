@@ -10,6 +10,8 @@ public class PlayerMana : MonoBehaviour
     public float maxMana = 100f;
     public float currentMana;
 
+    public float mana_regen = 1f;
+
     [Header("UI")]
     [SerializeField] private Slider manaSlider;
     [SerializeField] private TMP_Text manaText; 
@@ -75,6 +77,6 @@ public class PlayerMana : MonoBehaviour
 
     private void Update()
     {
-        RegenerateMana(Time.deltaTime * 1f);
+        RegenerateMana(Time.deltaTime * mana_regen);
     }
 }

@@ -6,6 +6,14 @@ public class EnemyCombat : MonoBehaviour
     public Transform attackPoint;
     public float weoponRange;
     public LayerMask playerLayer;
+    public string attack_sfx;
+    private AudioManager audioManager;
+
+    void Start()
+    {
+        audioManager = FindFirstObjectByType<AudioManager>();
+    }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -16,10 +24,12 @@ public class EnemyCombat : MonoBehaviour
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, weoponRange, playerLayer);
 
-        if(hits.Length > 0)
+        if (hits.Length > 0)
         {
             hits[0].GetComponent<PlayerHealth>()?.ChangeHealth(-damage);
         }
+        
+        audioManager?.PlaySFX(attack_sfx);
     }
 
     private void OnDrawGizmosSelected()

@@ -10,14 +10,18 @@ public class EnemyHealth : MonoBehaviour, IDamagable
     private DamageFlash _damageFlash;
     private Enemy enemy;
 
-    public AudioSource sfxSource;
-    public AudioClip death_sound;
-    public AudioClip hit_sound;
+    public string hit_sfx;
+    public string death_sfx;
+
+    private AudioManager audioManager;  
+
 
     public bool HasTakenDamage { get; set; }
 
     void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
+
         health = maxHealth;
 
         _damageFlash = GetComponent<DamageFlash>();
@@ -48,14 +52,12 @@ public class EnemyHealth : MonoBehaviour, IDamagable
         if (enemy != null && health > 0)
         {
             enemy.OnDamagedByPlayer(attackDirection);
-            if (sfxSource != null && hit_sound != null)
-                sfxSource.PlayOneShot(hit_sound);
+            audioManager?.PlaySFX(hit_sfx);
         }
 
         if (health <= 0)
         {
-            if (sfxSource != null && death_sound != null)
-                sfxSource.PlayOneShot(death_sound);
+            audioManager?.PlaySFX(death_sfx);
 
             enemy.Die();
         }

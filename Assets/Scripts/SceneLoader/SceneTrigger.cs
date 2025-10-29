@@ -21,8 +21,8 @@ public class SceneTrigger : MonoBehaviour
     [Header("Transition UI")]
     [SerializeField] private GameObject transitionImage; // assign your UI image here
 
-    public AudioSource sfxSource;
-    public AudioClip DoorSound;
+    private AudioManager audioManager;
+    public string sfx;
 
 #if UNITY_EDITOR
     private void Awake()
@@ -41,9 +41,9 @@ public class SceneTrigger : MonoBehaviour
 
     private IEnumerator LoadSceneWithDelay()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         // play SFX immediately
-        if (sfxSource != null && DoorSound != null)
-            sfxSource.PlayOneShot(DoorSound);
+        audioManager?.PlaySFX(sfx);
 
         // store next player position
         PlayerSpawnManager.nextPosition = newPlayerPosition;

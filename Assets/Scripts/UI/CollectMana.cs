@@ -7,10 +7,6 @@ public class CollectMana : MonoBehaviour
     public float manaAmount = 20f;          
     public float destroyDelay = 1f;         
 
-    [Header("SFX")]
-    public AudioSource sfxSource;
-    public AudioClip pickupSound;
-
     [Header("UI")]
     [SerializeField] private GameObject _manaPanel; 
     [SerializeField] private float _panelDuration = 0.25f; 
@@ -20,9 +16,12 @@ public class CollectMana : MonoBehaviour
     [SerializeField] private GameObject lightChild;  // Light2D child
 
     private Animator anim;
+    public string sfx;
+    private AudioManager audioManager;
 
     private void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         if (visualChild != null)
             anim = visualChild.GetComponent<Animator>();
     }
@@ -42,8 +41,7 @@ public class CollectMana : MonoBehaviour
             if (anim != null)
                 anim.Play("ManaEffect");
 
-            if (sfxSource != null && pickupSound != null)
-                sfxSource.PlayOneShot(pickupSound);
+            audioManager?.PlaySFX(sfx);
 
             if (_manaPanel != null)
                 StartCoroutine(ShowPanel());
