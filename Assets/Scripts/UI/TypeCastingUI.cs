@@ -23,6 +23,7 @@ public class TypeCastingUI : MonoBehaviour
 
     private PauseMenu pausemenu;
     private SpellBookUI spellBookUI;
+    public GameObject BookLight2D;
 
     public Animator animator;
     
@@ -101,6 +102,8 @@ public class TypeCastingUI : MonoBehaviour
         TypeCastField.text = string.Empty;
         EventSystem.current.SetSelectedGameObject(null);
         pausemenu.Resume();
+        animator.SetBool("CombatPose", false);
+        BookLight2D.SetActive(false);
     }
     
     private void HandleWordComplete()
