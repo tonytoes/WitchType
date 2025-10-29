@@ -23,6 +23,8 @@ public class TypeCastingUI : MonoBehaviour
 
     private PauseMenu pausemenu;
     private SpellBookUI spellBookUI;
+
+    public Animator animator;
     
 
     [Header("SFX")]
@@ -30,10 +32,12 @@ public class TypeCastingUI : MonoBehaviour
     public AudioClip manawarningsound;
     private AudioManager audioManager;
     
+    
    
 
     private void Start()
     {
+        
         audioManager = FindFirstObjectByType<AudioManager>();
         pausemenu = FindFirstObjectByType<PauseMenu>();
         spellBookUI = FindFirstObjectByType<SpellBookUI>();
@@ -58,6 +62,7 @@ public class TypeCastingUI : MonoBehaviour
     public void ActivateTypeCasting()
     {
         audioManager?.PlaySFX("Typecast");
+        animator.SetBool("CombatPose", true);
 
         EventSystem.current.sendNavigationEvents = false;
         playermovement.StopMovement();
@@ -106,6 +111,7 @@ public class TypeCastingUI : MonoBehaviour
 
     private void CastSpell()
     {
+        animator.SetBool("CombatPose", false);
         var spell = SpellManager.Instance.selectedSpells.FirstOrDefault();
         if (spell == null || spell.spellPrefab == null)
             return;
