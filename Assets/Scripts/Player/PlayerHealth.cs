@@ -13,6 +13,7 @@ public class PlayerHealth : MonoBehaviour
     private DamageFlashPlayer _damageFlash;
 
     private AudioManager audioManager;
+    private TypeCastingUI typeCast;
 
     public AudioSource sfxSource;
     [Header("Hit Sounds")]
@@ -21,6 +22,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         audioManager = FindFirstObjectByType<AudioManager>();
+        typeCast = FindFirstObjectByType<TypeCastingUI>();
         StartCoroutine(InitializeHealthUI());
         _damageFlash = GetComponent<DamageFlashPlayer>();
     }
@@ -70,11 +72,37 @@ public class PlayerHealth : MonoBehaviour
 
 
     private void GameOver()
+{
+    audioManager.PlaySFX("death_player");
+
+        typeCast.DeactivateTypeCasting();
+
+    gameObject.SetActive(false);
+    gameoverPanel.SetActive(true);
+}
+    public void RespawnPlayer()
     {
-        audioManager.PlaySFX("death_player");
-        gameObject.SetActive(false);
-        gameoverPanel.SetActive(true);
+        gameObject.SetActive(true);
+        currentHealth = maxHealth;
+
+        // 🧭 move player to last checkpoint if exists
+        if (RespawnController.latestRespawnPoint != null)
+        {
+            transform.position = RespawnController.latestRespawnPoint.position;
+        }
+
+        if (health != null)
+            health.UpdateHearts(currentHealth, maxHealth);
+
+        if (gameoverPanel != null)
+            gameoverPanel.SetActive(false);
+
+        if (_damageFlash != null)
+            _damageFlash.ResetFlashState();
+
+        audioManager.PlaySFX("respawn_player");
     }
+
 
 
     private void PlayRandomMoan()

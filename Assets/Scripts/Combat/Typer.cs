@@ -27,7 +27,7 @@ public class Typer : MonoBehaviour
     {
         remainingWord = newString;
 
-        string typedPart = $"<color=green>{currentWord.Substring(0, correctIndex)}</color>";
+        string typedPart = $"<color=white>{currentWord.Substring(0, correctIndex)}</color>";
         string remainingPart = currentWord.Substring(correctIndex);
 
         wordOutput.text = typedPart + remainingWord;
@@ -67,7 +67,7 @@ public class Typer : MonoBehaviour
         }
         else
         {
-            wordOutput.text = $"<color=green>{currentWord.Substring(0, correctIndex)}</color>"
+            wordOutput.text = $"<color=white>{currentWord.Substring(0, correctIndex)}</color>"
                 + $"<color=red>{currentWord[correctIndex]}</color>" +
                 currentWord.Substring(correctIndex + 1);
         }

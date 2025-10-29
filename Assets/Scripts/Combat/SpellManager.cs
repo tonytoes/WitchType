@@ -119,19 +119,52 @@ public class SpellManager : MonoBehaviour
     {
         if (selectedSpellText != null)
         {
-            selectedSpellText.text = string.IsNullOrEmpty(spellName)
-                ? ""
-                : $"{spellName}";
+            if (string.IsNullOrEmpty(spellName))
+            {
+                selectedSpellText.text = "";
+            }
+            else
+            {
+                // find current selected spell
+                Spell currentSpell = selectedSpells.Count > 0 ? selectedSpells[selectedSpells.Count - 1] : null;
+
+                selectedSpellText.text = spellName;
+
+                if (currentSpell != null)
+                {
+                    ColorUtility.TryParseHtmlString("#A020F0", out Color purple);    // AOE
+                    ColorUtility.TryParseHtmlString("#b33029ff", out Color red);       // Projectile
+                    ColorUtility.TryParseHtmlString("#4CD964", out Color green);     // Support
+                    ColorUtility.TryParseHtmlString("#A1A1A1", out Color white);     // Default
+
+                    switch (currentSpell.spellType.ToLower())
+                    {
+                        case "aoe":
+                            selectedSpellText.color = purple;
+                            break;
+                        case "projectile":
+                            selectedSpellText.color = red;
+                            break;
+                        case "support":
+                            selectedSpellText.color = green;
+                            break;
+                        default:
+                            selectedSpellText.color = white;
+                            break;
+                    }
+                }
+
                 audioManager?.PlaySFX("selectspell");
+            }
         }
 
         if (manaCostText != null)
         {
-            manaCostText.text = manaCost > 0
-                ? $"{manaCost}"
-                : "";
+            manaCostText.text = manaCost > 0 ? $"{manaCost}" : "";
         }
     }
+
+
 
     [System.Serializable]
     public class Spell

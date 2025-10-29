@@ -106,4 +106,34 @@ public class DamageFlashPlayer : MonoBehaviour
         _shieldPanel.SetActive(false);
     }
 
+
+
+
+    public void ResetFlashState()
+    {
+        // stop any ongoing flash coroutine
+        if (_damageFlashCoroutine != null)
+        {
+            StopCoroutine(_damageFlashCoroutine);
+            _damageFlashCoroutine = null;
+        }
+
+        // reset all sprite materials to normal (no flash)
+        if (_materials != null)
+        {
+            foreach (var mat in _materials)
+            {
+                if (mat != null)
+                    mat.SetFloat("_FlashAmount", 0f);
+            }
+        }
+
+        // make sure panels are off
+        if (_damagePanel != null)
+            _damagePanel.SetActive(false);
+        if (_shieldPanel != null)
+            _shieldPanel.SetActive(false);
+    }
+
+
 }

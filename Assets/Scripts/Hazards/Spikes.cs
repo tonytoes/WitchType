@@ -47,6 +47,9 @@ public class Spike : MonoBehaviour
             if (playerHealth != null)
                 playerHealth.ChangeHealth(-1);
 
+            if (collision.gameObject == null || !collision.gameObject.activeInHierarchy)
+                return;
+
             Rigidbody2D rb = collision.GetComponent<Rigidbody2D>();
             if (rb != null)
             {
