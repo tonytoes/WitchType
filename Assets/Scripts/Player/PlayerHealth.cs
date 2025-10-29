@@ -11,7 +11,6 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private GameObject gameoverPanel;
 
     private DamageFlashPlayer _damageFlash;
-
     private AudioManager audioManager;
     private TypeCastingUI typeCast;
 
@@ -37,7 +36,8 @@ public class PlayerHealth : MonoBehaviour
 
         if (health != null)
         {
-            health.UpdateHearts(currentHealth, maxHealth);
+            health.Initialize(maxHealth);
+            health.UpdateHealth(currentHealth);
         }
     }
 
@@ -46,9 +46,8 @@ public class PlayerHealth : MonoBehaviour
         if (shieldActive && amount < 0)
         {
             if (_damageFlash != null)
-                _damageFlash.CallShieldFlash(); // <- call blue shield flash instead
-
-            return; // don't take damage
+                _damageFlash.CallShieldFlash(); // <- blue flash when shielded
+            return;
         }
 
         currentHealth += amount;
@@ -61,7 +60,7 @@ public class PlayerHealth : MonoBehaviour
         }
 
         if (health != null)
-            health.UpdateHearts(currentHealth, maxHealth);
+            health.UpdateHealth(currentHealth);
 
         if (currentHealth <= 0)
         {
@@ -70,29 +69,27 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-
     private void GameOver()
-{
-    audioManager.PlaySFX("death_player");
-
+    {
+        audioManager.PlaySFX("death_player");
         typeCast.DeactivateTypeCasting();
+        gameObject.SetActive(false);
+        gameoverPanel.SetActive(true);
+    }
 
-    gameObject.SetActive(false);
-    gameoverPanel.SetActive(true);
-}
     public void RespawnPlayer()
     {
         gameObject.SetActive(true);
         currentHealth = maxHealth;
 
-        // 🧭 move player to last checkpoint if exists
         if (RespawnController.latestRespawnPoint != null)
-        {
             transform.position = RespawnController.latestRespawnPoint.position;
-        }
 
         if (health != null)
-            health.UpdateHearts(currentHealth, maxHealth);
+        {
+            health.Initialize(maxHealth);
+            health.UpdateHealth(currentHealth);
+        }
 
         if (gameoverPanel != null)
             gameoverPanel.SetActive(false);
@@ -103,8 +100,6 @@ public class PlayerHealth : MonoBehaviour
         audioManager.PlaySFX("respawn_player");
     }
 
-
-
     private void PlayRandomMoan()
     {
         if (sfxSource != null && moanWhenHitClips != null && moanWhenHitClips.Length > 0)
@@ -114,12 +109,6 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    public void SetShield(bool isActive)
-    {
-        shieldActive = isActive;
-    }
-
-    public bool Shield(bool state) {
-        return shieldActive;
-    }
+    public void SetShield(bool isActive) => shieldActive = isActive;
+    public bool Shield(bool state) => shieldActive;
 }

@@ -72,7 +72,7 @@ public class PlayerMana : MonoBehaviour
             manaSlider.value = currentMana;
 
         if (manaText != null)
-            manaText.text = $"{Mathf.RoundToInt(currentMana)}"; 
+            manaText.text = $"{Mathf.RoundToInt(currentMana)}/100"; 
     }
 
     private void Update()
