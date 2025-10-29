@@ -76,6 +76,28 @@ public class PlayerHealth : MonoBehaviour
         gameoverPanel.SetActive(true);
     }
 
+    public void RespawnPlayer()
+    {
+
+        gameObject.SetActive(true);
+
+
+        currentHealth = maxHealth;
+
+    
+        if (health != null)
+            health.UpdateHearts(currentHealth, maxHealth);
+
+
+        if (gameoverPanel != null)
+            gameoverPanel.SetActive(false);
+            
+        if (_damageFlash != null)
+        _damageFlash.ResetFlashState();
+
+        audioManager.PlaySFX("respawn_player");
+    }
+
 
     private void PlayRandomMoan()
     {
