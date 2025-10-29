@@ -7,12 +7,13 @@ public class Shield : MonoBehaviour
     private PlayerHealth playerHealth;
     
     [Header("SFX")]
-    public AudioSource sfxSource;
-    public AudioClip shieldsound;
+    private AudioManager audioManager;
+    public string sfx;
 
 
     private void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
@@ -24,8 +25,7 @@ public class Shield : MonoBehaviour
 
             if (playerHealth != null)
                 playerHealth.SetShield(true);
-                if (sfxSource != null && shieldsound != null)
-                    sfxSource.PlayOneShot(shieldsound);
+                audioManager?.PlaySFX(sfx);
         }
         StartCoroutine(AutoDisable());
     }
@@ -39,8 +39,7 @@ public class Shield : MonoBehaviour
     {
         if (playerHealth != null)
             playerHealth.SetShield(false);
-            if (sfxSource != null && shieldsound != null)
-                    sfxSource.PlayOneShot(shieldsound);
+            audioManager?.PlaySFX(sfx);
 
         Destroy(gameObject);
     }

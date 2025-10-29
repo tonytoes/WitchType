@@ -9,8 +9,7 @@ public class CollectSpeedBoost : MonoBehaviour
     public float destroyDelay = 1f;      // Delay before destroying the object
 
     [Header("SFX")]
-    public AudioSource sfxSource;
-    public AudioClip pickupSound;
+    public string pickupSound;
 
     [Header("UI")]
     [SerializeField] private GameObject _speedPanel; 
@@ -21,9 +20,12 @@ public class CollectSpeedBoost : MonoBehaviour
     [SerializeField] private GameObject lightChild;  // Light2D child
 
     private Animator anim;
+    private AudioManager audioManager;
 
     private void Start()
     {
+
+        audioManager = FindFirstObjectByType<AudioManager>();
         if (visualChild != null)
             anim = visualChild.GetComponent<Animator>();
     }
@@ -41,8 +43,7 @@ public class CollectSpeedBoost : MonoBehaviour
 
             // Play visual/audio effects
             if (anim != null) anim.Play("SpeedEffect");
-            if (sfxSource != null && pickupSound != null) sfxSource.PlayOneShot(pickupSound);
-            if (_speedPanel != null) StartCoroutine(ShowPanel());
+            audioManager?.PlaySFX(pickupSound);
 
             // Disable collider so it can't trigger again
             Collider2D col = GetComponent<Collider2D>();

@@ -331,8 +331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Heal
   healAmount: 1
   destroyDelay: 3
-  sfxSource: {fileID: -2181463970123070789}
-  HealSound: {fileID: 8300000, guid: d8a804d6436841f409211f4d1d457875, type: 3}
+  sfx: heal sfx
   _healpanel: {fileID: 341921643677648748}
   _panelDuration: 0.5
 --- !u!114 &8338751528164958618

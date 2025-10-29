@@ -3,16 +3,17 @@ using UnityEngine;
 public class BoulderSpell : MonoBehaviour
 {
     [Header("Stats")]
-    public float lifetime = 5f;      
+    public float lifetime = 5f;
     public float maxDistance = 10f;   
+    public float shakeduration = 1f;
 
     [Header("SFX")]
-    public AudioSource sfxSource;
-    public AudioClip summonSound;
+    private AudioManager audioManager;
+    public string sfx;
 
     private void Start()
     {
-        
+        audioManager = FindFirstObjectByType<AudioManager>();
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player == null)
         {
@@ -30,10 +31,9 @@ public class BoulderSpell : MonoBehaviour
         transform.position = playerPos + direction * maxDistance;
 
 
-        if (sfxSource != null && summonSound != null)
-            sfxSource.PlayOneShot(summonSound);
+        audioManager?.PlaySFX(sfx);
 
-        CinemachineShake.Instance.ShakeOnce(1f);
+        CinemachineShake.Instance.ShakeOnce(shakeduration);
 
         
         Destroy(gameObject, lifetime);

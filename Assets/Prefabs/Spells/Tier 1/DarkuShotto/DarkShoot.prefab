@@ -143,8 +143,7 @@ MonoBehaviour:
   damage: 14
   maxDistance: 14
   shakeduration: 1
-  sfxSource: {fileID: -5308925218944133276}
-  launchSound: {fileID: 8300000, guid: 85a940d40a1658948be3472ccefd4f0f, type: 3}
+  sfx: darkshot sfx
 --- !u!61 &4323945044443613131
 BoxCollider2D:
   m_ObjectHideFlags: 0

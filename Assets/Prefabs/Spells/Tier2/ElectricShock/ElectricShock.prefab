@@ -360,5 +360,4 @@ MonoBehaviour:
   damageInterval: 0.1
   maxDistance: 0
   shakeduration: 0.3
-  sfxSource: {fileID: 3328790067365563959}
-  launchSound: {fileID: 8300000, guid: 13d69423fbc9e3945b46f3473f3d03f2, type: 3}
+  sfx: electricshock sfx

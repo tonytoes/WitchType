@@ -15,14 +15,15 @@ public class DamageOvertimeAOE : MonoBehaviour
     public float shakeduration = 1f;
 
     [Header("SFX")]
-    public AudioSource sfxSource;
-    public AudioClip launchSound;
+    private AudioManager audioManager;
+    public string sfx;
 
     // Keep track of enemies inside the AOE
     private List<EnemyHealth> enemiesInAOE = new List<EnemyHealth>();
 
     private void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         // Get player and mouse positions
         Vector3 playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
         Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -40,8 +41,7 @@ public class DamageOvertimeAOE : MonoBehaviour
         transform.position = mouseWorld;
 
         // Play sound effect
-        if (sfxSource != null && launchSound != null)
-            sfxSource.PlayOneShot(launchSound);
+        audioManager?.PlaySFX(sfx);
 
         // Start damaging enemies over time
         StartCoroutine(DamageOverTime());

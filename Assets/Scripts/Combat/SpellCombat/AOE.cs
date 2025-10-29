@@ -9,13 +9,15 @@ public class AOE : MonoBehaviour
     public float stunTime = 1f;
     public int damage = 1;
     public float maxDistance = 10f;
+    public float shakeduration = 1f;
 
     [Header("SFX")]
-    public AudioSource sfxSource;
-    public AudioClip launchSound;
+    private AudioManager audioManager;
+    public string sfx;
 
     private void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         Vector3 playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
         Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mouseWorld.z = 0f;
@@ -28,8 +30,7 @@ public class AOE : MonoBehaviour
 
         transform.position = mouseWorld;
 
-        if (sfxSource != null && launchSound != null)
-            sfxSource.PlayOneShot(launchSound);
+        audioManager?.PlaySFX(sfx);
             
 
         Destroy(gameObject, lifetime);
@@ -44,7 +45,7 @@ public class AOE : MonoBehaviour
 
             if (enemy != null)
                 enemy.TakeDamage(damage, Vector2.zero);
-            CinemachineShake.Instance.ShakeOnce(1f);
+            CinemachineShake.Instance.ShakeOnce(shakeduration);
 
             if (knockback != null)
                 knockback.KnockBack(transform, kbForce, knockbackTime, stunTime);

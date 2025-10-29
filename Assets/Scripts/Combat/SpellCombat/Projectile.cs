@@ -13,14 +13,15 @@ public class Projectile : MonoBehaviour
     public float shakeduration = 1f;
 
     [Header("SFX")]
-    public AudioSource sfxSource;       
-    public AudioClip launchSound;        
+    private AudioManager audioManager;
+    public string sfx;
 
     private Rigidbody2D rb;
     private Vector3 spawnPosition;
 
     private void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         rb = GetComponent<Rigidbody2D>();
         spawnPosition = transform.position;
 
@@ -33,8 +34,7 @@ public class Projectile : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
-        if (sfxSource != null && launchSound != null)
-            sfxSource.PlayOneShot(launchSound);
+        audioManager?.PlaySFX(sfx);
 
         Destroy(gameObject, lifetime);
     }

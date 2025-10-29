@@ -10,11 +10,10 @@ public class KeyCollectUI : MonoBehaviour
     public float popupDuration = 1.5f;    // how long it stays visible
     public string triggerTag = "Player";
 
-    [Header("SFX")]
-    public AudioSource sfxSource;
-    public AudioClip collectSFX;
+    private AudioManager audioManager;
 
     private Animator popupAnimator;
+    public string sfx;
 
     private void Awake()
     {
@@ -24,6 +23,7 @@ public class KeyCollectUI : MonoBehaviour
 
     private void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         if (popupObject != null)
         {
             popupAnimator = popupObject.GetComponent<Animator>();
@@ -50,8 +50,7 @@ public class KeyCollectUI : MonoBehaviour
         }
 
         // play SFX
-        if (sfxSource && collectSFX)
-            sfxSource.PlayOneShot(collectSFX);
+        audioManager?.PlaySFX(sfx);
 
         // show popup
         popupObject.SetActive(true);

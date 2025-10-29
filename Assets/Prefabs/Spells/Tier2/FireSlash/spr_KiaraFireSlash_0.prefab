@@ -165,8 +165,7 @@ MonoBehaviour:
   damage: 20
   maxDistance: 10
   shakeduration: 1
-  sfxSource: {fileID: -5998991556846347745}
-  launchSound: {fileID: 8300000, guid: 6913816df84233948916d58f7d3b317f, type: 3}
+  sfx: fireslash sfx
 --- !u!61 &-7940463745968855700
 BoxCollider2D:
   m_ObjectHideFlags: 0

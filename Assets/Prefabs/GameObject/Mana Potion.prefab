@@ -336,12 +336,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CollectMana
   manaAmount: 50
   destroyDelay: 1
-  sfxSource: {fileID: 1224574214363008221}
-  pickupSound: {fileID: 8300000, guid: 8090696e4260db64a9347b3225d869bb, type: 3}
   _manaPanel: {fileID: 6673175725172274367}
   _panelDuration: 0.45
   visualChild: {fileID: 7957810323564112504}
   lightChild: {fileID: 4838006389234815079}
+  sfx: manacollect_sfx
 --- !u!50 &4790002297977934466
 Rigidbody2D:
   serializedVersion: 5
