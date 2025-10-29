@@ -173,9 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cdb4800fae878349a9c59065c9aebf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spikes
-  knockbackForce: 5
+  knockback: 5
   knockbackDuration: 0.4
+  damage: 30
   anim: {fileID: 4742245411184631533}
-  audioSource: {fileID: 0}
-  retractSound: {fileID: 0}
-  extendSound: {fileID: 0}

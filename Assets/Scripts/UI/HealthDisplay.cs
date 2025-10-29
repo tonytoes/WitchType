@@ -8,7 +8,7 @@ public class HealthDisplay : MonoBehaviour
     [SerializeField] private TMP_Text healthText; 
     [SerializeField] private Image fillImage; 
 
-    // custom color presets
+    
     private Color fullHealthColor = new Color32(0x64, 0xBE, 0x66, 0xFF); // #64BE66
     private Color midHealthColor = Color.yellow;
     private Color lowHealthColor = Color.red;

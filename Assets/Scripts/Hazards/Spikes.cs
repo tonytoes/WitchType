@@ -5,6 +5,7 @@ public class Spike : MonoBehaviour
 {
     public float knockback = 5f;
     public float knockbackDuration = 0.2f;
+    public int damage = 1;
     public Animator anim; 
 
     private Collider2D spikeCollider;
@@ -45,7 +46,7 @@ public class Spike : MonoBehaviour
         {
             PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
             if (playerHealth != null)
-                playerHealth.ChangeHealth(-1);
+                playerHealth.ChangeHealth(-damage);
 
             if (collision.gameObject == null || !collision.gameObject.activeInHierarchy)
                 return;
