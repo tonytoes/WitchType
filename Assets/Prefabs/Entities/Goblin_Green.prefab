@@ -711,13 +711,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf99f74a596f224bb0997f222c4e276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyCombat
-  damage: 1
+  damage: 5
   attackPoint: {fileID: 3513826012110542897}
   weoponRange: 1.4
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
-  attack_sfx: 
+  attack_sfx: goblin_attack_sfx
 --- !u!114 &5632252754151403277
 MonoBehaviour:
   m_ObjectHideFlags: 0

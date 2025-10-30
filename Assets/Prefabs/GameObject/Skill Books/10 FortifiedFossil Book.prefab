@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2223721293381583720}
   - component: {fileID: 4163852939698121642}
   m_Layer: 0
-  m_Name: Book 3
+  m_Name: 10 FortifiedFossil Book
   m_TagString: Spell
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce10724e81dbeb44c81a9f5f91152f31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerSpellCollector
-  spellIndex: 2
+  spellIndex: 9
 --- !u!61 &3107659225109098109
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -219,8 +219,8 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 0.023584902, g: 0.8776487, b: 1, a: 1}
-  m_Intensity: 15.86
+  m_Color: {r: 0.3962264, g: 0.11885651, b: 0.02055892, a: 1}
+  m_Intensity: 10
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 0000000009dc3a6e6bf7d6a16fa82b6d198dd670f3ab9783bd810e60
