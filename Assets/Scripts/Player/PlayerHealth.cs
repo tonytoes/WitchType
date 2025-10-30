@@ -56,7 +56,7 @@ public class PlayerHealth : MonoBehaviour
         if (amount < 0 && _damageFlash != null)
         {
             _damageFlash.CallDamageFlash();
-            PlayRandomMoan(); 
+            PlayRandomMoan();
         }
 
         if (health != null)
@@ -64,8 +64,21 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            PlayRandomMoan(); 
+            PlayRandomMoan();
             GameOver();
+        }
+    }
+    
+
+    public void IncreaseMaxHealth(int amount)
+    {
+        maxHealth += amount;
+        currentHealth = maxHealth;
+
+        if (health != null)
+        {
+            health.Initialize(maxHealth);
+            health.UpdateHealth(currentHealth);
         }
     }
 

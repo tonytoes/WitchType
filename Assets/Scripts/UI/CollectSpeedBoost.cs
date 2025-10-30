@@ -41,6 +41,10 @@ public class CollectSpeedBoost : MonoBehaviour
                 playerMovement.ApplySpeedBoost(speedMultiplier, boostDuration);
             }
 
+            // Show UI panel
+            if (_speedPanel != null)
+                StartCoroutine(ShowPanel());
+
             // Play visual/audio effects
             if (anim != null) anim.Play("SpeedEffect");
             audioManager?.PlaySFX(pickupSound);
@@ -62,6 +66,7 @@ public class CollectSpeedBoost : MonoBehaviour
             StartCoroutine(DestroyAfterEffects());
         }
     }
+
 
     private IEnumerator ShowPanel()
     {
