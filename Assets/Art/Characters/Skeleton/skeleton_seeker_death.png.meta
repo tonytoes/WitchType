@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 841db75a6942b0149bd3f2ea74ca18f2
+guid: d9a213268b03d6344b06ebe01408719e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7008412969330441016
-    second: Attack_0
+      213: -6345568003008502760
+    second: skeleton_seeker_death_0
   - first:
-      213: -7763475090823894447
-    second: Attack_1
+      213: 5066159012069135807
+    second: skeleton_seeker_death_1
   - first:
-      213: 302641331129538988
-    second: Attack_2
+      213: 2700894079903916151
+    second: skeleton_seeker_death_2
   - first:
-      213: -6329420634031446844
-    second: Attack_3
+      213: -6736265352867032193
+    second: skeleton_seeker_death_3
   - first:
-      213: -910092549403018386
-    second: Attack_4
-  - first:
-      213: 221524225039350300
-    second: Attack_5
+      213: 5288385066018309596
+    second: skeleton_seeker_death_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,7 +112,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -128,89 +125,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack_0
+      name: skeleton_seeker_death_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 0
-        width: 46
+        x: 19
+        y: 493
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814e792858300f7a0800000000000000
+      internalID: -6345568003008502760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_seeker_death_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 373
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb55602a7cc9e4640800000000000000
+      internalID: 5066159012069135807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_seeker_death_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 253
+        width: 82
         height: 66
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c481db598d1dbe90800000000000000
-      internalID: -7008412969330441016
+      spriteID: 770e0a01bd08b7520800000000000000
+      internalID: 2700894079903916151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_1
+      name: skeleton_seeker_death_3
       rect:
         serializedVersion: 2
-        x: 161
-        y: 0
-        width: 46
-        height: 63
+        x: 19
+        y: 133
+        width: 82
+        height: 43
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15a29dc9988924490800000000000000
-      internalID: -7763475090823894447
+      spriteID: f73d6911a5af382a0800000000000000
+      internalID: -6736265352867032193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_2
+      name: skeleton_seeker_death_4
       rect:
         serializedVersion: 2
-        x: 291
-        y: 0
-        width: 56
-        height: 60
+        x: 19
+        y: 13
+        width: 82
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca9d35cefa2333400800000000000000
-      internalID: 302641331129538988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_4
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 0
-        width: 50
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6b7a10f5a3be53f0800000000000000
-      internalID: -910092549403018386
+      spriteID: cd5808fc23e146940800000000000000
+      internalID: 5288385066018309596
       vertices: []
       indices: 
       edges: []
@@ -219,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 24920e185aad6954d8658ce62a728a69
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -229,13 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Attack_0: -7008412969330441016
-      Attack_1: -7763475090823894447
-      Attack_2: 302641331129538988
-      Attack_3: -6329420634031446844
-      Attack_4: -910092549403018386
-      Attack_5: 221524225039350300
-      Attack_6: -301614065
+      skeleton_seeker_death_0: -6345568003008502760
+      skeleton_seeker_death_1: 5066159012069135807
+      skeleton_seeker_death_2: 2700894079903916151
+      skeleton_seeker_death_3: -6736265352867032193
+      skeleton_seeker_death_4: 5288385066018309596
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
