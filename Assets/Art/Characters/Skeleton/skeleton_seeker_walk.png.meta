@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 841db75a6942b0149bd3f2ea74ca18f2
+guid: 3b0ae85bb8460994e9a03ab8f3c93b86
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7008412969330441016
-    second: Attack_0
+      213: 1843118504893400886
+    second: skeleton_seeker_walk_0
   - first:
-      213: -7763475090823894447
-    second: Attack_1
+      213: 2902860917087766669
+    second: skeleton_seeker_walk_1
   - first:
-      213: 302641331129538988
-    second: Attack_2
+      213: -5870647021314986159
+    second: skeleton_seeker_walk_2
   - first:
-      213: -6329420634031446844
-    second: Attack_3
+      213: 8606094474783147747
+    second: skeleton_seeker_walk_3
   - first:
-      213: -910092549403018386
-    second: Attack_4
+      213: -3554589852627955530
+    second: skeleton_seeker_walk_4
   - first:
-      213: 221524225039350300
-    second: Attack_5
+      213: -2670274548788617775
+    second: skeleton_seeker_walk_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,7 +115,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -128,89 +128,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack_0
+      name: skeleton_seeker_walk_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 613
+        width: 94
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637ce13d382149910800000000000000
+      internalID: 1843118504893400886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_seeker_walk_1
       rect:
         serializedVersion: 2
         x: 31
-        y: 0
-        width: 46
-        height: 66
+        y: 493
+        width: 64
+        height: 87
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c481db598d1dbe90800000000000000
-      internalID: -7008412969330441016
+      spriteID: d888163cf98094820800000000000000
+      internalID: 2902860917087766669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_1
+      name: skeleton_seeker_walk_2
       rect:
         serializedVersion: 2
-        x: 161
-        y: 0
-        width: 46
-        height: 63
+        x: 35
+        y: 373
+        width: 52
+        height: 86
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15a29dc9988924490800000000000000
-      internalID: -7763475090823894447
+      spriteID: 15fa0dc53a5478ea0800000000000000
+      internalID: -5870647021314986159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_2
+      name: skeleton_seeker_walk_3
       rect:
         serializedVersion: 2
-        x: 291
-        y: 0
-        width: 56
-        height: 60
+        x: 35
+        y: 254
+        width: 52
+        height: 84
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca9d35cefa2333400800000000000000
-      internalID: 302641331129538988
+      spriteID: 3e6c6e8e35dfe6770800000000000000
+      internalID: 8606094474783147747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4
+      name: skeleton_seeker_walk_4
       rect:
         serializedVersion: 2
-        x: 419
-        y: 0
-        width: 50
-        height: 61
+        x: 32
+        y: 133
+        width: 68
+        height: 86
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6b7a10f5a3be53f0800000000000000
-      internalID: -910092549403018386
+      spriteID: 6b017efac5f8baec0800000000000000
+      internalID: -3554589852627955530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_seeker_walk_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 13
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd10b2127741fad0800000000000000
+      internalID: -2670274548788617775
       vertices: []
       indices: 
       edges: []
@@ -219,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 24920e185aad6954d8658ce62a728a69
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -229,13 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Attack_0: -7008412969330441016
-      Attack_1: -7763475090823894447
-      Attack_2: 302641331129538988
-      Attack_3: -6329420634031446844
-      Attack_4: -910092549403018386
-      Attack_5: 221524225039350300
-      Attack_6: -301614065
+      skeleton_seeker_walk_0: 1843118504893400886
+      skeleton_seeker_walk_1: 2902860917087766669
+      skeleton_seeker_walk_2: -5870647021314986159
+      skeleton_seeker_walk_3: 8606094474783147747
+      skeleton_seeker_walk_4: -3554589852627955530
+      skeleton_seeker_walk_5: -2670274548788617775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
