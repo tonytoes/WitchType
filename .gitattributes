@@ -1,5 +1,0 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-*.lua linguist-vendored
-Assets/Scenes/MainScene.unity filter=lfs diff=lfs merge=lfs -text
-Assets/Scenes/MAIN_SCENES/*.unity filter=lfs diff=lfs merge=lfs -text
