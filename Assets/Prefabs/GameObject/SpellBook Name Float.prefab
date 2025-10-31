@@ -106,7 +106,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Healing Spell Book
+  m_text: Tree Spike
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c14763411a554f4488556610d5a81244, type: 2}
   m_sharedMaterial: {fileID: 8389547508198318435, guid: c14763411a554f4488556610d5a81244, type: 2}
@@ -226,7 +226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8262030332594503090}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.40462, y: -28.528067, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

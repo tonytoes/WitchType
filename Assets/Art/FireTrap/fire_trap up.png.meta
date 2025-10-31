@@ -148,12 +148,12 @@ TextureImporter:
       name: fire_trap up_0
       rect:
         serializedVersion: 2
-        x: 87
-        y: 104
-        width: 16
-        height: 15
+        x: 83
+        y: 59
+        width: 25
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -170,12 +170,12 @@ TextureImporter:
       name: fire_trap up_1
       rect:
         serializedVersion: 2
-        x: 199
-        y: 104
-        width: 16
-        height: 15
+        x: 195
+        y: 59
+        width: 25
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -192,12 +192,12 @@ TextureImporter:
       name: fire_trap up_2
       rect:
         serializedVersion: 2
-        x: 311
-        y: 97
-        width: 16
-        height: 22
+        x: 306
+        y: 59
+        width: 25
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: fire_trap up_3
       rect:
         serializedVersion: 2
-        x: 423
-        y: 90
-        width: 16
-        height: 29
+        x: 419
+        y: 59
+        width: 25
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: fire_trap up_4
       rect:
         serializedVersion: 2
-        x: 532
-        y: 77
-        width: 20
-        height: 42
+        x: 530
+        y: 59
+        width: 25
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: fire_trap up_5
       rect:
         serializedVersion: 2
-        x: 644
-        y: 70
-        width: 22
-        height: 49
+        x: 642
+        y: 59
+        width: 25
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,11 +281,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 755
-        y: 60
+        y: 59
         width: 25
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,10 +302,10 @@ TextureImporter:
       name: fire_trap up_7
       rect:
         serializedVersion: 2
-        x: 870
-        y: 77
-        width: 19
-        height: 42
+        x: 867
+        y: 59
+        width: 25
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +324,10 @@ TextureImporter:
       name: fire_trap up_8
       rect:
         serializedVersion: 2
-        x: 983
-        y: 104
-        width: 16
-        height: 15
+        x: 978
+        y: 59
+        width: 25
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,165 +342,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: fire_trap up_9
-      rect:
-        serializedVersion: 2
-        x: 870
-        y: 60
-        width: 16
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 25157dd26b3486ef0800000000000000
-      internalID: -114767340765753006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire_trap up_10
-      rect:
-        serializedVersion: 2
-        x: 983
-        y: 85
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 47d054d122aef8130800000000000000
-      internalID: 3571330461768945012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire_trap up_11
-      rect:
-        serializedVersion: 2
-        x: 993
-        y: 76
-        width: 7
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b46bef180a9b6c00800000000000000
-      internalID: 894978310649111735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire_trap up_12
-      rect:
-        serializedVersion: 2
-        x: 982
-        y: 77
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec220cc38c0d9bfc0800000000000000
-      internalID: -3478519678735736114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire_trap up_13
-      rect:
-        serializedVersion: 2
-        x: 984
-        y: 66
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 248828b13cea37bd0800000000000000
-      internalID: -2633569204078213054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire_trap up_14
-      rect:
-        serializedVersion: 2
-        x: 986
-        y: 58
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22f10798bfb1a3d10800000000000000
-      internalID: 2106026542905696034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire_trap up_15
-      rect:
-        serializedVersion: 2
-        x: 991
-        y: 66
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fceb5b50313dce70800000000000000
-      internalID: 9137013302765546737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a96e9587c4c9f25469c51ea911831e72
     internalID: 0
     vertices: []
     indices: 
@@ -518,6 +364,7 @@ TextureImporter:
       fire_trap up_13: -2633569204078213054
       fire_trap up_14: 2106026542905696034
       fire_trap up_15: 9137013302765546737
+      fire_trap up_16: -1135125817
       fire_trap up_2: -7880649291940088019
       fire_trap up_3: 806223394359228375
       fire_trap up_4: 1554374688342778312
