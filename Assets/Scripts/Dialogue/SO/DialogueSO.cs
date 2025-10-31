@@ -21,10 +21,10 @@ public class DialogueSO : ScriptableObject
         {
             foreach (var npc in requiredNPCS)
             {
-                if(!GameManager.Instance.DialogueHistoryTracker.HasSpokenWith(npc))
-                {
-                    return false;
-                }
+                // if(!GameManager.Instance.DialogueHistoryTracker.HasSpokenTo(npc))
+                // {
+                //     return false;
+                // }
             }
         }
 
