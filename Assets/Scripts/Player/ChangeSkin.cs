@@ -30,9 +30,9 @@ public class ChangeSkin : MonoBehaviour
         // if toggle is OFF → HatSkin active
         // if toggle is ON → HatlessSkin active
         if (isOn)
-            animator.runtimeAnimatorController = HatlessSkin;
-        else
             animator.runtimeAnimatorController = HatSkin;
+        else
+            animator.runtimeAnimatorController = HatlessSkin;
     }
 }
 
