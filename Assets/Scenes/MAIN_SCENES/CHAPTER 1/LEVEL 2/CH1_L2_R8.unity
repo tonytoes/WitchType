@@ -350813,11 +350813,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c79ba8c9912c61f4b83a7dd5d12134e8, type: 3}
---- !u!1 &550778785 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1779748576345548733, guid: c79ba8c9912c61f4b83a7dd5d12134e8, type: 3}
-  m_PrefabInstance: {fileID: 550778784}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &575346154
 GameObject:
   m_ObjectHideFlags: 0
@@ -350970,7 +350965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   uiObject: {fileID: 333100622}
-  displayDuration: 1.3
+  displayDuration: 2
   enemyTag: Enemy
   sfx: room cleared
 --- !u!61 &581436747
@@ -351895,7 +351890,7 @@ PrefabInstance:
     - target: {fileID: 8572262180700791795, guid: 9a0578de50a089547bd63c86dfe0d888, type: 3}
       propertyPath: dropPrefab
       value: 
-      objectReference: {fileID: 550778785}
+      objectReference: {fileID: 1466827339169029617, guid: f0bc0d5d25293864988eb759ce948883, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -354553,7 +354548,7 @@ Tilemap:
       - {fileID: 1819625980, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 1870291729, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 876638708, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 10, y: 6, z: 0}
