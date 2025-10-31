@@ -3108,7 +3108,7 @@ MonoBehaviour:
   newPlayerPosition: {x: 11.66, y: -0.73}
   delayBeforeLoad: 1
   transitionImage: {fileID: 1238678476}
-  sfx: 
+  sfx: door_sfx
 --- !u!61 &290757916
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3579,6 +3579,7 @@ MonoBehaviour:
   targets:
   - {fileID: 803865797}
   - {fileID: 1295933978}
+  - {fileID: 1878637624994605556}
   triggerTag: Player
 --- !u!1 &453674020
 GameObject:
@@ -366310,7 +366311,7 @@ Tilemap:
       - {fileID: 1819625980, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 1870291729, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 876638708, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 10, y: 5, z: 0}
