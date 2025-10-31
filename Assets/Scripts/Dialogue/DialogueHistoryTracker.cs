@@ -10,7 +10,7 @@ public class DialogueHistoryTracker : MonoBehaviour
         Debug.Log("Recorded NPC: " + actorSO.actorName);
     }
 
-    public bool HasSpokenTo(ActorSO actorSO)
+    public bool HasSpokenWith(ActorSO actorSO)
     {
         return spokenNPCS.Contains(actorSO);
     }

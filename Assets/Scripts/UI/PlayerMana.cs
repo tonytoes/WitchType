@@ -9,7 +9,6 @@ public class PlayerMana : MonoBehaviour
     [Header("Mana Settings")]
     public float maxMana = 100f;
     public float currentMana;
-
     public float mana_regen = 1f;
 
     [Header("UI")]
@@ -66,13 +65,30 @@ public class PlayerMana : MonoBehaviour
         UpdateManaUI();
     }
 
+    public void IncreaseMaxMana(float amount)
+    {
+        maxMana += amount;
+        currentMana = maxMana;
+        if (manaSlider != null)
+            manaSlider.maxValue = maxMana;
+
+        UpdateManaUI();
+    }
+    
+    public void RefillToFull()
+    {
+        currentMana = maxMana;
+        UpdateManaUI();
+    }
+
+
     private void UpdateManaUI()
     {
         if (manaSlider != null)
             manaSlider.value = currentMana;
 
         if (manaText != null)
-            manaText.text = $"{Mathf.RoundToInt(currentMana)}/100"; 
+            manaText.text = $"{Mathf.RoundToInt(currentMana)}/{Mathf.RoundToInt(maxMana)}";
     }
 
     private void Update()

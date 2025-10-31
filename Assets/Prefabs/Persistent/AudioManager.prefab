@@ -1063,10 +1063,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 6747048886861172918}
   m_HandleRect: {fileID: 8891512109296363516}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.0001
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1115,7 +1115,7 @@ RectTransform:
   m_Father: {fileID: 5794510018574839349}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.5109511, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1190,7 +1190,7 @@ RectTransform:
   m_Father: {fileID: 5500974907710160925}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1394,7 +1394,7 @@ RectTransform:
   m_Father: {fileID: 8754896774069571384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1468,8 +1468,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 3940867705755800748}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5109511, y: 0}
-  m_AnchorMax: {x: 0.5109511, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1524,6 +1524,7 @@ GameObject:
   - component: {fileID: 4048305741777528406}
   - component: {fileID: 1434327519525550330}
   - component: {fileID: 6900148468999126401}
+  - component: {fileID: 3294772562587245219}
   m_Layer: 0
   m_Name: Back
   m_TagString: Untagged
@@ -1646,6 +1647,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3250322155937200846}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: menu_click
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6900148468999126401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1659,6 +1672,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   targetImage: {fileID: 5445591428326563840}
+--- !u!114 &3294772562587245219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5825936171592225446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3250322155937200846}
+          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+          m_MethodName: PlaySFX
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: hover
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &6766034851771117021
 GameObject:
   m_ObjectHideFlags: 0
@@ -2234,8 +2276,91 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 396070e697bf4014284a95705ee374ce, type: 3}
   - name: BookClose
     clip: {fileID: 8300000, guid: 1d6707123e134a3429fd3b8bdb7c2b1a, type: 3}
+  - name: Pause
+    clip: {fileID: 8300000, guid: b0907c617cd62b04c821594cd7f84324, type: 3}
+  - name: menu_click
+    clip: {fileID: 8300000, guid: b3acc7b8af6b10f4dbf4b50ccc9e56b0, type: 3}
+  - name: hover
+    clip: {fileID: 8300000, guid: f5920d1e026456946990d32a7ba3a546, type: 3}
+  - name: Typecast
+    clip: {fileID: 8300000, guid: 00f8d2347aa37ee4eb38ad005fb92430, type: 3}
+  - name: selectspell
+    clip: {fileID: 8300000, guid: 6bd950c5d051b174ba12fe210c2aa5e2, type: 3}
+  - name: changepage
+    clip: {fileID: 8300000, guid: 07fcd363d771db24a80c311c491d57aa, type: 3}
+  - name: dialouge
+    clip: {fileID: 8300000, guid: 6c92b8ae72cbc8d469e2e8f665d6bb9b, type: 3}
+  - name: dialouge_next
+    clip: {fileID: 8300000, guid: c36d81392ccb85344bfad7bf8f21bd80, type: 3}
+  - name: death_player
+    clip: {fileID: 8300000, guid: 252d689ec7d77b74fa809378a75464e1, type: 3}
+  - name: goblin_death
+    clip: {fileID: 8300000, guid: 4e360932f68a36544b3ae917a3578932, type: 3}
+  - name: goblin_hit
+    clip: {fileID: 8300000, guid: f585e4907e09e2c4592500ef5879257f, type: 3}
+  - name: slime_death
+    clip: {fileID: 8300000, guid: 063b82487a8074d4f89387d645d3e7cc, type: 3}
+  - name: slime_hit
+    clip: {fileID: 8300000, guid: a4d46733ca7f7a64d8ea5117d5f223b7, type: 3}
+  - name: speedboost_Sfx
+    clip: {fileID: 8300000, guid: 80a9425195ebd2e4fa6433bb426af6e0, type: 3}
+  - name: manacollect_sfx
+    clip: {fileID: 8300000, guid: 8090696e4260db64a9347b3225d869bb, type: 3}
+  - name: keycollect_sfx
+    clip: {fileID: 8300000, guid: 459662e5f17eade449eede1e9ad92147, type: 3}
+  - name: door_sfx
+    clip: {fileID: 8300000, guid: fc9a7e7139e23a54c8b3554753a21606, type: 3}
+  - name: fireball sfx
+    clip: {fileID: 8300000, guid: 9fa73d20c3e7dd24f9f5433f736856c9, type: 3}
+  - name: heal sfx
+    clip: {fileID: 8300000, guid: d8a804d6436841f409211f4d1d457875, type: 3}
+  - name: shield sfx
+    clip: {fileID: 8300000, guid: 928a0c7fd9082b048b8d528a228962d8, type: 3}
+  - name: fireslash sfx
+    clip: {fileID: 8300000, guid: 6913816df84233948916d58f7d3b317f, type: 3}
+  - name: waterspike sfx
+    clip: {fileID: 8300000, guid: 75e8d1705ec213645838e39e24bc7692, type: 3}
+  - name: windburst sfx
+    clip: {fileID: 8300000, guid: ea23302e10a92a541a4940ac5a14ae94, type: 3}
+  - name: sniperbeam sfx
+    clip: {fileID: 8300000, guid: 80abea24998305e44ace0e670a4bac4e, type: 3}
+  - name: fireburst sfx
+    clip: {fileID: 8300000, guid: 5a56a61b2074f9a45ad448b4995b0090, type: 3}
+  - name: electricshock sfx
+    clip: {fileID: 8300000, guid: 13d69423fbc9e3945b46f3473f3d03f2, type: 3}
+  - name: rock sfx
+    clip: {fileID: 8300000, guid: a3c1fcc3fe076a444ab568190dcbbca7, type: 3}
+  - name: flashstrike sfx
+    clip: {fileID: 8300000, guid: 9323452ff8585314783d165ab4080842, type: 3}
+  - name: shockbomb sfx
+    clip: {fileID: 8300000, guid: 67a820ab87314a641bab25f4b7e8d4d0, type: 3}
+  - name: darkshot sfx
+    clip: {fileID: 8300000, guid: 85a940d40a1658948be3472ccefd4f0f, type: 3}
+  - name: explosion sfx
+    clip: {fileID: 8300000, guid: 2f16ac7b90339104fac3ca612e1e78c9, type: 3}
+  - name: sharksummon sfx
+    clip: {fileID: 8300000, guid: d3942ef3d731dbe4381daa7bbe3b4303, type: 3}
+  - name: treespike sfx
+    clip: {fileID: 8300000, guid: 67a820ab87314a641bab25f4b7e8d4d0, type: 3}
+  - name: angelofdeath sfx
+    clip: {fileID: 8300000, guid: 0b6587153e648bd4fb87bf008ed63765, type: 3}
+  - name: CC1 sfx
+    clip: {fileID: 8300000, guid: f0ea2e6daddd3b1449d0b0f62768ae79, type: 3}
+  - name: CC2 sfx
+    clip: {fileID: 8300000, guid: c59bebca9c0c99a448fd44d270b315e5, type: 3}
+  - name: goblin_attack_sfx
+    clip: {fileID: 8300000, guid: d4a5d8a88abeaed448265c024bdf5a30, type: 3}
+  - name: Revive
+    clip: {fileID: 8300000, guid: 8090696e4260db64a9347b3225d869bb, type: 3}
+  - name: HealthUpgrade
+    clip: {fileID: 8300000, guid: 9ab85586363dd5d499a870c1c06f0223, type: 3}
+  - name: Zombie Bite
+    clip: {fileID: 8300000, guid: 653e57c55f415ed48a5aeafa00adb41f, type: 3}
+  - name: room cleared
+    clip: {fileID: 8300000, guid: f8a622678ef208a46a4210347dbad751, type: 3}
   musicSource: {fileID: 2925837278514588178}
   sfxSource: {fileID: 6697791980549151468}
+  volumemixer: {fileID: 3825436608531387103}
 --- !u!1 &7587400181360991376
 GameObject:
   m_ObjectHideFlags: 0
