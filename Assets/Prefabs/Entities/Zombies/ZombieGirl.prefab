@@ -396,7 +396,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
-  attack_sfx: 
+  attack_sfx: Zombie Bite
 --- !u!114 &4745669653247736129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bddc082cba8d98c4bb9e106b122b19ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDropper
-  dropPrefab: {fileID: 5312885714203087015, guid: d461ca95bc3c35c4ebaa3356af2247d0, type: 3}
+  dropPrefab: {fileID: 6306259923058349851, guid: 8c522d2782d9f7d46aa9064d979f2411, type: 3}
   dropDelay: 0.3
   dropOnce: 1
 --- !u!1 &4366612086431159733
@@ -776,7 +776,7 @@ Transform:
   m_GameObject: {fileID: 7466061968330741902}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.87, y: 0.45, z: 0}
+  m_LocalPosition: {x: 1.47, y: -0.04, z: 0}
   m_LocalScale: {x: -0.68, y: 0.68, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

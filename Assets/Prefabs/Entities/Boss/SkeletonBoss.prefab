@@ -496,7 +496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf99f74a596f224bb0997f222c4e276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyCombat
-  damage: 30
+  damage: 50
   attackPoint: {fileID: 2904580456712756049}
   weoponRange: 4
   playerLayer:
@@ -547,7 +547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a49ca785be00e4845a8c394f17efe8e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 200
+  maxHealth: 300
   damageParticles: {fileID: 6286881156315922479, guid: 9b24380d9a38e754b9d0e42335463531, type: 3}
   floatingHealthBar: {fileID: 1876990039923726632}
   hit_sfx: goblin_hit
