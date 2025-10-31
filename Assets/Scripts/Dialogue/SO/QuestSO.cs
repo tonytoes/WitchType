@@ -2,14 +2,13 @@ using UnityEngine;
 using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "QuestSO", menuName = "QuestSO")]
-public class QuestSO : MonoBehaviour
+public class QuestSO : ScriptableObject
 {
     public string questName;
     [TextArea] public string questDescription;
     public int questLevel;
 
     public List<QuestObjective> objectives;
-
 
 
 }
