@@ -6,10 +6,10 @@ public class QuestLogUI : MonoBehaviour
     public void HandleQuestClicked(QuestSO questSO)
     {
         Debug.Log($"==Clicked Quest: {questSO.questName}===");
-        foreach (var objective in questSO.objectives)
+        foreach (var objective in questSO.objective)
         {
-           // questSO.UpdateObjectiveProgress(questSO, objective);
-           // Debug.Log($"Objective: {objective.description} => {questManager.GetProgressText(questSO, objective)}");
+           questManager.UpdateObjectiveProgress(questSO, objective);
+           Debug.Log($"Objective: {objective.description} => {questManager.GetProgressText(questSO, objective)}");
         }
     }
 }
