@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab556e22ef929164c83d24b665262216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectMana
-  manaAmount: 50
+  manaAmount: 10
   destroyDelay: 1
   _manaPanel: {fileID: 6673175725172274367}
   _panelDuration: 0.45
