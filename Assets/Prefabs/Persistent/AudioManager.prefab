@@ -2356,6 +2356,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 9ab85586363dd5d499a870c1c06f0223, type: 3}
   - name: Zombie Bite
     clip: {fileID: 8300000, guid: 653e57c55f415ed48a5aeafa00adb41f, type: 3}
+  - name: room cleared
+    clip: {fileID: 8300000, guid: f8a622678ef208a46a4210347dbad751, type: 3}
   musicSource: {fileID: 2925837278514588178}
   sfxSource: {fileID: 6697791980549151468}
   volumemixer: {fileID: 3825436608531387103}
