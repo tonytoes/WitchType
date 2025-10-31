@@ -8225,18 +8225,18 @@ PrefabInstance:
     - target: {fileID: 6318686084926118104, guid: 64fb201a55953124699b42d07cd2fa11, type: 3}
       propertyPath: sceneAsset
       value: 
-      objectReference: {fileID: 102900000, guid: fc2e2639b4a82b94284afb48e7f9720b, type: 3}
+      objectReference: {fileID: 102900000, guid: ab12c3371b9161443840607f1988c87d, type: 3}
     - target: {fileID: 6318686084926118104, guid: 64fb201a55953124699b42d07cd2fa11, type: 3}
       propertyPath: transitionImage
       value: 
       objectReference: {fileID: 1328058005}
     - target: {fileID: 6318686084926118104, guid: 64fb201a55953124699b42d07cd2fa11, type: 3}
       propertyPath: newPlayerPosition.x
-      value: -2.68
+      value: -11.43
       objectReference: {fileID: 0}
     - target: {fileID: 6318686084926118104, guid: 64fb201a55953124699b42d07cd2fa11, type: 3}
       propertyPath: newPlayerPosition.y
-      value: -6.73
+      value: -1.94
       objectReference: {fileID: 0}
     - target: {fileID: 6955093389407446078, guid: 64fb201a55953124699b42d07cd2fa11, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8280,7 +8280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7247441016389499300, guid: 64fb201a55953124699b42d07cd2fa11, type: 3}
       propertyPath: m_Name
-      value: level2 room8 door (1)
+      value: secret room test
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -418282,6 +418282,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 4.14552
       objectReference: {fileID: 0}
+    - target: {fileID: 8738203371795351064, guid: 33f47978ab217314290718e897563781, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.3958602
+      objectReference: {fileID: 0}
+    - target: {fileID: 8738203371795351064, guid: 33f47978ab217314290718e897563781, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.14552
+      objectReference: {fileID: 0}
     - target: {fileID: 8968730998328335102, guid: 33f47978ab217314290718e897563781, type: 3}
       propertyPath: Target.TrackingTarget
       value: 
@@ -418362,6 +418370,10 @@ PrefabInstance:
     - target: {fileID: 3499401007178523264, guid: 2d7ed46de909c604d805dd26d26d3267, type: 3}
       propertyPath: delayedFill
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980122102863322920, guid: 2d7ed46de909c604d805dd26d26d3267, type: 3}
+      propertyPath: m_SortingOrder
+      value: -52
       objectReference: {fileID: 0}
     - target: {fileID: 7128819068302002955, guid: 2d7ed46de909c604d805dd26d26d3267, type: 3}
       propertyPath: fillImage
