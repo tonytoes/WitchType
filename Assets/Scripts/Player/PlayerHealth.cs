@@ -17,6 +17,9 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private GameObject bookbug1;
     [SerializeField] private GameObject bookbug2;
 
+    [SerializeField] private string death_sfx;
+    [SerializeField] private string death_sfx2;
+
 
 
     public AudioSource sfxSource;
@@ -89,7 +92,8 @@ public class PlayerHealth : MonoBehaviour
 
     private void GameOver()
     {
-        audioManager.PlaySFX("death_player");
+        audioManager.PlaySFX(death_sfx);
+        audioManager.PlaySFX(death_sfx2);
         typeCast.DeactivateTypeCasting();
         gameObject.SetActive(false);
         gameoverPanel.SetActive(true);
