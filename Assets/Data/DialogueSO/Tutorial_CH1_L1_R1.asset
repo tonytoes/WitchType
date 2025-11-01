@@ -20,7 +20,9 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
     text: To think that I would pass out inside a dungeon of all places...
   - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
-    text: My sister is in danger, I need to save her before it's too late.
+    text: My sister...
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: I need to find her..
   - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
     text: I need to escape this dungeon as soon as possible...
   options: []
