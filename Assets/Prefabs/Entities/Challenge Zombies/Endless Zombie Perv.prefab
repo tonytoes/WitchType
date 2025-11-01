@@ -66,34 +66,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8007733134326811936, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
       propertyPath: maxHealth
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3708101113036527816, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1609564365181884154, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: -8045693178899328016}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
---- !u!1 &4225281928246699352 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1609564365181884154, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
-  m_PrefabInstance: {fileID: 3239607407450436514}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &-8045693178899328016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4225281928246699352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bddc082cba8d98c4bb9e106b122b19ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyDropper
-  dropPrefab: {fileID: 7871935234113308949, guid: 9a41541aa27659d4488698d0c77070ee, type: 3}
-  dropDelay: 0.3
-  dropOnce: 1

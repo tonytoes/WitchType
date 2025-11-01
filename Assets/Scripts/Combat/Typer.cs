@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using TMPro;
 
@@ -19,18 +18,29 @@ public class Typer : MonoBehaviour
 
     private void SetCurrentWord()
     {
+        // Get a new word
         currentWord = wordBank.GetWord();
-        SetRemainingWord(currentWord);
+        
+        // Reset counters and remaining word
+        correctIndex = 0;
+        remainingWord = currentWord;
+
+        // Update the text output
+        UpdateWordOutput();
     }
 
-    private void SetRemainingWord(string newString)
+    private void SetRemainingWord(string newRemaining)
     {
-        remainingWord = newString;
+        remainingWord = newRemaining;
+        UpdateWordOutput();
+    }
 
+    private void UpdateWordOutput()
+    {
+        // Color typed letters white, remaining letters default
         string typedPart = $"<color=white>{currentWord.Substring(0, correctIndex)}</color>";
-        string remainingPart = currentWord.Substring(correctIndex);
-
-        wordOutput.text = typedPart + remainingWord;
+        string remainingPart = remainingWord;
+        wordOutput.text = typedPart + remainingPart;
     }
 
     private void Update()
@@ -49,54 +59,155 @@ public class Typer : MonoBehaviour
             }
         }
     }
+
     private void EnterLetter(string typedLetter)
     {
         if (IsCorrectLetter(typedLetter))
         {
             correctIndex++;
             RemoveLetter();
+
             if (IsWordComplete())
             {
-                correctIndex = 0;
-                SetCurrentWord();
-            }
-            else
-            {
-                SetRemainingWord(remainingWord);
+                SetCurrentWord(); // new word, fully reset
+                OnWordComplete?.Invoke(); // trigger callback
             }
         }
         else
         {
-            wordOutput.text = $"<color=white>{currentWord.Substring(0, correctIndex)}</color>"
-                + $"<color=red>{currentWord[correctIndex]}</color>" +
-                currentWord.Substring(correctIndex + 1);
+            // Mark wrong letter in red
+            string typedPart = $"<color=white>{currentWord.Substring(0, correctIndex)}</color>";
+            string wrongLetter = $"<color=red>{currentWord[correctIndex]}</color>";
+            string rest = remainingWord.Length > 1 ? remainingWord.Substring(1) : "";
+            wordOutput.text = typedPart + wrongLetter + rest;
         }
     }
 
     private bool IsCorrectLetter(string letter)
     {
-        return remainingWord.IndexOf(letter) == 0;
+        return remainingWord.StartsWith(letter);
     }
 
     private void RemoveLetter()
     {
-        string newString = remainingWord.Remove(0, 1);
-        SetRemainingWord(newString);
+        if (remainingWord.Length > 0)
+            remainingWord = remainingWord.Substring(1);
+
+        UpdateWordOutput();
     }
 
     private bool IsWordComplete()
     {
-        bool complete = remainingWord.Length == 0;
-        if (complete && OnWordComplete != null)
-        {
-            OnWordComplete.Invoke();
-        }
-       return complete;
+        return remainingWord.Length == 0;
     }
 
     public void ResetWord()
     {
-        SetCurrentWord();
+        SetCurrentWord(); // completely resets current word, remaining word, and index
     }
-
 }
+
+
+
+
+// using UnityEngine;
+// using TMPro;
+
+// public class Typer : MonoBehaviour
+// {
+//     public WordBank wordBank;
+//     public TMP_Text wordOutput;
+//     public System.Action OnWordComplete;
+
+//     private string remainingWord = string.Empty;
+//     private string currentWord = string.Empty;
+//     private int correctIndex = 0;
+
+//     private void Start()
+//     {
+//         SetCurrentWord();
+//     }
+
+//     private void SetCurrentWord()
+//     {
+//         currentWord = wordBank.GetWord();
+//         SetRemainingWord(currentWord);
+//     }
+
+//     private void SetRemainingWord(string newString)
+//     {
+//         remainingWord = newString;
+
+//         string typedPart = $"<color=white>{currentWord.Substring(0, correctIndex)}</color>";
+//         string remainingPart = currentWord.Substring(correctIndex);
+
+//         wordOutput.text = typedPart + remainingWord;
+//     }
+
+//     private void Update()
+//     {
+//         CheckInput();
+//     }
+
+//     private void CheckInput()
+//     {
+//         if (Input.anyKeyDown)
+//         {
+//             string keysPressed = Input.inputString;
+//             if (keysPressed.Length == 1)
+//             {
+//                 EnterLetter(keysPressed);
+//             }
+//         }
+//     }
+//     private void EnterLetter(string typedLetter)
+//     {
+//         if (IsCorrectLetter(typedLetter))
+//         {
+//             correctIndex++;
+//             RemoveLetter();
+//             if (IsWordComplete())
+//             {
+//                 correctIndex = 0;
+//                 SetCurrentWord();
+//             }
+//             else
+//             {
+//                 SetRemainingWord(remainingWord);
+//             }
+//         }
+//         else
+//         {
+//             wordOutput.text = $"<color=white>{currentWord.Substring(0, correctIndex)}</color>"
+//                 + $"<color=red>{currentWord[correctIndex]}</color>" +
+//                 currentWord.Substring(correctIndex + 1);
+//         }
+//     }
+
+//     private bool IsCorrectLetter(string letter)
+//     {
+//         return remainingWord.IndexOf(letter) == 0;
+//     }
+
+//     private void RemoveLetter()
+//     {
+//         string newString = remainingWord.Remove(0, 1);
+//         SetRemainingWord(newString);
+//     }
+
+//     private bool IsWordComplete()
+//     {
+//         bool complete = remainingWord.Length == 0;
+//         if (complete && OnWordComplete != null)
+//         {
+//             OnWordComplete.Invoke();
+//         }
+//        return complete;
+//     }
+
+//     public void ResetWord()
+//     {
+//         SetCurrentWord();
+//     }
+
+// }

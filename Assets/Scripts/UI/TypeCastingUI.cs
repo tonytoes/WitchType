@@ -140,7 +140,7 @@ public class TypeCastingUI : MonoBehaviour
 
         manaWarningText.gameObject.SetActive(true);
 
-       
+
         var anim = manaWarningText.GetComponent<Animator>();
         if (anim != null)
             anim.SetTrigger("Show");
@@ -150,6 +150,24 @@ public class TypeCastingUI : MonoBehaviour
         manaWarningText.gameObject.SetActive(false);
         isManaWarningActive = false;
     }
+    
+
+    public void ForceDeactivateTypeCasting()
+    {
+        if (!TypeCastingMode) return; 
+
+        TypeCastingMode = false;
+
+
+        if (TypeCastUI != null) TypeCastUI.SetActive(false);
+        if (playermovement != null) playermovement.enabled = true;
+        if (TypeCastField != null) TypeCastField.text = string.Empty;
+        if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
+        if (pausemenu != null) pausemenu.Resume();
+        if (animator != null) animator.SetBool("CombatPose", false);
+        if (BookLight2D != null) BookLight2D.SetActive(false);
+    }
+
 
 
 }

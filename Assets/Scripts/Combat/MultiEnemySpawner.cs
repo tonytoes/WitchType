@@ -17,12 +17,22 @@ public class SpawnablePrefab
     [HideInInspector] public bool isUnlocked = false;
 }
 
+[System.Serializable]
+public class SpawnRateChange
+{
+    public float timeStamp;   // time in seconds since start when this change occurs
+    public float spawnCooldownChange; // how much to add/subtract to spawnCooldown
+}
+
 public class MultiEnemySpawner : MonoBehaviour
 {
     [Header("Spawn Settings")]
     public SpawnablePrefab[] prefabs;
     public float spawnCooldown = 5f;
     public Transform spawnPoint;
+
+    [Header("Dynamic Spawn Rate Changes")]
+    public SpawnRateChange[] spawnRateChanges;
 
     private float nextSpawnTime;
     private float startTime;
@@ -35,13 +45,29 @@ public class MultiEnemySpawner : MonoBehaviour
 
     void Update()
     {
+        float elapsed = Time.time - startTime;
+
         // unlock prefabs based on delay
         foreach (var p in prefabs)
         {
-            if (!p.isUnlocked && Time.time - startTime >= p.unlockDelay)
+            if (!p.isUnlocked && elapsed >= p.unlockDelay)
             {
                 p.isUnlocked = true;
                 Debug.Log($"{p.prefab.name} is now available to spawn!");
+            }
+        }
+
+        // apply spawn rate changes if any
+        foreach (var change in spawnRateChanges)
+        {
+            if (elapsed >= change.timeStamp && change.spawnCooldownChange != 0f)
+            {
+                spawnCooldown -= change.spawnCooldownChange;
+                spawnCooldown = Mathf.Max(0.1f, spawnCooldown); // prevent negative or zero cooldown
+                Debug.Log($"Spawn cooldown modified by {change.spawnCooldownChange} at time {change.timeStamp}s. New cooldown: {spawnCooldown}");
+                
+                // mark as applied
+                change.spawnCooldownChange = 0f;
             }
         }
 
@@ -70,7 +96,6 @@ public class MultiEnemySpawner : MonoBehaviour
     {
         int totalWeight = 0;
 
-        // assign weights based on rarity
         foreach (var p in available)
         {
             totalWeight += GetWeight(p.rarity);

@@ -88,7 +88,10 @@ public class PlayerHealth : MonoBehaviour
         typeCast.DeactivateTypeCasting();
         gameObject.SetActive(false);
         gameoverPanel.SetActive(true);
+        typeCast?.ForceDeactivateTypeCasting();
     }
+
+
 
     public void RespawnPlayer()
     {
