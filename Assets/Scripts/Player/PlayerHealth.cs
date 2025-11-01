@@ -14,6 +14,11 @@ public class PlayerHealth : MonoBehaviour
     private AudioManager audioManager;
     private TypeCastingUI typeCast;
 
+    [SerializeField] private GameObject bookbug1;
+    [SerializeField] private GameObject bookbug2;
+
+
+
     public AudioSource sfxSource;
     [Header("Hit Sounds")]
     public AudioClip[] moanWhenHitClips; 
@@ -89,12 +94,18 @@ public class PlayerHealth : MonoBehaviour
         gameObject.SetActive(false);
         gameoverPanel.SetActive(true);
         typeCast?.ForceDeactivateTypeCasting();
+        bookbug1.SetActive(false);
+        bookbug2.SetActive(false);
     }
 
 
 
     public void RespawnPlayer()
     {
+
+        bookbug1.SetActive(false);
+        bookbug2.SetActive(false);
+        
         gameObject.SetActive(true);
         currentHealth = maxHealth;
 
