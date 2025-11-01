@@ -96,17 +96,21 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 3095940047114984150, guid: aae487750646e5a4398e83f9aede498f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.83
+      objectReference: {fileID: 0}
     - target: {fileID: 3452891008668158900, guid: aae487750646e5a4398e83f9aede498f, type: 3}
       propertyPath: m_Name
       value: Zombie Gacha
       objectReference: {fileID: 0}
     - target: {fileID: 6284444530699671502, guid: aae487750646e5a4398e83f9aede498f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.29
+      value: -2.7955754
       objectReference: {fileID: 0}
     - target: {fileID: 6284444530699671502, guid: aae487750646e5a4398e83f9aede498f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.46
+      value: 2.8486195
       objectReference: {fileID: 0}
     - target: {fileID: 6284444530699671502, guid: aae487750646e5a4398e83f9aede498f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -144,6 +148,10 @@ PrefabInstance:
       propertyPath: damage
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 6576560280200325313, guid: aae487750646e5a4398e83f9aede498f, type: 3}
+      propertyPath: weoponRange
+      value: 1.7
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -6566157857928009011, guid: aae487750646e5a4398e83f9aede498f, type: 3}
     m_RemovedGameObjects: []
@@ -180,13 +188,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   lootTable:
   - prefab: {fileID: 1662643010543209218, guid: 8414867bb8899a44599e4ba5c82496ab, type: 3}
-    rarity: 1
+    rarity: 0
   - prefab: {fileID: 6306259923058349851, guid: 8c522d2782d9f7d46aa9064d979f2411, type: 3}
-    rarity: 1
+    rarity: 0
   - prefab: {fileID: 2534941105468048167, guid: 3063cbbb3e4fc96458fe6293039bb2c7, type: 3}
-    rarity: 2
+    rarity: 0
   - prefab: {fileID: 1466827339169029617, guid: f0bc0d5d25293864988eb759ce948883, type: 3}
-    rarity: 2
+    rarity: 0
   - prefab: {fileID: 1312956178293417244, guid: 9ded423b316d3fa4aafde41b020d45d7, type: 3}
     rarity: 0
   - prefab: {fileID: 7871935234113308949, guid: 9a41541aa27659d4488698d0c77070ee, type: 3}

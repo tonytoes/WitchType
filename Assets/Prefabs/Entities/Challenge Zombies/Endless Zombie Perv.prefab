@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 653305026151635808, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
       propertyPath: weoponRange
-      value: 2
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 1609564365181884154, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
       propertyPath: m_Name
@@ -22,11 +22,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7097609891508015057, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.91633
+      value: -2.7071776
       objectReference: {fileID: 0}
     - target: {fileID: 7097609891508015057, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.0591545
+      value: 2.981216
       objectReference: {fileID: 0}
     - target: {fileID: 7097609891508015057, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -63,6 +63,10 @@ PrefabInstance:
     - target: {fileID: 7163061121416428525, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
       propertyPath: playerDetectionRange
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7421253602355289345, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.04
       objectReference: {fileID: 0}
     - target: {fileID: 8007733134326811936, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}
       propertyPath: maxHealth

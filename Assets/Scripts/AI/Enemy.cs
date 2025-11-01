@@ -161,16 +161,41 @@ public class Enemy : MonoBehaviour
         ChangeState(EnemyState.Chasing);
     }
 
-    public void Die ()
+
+
+
+    public void Die()
     {
+        if (isDead) return; // safety
         isDead = true;
+
         rb.linearVelocity = Vector2.zero;
         anim.SetTrigger("Die");
+
+        // Notify subscribers
         OnEnemyDeath?.Invoke();
 
+        // Add kill to the manager
+        KillScoreManager killManager = FindFirstObjectByType<KillScoreManager>();
+        if (killManager != null)
+        {
+            killManager.AddKill();
+        }
 
         Destroy(gameObject, 1f);
-    }    
+    }
+    // public void Die()
+    // {
+    //     isDead = true;
+    //     rb.linearVelocity = Vector2.zero;
+    //     anim.SetTrigger("Die");
+    //     OnEnemyDeath?.Invoke();
+
+
+    //     Destroy(gameObject, 1f);
+    // }    
+
+
 
     public void DestroyEnemy()
     {

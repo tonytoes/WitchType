@@ -14,15 +14,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2526146189288239982, guid: 29b612ae280ccd346a79e71f3cde0279, type: 3}
       propertyPath: weoponRange
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3421850786864548961, guid: 29b612ae280ccd346a79e71f3cde0279, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.505054
+      value: -3.4143598
       objectReference: {fileID: 0}
     - target: {fileID: 3421850786864548961, guid: 29b612ae280ccd346a79e71f3cde0279, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.765586
+      value: 2.6497245
       objectReference: {fileID: 0}
     - target: {fileID: 3421850786864548961, guid: 29b612ae280ccd346a79e71f3cde0279, type: 3}
       propertyPath: m_LocalPosition.z
@@ -59,6 +59,10 @@ PrefabInstance:
     - target: {fileID: 5684918232092655393, guid: 29b612ae280ccd346a79e71f3cde0279, type: 3}
       propertyPath: playerDetectionRange
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961907436163039609, guid: 29b612ae280ccd346a79e71f3cde0279, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.61
       objectReference: {fileID: 0}
     - target: {fileID: 6314376789392986139, guid: 29b612ae280ccd346a79e71f3cde0279, type: 3}
       propertyPath: m_Name
