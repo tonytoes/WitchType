@@ -88,7 +88,16 @@ public class TypeWriterEffect : MonoBehaviour
 
     private IEnumerator LoadSceneAfterDelay()
     {
+
+        if (_textMeshPro != null)
+        {
+            Color c = _textMeshPro.color;
+            c.a = 0f;
+            _textMeshPro.color = c;
+        }
+        
         yield return new WaitForSecondsRealtime(delayBeforeNextScene);
+        
         SceneManager.LoadScene(sceneName);
     }
 }
