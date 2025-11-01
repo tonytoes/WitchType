@@ -116,6 +116,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MAIN_SCENES/Cutscene.unity
     guid: 6802365414617ae4fbb7331c7581da63
+  - enabled: 1
+    path: Assets/Scenes/MAIN_SCENES/Challenge.unity
+    guid: 4121bfbe49afc0140bacc255a24212ae
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

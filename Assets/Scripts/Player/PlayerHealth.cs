@@ -104,6 +104,9 @@ public class PlayerHealth : MonoBehaviour
             health.UpdateHealth(currentHealth);
         }
 
+        if (PlayerMana.Instance != null)
+        PlayerMana.Instance.RefillToFull();
+
         if (gameoverPanel != null)
             gameoverPanel.SetActive(false);
 
