@@ -117,11 +117,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2031549594152865405, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3368669
+      value: -3.6939273
       objectReference: {fileID: 0}
     - target: {fileID: 2031549594152865405, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.0596778
+      value: 3.5881553
       objectReference: {fileID: 0}
     - target: {fileID: 2031549594152865405, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
       propertyPath: m_LocalPosition.z
@@ -200,9 +200,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDropperGacha
   lootTable:
-  - prefab: {fileID: 0}
+  - prefab: {fileID: 5312885714203087015, guid: 84164d5d7b5e91b4dbef27d55efdb1f0, type: 3}
     rarity: 0
-  - prefab: {fileID: 0}
+  - prefab: {fileID: 5312885714203087015, guid: f588583f71375b047b318ed3ec7e240a, type: 3}
     rarity: 0
   - prefab: {fileID: 5312885714203087015, guid: e15cfe104a8669946b5e4ca74683ff02, type: 3}
     rarity: 0

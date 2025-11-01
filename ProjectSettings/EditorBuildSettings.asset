@@ -117,8 +117,14 @@ EditorBuildSettings:
     path: Assets/Scenes/MAIN_SCENES/Cutscene.unity
     guid: 6802365414617ae4fbb7331c7581da63
   - enabled: 1
-    path: Assets/Scenes/MAIN_SCENES/Challenge.unity
+    path: Assets/Scenes/MAIN_SCENES/Challenge/Challenge.unity
     guid: 4121bfbe49afc0140bacc255a24212ae
+  - enabled: 1
+    path: Assets/Scenes/MAIN_SCENES/Challenge/Restart Buffer.unity
+    guid: 3ec6a1becc2eeaa4288d98cb7160e3f3
+  - enabled: 1
+    path: Assets/Scenes/MAIN_SCENES/Challenge/Challenge Cutscene.unity
+    guid: 7c62fff78619b424ebd129c2e44ee1f8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
