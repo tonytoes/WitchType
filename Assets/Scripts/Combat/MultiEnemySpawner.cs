@@ -1,19 +1,28 @@
 using UnityEngine;
 
 [System.Serializable]
+public enum SpawnRarity
+{
+    Common,
+    Uncommon,
+    Rare
+}
+
+[System.Serializable]
 public class SpawnablePrefab
 {
     public GameObject prefab;          // The prefab to spawn
-    public float unlockDelay = 0f;     // Time (in seconds) before this prefab becomes available
-    [HideInInspector] public bool isUnlocked = false; // internal use
+    public float unlockDelay = 0f;     // Time before it becomes available
+    public SpawnRarity rarity = SpawnRarity.Common; // rarity type
+    [HideInInspector] public bool isUnlocked = false;
 }
 
 public class MultiEnemySpawner : MonoBehaviour
 {
     [Header("Spawn Settings")]
-    public SpawnablePrefab[] prefabs;   // array of prefabs with their own unlock times
-    public float spawnCooldown = 5f;    // global cooldown between spawns
-    public Transform spawnPoint;        // optional spawn point
+    public SpawnablePrefab[] prefabs;
+    public float spawnCooldown = 5f;
+    public Transform spawnPoint;
 
     private float nextSpawnTime;
     private float startTime;
@@ -26,7 +35,7 @@ public class MultiEnemySpawner : MonoBehaviour
 
     void Update()
     {
-        // check if new prefabs are now unlocked
+        // unlock prefabs based on delay
         foreach (var p in prefabs)
         {
             if (!p.isUnlocked && Time.time - startTime >= p.unlockDelay)
@@ -36,7 +45,7 @@ public class MultiEnemySpawner : MonoBehaviour
             }
         }
 
-        // spawn logic
+        // global spawn cooldown
         if (Time.time >= nextSpawnTime)
         {
             SpawnRandomAvailablePrefab();
@@ -46,16 +55,48 @@ public class MultiEnemySpawner : MonoBehaviour
 
     void SpawnRandomAvailablePrefab()
     {
-        // gather all unlocked prefabs
         var available = System.Array.FindAll(prefabs, p => p.isUnlocked && p.prefab != null);
-        if (available.Length == 0) return; // none available yet
+        if (available.Length == 0) return;
 
-        // pick random prefab
-        var randomPrefab = available[Random.Range(0, available.Length)];
+        // roll weighted random based on rarity
+        SpawnablePrefab chosen = GetWeightedRandom(available);
 
         Vector3 pos = spawnPoint ? spawnPoint.position : transform.position;
-        Instantiate(randomPrefab.prefab, pos, Quaternion.identity);
+        Instantiate(chosen.prefab, pos, Quaternion.identity);
+        Debug.Log($"Spawned: {chosen.prefab.name} ({chosen.rarity})");
+    }
 
-        Debug.Log($"Spawned: {randomPrefab.prefab.name}");
+    SpawnablePrefab GetWeightedRandom(SpawnablePrefab[] available)
+    {
+        int totalWeight = 0;
+
+        // assign weights based on rarity
+        foreach (var p in available)
+        {
+            totalWeight += GetWeight(p.rarity);
+        }
+
+        int randomValue = Random.Range(0, totalWeight);
+        int cumulative = 0;
+
+        foreach (var p in available)
+        {
+            cumulative += GetWeight(p.rarity);
+            if (randomValue < cumulative)
+                return p;
+        }
+
+        return available[0];
+    }
+
+    int GetWeight(SpawnRarity rarity)
+    {
+        switch (rarity)
+        {
+            case SpawnRarity.Common: return 70;
+            case SpawnRarity.Uncommon: return 25;
+            case SpawnRarity.Rare: return 5;
+            default: return 10;
+        }
     }
 }

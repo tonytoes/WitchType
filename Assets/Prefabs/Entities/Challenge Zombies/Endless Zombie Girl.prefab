@@ -48,9 +48,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2672547363107150584, guid: dba9f5a955e21ca47b4080037fae1429, type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3627453141606377919, guid: dba9f5a955e21ca47b4080037fae1429, type: 3}
       propertyPath: m_Name
       value: Endless Zombie Girl
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186255477570726977, guid: dba9f5a955e21ca47b4080037fae1429, type: 3}
+      propertyPath: damage
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6186255477570726977, guid: dba9f5a955e21ca47b4080037fae1429, type: 3}
       propertyPath: weoponRange
@@ -72,7 +80,8 @@ PrefabInstance:
       propertyPath: playerDetectionRange
       value: 50
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 356075588701599439, guid: dba9f5a955e21ca47b4080037fae1429, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
