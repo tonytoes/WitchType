@@ -17,9 +17,10 @@ public class Enemy : MonoBehaviour
     Rigidbody2D rb;
     private Transform player;
     
-
     private Animator anim;
     private bool isDead = false;
+
+    public EnemySO enemySO;
 
     private void Start()
     {
@@ -162,8 +163,6 @@ public class Enemy : MonoBehaviour
     }
 
 
-
-
     public void Die()
     {
         if (isDead) return; // safety
@@ -175,6 +174,11 @@ public class Enemy : MonoBehaviour
         // Notify subscribers
         OnEnemyDeath?.Invoke();
 
+        if(enemySO != null)
+        {
+            GameManager.Instance.EnemyTracker.RegisterDefeat(enemySO);
+        }
+
         // Add kill to the manager
         KillScoreManager killManager = FindFirstObjectByType<KillScoreManager>();
         if (killManager != null)
@@ -184,18 +188,6 @@ public class Enemy : MonoBehaviour
 
         Destroy(gameObject, 1f);
     }
-    // public void Die()
-    // {
-    //     isDead = true;
-    //     rb.linearVelocity = Vector2.zero;
-    //     anim.SetTrigger("Die");
-    //     OnEnemyDeath?.Invoke();
-
-
-    //     Destroy(gameObject, 1f);
-    // }    
-
-
 
     public void DestroyEnemy()
     {

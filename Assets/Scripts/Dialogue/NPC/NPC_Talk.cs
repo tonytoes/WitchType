@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -63,7 +62,7 @@ public class NPC_Talk : MonoBehaviour
 
     private void CheckForNewConversation()
     {
-        for (int i = conversations.Count - 1; i >= 0; i++)
+        for (int i = 0; i < conversations.Count; i++)
         {
             var convo = conversations[i];
             if(convo !=null && convo.IsConditionMet())

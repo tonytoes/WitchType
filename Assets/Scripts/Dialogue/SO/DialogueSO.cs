@@ -52,7 +52,7 @@ public class DialogueSO : ScriptableObject
         {
             foreach (var quest in requiredCompletedQuests)
             {
-                if(GameManager.Instance.QuestManager.IsQuestComplete(quest))
+                if(!GameManager.Instance.QuestManager.IsQuestComplete(quest))
                 {
                     return false;
                 }

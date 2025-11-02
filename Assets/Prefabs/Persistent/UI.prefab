@@ -555,13 +555,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ba9578d48fb674995070fa180fc8de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuestLogUI
-  questManager: {fileID: 8013832396996415593}
+  questManager: {fileID: 0}
   questNameText: {fileID: 7981824759897714811}
   questDescriptionText: {fileID: 6558116824588290258}
   objectiveSlots:
   - {fileID: 7037949753724419211}
   - {fileID: 486000137164830089}
   - {fileID: 4237310242496486210}
+  noAvailableQuestSO: {fileID: 0}
+  questSlots: []
+  questCanvas: {fileID: 0}
+  acceptCanvas: {fileID: 0}
+  declineCanvas: {fileID: 0}
+  completeCanvas: {fileID: 0}
 --- !u!1 &81916609810919208
 GameObject:
   m_ObjectHideFlags: 0
@@ -5808,6 +5814,12 @@ MonoBehaviour:
   - {fileID: 571279856882241078}
   - {fileID: 8391769011136525568}
   - {fileID: 5036729808419571219}
+  noAvailableQuestSO: {fileID: 0}
+  questSlots: []
+  questCanvas: {fileID: 0}
+  acceptCanvas: {fileID: 0}
+  declineCanvas: {fileID: 0}
+  completeCanvas: {fileID: 0}
 --- !u!1 &2569639475541433733
 GameObject:
   m_ObjectHideFlags: 0
@@ -9113,7 +9125,6 @@ GameObject:
   - component: {fileID: 8198396422478913879}
   - component: {fileID: 8351958045881789517}
   - component: {fileID: 54844269942365255}
-  - component: {fileID: 8013832396996415593}
   - component: {fileID: 6081653654057414299}
   - component: {fileID: 1779927507869706116}
   m_Layer: 0
@@ -9213,18 +9224,6 @@ MonoBehaviour:
   buttonsGroup: {fileID: 3547827598672893478}
   isInQuestLog: 0
 --- !u!114 &54844269942365255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3764136968520524335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bea6406fcfda07142a99dc335789ba75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::QuestManager
---- !u!114 &8013832396996415593
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

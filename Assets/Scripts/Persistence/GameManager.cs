@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public DialogueManager DialogueManager;
     public DialogueHistoryTracker DialogueHistoryTracker;
     public LocationHistoryTracker LocationHistoryTracker;
+    public EnemyTracker EnemyTracker;
     public QuestManager QuestManager;
     public SpellBookUI spellBookUI;
     public SpellManager spellManager;
@@ -23,8 +24,9 @@ public class GameManager : MonoBehaviour
 
     [Header("Manual Timer Settings")]
     [Tooltip("Time (in seconds) before destroying Group A objects")]
-    public float groupADestroyDelay = 1f; 
+    public float groupADestroyDelay = 1f;
 
+  
     private void Awake()
     {
         if (Instance == null)
@@ -32,6 +34,9 @@ public class GameManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
             MarkPersistenceObjects();
+
+            if (EnemyTracker == null)
+                EnemyTracker = new EnemyTracker();
         }
         else
         {

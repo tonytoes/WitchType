@@ -20,6 +20,28 @@ public class QuestLogUI : MonoBehaviour
     [SerializeField] private CanvasGroup declineCanvas;
     [SerializeField] private CanvasGroup completeCanvas;
 
+    private void Awake()
+    {
+        SetCanvasState(acceptCanvas, false);
+        SetCanvasState(declineCanvas, false);
+        SetCanvasState(completeCanvas, false);
+    }
+
+    // Same Method as on enable and on disable lol
+    public void Initialize()
+    {
+
+        QuestEvents.OnQuestOfferRequested -= ShowQuestOffer;
+        QuestEvents.OnQuestTurnInRequested -= ShowQuestTurnIn;
+
+        QuestEvents.OnQuestOfferRequested += ShowQuestOffer;
+        QuestEvents.OnQuestTurnInRequested += ShowQuestTurnIn;
+
+        SetCanvasState(questCanvas, false);
+        SetCanvasState(acceptCanvas, false);
+        SetCanvasState(declineCanvas, false);
+        SetCanvasState(completeCanvas, false);
+    }
 
     private void OnEnable()
     {
@@ -33,11 +55,10 @@ public class QuestLogUI : MonoBehaviour
         QuestEvents.OnQuestTurnInRequested -= ShowQuestTurnIn;
     }
 
-    // if theres a quest board
     #region Show Quest Methods
     public void ShowQuestOffer(QuestSO incomingQuestSO)
     {
-        if(questManager.IsQuestAccepted(incomingQuestSO) || questManager.GetCompleteQuest(incomingQuestSO))
+        if (questManager.IsQuestAccepted(incomingQuestSO) || questManager.GetCompleteQuest(incomingQuestSO))
         {
             questSO = noAvailableQuestSO;
             SetCanvasState(acceptCanvas, false);
@@ -158,4 +179,5 @@ public class QuestLogUI : MonoBehaviour
             }
         }
     }
+
 }

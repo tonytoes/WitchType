@@ -55,6 +55,8 @@ public class SpellBookUI : MonoBehaviour
     [SerializeField] private GameObject buttonsGroup;
     [HideInInspector] public bool isInQuestLog = false;
     private int currentPage = 0;
+    [SerializeField] private QuestLogUI questLogUI;
+
 
     private bool initialized = false;
     private AudioManager audioManager;
@@ -87,6 +89,12 @@ public class SpellBookUI : MonoBehaviour
 
         for (int i = 0; i < pages.Length; i++)
             pages[i].SetActive(i == 0);
+
+        var questLogUI = GetComponentInChildren<QuestLogUI>(true);
+        if (questLogUI != null)
+        {
+            questLogUI.Initialize();
+        }
     }
 
     public void OpenSpellBook(int pageIndex = 0)
