@@ -14,15 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   lines:
   - speaker: {fileID: 11400000, guid: ea44e5dc10c801f4699acf4354253935, type: 2}
-    text: 'You seem like a nice person
-
-      How About you help me?'
+    text: Wow you found it!
   options: []
-  offerQuestOnEnd: {fileID: 11400000, guid: 3b8e950dc4e38e44d877b36f51bbdb8d, type: 2}
-  requiredCompletedQuests: []
-  turnInQuestsOnEnd: {fileID: 0}
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests:
+  - {fileID: 11400000, guid: 3b8e950dc4e38e44d877b36f51bbdb8d, type: 2}
+  turnInQuestsOnEnd: {fileID: 11400000, guid: 3b8e950dc4e38e44d877b36f51bbdb8d, type: 2}
   requiredNPCS: []
-  requiredLocations:
-  - {fileID: 11400000, guid: 1fdda24c957beb84b9fe7b1bac3ae733, type: 2}
+  requiredLocations: []
   removeAfterPlay: 0
   removeTheseOnPlay: []
