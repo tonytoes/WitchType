@@ -281,6 +281,32 @@ public class SpellBookUI : MonoBehaviour
             shieldRockPanel.SetActive(true);
             SASduration.text = $"Duration: {spell.Duration}";
         }
+
+        switch (spell.spellType.ToLower())
+        {
+            case "aoe":
+                ColorUtility.TryParseHtmlString("#A020F0", out Color purple);
+                spellTypeText.color = purple;
+                break;
+
+            case "projectile":
+                ColorUtility.TryParseHtmlString("#FF3B3B", out Color red);
+                spellTypeText.color = red;
+                break;
+
+            case "support":
+                ColorUtility.TryParseHtmlString("#00FF7F", out Color green);
+                spellTypeText.color = green;
+                break;
+
+            default:
+                spellTypeText.color = Color.white; // fallback
+                break;
+        }
+
+        // Icon
+        if (spellIconImage != null)
+            spellIconImage.sprite = spell.spellIcon;
     }
 
 }
