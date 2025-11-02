@@ -14,6 +14,14 @@ public class PlayerHealth : MonoBehaviour
     private AudioManager audioManager;
     private TypeCastingUI typeCast;
 
+    [SerializeField] private GameObject bookbug1;
+    [SerializeField] private GameObject bookbug2;
+
+    [SerializeField] private string death_sfx;
+    [SerializeField] private string death_sfx2;
+
+
+
     public AudioSource sfxSource;
     [Header("Hit Sounds")]
     public AudioClip[] moanWhenHitClips; 
@@ -84,14 +92,24 @@ public class PlayerHealth : MonoBehaviour
 
     private void GameOver()
     {
-        audioManager.PlaySFX("death_player");
+        audioManager.PlaySFX(death_sfx);
+        audioManager.PlaySFX(death_sfx2);
         typeCast.DeactivateTypeCasting();
         gameObject.SetActive(false);
         gameoverPanel.SetActive(true);
+        typeCast?.ForceDeactivateTypeCasting();
+        bookbug1.SetActive(false);
+        bookbug2.SetActive(false);
     }
+
+
 
     public void RespawnPlayer()
     {
+
+        bookbug1.SetActive(false);
+        bookbug2.SetActive(false);
+        
         gameObject.SetActive(true);
         currentHealth = maxHealth;
 
@@ -103,6 +121,9 @@ public class PlayerHealth : MonoBehaviour
             health.Initialize(maxHealth);
             health.UpdateHealth(currentHealth);
         }
+
+        if (PlayerMana.Instance != null)
+        PlayerMana.Instance.RefillToFull();
 
         if (gameoverPanel != null)
             gameoverPanel.SetActive(false);

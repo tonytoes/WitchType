@@ -92,4 +92,6 @@ public class VolumeSettings : MonoBehaviour
         SFXSlider.interactable = true; // 🔓 unlock slider
         isSFXMuted = false;
     }
+
+    
 }

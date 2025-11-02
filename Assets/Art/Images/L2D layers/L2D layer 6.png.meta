@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 72535ffd9f7a7c64e99d4c894d321cb5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8842865969302183352
+    second: L2D layer 6_0
+  - first:
+      213: 8677731824755383742
+    second: L2D layer 6_1
+  - first:
+      213: -7489668043199698284
+    second: L2D layer 6_2
+  - first:
+      213: -916022926821164310
+    second: L2D layer 6_3
+  - first:
+      213: -1032913921422483326
+    second: L2D layer 6_4
+  - first:
+      213: -5778164004767866204
+    second: L2D layer 6_5
+  - first:
+      213: -6130440807101748171
+    second: L2D layer 6_6
+  - first:
+      213: -410009575510096126
+    second: L2D layer 6_7
+  - first:
+      213: -7662680147580636430
+    second: L2D layer 6_8
+  - first:
+      213: -7994136128994947578
+    second: L2D layer 6_9
+  - first:
+      213: 5208898983441497532
+    second: L2D layer 6_10
+  - first:
+      213: -7326566117996000748
+    second: L2D layer 6_11
+  - first:
+      213: 5934629813649373773
+    second: L2D layer 6_12
+  - first:
+      213: -6715379658505791451
+    second: L2D layer 6_13
+  - first:
+      213: 8519362832979090583
+    second: L2D layer 6_14
+  - first:
+      213: 8015667640260993344
+    second: L2D layer 6_15
+  - first:
+      213: -5235594756631725976
+    second: L2D layer 6_16
+  - first:
+      213: -8098343619229825161
+    second: L2D layer 6_17
+  - first:
+      213: -6264772382877015030
+    second: L2D layer 6_18
+  - first:
+      213: 438519931280651024
+    second: L2D layer 6_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: L2D layer 6_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1733
+        width: 106
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd95a06fbb28ba70800000000000000
+      internalID: 8842865969302183352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_1
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 2102
+        width: 110
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd95a63e1f7d6870800000000000000
+      internalID: 8677731824755383742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_2
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 2039
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49aac7fb89a5f0890800000000000000
+      internalID: -7489668043199698284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1676
+        width: 86
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaf5b85002a943f0800000000000000
+      internalID: -916022926821164310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_4
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1514
+        width: 46
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280ae06d24a5aa1f0800000000000000
+      internalID: -1032913921422483326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_5
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 1372
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2ecd1a376dfcfa0800000000000000
+      internalID: -5778164004767866204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_6
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 881
+        width: 259
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c2420019c4ceaa0800000000000000
+      internalID: -6130440807101748171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_7
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 797
+        width: 103
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2074631a67a5f4af0800000000000000
+      internalID: -410009575510096126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_8
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 1329
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2b4002101b8a590800000000000000
+      internalID: -7662680147580636430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_9
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 1044
+        width: 124
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ec321ab8f1f0190800000000000000
+      internalID: -7994136128994947578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_10
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 1025
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd7cea070ab94840800000000000000
+      internalID: 5208898983441497532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_11
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 559
+        width: 244
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a8f69feeec25a90800000000000000
+      internalID: -7326566117996000748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_12
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 238
+        width: 268
+        height: 820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a730c5f5a0c5250800000000000000
+      internalID: 5934629813649373773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_13
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 1024
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528d0eab7cd2ec2a0800000000000000
+      internalID: -6715379658505791451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_14
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 1000
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c526ceb5bda3670800000000000000
+      internalID: 8519362832979090583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_15
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 981
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041a95fff3f5d3f60800000000000000
+      internalID: 8015667640260993344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_16
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 975
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8687117ee4e6757b0800000000000000
+      internalID: -5235594756631725976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_17
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 816
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77741ca9267ec9f80800000000000000
+      internalID: -8098343619229825161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_18
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 510
+        width: 136
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0420ffb5be0f09a0800000000000000
+      internalID: -6264772382877015030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L2D layer 6_19
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 407
+        width: 361
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01379eadd8fe51600800000000000000
+      internalID: 438519931280651024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      L2D layer 6_0: 8842865969302183352
+      L2D layer 6_1: 8677731824755383742
+      L2D layer 6_10: 5208898983441497532
+      L2D layer 6_11: -7326566117996000748
+      L2D layer 6_12: 5934629813649373773
+      L2D layer 6_13: -6715379658505791451
+      L2D layer 6_14: 8519362832979090583
+      L2D layer 6_15: 8015667640260993344
+      L2D layer 6_16: -5235594756631725976
+      L2D layer 6_17: -8098343619229825161
+      L2D layer 6_18: -6264772382877015030
+      L2D layer 6_19: 438519931280651024
+      L2D layer 6_2: -7489668043199698284
+      L2D layer 6_3: -916022926821164310
+      L2D layer 6_4: -1032913921422483326
+      L2D layer 6_5: -5778164004767866204
+      L2D layer 6_6: -6130440807101748171
+      L2D layer 6_7: -410009575510096126
+      L2D layer 6_8: -7662680147580636430
+      L2D layer 6_9: -7994136128994947578
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

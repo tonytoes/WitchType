@@ -4,6 +4,5 @@ using UnityEngine;
 public class EnemySO : ScriptableObject
 {
     public string enemyName;
-    public Sprite enemyIcon;
     public GameObject enemyPrefab;
 }

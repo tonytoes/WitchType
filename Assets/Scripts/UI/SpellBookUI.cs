@@ -49,13 +49,14 @@ public class SpellBookUI : MonoBehaviour
     [SerializeField] private GameObject healPanel;
     [SerializeField] private GameObject shieldRockPanel;
 
-
-
-
     [Header("Page Control")]
     [SerializeField] private GameObject[] pages;
+    public int questPageIndex = 3;
     [SerializeField] private GameObject buttonsGroup;
+    [HideInInspector] public bool isInQuestLog = false;
     private int currentPage = 0;
+    [SerializeField] private QuestLogUI questLogUI;
+
 
     private bool initialized = false;
     private AudioManager audioManager;
@@ -88,6 +89,12 @@ public class SpellBookUI : MonoBehaviour
 
         for (int i = 0; i < pages.Length; i++)
             pages[i].SetActive(i == 0);
+
+        var questLogUI = GetComponentInChildren<QuestLogUI>(true);
+        if (questLogUI != null)
+        {
+            questLogUI.Initialize();
+        }
     }
 
     public void OpenSpellBook(int pageIndex = 0)
@@ -127,6 +134,28 @@ public class SpellBookUI : MonoBehaviour
 
         currentPage = targetPage;
         GameManager.Instance.spellBookUI?.RefreshAllToggles();
+
+        UpdateDescriptionPanel();
+    }
+
+    private void UpdateDescriptionPanel()
+    {
+        bool hideDescription = isInQuestLog || currentPage == questPageIndex;
+        DescriptionPanel.SetActive(!hideDescription);
+
+        if (hideDescription)
+        {
+            HideAllStatsPanels();
+        }
+    }
+
+
+    private void HideAllStatsPanels()
+    {
+        projectilePanel?.SetActive(false);
+        AOEPanel?.SetActive(false);
+        healPanel?.SetActive(false);
+        shieldRockPanel?.SetActive(false);
     }
 
     private IEnumerator ScaleAnimation(bool opening)
@@ -212,27 +241,25 @@ public class SpellBookUI : MonoBehaviour
         }
     }
 
-   public void ShowSpellDetails(SpellManager.Spell spell)
+    public void ShowSpellDetails(SpellManager.Spell spell)
     {
         if (spell == null) return;
 
-        // Hide all panels first
-        DescriptionPanel.SetActive(true);
-        projectilePanel?.SetActive(false);
-        AOEPanel?.SetActive(false);
-        healPanel?.SetActive(false);
-        shieldRockPanel?.SetActive(false);
+        UpdateDescriptionPanel();
 
-        // Basic info
+        if (!DescriptionPanel.activeSelf) return;
+
         spellNameText.text = spell.spellName;
         spellTypeText.text = spell.spellType;
         manaCostNumberText.text = spell.manaCost.ToString();
         descriptionText.text = spell.spellDescription;
+        spellIconImage.sprite = spell.spellIcon;
 
-        // --- Panel toggling based on spell type ---
+        HideAllStatsPanels();
+
         if (spell.Projectile)
         {
-            projectilePanel?.SetActive(true);
+            projectilePanel.SetActive(true);
             damageText.text = $"Damage: {spell.spellDamage}";
             stunText.text = $"Stun: {spell.spellStun}";
             speedText.text = $"Speed: {spell.spellSpeed}";
@@ -242,7 +269,7 @@ public class SpellBookUI : MonoBehaviour
         }
         else if (spell.AOE)
         {
-            AOEPanel?.SetActive(true);
+            AOEPanel.SetActive(true);
             AOEdamage.text = $"Damage: {spell.spellDamage}";
             AOEradius.text = $"Radius: {spell.spellRadius}";
             AOEduration.text = $"Duration: {spell.Duration}";
@@ -252,38 +279,37 @@ public class SpellBookUI : MonoBehaviour
         }
         else if (spell.Heal)
         {
-            healPanel?.SetActive(true);
+            healPanel.SetActive(true);
             HealAmountText.text = $"Heal: +{spell.spellHealAmount}";
         }
         else if (spell.ShieldorRock)
         {
-            shieldRockPanel?.SetActive(true);
+            shieldRockPanel.SetActive(true);
             SASduration.text = $"Duration: {spell.Duration}";
         }
-        
+
         switch (spell.spellType.ToLower())
         {
             case "aoe":
-                ColorUtility.TryParseHtmlString("#A020F0", out Color purple); 
+                ColorUtility.TryParseHtmlString("#A020F0", out Color purple);
                 spellTypeText.color = purple;
                 break;
 
             case "projectile":
-                ColorUtility.TryParseHtmlString("#FF3B3B", out Color red); 
+                ColorUtility.TryParseHtmlString("#FF3B3B", out Color red);
                 spellTypeText.color = red;
                 break;
 
             case "support":
-                ColorUtility.TryParseHtmlString("#00FF7F", out Color green); 
+                ColorUtility.TryParseHtmlString("#00FF7F", out Color green);
                 spellTypeText.color = green;
                 break;
 
             default:
-                spellTypeText.color = Color.white; // fallback
+                spellTypeText.color = Color.white; 
                 break;
         }
 
-        // Icon
         if (spellIconImage != null)
             spellIconImage.sprite = spell.spellIcon;
     }

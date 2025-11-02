@@ -4,8 +4,17 @@ using System.Collections.Generic;
 [CreateAssetMenu(fileName = "New Dialogue", menuName = "Dialogue/DialogueNode")]
 public class DialogueSO : ScriptableObject
 {
-   public DialogueLine[] lines;
-   public DialogueOption[] options;
+    public DialogueLine[] lines;
+    public DialogueOption[] options;
+
+    [Header("Quest Offer (optional)")]
+    public QuestSO offerQuestOnEnd;
+
+    [Header("Complete Quest Requirements")]
+    public QuestSO[] requiredCompletedQuests;
+
+    [Header("Quest Turn-in")]
+    public QuestSO turnInQuestsOnEnd;
 
     [Header("Optional (Conditional Requirements)")]
     public ActorSO[] requiredNPCS;
@@ -39,6 +48,17 @@ public class DialogueSO : ScriptableObject
             }
         }
 
+        if(requiredCompletedQuests != null && requiredCompletedQuests.Length > 0)
+        {
+            foreach (var quest in requiredCompletedQuests)
+            {
+                if(!GameManager.Instance.QuestManager.IsQuestComplete(quest))
+                {
+                    return false;
+                }
+            }
+        }
+
         return true;
     }
 
@@ -58,4 +78,5 @@ public class DialogueOption
 {
     public string optionText;
     public DialogueSO nextDialogue;
+    public QuestSO offerQuest;
 }
