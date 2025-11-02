@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f92d2085d7c3654fb85aa989f6add7b, type: 3}
   m_Name: EnemySO
   m_EditorClassIdentifier: Assembly-CSharp::EnemySO
-  enemyName: 
-  enemyIcon: {fileID: 0}
-  enemyPrefab: {fileID: 0}
+  enemyName: ZombiePerv
+  enemyPrefab: {fileID: 1609564365181884154, guid: 18c686505851d2f4eb000202bd7ee8f4, type: 3}

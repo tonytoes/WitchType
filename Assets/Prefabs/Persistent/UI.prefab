@@ -4235,7 +4235,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085226315739875744}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -9223,6 +9223,7 @@ MonoBehaviour:
   questPageIndex: 3
   buttonsGroup: {fileID: 3547827598672893478}
   isInQuestLog: 0
+  questLogUI: {fileID: 0}
 --- !u!114 &54844269942365255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25653,7 +25654,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 3b8e950dc4e38e44d877b36f51bbdb8d, type: 2}
     - target: {fileID: 2494897329976994236, guid: 87f65557380324c449084f00ccd319b8, type: 3}
       propertyPath: m_text
-      value: fuck u
+      value: Quest
       objectReference: {fileID: 0}
     - target: {fileID: 4456596248500982672, guid: 87f65557380324c449084f00ccd319b8, type: 3}
       propertyPath: m_Name
@@ -25771,7 +25772,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 3b8e950dc4e38e44d877b36f51bbdb8d, type: 2}
     - target: {fileID: 2494897329976994236, guid: 87f65557380324c449084f00ccd319b8, type: 3}
       propertyPath: m_text
-      value: fuck u
+      value: Quest
       objectReference: {fileID: 0}
     - target: {fileID: 4456596248500982672, guid: 87f65557380324c449084f00ccd319b8, type: 3}
       propertyPath: m_Name
