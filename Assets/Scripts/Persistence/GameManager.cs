@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public DialogueManager DialogueManager;
     public DialogueHistoryTracker DialogueHistoryTracker;
     public LocationHistoryTracker LocationHistoryTracker;
+    public QuestManager QuestManager;
     public SpellBookUI spellBookUI;
     public SpellManager spellManager;
 
