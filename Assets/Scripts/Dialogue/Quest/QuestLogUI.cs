@@ -2,7 +2,6 @@
 using TMPro;
 using UnityEngine;
 
-
 public class QuestLogUI : MonoBehaviour
 {
     [SerializeField] private QuestManager questManager;
