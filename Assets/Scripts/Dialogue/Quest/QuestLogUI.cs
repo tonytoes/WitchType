@@ -11,22 +11,21 @@ public class QuestLogUI : MonoBehaviour
 
     private QuestSO questSO;
 
-
-
-
     public void HandleQuestClicked(QuestSO questSO)
     {
         this.questSO = questSO;
+
         questNameText.text = questSO.questName;
         questDescriptionText.text = questSO.questDescription;
 
         DisplayObjective();
         foreach (var objective in questSO.objectives)
         {
-           questManager.UpdateObjectiveProgress(questSO, objective);
-           Debug.Log($"Objective: {objective.description} => {questManager.GetProgressText(questSO, objective)}");
+            questManager.UpdateObjectiveProgress(questSO, objective);
+            Debug.Log($"Objective: {objective.description} => {questManager.GetProgressText(questSO, objective)}");
         }
     }
+
 
     private void DisplayObjective()
     {
