@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class QuestManager : MonoBehaviour
 {
     private Dictionary<QuestSO, Dictionary<QuestObjective, int>> questProgress = new();
+    private List<QuestSO> completedQuests = new();
 
     private void OnEnable()
     {
@@ -56,7 +57,13 @@ public class QuestManager : MonoBehaviour
     public void CompleteQuest(QuestSO questSO)
     {
         questProgress.Remove(questSO);
+        completedQuests.Add(questSO);
         // If theres rewards
+    }
+
+    public bool GetCompleteQuest(QuestSO questSO)
+    {
+        return completedQuests.Contains(questSO);
     }
     #endregion
     public void UpdateObjectiveProgress(QuestSO questSO, QuestObjective objective)

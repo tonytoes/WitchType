@@ -16,11 +16,7 @@ MonoBehaviour:
   questDescription: "take a moment to shut ur fucking mouth FUCK ALL OF FUCK U w 
     \n"
   objectives:
-  - description: a
-    target: {fileID: 11400000, guid: ea44e5dc10c801f4699acf4354253935, type: 2}
-    requiredAmount: 1
-    amount: 0
   - description: 'W '
-    target: {fileID: 11400000, guid: 1fdda24c957beb84b9fe7b1bac3ae733, type: 2}
+    target: {fileID: 11400000, guid: 330864a98c2cd2e438f7295a3d9099f4, type: 2}
     requiredAmount: 1
     amount: 0

@@ -20,7 +20,10 @@ public class QuestBoard : MonoBehaviour
                 QuestEvents.OnQuestOfferRequested?.Invoke(questToOffer);
             }
                 Debug.Log("✅ Player interacted with QuestBoard");
-            QuestEvents.OnQuestOfferRequested?.Invoke(questToOffer);
+            if (GameManager.Instance?.spellBookUI != null)
+            {
+                GameManager.Instance.spellBookUI.OpenSpellBook(GameManager.Instance.spellBookUI.questPageIndex);
+            }
         }
     }
 
