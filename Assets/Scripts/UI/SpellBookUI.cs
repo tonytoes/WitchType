@@ -51,7 +51,7 @@ public class SpellBookUI : MonoBehaviour
 
     [Header("Page Control")]
     [SerializeField] private GameObject[] pages;
-    [SerializeField] private int questPageIndex = 3;
+    public int questPageIndex = 3;
     [SerializeField] private GameObject buttonsGroup;
     [HideInInspector] public bool isInQuestLog = false;
     private int currentPage = 0;
@@ -137,12 +137,10 @@ public class SpellBookUI : MonoBehaviour
 
         if (hideDescription)
         {
-            projectilePanel?.SetActive(false);
-            AOEPanel?.SetActive(false);
-            healPanel?.SetActive(false);
-            shieldRockPanel?.SetActive(false);
+            HideAllStatsPanels();
         }
     }
+
 
     private void HideAllStatsPanels()
     {
@@ -304,7 +302,6 @@ public class SpellBookUI : MonoBehaviour
                 break;
         }
 
-        // Icon
         if (spellIconImage != null)
             spellIconImage.sprite = spell.spellIcon;
     }
