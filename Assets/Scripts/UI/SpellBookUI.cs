@@ -300,7 +300,7 @@ public class SpellBookUI : MonoBehaviour
                 break;
 
             default:
-                spellTypeText.color = Color.white; // fallback
+                spellTypeText.color = Color.white; 
                 break;
         }
 
