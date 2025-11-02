@@ -117,11 +117,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2031549594152865405, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.6939273
+      value: 11.64
       objectReference: {fileID: 0}
     - target: {fileID: 2031549594152865405, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5881553
+      value: 3.88
       objectReference: {fileID: 0}
     - target: {fileID: 2031549594152865405, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
       propertyPath: m_LocalPosition.z
@@ -157,7 +157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2432124226224713038, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
       propertyPath: maxHealth
-      value: 80
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3927458671856246281, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
       propertyPath: m_Name
@@ -165,7 +165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5841046838693370871, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
       propertyPath: damage
-      value: 25
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9080910448830518087, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
+      propertyPath: speed
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 9080910448830518087, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
       propertyPath: playerDetectionRange

@@ -66,11 +66,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6178854433763633747, guid: 89954b5d7b5b2de4daa944fb505f3702, type: 3}
       propertyPath: damage
-      value: 35
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6178854433763633747, guid: 89954b5d7b5b2de4daa944fb505f3702, type: 3}
       propertyPath: attack_sfx
       value: ground slam
+      objectReference: {fileID: 0}
+    - target: {fileID: 9026901698384273254, guid: 89954b5d7b5b2de4daa944fb505f3702, type: 3}
+      propertyPath: speed
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 9026901698384273254, guid: 89954b5d7b5b2de4daa944fb505f3702, type: 3}
       propertyPath: playerDetectionRange
