@@ -5,12 +5,64 @@ public class QuestManager : MonoBehaviour
 {
     private Dictionary<QuestSO, Dictionary<QuestObjective, int>> questProgress = new();
 
+    private void OnEnable()
+    {
+        QuestEvents.IsQuestComplete += IsQuestComplete; 
+    }
+    private void OnDisable()
+    {
+        QuestEvents.IsQuestComplete -= IsQuestComplete;
+    }
+
+    #region Quest Accept Logic
+    public bool IsQuestAccepted(QuestSO questSO)
+    {
+        return questProgress.ContainsKey(questSO);
+    }
+    public List<QuestSO> GetActiveQuests()
+    {
+        return new List<QuestSO>(questProgress.Keys);
+    }
+    public void AcceptQuest(QuestSO questSO)
+    {
+        questProgress[questSO] = new Dictionary<QuestObjective, int>();
+
+        foreach (var objective in questSO.objectives)
+        {
+            UpdateObjectiveProgress(questSO, objective);
+        }
+    }
+    #endregion
+
+    #region Quest Complete Logic
+    public bool IsQuestComplete(QuestSO questSO)
+    {
+        if(!questProgress.TryGetValue(questSO, out var progressDict))
+            return false;
+
+        foreach (var objective in questSO.objectives)
+        {
+            UpdateObjectiveProgress(questSO, objective);
+        }
+
+        foreach (var objective in questSO.objectives)
+        {
+            if (progressDict[objective] < objective.requiredAmount)
+                return false;
+        }
+        return true;
+    }
+
+    public void CompleteQuest(QuestSO questSO)
+    {
+        questProgress.Remove(questSO);
+        // If theres rewards
+    }
+    #endregion
     public void UpdateObjectiveProgress(QuestSO questSO, QuestObjective objective)
     {
-        if(!questProgress.ContainsKey(questSO))
-        {
-            questProgress[questSO] = new Dictionary<QuestObjective, int>();
-        }
+        if (!questProgress.ContainsKey(questSO))
+            return;
 
         var progressDictionary = questProgress[questSO];
 

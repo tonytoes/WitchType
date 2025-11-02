@@ -1,3 +1,4 @@
+﻿using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -10,6 +11,107 @@ public class QuestLogUI : MonoBehaviour
     [SerializeField] private QuestObjectiveSlot[] objectiveSlots;
 
     private QuestSO questSO;
+
+    [SerializeField] private QuestSO noAvailableQuestSO;
+    [SerializeField] private QuestLogSlot[] questSlots;
+
+    [SerializeField] private CanvasGroup questCanvas;
+    [SerializeField] private CanvasGroup acceptCanvas;
+    [SerializeField] private CanvasGroup declineCanvas;
+    [SerializeField] private CanvasGroup completeCanvas;
+
+
+    private void OnEnable()
+    {
+        QuestEvents.OnQuestOfferRequested += ShowQuestOffer;
+        QuestEvents.OnQuestOfferRequested += ShowQuestTurnIn;
+    }
+
+    private void OnDisable()
+    {
+        QuestEvents.OnQuestOfferRequested -= ShowQuestOffer;
+        QuestEvents.OnQuestOfferRequested -= ShowQuestTurnIn;
+    }
+
+    // if theres a quest board
+    #region Show Quest Methods
+    public void ShowQuestOffer(QuestSO incomingQuestSO)
+    {
+        if(questManager.IsQuestAccepted(incomingQuestSO))
+        {
+            questSO = noAvailableQuestSO;
+            SetCanvasState(acceptCanvas, false);
+            SetCanvasState(declineCanvas, true);
+            SetCanvasState(completeCanvas, false);
+        }
+        else
+        {
+            questSO = incomingQuestSO;
+            SetCanvasState(acceptCanvas, true);
+            SetCanvasState(declineCanvas, true);
+            SetCanvasState(completeCanvas, false);
+        }
+            HandleQuestClicked(questSO);
+            SetCanvasState(questCanvas, true);
+    }
+
+    public void ShowQuestTurnIn(QuestSO incomingQuestSO)
+    {
+        questSO = incomingQuestSO;
+
+        HandleQuestClicked(questSO);
+
+        SetCanvasState(completeCanvas, true);
+        SetCanvasState(acceptCanvas, false);
+        SetCanvasState(declineCanvas, false);
+        SetCanvasState(questCanvas, true);
+    }
+    #endregion
+
+    #region On Button Clicked Method
+    public void OnAcceptQuestClicked()
+    {
+        questManager.AcceptQuest(questSO);
+        SetCanvasState(completeCanvas, false);
+        SetCanvasState(acceptCanvas, false);
+        RefreshQuestList();
+        HandleQuestClicked(noAvailableQuestSO);
+    }
+
+    public void OnDeclineQuestClicked()
+    {
+        SetCanvasState(questCanvas, false);
+    }
+
+    public void OnCompleteQuestClicked()
+    {
+        RefreshQuestList();
+    }
+    #endregion
+
+    public void RefreshQuestList()
+    {
+        List<QuestSO> activeQuests = questManager.GetActiveQuests();
+
+        for (int i = 0; i < questSlots.Length; i++)
+        {
+            if (i < activeQuests.Count)
+            {
+                questSlots[i].SetQuest(activeQuests[i]);
+            }
+            else
+            {
+                questSlots[i].ClearSlot();
+            }
+        }
+    }
+
+    private void SetCanvasState(CanvasGroup group, bool activate)
+    {
+        group.alpha = activate ? 1 : 0;
+        group.blocksRaycasts = activate;
+        group.interactable = activate;
+    }
 
     public void HandleQuestClicked(QuestSO questSO)
     {
