@@ -17,6 +17,8 @@ MonoBehaviour:
     text: Greetings
   options: []
   offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestsOnEnd: {fileID: 0}
   requiredNPCS: []
   requiredLocations: []
   removeAfterPlay: 0

@@ -122,12 +122,14 @@ public class DialogueManager : MonoBehaviour
             if(currentDialogue.turnInQuestsOnEnd != null && GameManager.Instance.QuestManager.IsQuestComplete(currentDialogue.turnInQuestsOnEnd))
             {
                 QuestEvents.OnQuestTurnInRequested?.Invoke(currentDialogue.turnInQuestsOnEnd);
+                GameManager.Instance.spellBookUI?.OpenSpellBook(GameManager.Instance.spellBookUI.questPageIndex);
                 EndDialogue();
             }
             else if(currentDialogue.offerQuestOnEnd != null)
             {
-                EndDialogue();
                 QuestEvents.OnQuestOfferRequested?.Invoke(currentDialogue.offerQuestOnEnd);
+                GameManager.Instance.spellBookUI?.OpenSpellBook(GameManager.Instance.spellBookUI.questPageIndex);
+                EndDialogue();
             }
             else
             {

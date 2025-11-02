@@ -84,8 +84,14 @@ public class QuestManager : MonoBehaviour
         {
             newAmount = objective.requiredAmount;
         }
+       else if(objective.targetEnemy != null)
+        { 
+            newAmount = GameManager.Instance.EnemyTracker.GetDefeatCount(objective.targetEnemy);
 
-        progressDictionary[objective] = newAmount;
+            if (newAmount > objective.requiredAmount)
+                newAmount = objective.requiredAmount;
+        }
+            progressDictionary[objective] = newAmount;
     }
     public string GetProgressText(QuestSO questSO,QuestObjective objective)
     {
