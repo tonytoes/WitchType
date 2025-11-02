@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd5a0e0e861d60240a1652a9ba9e3813, type: 3}
   m_Name: Quest_NoAvailableQuest
   m_EditorClassIdentifier: Assembly-CSharp::QuestSO
-  questName: 
-  questDescription: 
+  questName: No Quests Available
+  questDescription: There are no more quests available. Please check back later.
   objectives: []
