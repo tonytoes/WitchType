@@ -9,17 +9,19 @@ using UnityEngine.UI;
 public class SceneTrigger : MonoBehaviour
 {
     [Header("Scene To Load")]
-    [SerializeField] private Object sceneAsset;
-    private string sceneName;
+#if UNITY_EDITOR
+    [SerializeField] private Object sceneAsset; // only works in editor
+#endif
+    [SerializeField] private string sceneName; // fallback for build
 
     [Header("New Player Position in Next Scene")]
     [SerializeField] private Vector2 newPlayerPosition;
 
     [Header("Delay Settings")]
-    [SerializeField] private float delayBeforeLoad = 1f; // adjustable in inspector
+    [SerializeField] private float delayBeforeLoad = 1f;
 
     [Header("Transition UI")]
-    [SerializeField] private GameObject transitionImage; // assign your UI image here
+    [SerializeField] private GameObject transitionImage;
 
     private AudioManager audioManager;
     public string sfx;
@@ -42,26 +44,21 @@ public class SceneTrigger : MonoBehaviour
     private IEnumerator LoadSceneWithDelay()
     {
         audioManager = FindFirstObjectByType<AudioManager>();
-        // play SFX immediately
         audioManager?.PlaySFX(sfx);
 
-        // store next player position
         PlayerSpawnManager.nextPosition = newPlayerPosition;
 
-        // show transition image and play animation if it exists
         if (transitionImage != null)
         {
             transitionImage.SetActive(true);
 
             Animator anim = transitionImage.GetComponent<Animator>();
             if (anim != null)
-                anim.SetTrigger("Play"); // trigger your fade animation
+                anim.SetTrigger("Play");
         }
 
-        // wait for the delay
         yield return new WaitForSeconds(delayBeforeLoad);
 
-        // then load scene
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 
@@ -74,10 +71,6 @@ public class SceneTrigger : MonoBehaviour
         {
             string path = AssetDatabase.GetAssetPath(sceneAsset);
             sceneName = System.IO.Path.GetFileNameWithoutExtension(path);
-        }
-        else
-        {
-            sceneName = "";
         }
     }
 
