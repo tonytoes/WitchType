@@ -5,18 +5,19 @@ public class BattleMusicTrigger : MonoBehaviour
 {
     [Header("Detection Settings")]
     public string enemyTag = "Enemy";
+    public string playerTag = "Player";
 
     [Header("Music Names (must exist in AudioManager.musicSounds)")]
-    public string normalMusicName = "ExplorationTheme"; // your chill/default music
-    public string battleMusicName = "BattleTheme";      // battle music when enemies are inside
+    public string normalMusicName = "ExplorationTheme"; // default music
+    public string battleMusicName = "BattleTheme";      // combat music
 
     private AudioManager audioManager;
-    private bool isBattleMusicPlaying = false;
     private int enemiesInside = 0;
+    private bool playerInside = false;
+    private bool isBattleMusicPlaying = false;
 
     private void Start()
     {
-        // make sure collider is trigger
         BoxCollider2D col = GetComponent<BoxCollider2D>();
         col.isTrigger = true;
 
@@ -31,17 +32,19 @@ public class BattleMusicTrigger : MonoBehaviour
         audioManager.PlayMusic(normalMusicName);
     }
 
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag(enemyTag))
         {
             enemiesInside++;
+            CheckMusicState();
+        }
 
-            if (!isBattleMusicPlaying)
-            {
-                audioManager.PlayMusic(battleMusicName);
-                isBattleMusicPlaying = true;
-            }
+        if (other.CompareTag(playerTag))
+        {
+            playerInside = true;
+            CheckMusicState();
         }
     }
 
@@ -49,13 +52,37 @@ public class BattleMusicTrigger : MonoBehaviour
     {
         if (other.CompareTag(enemyTag))
         {
-            enemiesInside--;
+            enemiesInside = Mathf.Max(0, enemiesInside - 1);
+            CheckMusicState();
+        }
 
-            if (enemiesInside <= 0)
+        if (other.CompareTag(playerTag))
+        {
+            playerInside = false;
+            CheckMusicState();
+        }
+    }
+
+    private void CheckMusicState()
+    {
+        // only play battle music if player is inside *this* trigger
+        // and there are enemies here
+        if (playerInside && enemiesInside > 0)
+        {
+            if (!isBattleMusicPlaying)
             {
-                enemiesInside = 0;
+                audioManager.PlayMusic(battleMusicName);
+                isBattleMusicPlaying = true;
+                Debug.Log($"🎵 Battle music started in {gameObject.name}");
+            }
+        }
+        else
+        {
+            if (isBattleMusicPlaying)
+            {
                 audioManager.PlayMusic(normalMusicName);
                 isBattleMusicPlaying = false;
+                Debug.Log($"🎵 Returned to normal music in {gameObject.name}");
             }
         }
     }
