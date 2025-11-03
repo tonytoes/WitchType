@@ -105,7 +105,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MAIN_SCENES/CHAPTER 1/LEVEL 5 (notincluded)/CH_1_L5_R9.unity
     guid: b2c6004c6e6bcbf4796138450564fb29
   - enabled: 1
-    path: Assets/Scenes/MAIN_SCENES/CHAPTER 2/CH2_ENTRANCE.unity
+    path: Assets/Scenes/MAIN_SCENES/CHAPTER 2/Forest 2 ChaseScene.unity
     guid: c178075bf39ad53498dfedc5ad635ee6
   - enabled: 1
     path: Assets/Scenes/MAIN_SCENES/CHAPTER 2/CH2_MAIN.unity
@@ -125,6 +125,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MAIN_SCENES/Challenge/Challenge Cutscene.unity
     guid: 7c62fff78619b424ebd129c2e44ee1f8
+  - enabled: 1
+    path: Assets/Scenes/MAIN_SCENES/CHAPTER 2/Forest 1.unity
+    guid: 6d248bc9dc71e60478cef9123411534f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

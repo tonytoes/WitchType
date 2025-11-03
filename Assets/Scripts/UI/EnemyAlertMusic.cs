@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(CircleCollider2D))]
 public class EnemyAlertMusic : MonoBehaviour
@@ -7,7 +8,7 @@ public class EnemyAlertMusic : MonoBehaviour
     public string playerTag = "Player";
     public float detectionRadius = 8f;
     public float maxVolume = 0.5f;
-    public float refreshRate = 0.1f; // manual refresh interval (seconds)
+    public float refreshRate = 0.1f;
 
     [Header("Music Name (must exist in AudioManager.musicSounds or sfxSounds)")]
     public string alertMusicName = "TensionLayer";
@@ -17,15 +18,14 @@ public class EnemyAlertMusic : MonoBehaviour
     private AudioSource alertSource;
     private bool isTracking = false;
     private bool isPlaying = false;
+    private Coroutine fadeCoroutine;
 
     private void Start()
     {
-        // setup trigger collider
         CircleCollider2D col = GetComponent<CircleCollider2D>();
         col.isTrigger = true;
         col.radius = detectionRadius;
 
-        // get AudioManager
         audioManager = FindFirstObjectByType<AudioManager>();
         if (audioManager == null)
         {
@@ -33,11 +33,9 @@ public class EnemyAlertMusic : MonoBehaviour
             return;
         }
 
-        // create a local audio source
         alertSource = gameObject.AddComponent<AudioSource>();
-        Sound s = System.Array.Find(audioManager.musicSounds, x => x.name == alertMusicName);
-        if (s == null)
-            s = System.Array.Find(audioManager.sfxSounds, x => x.name == alertMusicName);
+        Sound s = System.Array.Find(audioManager.musicSounds, x => x.name == alertMusicName)
+                 ?? System.Array.Find(audioManager.sfxSounds, x => x.name == alertMusicName);
 
         if (s != null)
         {
@@ -45,7 +43,7 @@ public class EnemyAlertMusic : MonoBehaviour
             alertSource.loop = true;
             alertSource.playOnAwake = false;
             alertSource.volume = 0f;
-            alertSource.spatialBlend = 0f; // 2D layering
+            alertSource.spatialBlend = 0f;
         }
         else
         {
@@ -59,6 +57,7 @@ public class EnemyAlertMusic : MonoBehaviour
         {
             player = other.transform;
             isTracking = true;
+            CancelInvoke(nameof(UpdateAlertVolume)); // just in case
             InvokeRepeating(nameof(UpdateAlertVolume), 0f, refreshRate);
         }
     }
@@ -69,7 +68,8 @@ public class EnemyAlertMusic : MonoBehaviour
         {
             isTracking = false;
             CancelInvoke(nameof(UpdateAlertVolume));
-            StartCoroutine(FadeOutAndStop());
+            if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
+            fadeCoroutine = StartCoroutine(FadeOutAndStop());
         }
     }
 
@@ -79,7 +79,6 @@ public class EnemyAlertMusic : MonoBehaviour
             return;
 
         float distance = Vector2.Distance(transform.position, player.position);
-
         if (distance <= detectionRadius)
         {
             if (!isPlaying)
@@ -88,14 +87,15 @@ public class EnemyAlertMusic : MonoBehaviour
                 isPlaying = true;
             }
 
-            // closer = louder (inverse distance)
             float t = 1 - Mathf.Clamp01(distance / detectionRadius);
             alertSource.volume = Mathf.Lerp(0f, maxVolume, t);
         }
     }
 
-    private System.Collections.IEnumerator FadeOutAndStop()
+    private IEnumerator FadeOutAndStop()
     {
+        if (alertSource == null) yield break;
+
         while (alertSource.volume > 0.01f)
         {
             alertSource.volume -= Time.deltaTime * 1.5f;
@@ -103,7 +103,18 @@ public class EnemyAlertMusic : MonoBehaviour
         }
 
         alertSource.Stop();
+        alertSource.volume = 0f;
         isPlaying = false;
+    }
+
+    private void OnDestroy()
+    {
+        // cleanup when enemy dies or gets destroyed
+        CancelInvoke();
+        if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
+
+        if (alertSource != null && alertSource.isPlaying)
+            alertSource.Stop();
     }
 
     private void OnDrawGizmosSelected()

@@ -972,7 +972,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -199
+  m_SortingOrder: -400
   m_Sprite: {fileID: 21300000, guid: fa494d43d18b65741a935901fbfb5317, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -352924,7 +352924,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -199
+  m_SortingOrder: -400
   m_Sprite: {fileID: 21300000, guid: 9a02029b56b46c34c9d1f7d854412df0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -362138,7 +362138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7419874874779147856, guid: 4e7bcf8c469429b4bad94bc8fb79c7dc, type: 3}
       propertyPath: maxHealth
-      value: 60
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7659735036480191883, guid: 4e7bcf8c469429b4bad94bc8fb79c7dc, type: 3}
       propertyPath: m_Name
@@ -362150,9 +362150,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7381764904871258262, guid: 4e7bcf8c469429b4bad94bc8fb79c7dc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 670693553}
-    - targetCorrespondingSourceObject: {fileID: 7381764904871258262, guid: 4e7bcf8c469429b4bad94bc8fb79c7dc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1150202047}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e7bcf8c469429b4bad94bc8fb79c7dc, type: 3}
 --- !u!4 &1003084391 stripped
@@ -366707,7 +366704,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -199
+  m_SortingOrder: -400
   m_Sprite: {fileID: 21300000, guid: d387ca20bf62ba74492c1a724958c006, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -367185,12 +367182,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150202046}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -90.31, y: 15.42, z: 0}
+  m_LocalScale: {x: -1.3, y: 1.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1003084391}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1150202048
 MonoBehaviour:
@@ -367207,7 +367204,8 @@ MonoBehaviour:
   playerTag: Player
   detectionRadius: 20
   maxVolume: 0.8
-  alertMusicName: BossBattle
+  refreshRate: 0.1
+  alertMusicName: BattleTheme2
 --- !u!58 &1150202049
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -375820,7 +375818,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -199
+  m_SortingOrder: -400
   m_Sprite: {fileID: 21300000, guid: d2ab416bb7c93f643b24aca669c68ccc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -710450,6 +710448,7 @@ SceneRoots:
   - {fileID: 1814744797}
   - {fileID: 545769290}
   - {fileID: 326873856}
+  - {fileID: 1150202047}
   - {fileID: 1003084390}
   - {fileID: 2067457382}
   - {fileID: 1610917085}

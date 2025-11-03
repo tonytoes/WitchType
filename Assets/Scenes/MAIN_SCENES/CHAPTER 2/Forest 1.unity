@@ -268849,7 +268849,7 @@ GameObject:
   - component: {fileID: 2126271324}
   - component: {fileID: 2126271327}
   m_Layer: 0
-  m_Name: Door to MAIN
+  m_Name: Door to chasescene
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -268867,9 +268867,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8880f2da42fa4714cb73432783ce9b2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTutorial1
-  sceneAsset: {fileID: 102900000, guid: 1ef2e80fb39cc044ea94064a8d63c391, type: 3}
-  sceneName: CH2_MAIN
-  newPlayerPosition: {x: 55.63, y: 3.6}
+  sceneAsset: {fileID: 102900000, guid: c178075bf39ad53498dfedc5ad635ee6, type: 3}
+  sceneName: Forest 2 ChaseScene
+  newPlayerPosition: {x: 59.49, y: 3.76}
   delayBeforeLoad: 1
   transitionImage: {fileID: 719246355}
   sfx: door_sfx
