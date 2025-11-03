@@ -273,7 +273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &13069094
 Animator:
   serializedVersion: 7
@@ -394957,7 +394957,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &527479442
 RectTransform:
   m_ObjectHideFlags: 0
@@ -399913,7 +399913,7 @@ Tilemap:
       - {fileID: 1819625980, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 1870291729, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 876638708, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 8, y: 5, z: 0}
