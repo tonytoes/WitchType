@@ -1620,6 +1620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleportOnCollision
   spawnPointID: secret room
+  sfx: teleport door
 --- !u!61 &214392270
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -359910,6 +359911,71 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8846987907041626037, guid: 36ddbea5815b90f4587065e7863d5da3, type: 3}
   m_PrefabInstance: {fileID: 390280585}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &439979926
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.0731096
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.691448
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892772909835262228, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892772909835262228, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8175757688694678222, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
+      propertyPath: m_Name
+      value: Skeleton
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
 --- !u!1 &442371839
 GameObject:
   m_ObjectHideFlags: 0
@@ -724397,6 +724463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleportOnCollision
   spawnPointID: original room
+  sfx: teleport door
 --- !u!61 &1394076432
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -738086,3 +738153,4 @@ SceneRoots:
   - {fileID: 981104973}
   - {fileID: 687099154}
   - {fileID: 1753490500}
+  - {fileID: 439979926}
