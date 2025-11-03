@@ -356,6 +356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleportOnCollision
   spawnPointID: original room
+  sfx: teleport door
 --- !u!61 &54429330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2032,6 +2033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleportOnCollision
   spawnPointID: secret room
+  sfx: teleport door
 --- !u!61 &248696787
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2125,6 +2127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleportOnCollision
   spawnPointID: secret room2
+  sfx: teleport door
 --- !u!61 &262383073
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11376,6 +11379,10 @@ PrefabInstance:
     - target: {fileID: 8012384570122723838, guid: 0a253e75e6fb9684d89d0562135a5d1b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637601971167022605, guid: 0a253e75e6fb9684d89d0562135a5d1b, type: 3}
+      propertyPath: maxHealth
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -352221,6 +352228,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 781751351016648180, guid: 9a0578de50a089547bd63c86dfe0d888, type: 3}
+      propertyPath: maxHealth
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 1312252679604716039, guid: 9a0578de50a089547bd63c86dfe0d888, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -362138,7 +362149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7419874874779147856, guid: 4e7bcf8c469429b4bad94bc8fb79c7dc, type: 3}
       propertyPath: maxHealth
-      value: 100
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 7659735036480191883, guid: 4e7bcf8c469429b4bad94bc8fb79c7dc, type: 3}
       propertyPath: m_Name
@@ -368781,6 +368792,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 781751351016648180, guid: 9a0578de50a089547bd63c86dfe0d888, type: 3}
+      propertyPath: maxHealth
+      value: 140
+      objectReference: {fileID: 0}
     - target: {fileID: 1312252679604716039, guid: 9a0578de50a089547bd63c86dfe0d888, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -370986,6 +371001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleportOnCollision
   spawnPointID: original room2
+  sfx: teleport door
 --- !u!61 &1610007792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -371079,6 +371095,10 @@ PrefabInstance:
     - target: {fileID: 4401704357263509265, guid: 583a601dfc6c77e49a3807123e167133, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5055692698014127576, guid: 583a601dfc6c77e49a3807123e167133, type: 3}
+      propertyPath: maxHealth
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 6829205064331606571, guid: 583a601dfc6c77e49a3807123e167133, type: 3}
       propertyPath: m_AnchorMax.x
@@ -709941,6 +709961,10 @@ PrefabInstance:
     - target: {fileID: 4401704357263509265, guid: 583a601dfc6c77e49a3807123e167133, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5055692698014127576, guid: 583a601dfc6c77e49a3807123e167133, type: 3}
+      propertyPath: maxHealth
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 6829205064331606571, guid: 583a601dfc6c77e49a3807123e167133, type: 3}
       propertyPath: m_AnchorMax.x
