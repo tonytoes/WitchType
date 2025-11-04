@@ -14,12 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   lines:
   - speaker: {fileID: 11400000, guid: ea44e5dc10c801f4699acf4354253935, type: 2}
-    text: Hello there!
+    text: Good day young witch
   - speaker: {fileID: 11400000, guid: ea44e5dc10c801f4699acf4354253935, type: 2}
-    text: I'm Seia! The defender of this village.
+    text: I'm Seia, an Imperial Knight. The defender of this village.
   - speaker: {fileID: 11400000, guid: ea44e5dc10c801f4699acf4354253935, type: 2}
-    text: You can ask me for help when you are in danger.
+    text: You can ask me for help when you found yourself in danger.
   options: []
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestsOnEnd: {fileID: 0}
   requiredNPCS: []
   requiredLocations: []
   removeAfterPlay: 0

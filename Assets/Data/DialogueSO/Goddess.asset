@@ -14,8 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   lines:
   - speaker: {fileID: 11400000, guid: 43687b3225a2d3a47ab59d26739c1bfb, type: 2}
-    text: Hi there im cute!
+    text: Hello, lost little bunny
+  - speaker: {fileID: 11400000, guid: 43687b3225a2d3a47ab59d26739c1bfb, type: 2}
+    text: It seems like your mother has abandoned you.
+  - speaker: {fileID: 11400000, guid: 43687b3225a2d3a47ab59d26739c1bfb, type: 2}
+    text: I can be your mommy instead
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: Fu*ck off
   options: []
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestsOnEnd: {fileID: 0}
   requiredNPCS: []
   requiredLocations: []
   removeAfterPlay: 0

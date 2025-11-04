@@ -14,10 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   lines:
   - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
-    text: Okay let's play!
+    text: The door is unlocked
   - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
-    text: Okay then lets go  to my house!
+    text: Just because the door is unlocked doesn't mean you are allowed to enter
+      other people's house!
+  - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
+    text: Get out you pervert!
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: My apologies if I disturbed your pleasurable time.
+  - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
+    text: GET OUT!
+  - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
+    text: NOW!!
   options: []
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestsOnEnd: {fileID: 0}
   requiredNPCS: []
   requiredLocations: []
   removeAfterPlay: 0

@@ -14,10 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   lines:
   - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
-    text: No...
+    text: Nice melons you have there
   - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
-    text: Aww... Well farewell then!
+    text: '!!'
+  - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
+    text: ...
+  - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
+    text: You have a good taste..
+  - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
+    text: I will let you off for breaking into my house and invading my privacy
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: Splendid
   options: []
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestsOnEnd: {fileID: 0}
   requiredNPCS: []
   requiredLocations: []
   removeAfterPlay: 0

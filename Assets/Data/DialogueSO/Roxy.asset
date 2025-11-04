@@ -14,14 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   lines:
   - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
-    text: Hi there i am roxy!
+    text: Kyaa~!!
   - speaker: {fileID: 11400000, guid: de5ff9942152f60419136626569eb087, type: 2}
-    text: Do you want to play with me?
+    text: H-how did you get inside my house?!?
   options:
-  - optionText: Yes
+  - optionText: The door is unlocked
     nextDialogue: {fileID: 11400000, guid: b48f9043bf1f10e4280edc788bd3a584, type: 2}
-  - optionText: No
+    offerQuest: {fileID: 0}
+  - optionText: Nice melons you have there
     nextDialogue: {fileID: 11400000, guid: d6f5c1f560fad0649a19630043b32098, type: 2}
+    offerQuest: {fileID: 0}
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestsOnEnd: {fileID: 0}
   requiredNPCS: []
   requiredLocations: []
   removeAfterPlay: 0
