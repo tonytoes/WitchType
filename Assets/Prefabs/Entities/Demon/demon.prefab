@@ -443,9 +443,9 @@ GameObject:
   - component: {fileID: 5300537830775894158}
   - component: {fileID: 7419874874779147856}
   - component: {fileID: 6839436456172731051}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: demon
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
