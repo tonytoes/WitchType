@@ -3,16 +3,19 @@ using UnityEngine;
 public class InteractDestroy : MonoBehaviour
 {
     [SerializeField] private GameObject targetObject; 
+    [SerializeField] private bool destroySelfToo = false; 
     private bool playerInRange = false;
 
     void Update()
     {
-        
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
             if (targetObject != null)
             {
                 Destroy(targetObject);
+
+                if (destroySelfToo)
+                    Destroy(gameObject);
             }
             else
             {

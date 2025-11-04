@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   lines:
   - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
-    text: Healing spell is very useful.
+    text: "Healing spells are useful\u2026"
   - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
-    text: Although I don't want to use this because I don't want to get hurt.
+    text: "Though if possible, I\u2019d rather never have to use it\u2026"
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: Because I want to avoid getting hurt as much as possible.
   options: []
   offerQuestOnEnd: {fileID: 0}
   requiredCompletedQuests: []

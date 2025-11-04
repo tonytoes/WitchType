@@ -354257,6 +354257,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6089146827329842538, guid: 89954b5d7b5b2de4daa944fb505f3702, type: 3}
       insertIndex: -1
       addedObject: {fileID: 558214015}
+    - targetCorrespondingSourceObject: {fileID: 6089146827329842538, guid: 89954b5d7b5b2de4daa944fb505f3702, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 558214016}
   m_SourcePrefab: {fileID: 100100000, guid: 89954b5d7b5b2de4daa944fb505f3702, type: 3}
 --- !u!224 &558214010 stripped
 RectTransform:
@@ -354302,6 +354305,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDropper
   dropPrefab: {fileID: 1466827339169029617, guid: f0bc0d5d25293864988eb759ce948883, type: 3}
+  dropDelay: 0.3
+  dropOnce: 1
+--- !u!114 &558214016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558214012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddc082cba8d98c4bb9e106b122b19ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDropper
+  dropPrefab: {fileID: 5068328533156095325, guid: 7439a88a4626a0642b7e1c4ec965f3d6, type: 3}
   dropDelay: 0.3
   dropOnce: 1
 --- !u!1 &571625656
@@ -354575,6 +354593,8 @@ MonoBehaviour:
   uiObject: {fileID: 761089801}
   displayDuration: 2
   enemyTag: Enemy
+  toggleObjects: []
+  setActiveState: 1
   sfx: room cleared
 --- !u!61 &609762109
 BoxCollider2D:

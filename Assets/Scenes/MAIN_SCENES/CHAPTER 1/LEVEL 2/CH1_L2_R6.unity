@@ -4529,7 +4529,7 @@ Tilemap:
       - {fileID: 1819625980, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 1870291729, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 876638708, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 9, y: 6, z: 0}
@@ -359948,7 +359948,7 @@ Tilemap:
       - {fileID: 1819625980, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 1870291729, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 876638708, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 9, y: 5, z: 0}
@@ -361651,6 +361651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hobgoblin
       objectReference: {fileID: 0}
+    - target: {fileID: 7519760937385603818, guid: 0eab5ef62dd9964428dad0b5b6a0dbbb, type: 3}
+      propertyPath: playerDetectionRange
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8850388186340467508, guid: 0eab5ef62dd9964428dad0b5b6a0dbbb, type: 3}
       propertyPath: maxHealth
       value: 30
@@ -361661,13 +361665,36 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3393308795297825250, guid: 0eab5ef62dd9964428dad0b5b6a0dbbb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1499899556}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5149053105357736174, guid: 0eab5ef62dd9964428dad0b5b6a0dbbb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1302266021}
   m_SourcePrefab: {fileID: 100100000, guid: 0eab5ef62dd9964428dad0b5b6a0dbbb, type: 3}
 --- !u!4 &1302266019 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3393308795297825250, guid: 0eab5ef62dd9964428dad0b5b6a0dbbb, type: 3}
   m_PrefabInstance: {fileID: 1302266018}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1302266020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5149053105357736174, guid: 0eab5ef62dd9964428dad0b5b6a0dbbb, type: 3}
+  m_PrefabInstance: {fileID: 1302266018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1302266021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302266020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddc082cba8d98c4bb9e106b122b19ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDropper
+  dropPrefab: {fileID: 5068328533156095325, guid: e876da988ea950b4d817756d8a7b85b9, type: 3}
+  dropDelay: 0.3
+  dropOnce: 1
 --- !u!1001 &1317968080
 PrefabInstance:
   m_ObjectHideFlags: 0

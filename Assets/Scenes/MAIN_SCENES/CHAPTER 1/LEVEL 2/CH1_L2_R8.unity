@@ -357947,7 +357947,7 @@ Tilemap:
       - {fileID: 1819625980, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 1870291729, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 876638708, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 8, y: 7, z: 0}
@@ -359268,6 +359268,76 @@ RectTransform:
   m_AnchoredPosition: {x: -41.4, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1194860292
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3976097011251200622, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976097011251200622, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976097011251200622, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976097011251200622, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976097011251200622, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976097011251200622, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976097011251200622, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976097011251200622, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976097011251200622, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976097011251200622, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305595927711775509, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: dialogueAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 73879db1340740e4b88b8c292daa64d7, type: 2}
+    - target: {fileID: 5068328533156095325, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_Name
+      value: Dialog Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068328533156095325, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+--- !u!1 &1194860293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5068328533156095325, guid: ff98c3085b9803949afcca46e03a2f1d, type: 3}
+  m_PrefabInstance: {fileID: 1194860292}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1206204827
 GameObject:
   m_ObjectHideFlags: 0
@@ -369216,6 +369286,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 973169707907616124, guid: 004318ba586abe6408ae3f919abf5771, type: 3}
+      propertyPath: toggleObjects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 973169707907616124, guid: 004318ba586abe6408ae3f919abf5771, type: 3}
+      propertyPath: 'toggleObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1194860293}
     - target: {fileID: 1961713736489025574, guid: 004318ba586abe6408ae3f919abf5771, type: 3}
       propertyPath: m_Name
       value: RoomClearedUI
@@ -369351,6 +369429,7 @@ SceneRoots:
   - {fileID: 1170136964}
   - {fileID: 550778784}
   - {fileID: 516381217}
+  - {fileID: 1194860292}
   - {fileID: 712411148}
   - {fileID: 1887388336}
   - {fileID: 941601918}

@@ -358,6 +358,7 @@ GameObject:
   - component: {fileID: 1784461210417365696}
   - component: {fileID: 355529780989699835}
   - component: {fileID: 4305595927711775509}
+  - component: {fileID: 7958543611935554659}
   m_Layer: 0
   m_Name: Dialog Trigger (shield)
   m_TagString: Untagged
@@ -484,6 +485,20 @@ MonoBehaviour:
   dialogueAsset: {fileID: 11400000, guid: 44d3ce9e21ef78a45a442a20528978de, type: 2}
   playerTag: Player
   interactAnim: {fileID: 8495005429774502135}
+--- !u!114 &7958543611935554659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5068328533156095325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5290e007b5ef8d04bb684d49b588c784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractDestroy
+  targetObject: {fileID: 0}
+  destroySelfToo: 1
 --- !u!1 &6156511756248872953
 GameObject:
   m_ObjectHideFlags: 0

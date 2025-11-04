@@ -6095,7 +6095,7 @@ Tilemap:
       - {fileID: 1819625980, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 1870291729, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 876638708, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 9, y: 5, z: 0}
@@ -6141,7 +6141,7 @@ Tilemap:
       - {fileID: 1819625980, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 1870291729, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 876638708, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 9, y: 6, z: 0}
@@ -402179,6 +402179,8 @@ MonoBehaviour:
   uiObject: {fileID: 13069093}
   displayDuration: 2
   enemyTag: Enemy
+  toggleObjects: []
+  setActiveState: 1
   sfx: room cleared
 --- !u!61 &1407240290
 BoxCollider2D:
@@ -420105,6 +420107,7 @@ GameObject:
   - component: {fileID: 2097708307}
   - component: {fileID: 2097708306}
   - component: {fileID: 2097708305}
+  - component: {fileID: 2097708310}
   m_Layer: 0
   m_Name: Dialog Trigger (yumi)
   m_TagString: Untagged
@@ -420231,6 +420234,19 @@ Transform:
   - {fileID: 157764618}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2097708310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097708304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5290e007b5ef8d04bb684d49b588c784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractDestroy
+  targetObject: {fileID: 2097708304}
 --- !u!1 &2118071052
 GameObject:
   m_ObjectHideFlags: 0
@@ -421420,63 +421436,6 @@ MonoBehaviour:
   dropPrefab: {fileID: 5068328533156095325, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
   dropDelay: 0.3
   dropOnce: 1
---- !u!1001 &9019217067093717826
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3976097011251200622, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976097011251200622, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -7.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976097011251200622, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976097011251200622, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976097011251200622, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976097011251200622, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976097011251200622, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976097011251200622, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976097011251200622, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976097011251200622, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5068328533156095325, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
-      propertyPath: m_Name
-      value: Dialog Trigger (shield)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 905ac63d9d6bd4c4b90247115fe0e730, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -421498,7 +421457,6 @@ SceneRoots:
   - {fileID: 1955580612288005012}
   - {fileID: 367812228}
   - {fileID: 2097708309}
-  - {fileID: 9019217067093717826}
   - {fileID: 455169999}
   - {fileID: 1826294247}
   - {fileID: 360578990}
