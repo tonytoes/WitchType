@@ -497,8 +497,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5290e007b5ef8d04bb684d49b588c784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractDestroy
-  targetObject: {fileID: 0}
-  destroySelfToo: 1
+  targetObject: {fileID: 5068328533156095325}
+  destroyDelay: 1
 --- !u!1 &6156511756248872953
 GameObject:
   m_ObjectHideFlags: 0
