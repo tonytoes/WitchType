@@ -61,6 +61,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3093167315038156747, guid: 7f19c656fbe456e4690fc6a03c5d2d52, type: 3}
+      propertyPath: attackCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3093167315038156747, guid: 7f19c656fbe456e4690fc6a03c5d2d52, type: 3}
       propertyPath: playerDetectionRange
       value: 5
       objectReference: {fileID: 0}

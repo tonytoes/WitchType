@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 662654849968140432}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.63, y: 0.03, z: 0}
+  m_LocalPosition: {x: 0.27, y: 0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -692,13 +692,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 2
-  attackRange: 1.2
-  attackCooldown: 4
+  attackRange: 2
+  attackCooldown: 1
   playerDetectionRange: 10
   detectionPoint: {fileID: 5547588571567330839}
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
+  enemySO: {fileID: 0}
 --- !u!114 &8164278912280555244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -713,7 +714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyCombat
   damage: 5
   attackPoint: {fileID: 3513826012110542897}
-  weoponRange: 1.4
+  weoponRange: 2
   playerLayer:
     serializedVersion: 2
     m_Bits: 8

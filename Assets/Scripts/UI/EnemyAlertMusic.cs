@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Audio; // 👈 needed
 
 [RequireComponent(typeof(CircleCollider2D))]
 public class EnemyAlertMusic : MonoBehaviour
@@ -34,6 +35,7 @@ public class EnemyAlertMusic : MonoBehaviour
         }
 
         alertSource = gameObject.AddComponent<AudioSource>();
+
         Sound s = System.Array.Find(audioManager.musicSounds, x => x.name == alertMusicName)
                  ?? System.Array.Find(audioManager.sfxSounds, x => x.name == alertMusicName);
 
@@ -44,6 +46,10 @@ public class EnemyAlertMusic : MonoBehaviour
             alertSource.playOnAwake = false;
             alertSource.volume = 0f;
             alertSource.spatialBlend = 0f;
+
+            // 👇 NEW LINE — connect to your mixer's Music group
+            if (audioManager.musicSource != null)
+                alertSource.outputAudioMixerGroup = audioManager.musicSource.outputAudioMixerGroup;
         }
         else
         {
@@ -57,7 +63,7 @@ public class EnemyAlertMusic : MonoBehaviour
         {
             player = other.transform;
             isTracking = true;
-            CancelInvoke(nameof(UpdateAlertVolume)); // just in case
+            CancelInvoke(nameof(UpdateAlertVolume));
             InvokeRepeating(nameof(UpdateAlertVolume), 0f, refreshRate);
         }
     }
@@ -109,7 +115,6 @@ public class EnemyAlertMusic : MonoBehaviour
 
     private void OnDestroy()
     {
-        // cleanup when enemy dies or gets destroyed
         CancelInvoke();
         if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
 
