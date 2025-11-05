@@ -69,18 +69,6 @@ public class Enemy : MonoBehaviour
         transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
     }
 
-    public void FaceAttackDirection(Vector2 attackDirection)
-    {
-        if (attackDirection.x > 0 && facingDirection == -1)
-        {
-            Flip();
-        }
-        else if (attackDirection.x < 0 && facingDirection == 1)
-        {
-            Flip();
-        }
-    }
-
     private void CheckForPlayer()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(detectionPoint.position, playerDetectionRange, playerLayer);
@@ -149,7 +137,6 @@ public class Enemy : MonoBehaviour
 
     public void OnDamagedByPlayer(Vector2 attackDirection)
     {
-        FaceAttackDirection(attackDirection);
 
         if (player == null)
         {
