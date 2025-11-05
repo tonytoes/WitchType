@@ -167,6 +167,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6155441928390611063, guid: 21b181def67297f4bb6b265cab9bbb18, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7548049008289584403, guid: 348d6ce0266caae4f87b170bc51d8683, type: 3}
     - target: {fileID: 7617542494511584067, guid: 21b181def67297f4bb6b265cab9bbb18, type: 3}
       propertyPath: m_Name
       value: Switch (1)
@@ -12004,6 +12008,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6155441928390611063, guid: 21b181def67297f4bb6b265cab9bbb18, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7548049008289584403, guid: 348d6ce0266caae4f87b170bc51d8683, type: 3}
     - target: {fileID: 7617542494511584067, guid: 21b181def67297f4bb6b265cab9bbb18, type: 3}
       propertyPath: m_Name
       value: Switch (3)
