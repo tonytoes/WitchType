@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3ef3871cf2cdb49b912311959757c7, type: 3}
+  m_Name: Melon (Idle)
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: You remind me of someone
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: I think her name is.... Meguchii
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: You know my sister?!?
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: Yeah she passed by here a week ago. She seems unwell and is in a hurry.
+      She bought 2 of my mushroom feet even tho i don't sell them. I was gonna use
+      them for an experiment. But her offer was too good to pass on.
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: Can you tell me where was headed?
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: I dont know..
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: But if you bring me 5 mushroom feet that is commonly found in the southern
+      forest, I might be able to remember.
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: Im in a hurry
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: And I am not
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: Tch.
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: Fine..
+  options: []
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestsOnEnd: {fileID: 0}
+  requiredNPCS: []
+  requiredLocations: []
+  removeAfterPlay: 0
+  removeTheseOnPlay: []

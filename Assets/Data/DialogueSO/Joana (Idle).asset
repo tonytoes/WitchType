@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3ef3871cf2cdb49b912311959757c7, type: 3}
+  m_Name: Joana (Idle)
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: d076b668aefa84d46b5d29f0a05151d2, type: 2}
+    text: Did you know that another dimension besides this world exist?
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: I dont know... probably?
+  - speaker: {fileID: 11400000, guid: d076b668aefa84d46b5d29f0a05151d2, type: 2}
+    text: I've had a dream where I had conversion with the creator of this world.
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: You mean you've met God?
+  - speaker: {fileID: 11400000, guid: d076b668aefa84d46b5d29f0a05151d2, type: 2}
+    text: I think so, but he calls himself a "Developer".
+  - speaker: {fileID: 11400000, guid: d076b668aefa84d46b5d29f0a05151d2, type: 2}
+    text: I don't know what it means, but us lower being would never comprehend anything
+      about them.
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: Whats with the dead body tho?
+  - speaker: {fileID: 11400000, guid: d076b668aefa84d46b5d29f0a05151d2, type: 2}
+    text: Don't mind her. She is an undead that I found in the dungeon.
+  - speaker: {fileID: 11400000, guid: d076b668aefa84d46b5d29f0a05151d2, type: 2}
+    text: I got an idea to use her as a test subject for my magic experiments
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: If you say so.
+  options: []
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestsOnEnd: {fileID: 0}
+  requiredNPCS: []
+  requiredLocations: []
+  removeAfterPlay: 0
+  removeTheseOnPlay: []
