@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
     private Animator anim;
     private bool isDead = false;
 
-    public EnemySO enemySO;
+   [SerializeField] private EnemySO enemySO;
 
     private void Start()
     {
