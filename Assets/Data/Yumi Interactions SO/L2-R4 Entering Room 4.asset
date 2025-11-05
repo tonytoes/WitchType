@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
     text: Lots of enemy in here...
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
     text: I gotta clear them...
   options: []
   offerQuestOnEnd: {fileID: 0}

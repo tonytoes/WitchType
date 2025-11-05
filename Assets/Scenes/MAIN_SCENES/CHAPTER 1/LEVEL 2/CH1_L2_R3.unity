@@ -4960,7 +4960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTutorial1
   sceneAsset: {fileID: 102900000, guid: 97f51c1ac7ada964c854a810b155126a, type: 3}
   sceneName: CH1_L2_R4
-  newPlayerPosition: {x: 11.66, y: -0.73}
+  newPlayerPosition: {x: 16.01, y: -1.61}
   delayBeforeLoad: 1
   transitionImage: {fileID: 1238678476}
   sfx: door_sfx
