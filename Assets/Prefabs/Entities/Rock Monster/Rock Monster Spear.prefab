@@ -646,7 +646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bddc082cba8d98c4bb9e106b122b19ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDropper
-  dropPrefab: {fileID: 1312956178293417244, guid: 9ded423b316d3fa4aafde41b020d45d7, type: 3}
+  dropPrefab: {fileID: 6306259923058349851, guid: 8c522d2782d9f7d46aa9064d979f2411, type: 3}
   dropDelay: 0.3
   dropOnce: 1
 --- !u!114 &2634781760796866137
