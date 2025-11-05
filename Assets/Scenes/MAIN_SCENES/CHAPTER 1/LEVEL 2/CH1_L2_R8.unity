@@ -4543,7 +4543,7 @@ Tilemap:
       - {fileID: 1819625980, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 1870291729, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 876638708, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -357947,7 +357947,7 @@ Tilemap:
       - {fileID: 1819625980, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 1870291729, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 876638708, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 8, y: 7, z: 0}
@@ -358663,7 +358663,7 @@ GameObject:
   - component: {fileID: 1134156879}
   - component: {fileID: 1134156882}
   m_Layer: 0
-  m_Name: Level 2
+  m_Name: Level 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -367444,9 +367444,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8880f2da42fa4714cb73432783ce9b2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTutorial1
-  sceneAsset: {fileID: 102900000, guid: ca785f911890ab44b9cdeead16ecda14, type: 3}
-  sceneName: CH_L3_R1
-  newPlayerPosition: {x: -14.35, y: -8.41}
+  sceneAsset: {fileID: 102900000, guid: 8d04e6d8adfec5b42bbb2d68dd44fd77, type: 3}
+  sceneName: CH1_L3_R1
+  newPlayerPosition: {x: 1.61, y: -11.13}
   delayBeforeLoad: 1
   transitionImage: {fileID: 516381218}
   sfx: door_sfx
