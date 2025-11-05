@@ -370457,7 +370457,7 @@ Tilemap:
       - {fileID: 1819625980, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 1870291729, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
       - {fileID: 876638708, guid: a1b64e3c35b41f740a1a59f34fb35c68, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 10, y: 5, z: 0}
@@ -372485,12 +372485,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8846987907041626037, guid: 36ddbea5815b90f4587065e7863d5da3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 97919969105118976, guid: 36ddbea5815b90f4587065e7863d5da3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 36ddbea5815b90f4587065e7863d5da3, type: 3}
 --- !u!1 &1295933978 stripped
 GameObject:

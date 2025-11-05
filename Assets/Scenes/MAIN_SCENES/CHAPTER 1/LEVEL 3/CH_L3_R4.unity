@@ -1531,7 +1531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3220484973188629897, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
       propertyPath: playerDetectionRange
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5667,7 +5667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7519760937385603818, guid: 0eab5ef62dd9964428dad0b5b6a0dbbb, type: 3}
       propertyPath: playerDetectionRange
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8850388186340467508, guid: 0eab5ef62dd9964428dad0b5b6a0dbbb, type: 3}
       propertyPath: maxHealth
@@ -5816,7 +5816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3220484973188629897, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
       propertyPath: playerDetectionRange
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -349323,7 +349323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3220484973188629897, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
       propertyPath: playerDetectionRange
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4633120520127833816, guid: bea382c6a0251db4aad8a0e687a2cea0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -367849,6 +367849,8 @@ MonoBehaviour:
   uiObject: {fileID: 1040946819}
   displayDuration: 2
   enemyTag: Enemy
+  toggleObjects: []
+  setActiveState: 1
   sfx: room cleared
 --- !u!61 &1703899890
 BoxCollider2D:
