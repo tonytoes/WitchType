@@ -239,8 +239,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 2
-  attackRange: 2
-  attackCooldown: 1
+  attackRange: 2.4
+  attackCooldown: 2
   playerDetectionRange: 10
   detectionPoint: {fileID: 775244171967497235}
   playerLayer:
@@ -386,7 +386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyCombat
   damage: 5
   attackPoint: {fileID: 6858858478146552140}
-  weoponRange: 2
+  weoponRange: 2.4
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
