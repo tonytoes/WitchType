@@ -14,11 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   lines:
   - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
-    text: You remind me of someone
+    text: You remind me of someone.
   - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
     text: I think her name is.... Meguchii
   - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
     text: You know my sister?!?
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: Ohh so you are her sister. No wonder why you look almost exactly like her.
   - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
     text: Yeah she passed by here a week ago. She seems unwell and is in a hurry.
       She bought 2 of my mushroom feet even tho i don't sell them. I was gonna use
