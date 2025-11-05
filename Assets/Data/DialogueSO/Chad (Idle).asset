@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3ef3871cf2cdb49b912311959757c7, type: 3}
+  m_Name: Chad (Idle)
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: 5721928304c58de4dbd6add9d6bbb91f, type: 2}
+    text: sup young lad
+  - speaker: {fileID: 11400000, guid: 5721928304c58de4dbd6add9d6bbb91f, type: 2}
+    text: If you wish to learn the way of the sword, I am happy to share my knowledge
+      with you
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: I'll pass, magic is the meta nowadays.
+  - speaker: {fileID: 11400000, guid: 5721928304c58de4dbd6add9d6bbb91f, type: 2}
+    text: tch
+  - speaker: {fileID: 11400000, guid: 5721928304c58de4dbd6add9d6bbb91f, type: 2}
+    text: spoiled brats.
+  - speaker: {fileID: 11400000, guid: 5721928304c58de4dbd6add9d6bbb91f, type: 2}
+    text: Back in my days, people used to-
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: Im busy, I will go now
+  - speaker: {fileID: 11400000, guid: b49ed812a317602409a266999ad2b928, type: 2}
+    text: Bye!
+  options: []
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestsOnEnd: {fileID: 0}
+  requiredNPCS: []
+  requiredLocations: []
+  removeAfterPlay: 0
+  removeTheseOnPlay: []
