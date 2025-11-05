@@ -24,6 +24,7 @@ public class QuestLogUI : MonoBehaviour
         SetCanvasState(acceptCanvas, false);
         SetCanvasState(declineCanvas, false);
         SetCanvasState(completeCanvas, false);
+
     }
 
     // Same Method as on enable and on disable lol
@@ -57,6 +58,7 @@ public class QuestLogUI : MonoBehaviour
     #region Show Quest Methods
     public void ShowQuestOffer(QuestSO incomingQuestSO)
     {
+        questCanvas.gameObject.SetActive(true);
         if (questManager.IsQuestAccepted(incomingQuestSO) || questManager.GetCompleteQuest(incomingQuestSO))
         {
             questSO = noAvailableQuestSO;
