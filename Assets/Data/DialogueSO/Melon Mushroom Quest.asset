@@ -14,9 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   lines:
   - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
-    text: Will you Find mushrooms
-  options: []
-  offerQuestOnEnd: {fileID: 11400000, guid: 2de299ff614104141ad47ce879f9f362, type: 2}
+    text: Wait!
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: I need help...
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: Would find mushrooms for me?
+  options:
+  - optionText: Yes
+    nextDialogue: {fileID: 11400000, guid: 02e581e069f44bb4689f3a181ba5b6d8, type: 2}
+    offerQuest: {fileID: 0}
+  - optionText: No
+    nextDialogue: {fileID: 11400000, guid: a1389aad89a7b714993c4c12f2b82843, type: 2}
+    offerQuest: {fileID: 0}
+  offerQuestOnEnd: {fileID: 0}
   requiredCompletedQuests: []
   turnInQuestsOnEnd: {fileID: 0}
   requiredNPCS: []

@@ -30,7 +30,7 @@ MonoBehaviour:
   options: []
   offerQuestOnEnd: {fileID: 0}
   requiredCompletedQuests:
-  - {fileID: 11400000, guid: 3b8e950dc4e38e44d877b36f51bbdb8d, type: 2}
+  - {fileID: 11400000, guid: 2de299ff614104141ad47ce879f9f362, type: 2}
   turnInQuestsOnEnd: {fileID: 11400000, guid: 2de299ff614104141ad47ce879f9f362, type: 2}
   requiredNPCS: []
   requiredLocations: []
