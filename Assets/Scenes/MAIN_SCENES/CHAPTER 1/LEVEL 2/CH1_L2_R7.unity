@@ -360279,6 +360279,8 @@ MonoBehaviour:
   uiObject: {fileID: 1242597310}
   displayDuration: 2
   enemyTag: Enemy
+  toggleObjects: []
+  setActiveState: 1
   sfx: room cleared
 --- !u!61 &513768953
 BoxCollider2D:
@@ -737805,7 +737807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6980122102863322920, guid: 2d7ed46de909c604d805dd26d26d3267, type: 3}
       propertyPath: m_SortingOrder
-      value: -52
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 7128819068302002955, guid: 2d7ed46de909c604d805dd26d26d3267, type: 3}
       propertyPath: fillImage
@@ -737853,11 +737855,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8011700172282001088, guid: 2d7ed46de909c604d805dd26d26d3267, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4
+      value: -10.85
       objectReference: {fileID: 0}
     - target: {fileID: 8011700172282001088, guid: 2d7ed46de909c604d805dd26d26d3267, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.72
+      value: -1.51
       objectReference: {fileID: 0}
     - target: {fileID: 8011700172282001088, guid: 2d7ed46de909c604d805dd26d26d3267, type: 3}
       propertyPath: m_LocalPosition.z
