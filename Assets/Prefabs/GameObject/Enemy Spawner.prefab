@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7161089461217091566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6427508205060935928}
+  - component: {fileID: 1188938250194883780}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6427508205060935928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7161089461217091566}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 46.71, y: 1.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1188938250194883780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7161089461217091566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3f91d35d00efd45b1a39a1d30e425d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  prefabs:
+  - prefab: {fileID: 3927458671856246281, guid: 0ef346c9887e1b94aaa6f0b4dfa1c027, type: 3}
+    unlockDelay: 20
+    rarity: 0
+    isUnlocked: 0
+  - prefab: {fileID: 4225281928246699352, guid: 30eb7a9f7b3aae64e9b352f9dcca3a07, type: 3}
+    unlockDelay: 50
+    rarity: 0
+    isUnlocked: 0
+  - prefab: {fileID: 3452891008668158900, guid: aae487750646e5a4398e83f9aede498f, type: 3}
+    unlockDelay: 1
+    rarity: 0
+    isUnlocked: 0
+  - prefab: {fileID: 8691788247880276578, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+    unlockDelay: 100
+    rarity: 1
+    isUnlocked: 0
+  - prefab: {fileID: 5569229750010316920, guid: 2803a809affd64345a8f8142486f19c0, type: 3}
+    unlockDelay: 200
+    rarity: 1
+    isUnlocked: 0
+  - prefab: {fileID: 1425156990615421534, guid: e97f333e324bb4d4b94240c7e69844de, type: 3}
+    unlockDelay: 600
+    rarity: 3
+    isUnlocked: 0
+  spawnCooldown: 20
+  spawnPoint: {fileID: 6427508205060935928}
+  enemiesPerSpawn: 10
+  randomizeSpawnCount: 1
+  spawnRateChanges:
+  - timeStamp: 30
+    spawnCooldownChange: 2
+  - timeStamp: 60
+    spawnCooldownChange: 2
+  - timeStamp: 100
+    spawnCooldownChange: 1
+  - timeStamp: 200
+    spawnCooldownChange: 1
+  - timeStamp: 480
+    spawnCooldownChange: 1
+  - timeStamp: 600
+    spawnCooldownChange: 1

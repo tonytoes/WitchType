@@ -37,6 +37,7 @@ public class QuestLogUI : MonoBehaviour
         QuestEvents.OnQuestOfferRequested += ShowQuestOffer;
         QuestEvents.OnQuestTurnInRequested += ShowQuestTurnIn;
 
+        SetCanvasState(questCanvas, false);
         SetCanvasState(acceptCanvas, false);
         SetCanvasState(declineCanvas, false);
         SetCanvasState(completeCanvas, false);
@@ -133,7 +134,6 @@ public class QuestLogUI : MonoBehaviour
             }
         }
     }
-
 
     private void SetCanvasState(CanvasGroup group, bool activate)
     {

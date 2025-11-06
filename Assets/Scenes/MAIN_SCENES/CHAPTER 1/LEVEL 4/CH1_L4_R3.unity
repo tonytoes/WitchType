@@ -988,6 +988,8 @@ MonoBehaviour:
   uiObject: {fileID: 876247951}
   displayDuration: 2
   enemyTag: Enemy
+  toggleObjects: []
+  setActiveState: 1
   sfx: room cleared
 --- !u!61 &165780917
 BoxCollider2D:
@@ -2946,6 +2948,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &334670725
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1849957561718538963, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1849957561718538963, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059432466731020095, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.3956127
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059432466731020095, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.644832
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059432466731020095, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059432466731020095, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059432466731020095, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059432466731020095, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059432466731020095, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059432466731020095, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059432466731020095, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059432466731020095, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633026924782380808, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
+      propertyPath: m_Name
+      value: ZombieWoman
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c061a2a9d9c2784b835da0ab21963e0, type: 3}
 --- !u!114 &335461727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368676,3 +368743,4 @@ SceneRoots:
   - {fileID: 604441927}
   - {fileID: 155775351}
   - {fileID: 1366892532}
+  - {fileID: 334670725}

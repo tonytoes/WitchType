@@ -5,23 +5,24 @@ public enum SpawnRarity
 {
     Common,
     Uncommon,
-    Rare
+    Rare,
+    Legendary // 🟣 new rarity
 }
 
 [System.Serializable]
 public class SpawnablePrefab
 {
-    public GameObject prefab;          // The prefab to spawn
-    public float unlockDelay = 0f;     // Time before it becomes available
-    public SpawnRarity rarity = SpawnRarity.Common; // rarity type
+    public GameObject prefab;          
+    public float unlockDelay = 0f;     
+    public SpawnRarity rarity = SpawnRarity.Common;
     [HideInInspector] public bool isUnlocked = false;
 }
 
 [System.Serializable]
 public class SpawnRateChange
 {
-    public float timeStamp;   // time in seconds since start when this change occurs
-    public float spawnCooldownChange; // how much to add/subtract to spawnCooldown
+    public float timeStamp;   
+    public float spawnCooldownChange;
 }
 
 public class MultiEnemySpawner : MonoBehaviour
@@ -30,6 +31,12 @@ public class MultiEnemySpawner : MonoBehaviour
     public SpawnablePrefab[] prefabs;
     public float spawnCooldown = 5f;
     public Transform spawnPoint;
+
+    [Header("Multi-Spawn Settings")]
+    [Tooltip("How many enemies to spawn each time.")]
+    [Range(1, 10)] public int enemiesPerSpawn = 1; // 🧍‍♂️ how many spawn at once
+    [Tooltip("Randomize number per spawn (between 1 and enemiesPerSpawn).")]
+    public bool randomizeSpawnCount = false; // 🎲 optional randomness
 
     [Header("Dynamic Spawn Rate Changes")]
     public SpawnRateChange[] spawnRateChanges;
@@ -63,10 +70,8 @@ public class MultiEnemySpawner : MonoBehaviour
             if (elapsed >= change.timeStamp && change.spawnCooldownChange != 0f)
             {
                 spawnCooldown -= change.spawnCooldownChange;
-                spawnCooldown = Mathf.Max(0.1f, spawnCooldown); // prevent negative or zero cooldown
-                Debug.Log($"Spawn cooldown modified by {change.spawnCooldownChange} at time {change.timeStamp}s. New cooldown: {spawnCooldown}");
-                
-                // mark as applied
+                spawnCooldown = Mathf.Max(0.1f, spawnCooldown); 
+                Debug.Log($"Spawn cooldown modified by {change.spawnCooldownChange} at {change.timeStamp}s. New cooldown: {spawnCooldown}");
                 change.spawnCooldownChange = 0f;
             }
         }
@@ -74,8 +79,18 @@ public class MultiEnemySpawner : MonoBehaviour
         // global spawn cooldown
         if (Time.time >= nextSpawnTime)
         {
-            SpawnRandomAvailablePrefab();
+            SpawnMultipleEnemies();
             nextSpawnTime = Time.time + spawnCooldown;
+        }
+    }
+
+    void SpawnMultipleEnemies()
+    {
+        int spawnCount = randomizeSpawnCount ? Random.Range(1, enemiesPerSpawn + 1) : enemiesPerSpawn;
+
+        for (int i = 0; i < spawnCount; i++)
+        {
+            SpawnRandomAvailablePrefab();
         }
     }
 
@@ -84,10 +99,12 @@ public class MultiEnemySpawner : MonoBehaviour
         var available = System.Array.FindAll(prefabs, p => p.isUnlocked && p.prefab != null);
         if (available.Length == 0) return;
 
-        // roll weighted random based on rarity
         SpawnablePrefab chosen = GetWeightedRandom(available);
-
         Vector3 pos = spawnPoint ? spawnPoint.position : transform.position;
+
+        // small position offset if multiple spawn in same frame
+        pos += new Vector3(Random.Range(-1f, 1f), 0f, Random.Range(-1f, 1f));
+
         Instantiate(chosen.prefab, pos, Quaternion.identity);
         Debug.Log($"Spawned: {chosen.prefab.name} ({chosen.rarity})");
     }
@@ -95,11 +112,8 @@ public class MultiEnemySpawner : MonoBehaviour
     SpawnablePrefab GetWeightedRandom(SpawnablePrefab[] available)
     {
         int totalWeight = 0;
-
         foreach (var p in available)
-        {
             totalWeight += GetWeight(p.rarity);
-        }
 
         int randomValue = Random.Range(0, totalWeight);
         int cumulative = 0;
@@ -110,7 +124,6 @@ public class MultiEnemySpawner : MonoBehaviour
             if (randomValue < cumulative)
                 return p;
         }
-
         return available[0];
     }
 
@@ -120,7 +133,8 @@ public class MultiEnemySpawner : MonoBehaviour
         {
             case SpawnRarity.Common: return 70;
             case SpawnRarity.Uncommon: return 25;
-            case SpawnRarity.Rare: return 5;
+            case SpawnRarity.Rare: return 10;
+            case SpawnRarity.Legendary: return 2; // 🟣 ultra rare chance
             default: return 10;
         }
     }

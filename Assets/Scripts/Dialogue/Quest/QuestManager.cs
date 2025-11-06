@@ -92,7 +92,6 @@ public class QuestManager : MonoBehaviour
                 newAmount = objective.requiredAmount;
         }
             progressDictionary[objective] = newAmount;
-
     }
     public string GetProgressText(QuestSO questSO,QuestObjective objective)
     {
