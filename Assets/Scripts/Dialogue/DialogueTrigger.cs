@@ -7,6 +7,7 @@ public class DialogueTrigger: MonoBehaviour
     [SerializeField] private bool triggerOnce = true;
 
     private bool hasTriggered = false;
+    [SerializeField] private QuestSO questSO;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -29,6 +30,12 @@ public class DialogueTrigger: MonoBehaviour
             {
                 dialogueManager.StartDialogue(dialogueSO);
                 hasTriggered = true;
+
+                if (questSO != null)
+                {
+                   
+                    QuestEvents.OnQuestOfferRequested?.Invoke(questSO);
+                }
             }
         }
     }
