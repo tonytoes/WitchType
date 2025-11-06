@@ -11,53 +11,63 @@ public class Typer : MonoBehaviour
     private string currentWord = string.Empty;
     private int correctIndex = 0;
 
+    // Mobile
+    private TouchScreenKeyboard keyboard;
+
     private void Start()
     {
         SetCurrentWord();
     }
 
-    private void SetCurrentWord()
-    {
-        // Get a new word
-        currentWord = wordBank.GetWord();
-        
-        // Reset counters and remaining word
-        correctIndex = 0;
-        remainingWord = currentWord;
-
-        // Update the text output
-        UpdateWordOutput();
-    }
-
-    private void SetRemainingWord(string newRemaining)
-    {
-        remainingWord = newRemaining;
-        UpdateWordOutput();
-    }
-
-    private void UpdateWordOutput()
-    {
-        // Color typed letters white, remaining letters default
-        string typedPart = $"<color=white>{currentWord.Substring(0, correctIndex)}</color>";
-        string remainingPart = remainingWord;
-        wordOutput.text = typedPart + remainingPart;
-    }
-
     private void Update()
     {
-        CheckInput();
+#if UNITY_STANDALONE || UNITY_EDITOR
+        CheckHardwareInput();
+#elif UNITY_ANDROID || UNITY_IOS
+        CheckTouchInput();
+#endif
     }
 
-    private void CheckInput()
+    public void SetKeyboard(TouchScreenKeyboard newKeyboard)
+    {
+        keyboard = newKeyboard;
+    }
+
+    private void CheckHardwareInput()
     {
         if (Input.anyKeyDown)
         {
             string keysPressed = Input.inputString;
             if (keysPressed.Length == 1)
-            {
                 EnterLetter(keysPressed);
-            }
         }
+    }
+
+    private void CheckTouchInput()
+    {
+        if (keyboard != null && keyboard.active && !string.IsNullOrEmpty(keyboard.text))
+        {
+            string newText = keyboard.text;
+            string lastChar = newText.Substring(newText.Length - 1);
+            EnterLetter(lastChar);
+            keyboard.text = "";
+        }
+    }
+
+    private void SetCurrentWord()
+    {
+        currentWord = wordBank.GetWord();
+        SetRemainingWord(currentWord);
+    }
+
+    private void SetRemainingWord(string newString)
+    {
+        remainingWord = newString;
+
+        string typedPart = $"<color=green>{currentWord.Substring(0, correctIndex)}</color>";
+        string remainingPart = currentWord.Substring(correctIndex);
+
+        wordOutput.text = typedPart + remainingPart;
     }
 
     private void EnterLetter(string typedLetter)
@@ -66,44 +76,59 @@ public class Typer : MonoBehaviour
         {
             correctIndex++;
             RemoveLetter();
-
             if (IsWordComplete())
             {
-                SetCurrentWord(); // new word, fully reset
-                OnWordComplete?.Invoke(); // trigger callback
+                correctIndex = 0;
+                SetCurrentWord();
+                DeactivateKeyboard();  // Deactivate the keyboard when word is complete
+            }
+            else
+            {
+                SetRemainingWord(remainingWord);
             }
         }
         else
         {
-            // Mark wrong letter in red
-            string typedPart = $"<color=white>{currentWord.Substring(0, correctIndex)}</color>";
-            string wrongLetter = $"<color=red>{currentWord[correctIndex]}</color>";
-            string rest = remainingWord.Length > 1 ? remainingWord.Substring(1) : "";
-            wordOutput.text = typedPart + wrongLetter + rest;
+            wordOutput.text = $"<color=green>{currentWord.Substring(0, correctIndex)}</color>"
+                + $"<color=red>{currentWord[correctIndex]}</color>" +
+                currentWord.Substring(correctIndex + 1);
         }
     }
 
     private bool IsCorrectLetter(string letter)
     {
-        return remainingWord.StartsWith(letter);
+        return remainingWord.IndexOf(letter) == 0;
     }
 
     private void RemoveLetter()
     {
-        if (remainingWord.Length > 0)
-            remainingWord = remainingWord.Substring(1);
-
-        UpdateWordOutput();
+        string newString = remainingWord.Remove(0, 1);
+        SetRemainingWord(newString);
     }
 
     private bool IsWordComplete()
     {
-        return remainingWord.Length == 0;
+        bool complete = remainingWord.Length == 0;
+        if (complete && OnWordComplete != null)
+        {
+            OnWordComplete.Invoke();
+        }
+        return complete;
+    }
+
+    private void DeactivateKeyboard()
+    {
+#if UNITY_ANDROID || UNITY_IOS
+        if (keyboard != null)
+        {
+            keyboard.active = false; // Deactivate the keyboard
+        }
+#endif
     }
 
     public void ResetWord()
     {
-        SetCurrentWord(); // completely resets current word, remaining word, and index
+        SetCurrentWord();
     }
 }
 

@@ -23,29 +23,29 @@ public class TypeCastingUI : MonoBehaviour
 
     private PauseMenu pausemenu;
     private SpellBookUI spellBookUI;
-    public GameObject BookLight2D;
 
-    public Animator animator;
-    
 
     [Header("SFX")]
     public AudioSource sfxSource;
     public AudioClip manawarningsound;
     private AudioManager audioManager;
-    
-    
-   
+
+    // Mobile
+    private TouchScreenKeyboard keyboard;
+
 
     private void Start()
     {
-        
         audioManager = FindFirstObjectByType<AudioManager>();
         pausemenu = FindFirstObjectByType<PauseMenu>();
         spellBookUI = FindFirstObjectByType<SpellBookUI>();
         typer.OnWordComplete += HandleWordComplete;
+
     }
     void Update()
     {
+
+#if UNITY_STANDALONE || UNITY_EDITOR
         if (TypeCastingMode && !TypeCastField.isFocused) return;
         if (Input.GetKeyDown(KeyCode.Return) && SpellManager.Instance.selectedSpells != null)
         {
@@ -58,19 +58,20 @@ public class TypeCastingUI : MonoBehaviour
                 DeactivateTypeCasting();
             }
         }
+#endif
     }
+
 
     public void ActivateTypeCasting()
     {
         audioManager?.PlaySFX("Typecast");
-        animator.SetBool("CombatPose", true);
 
         EventSystem.current.sendNavigationEvents = false;
         playermovement.StopMovement();
         TypeCastUI.SetActive(true);
         playermovement.enabled = false;
         TypeCastingMode = true;
-        
+
 
         var spell = SpellManager.Instance.selectedSpells.FirstOrDefault();
         if (spell != null && spell.spellPrefab != null)
@@ -90,11 +91,12 @@ public class TypeCastingUI : MonoBehaviour
 
         typer.ResetWord();
 
+        StartCoroutine(FocusInputField());
     }
 
     public void DeactivateTypeCasting()
     {
-        
+
         EventSystem.current.sendNavigationEvents = true;
         TypeCastUI.SetActive(false);
         playermovement.enabled = true;
@@ -102,10 +104,8 @@ public class TypeCastingUI : MonoBehaviour
         TypeCastField.text = string.Empty;
         EventSystem.current.SetSelectedGameObject(null);
         pausemenu.Resume();
-        animator.SetBool("CombatPose", false);
-        BookLight2D.SetActive(false);
     }
-    
+
     private void HandleWordComplete()
     {
         DeactivateTypeCasting();
@@ -114,7 +114,6 @@ public class TypeCastingUI : MonoBehaviour
 
     private void CastSpell()
     {
-        animator.SetBool("CombatPose", false);
         var spell = SpellManager.Instance.selectedSpells.FirstOrDefault();
         if (spell == null || spell.spellPrefab == null)
             return;
@@ -123,9 +122,9 @@ public class TypeCastingUI : MonoBehaviour
         {
             if (sfxSource != null && manawarningsound != null)
                 sfxSource.PlayOneShot(manawarningsound);
-            
+
             StartCoroutine(ShowManaWarning());
-            return; 
+            return;
         }
 
         PlayerMana.Instance.UseMana(spell.manaCost);
@@ -150,25 +149,38 @@ public class TypeCastingUI : MonoBehaviour
         manaWarningText.gameObject.SetActive(false);
         isManaWarningActive = false;
     }
-    
 
-    public void ForceDeactivateTypeCasting()
+    private IEnumerator FocusInputField()
     {
-        if (!TypeCastingMode) return; 
+        yield return new WaitForSeconds(0.1f);
+        TypeCastField.Select();
+        TypeCastField.ActivateInputField();
+        keyboard = TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default);
+        typer.SetKeyboard(keyboard);
 
-        TypeCastingMode = false;
-
-
-        if (TypeCastUI != null) TypeCastUI.SetActive(false);
-        if (playermovement != null) playermovement.enabled = true;
-        if (TypeCastField != null) TypeCastField.text = string.Empty;
-        if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
-        if (pausemenu != null) pausemenu.Resume();
-        if (animator != null) animator.SetBool("CombatPose", false);
-        if (BookLight2D != null) BookLight2D.SetActive(false);
     }
 
+    public void OpenTypeCastBtn()
+    {
+        if (SpellManager.Instance != null)
+        {
+            ActivateTypeCasting();
+            keyboard = TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default);
+            typer.SetKeyboard(keyboard);
+        }
+    }
 
+    public void CloseTypeCastBtn()
+    {
+        if (keyboard != null)
+        {
+            keyboard.text = "";
+            keyboard.active = false;
+            keyboard = null;
+        }
+        DeactivateTypeCasting();
+
+    }
 
 }
 
