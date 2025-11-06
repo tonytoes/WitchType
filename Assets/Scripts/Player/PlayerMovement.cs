@@ -1,39 +1,33 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections;
 
-[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("Movement Settings")]
-    [SerializeField] public float moveSpeed = 5f;
-
+    [SerializeField] private float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
     private Animator animator;
+
     private Vector2 lastMoveDir = Vector2.down;
 
-    // Speed boost coroutine reference
-    private Coroutine speedBoostCoroutine;
-
-    private void Awake()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
-
-    private void Update()
+    void Update()
     {
         rb.linearVelocity = movement * moveSpeed;
     }
-
-    // Called by Input System
     public void Move(InputAction.CallbackContext context)
     {
         if (TypeCastingUI.TypeCastingMode) return;
-        if (!context.performed && !context.canceled) return;
+        SetMovement(context.ReadValue<Vector2>());
+    }
 
-        movement = context.ReadValue<Vector2>();
+    public void SetMovement(Vector2 newMove)
+    {
+        movement = newMove;
 
         if (movement != Vector2.zero)
         {
@@ -55,29 +49,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void StopMovement()
     {
-        movement = Vector2.zero;
+        SetMovement(Vector2.zero);
         rb.linearVelocity = Vector2.zero;
         animator.SetBool("isWalking", false);
-    }
-
-    // TEMPORARY SPEED BOOST HANDLER
-    public void ApplySpeedBoost(float multiplier, float duration)
-    {
-        // Stop any previous boost
-        if (speedBoostCoroutine != null)
-            StopCoroutine(speedBoostCoroutine);
-
-        speedBoostCoroutine = StartCoroutine(SpeedBoostRoutine(multiplier, duration));
-    }
-
-    private IEnumerator SpeedBoostRoutine(float multiplier, float duration)
-    {
-        float originalSpeed = moveSpeed;
-        moveSpeed *= multiplier;
-
-        yield return new WaitForSeconds(duration);
-
-        moveSpeed = originalSpeed;
-        speedBoostCoroutine = null;
     }
 }

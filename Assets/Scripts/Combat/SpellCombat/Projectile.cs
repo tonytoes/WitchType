@@ -6,35 +6,38 @@ public class Projectile : MonoBehaviour
     public float speed = 10f;
     public float lifetime = 7f;
     public float kbForce = 5f;
-    public float knockbackTime = .15f;
+    public float knockbackTime = 0.15f;
     public float stunTime = 1f;
     public int damage = 1;
-    public float maxDistance = 10f; 
+    public float maxDistance = 10f;
     public float shakeduration = 1f;
 
     [Header("SFX")]
-    private AudioManager audioManager;
-    public string sfx;
+    public AudioSource sfxSource;
+    public AudioClip launchSound;
 
     private Rigidbody2D rb;
     private Vector3 spawnPosition;
 
     private void Start()
     {
-        audioManager = FindFirstObjectByType<AudioManager>();
         rb = GetComponent<Rigidbody2D>();
         spawnPosition = transform.position;
 
-        Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mouseWorld.z = 0f;
+        Vector3 targetPos = MobileAim.Instance != null
+            ? MobileAim.Instance.GetAimWorldPosition()
+            : Camera.main.ScreenToWorldPoint(Input.mousePosition); 
 
-        Vector2 direction = (mouseWorld - transform.position).normalized;
+        targetPos.z = 0f;
+        Vector2 direction = (targetPos - transform.position).normalized;
+
         rb.linearVelocity = direction * speed;
 
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
-        audioManager?.PlaySFX(sfx);
+        if (sfxSource != null && launchSound != null)
+            sfxSource.PlayOneShot(launchSound);
 
         Destroy(gameObject, lifetime);
     }
@@ -48,21 +51,21 @@ public class Projectile : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy"))
         {
-            EnemyHealth enemy = other.GetComponent<EnemyHealth>();
-            EnemyKnockback knockback = other.GetComponent<EnemyKnockback>();
+            EnemyHealth enemy = collision.GetComponent<EnemyHealth>();
+            EnemyKnockback knockback = collision.GetComponent<EnemyKnockback>();
 
             if (enemy != null)
+            {
                 CinemachineShake.Instance.ShakeOnce(shakeduration);
                 enemy.TakeDamage(damage, transform.right);
+            }
 
             if (knockback != null)
                 knockback.KnockBack(transform, kbForce, knockbackTime, stunTime);
-                
-            
         }
     }
 }
