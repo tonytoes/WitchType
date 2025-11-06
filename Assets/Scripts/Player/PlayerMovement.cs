@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,7 +8,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     private Animator animator;
-
+    // Speed boost coroutine reference
+    private Coroutine speedBoostCoroutine;
     private Vector2 lastMoveDir = Vector2.down;
 
     private void Start()
@@ -53,4 +55,25 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         animator.SetBool("isWalking", false);
     }
+
+    public void ApplySpeedBoost(float multiplier, float duration)
+    {
+        // Stop any previous boost
+        if (speedBoostCoroutine != null)
+            StopCoroutine(speedBoostCoroutine);
+
+        speedBoostCoroutine = StartCoroutine(SpeedBoostRoutine(multiplier, duration));
+    }
+
+    private IEnumerator SpeedBoostRoutine(float multiplier, float duration)
+    {
+        float originalSpeed = moveSpeed;
+        moveSpeed *= multiplier;
+
+        yield return new WaitForSeconds(duration);
+
+        moveSpeed = originalSpeed;
+        speedBoostCoroutine = null;
+    }
+
 }
