@@ -16,7 +16,9 @@ public class TypeCastingUI : MonoBehaviour
     public GameObject spellContainer;
     public TMP_InputField TypeCastField;
     public Image spellIcon;
+    public GameObject BookLight2D;
 
+    public Animator animator;
 
     public TMP_Text manaWarningText;
     private bool isManaWarningActive = false;
@@ -182,5 +184,21 @@ public class TypeCastingUI : MonoBehaviour
 
     }
 
+
+    public void ForceDeactivateTypeCasting()
+    {
+        if (!TypeCastingMode) return;
+
+        TypeCastingMode = false;
+
+
+        if (TypeCastUI != null) TypeCastUI.SetActive(false);
+        if (playermovement != null) playermovement.enabled = true;
+        if (TypeCastField != null) TypeCastField.text = string.Empty;
+        if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
+        if (pausemenu != null) pausemenu.Resume();
+        if (animator != null) animator.SetBool("CombatPose", false);
+        if (BookLight2D != null) BookLight2D.SetActive(false);
+    }
 }
 
