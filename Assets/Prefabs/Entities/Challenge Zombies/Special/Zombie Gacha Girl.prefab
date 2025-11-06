@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7649290353547157575
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 18744789191083544, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.3751507
+      objectReference: {fileID: 0}
+    - target: {fileID: 18744789191083544, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.018708
+      objectReference: {fileID: 0}
+    - target: {fileID: 18744789191083544, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 18744789191083544, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 18744789191083544, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 18744789191083544, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 18744789191083544, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 18744789191083544, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 18744789191083544, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 18744789191083544, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4635195635441968248, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4723107735738678597, guid: 2e778f170d700b044a68ff3c1134ae07, type: 3}
+    - target: {fileID: 4669070664758878026, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c8cf2594706255c42a504c61a888c07a, type: 2}
+    - target: {fileID: 8691788247880276578, guid: f2b313199c5900b489c3d518f59fc960, type: 3}
+      propertyPath: m_Name
+      value: Zombie Gacha Girl
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2b313199c5900b489c3d518f59fc960, type: 3}

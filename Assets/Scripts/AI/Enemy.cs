@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
     private Animator anim;
     private bool isDead = false;
 
-    public EnemySO enemySO;
+   [SerializeField] private EnemySO enemySO;
 
     private void Start()
     {
@@ -67,18 +67,6 @@ public class Enemy : MonoBehaviour
     {
         facingDirection *= -1;
         transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
-    }
-
-    public void FaceAttackDirection(Vector2 attackDirection)
-    {
-        if (attackDirection.x > 0 && facingDirection == -1)
-        {
-            Flip();
-        }
-        else if (attackDirection.x < 0 && facingDirection == 1)
-        {
-            Flip();
-        }
     }
 
     private void CheckForPlayer()
@@ -149,7 +137,6 @@ public class Enemy : MonoBehaviour
 
     public void OnDamagedByPlayer(Vector2 attackDirection)
     {
-        FaceAttackDirection(attackDirection);
 
         if (player == null)
         {

@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.Audio; // 👈 needed
+using UnityEngine.Audio;
 
 [RequireComponent(typeof(CircleCollider2D))]
 public class EnemyAlertMusic : MonoBehaviour
@@ -20,6 +20,7 @@ public class EnemyAlertMusic : MonoBehaviour
     private bool isTracking = false;
     private bool isPlaying = false;
     private Coroutine fadeCoroutine;
+    private Coroutine duckCoroutine;
 
     private void Start()
     {
@@ -34,8 +35,8 @@ public class EnemyAlertMusic : MonoBehaviour
             return;
         }
 
+        // create a local alert audio source
         alertSource = gameObject.AddComponent<AudioSource>();
-
         Sound s = System.Array.Find(audioManager.musicSounds, x => x.name == alertMusicName)
                  ?? System.Array.Find(audioManager.sfxSounds, x => x.name == alertMusicName);
 
@@ -45,15 +46,7 @@ public class EnemyAlertMusic : MonoBehaviour
             alertSource.loop = true;
             alertSource.playOnAwake = false;
             alertSource.volume = 0f;
-            alertSource.spatialBlend = 0f;
-
-            // 👇 NEW LINE — connect to your mixer's Music group
-            if (audioManager.musicSource != null)
-                alertSource.outputAudioMixerGroup = audioManager.musicSource.outputAudioMixerGroup;
-        }
-        else
-        {
-            Debug.LogWarning($"⚠️ Music '{alertMusicName}' not found in AudioManager.");
+            alertSource.outputAudioMixerGroup = audioManager.musicSource.outputAudioMixerGroup;
         }
     }
 
@@ -63,6 +56,8 @@ public class EnemyAlertMusic : MonoBehaviour
         {
             player = other.transform;
             isTracking = true;
+            if (duckCoroutine != null) StopCoroutine(duckCoroutine);
+            duckCoroutine = StartCoroutine(DuckMusic(true)); // 🔉 fade main music down
             CancelInvoke(nameof(UpdateAlertVolume));
             InvokeRepeating(nameof(UpdateAlertVolume), 0f, refreshRate);
         }
@@ -76,6 +71,8 @@ public class EnemyAlertMusic : MonoBehaviour
             CancelInvoke(nameof(UpdateAlertVolume));
             if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
             fadeCoroutine = StartCoroutine(FadeOutAndStop());
+            if (duckCoroutine != null) StopCoroutine(duckCoroutine);
+            duckCoroutine = StartCoroutine(DuckMusic(false)); // 🔊 restore main music
         }
     }
 
@@ -113,11 +110,32 @@ public class EnemyAlertMusic : MonoBehaviour
         isPlaying = false;
     }
 
+    // 🔧 Duck / restore main music via mixer param
+    private IEnumerator DuckMusic(bool duck)
+    {
+        if (audioManager == null || audioManager.volumemixer == null) yield break;
+
+        AudioMixer mixer = audioManager.volumemixer.myMixer;
+        float targetDb = duck ? -20f : 0f; // how much to lower the bgm
+        float currentDb;
+        mixer.GetFloat("music", out currentDb);
+
+        float t = 0;
+        while (t < 1f)
+        {
+            t += Time.deltaTime * 2f; // speed
+            float newDb = Mathf.Lerp(currentDb, targetDb, t);
+            mixer.SetFloat("music", newDb);
+            yield return null;
+        }
+
+        mixer.SetFloat("music", targetDb);
+    }
+
     private void OnDestroy()
     {
         CancelInvoke();
         if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
-
         if (alertSource != null && alertSource.isPlaying)
             alertSource.Stop();
     }

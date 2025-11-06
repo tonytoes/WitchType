@@ -224,7 +224,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -100
   m_Sprite: {fileID: 4723107735738678597, guid: 2e778f170d700b044a68ff3c1134ae07, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -378,6 +378,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
+  enemySO: {fileID: 0}
 --- !u!114 &6186255477570726977
 MonoBehaviour:
   m_ObjectHideFlags: 0

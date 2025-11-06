@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3ef3871cf2cdb49b912311959757c7, type: 3}
+  m_Name: Melon Mushroom Quest
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: Wait!
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: I need help...
+  - speaker: {fileID: 11400000, guid: 233f13d78e948874e80f73cc0663b598, type: 2}
+    text: Would find mushrooms for me?
+  options:
+  - optionText: Yes
+    nextDialogue: {fileID: 11400000, guid: 02e581e069f44bb4689f3a181ba5b6d8, type: 2}
+    offerQuest: {fileID: 0}
+  - optionText: No
+    nextDialogue: {fileID: 11400000, guid: a1389aad89a7b714993c4c12f2b82843, type: 2}
+    offerQuest: {fileID: 0}
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestsOnEnd: {fileID: 0}
+  requiredNPCS: []
+  requiredLocations: []
+  removeAfterPlay: 0
+  removeTheseOnPlay: []
