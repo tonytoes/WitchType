@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AOE : MonoBehaviour
 {
@@ -9,30 +9,37 @@ public class AOE : MonoBehaviour
     public float stunTime = 1f;
     public int damage = 1;
     public float maxDistance = 10f;
-    public float shakeduration = 1f;
 
     [Header("SFX")]
-    private AudioManager audioManager;
-    public string sfx;
+    public AudioSource sfxSource;
+    public AudioClip launchSound;
 
     private void Start()
     {
-        audioManager = FindFirstObjectByType<AudioManager>();
+        // Get player position
         Vector3 playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
-        Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mouseWorld.z = 0f;
 
-        Vector3 direction = (mouseWorld - playerPos).normalized;
+        // ✅ Get aim position from MobileAim (for mobile) or fallback to mouse (for PC)
+        Vector3 targetPos = MobileAim.Instance != null
+            ? MobileAim.Instance.GetAimWorldPosition()
+            : Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        float distance = Vector3.Distance(playerPos, mouseWorld);
+        targetPos.z = 0f;
+
+        // Clamp the AOE position to max distance from player
+        Vector3 direction = (targetPos - playerPos).normalized;
+        float distance = Vector3.Distance(playerPos, targetPos);
         if (distance > maxDistance)
-            mouseWorld = playerPos + direction * maxDistance;
+            targetPos = playerPos + direction * maxDistance;
 
-        transform.position = mouseWorld;
+        // Move AOE to target position
+        transform.position = targetPos;
 
-        audioManager?.PlaySFX(sfx);
-            
+        // Play launch sound
+        if (sfxSource != null && launchSound != null)
+            sfxSource.PlayOneShot(launchSound);
 
+        // Destroy after lifetime
         Destroy(gameObject, lifetime);
     }
 
@@ -45,7 +52,8 @@ public class AOE : MonoBehaviour
 
             if (enemy != null)
                 enemy.TakeDamage(damage, Vector2.zero);
-            CinemachineShake.Instance.ShakeOnce(shakeduration);
+
+            CinemachineShake.Instance.ShakeOnce(1f);
 
             if (knockback != null)
                 knockback.KnockBack(transform, kbForce, knockbackTime, stunTime);

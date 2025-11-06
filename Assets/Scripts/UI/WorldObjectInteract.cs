@@ -1,53 +1,58 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class WorldObjectInteract : MonoBehaviour
 {
-    [Header("Dialogue")]
-    [Tooltip("ScriptableObject dialogue asset. Will be cloned at runtime so each object is independent.")]
     [SerializeField] private DialogueSO dialogueAsset;
-
-    [Header("Settings")]
     [SerializeField] private string playerTag = "Player";
-    [SerializeField] private Animator interactAnim; // optional: open/close hint anim
 
-    private bool playerInRange = false;
+    private bool playerInRange;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag(playerTag)) return;
-        playerInRange = true;
-        if (interactAnim != null) interactAnim.Play("Open");
+        if (other.CompareTag(playerTag))
+        {
+            playerInRange = true;
+            Debug.Log("[WorldObjectInteract] Player entered range");
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (!other.CompareTag(playerTag)) return;
-        playerInRange = false;
-        if (interactAnim != null) interactAnim.Play("Close");
+        if (other.CompareTag(playerTag))
+        {
+            playerInRange = false;
+            Debug.Log("[WorldObjectInteract] Player left range");
+        }
     }
 
     private void Update()
     {
         if (!playerInRange) return;
 
-        if (Input.GetButtonDown("Interact"))
+        // Either E key or button press
+        if (Input.GetKeyDown(KeyCode.E) || SimulatedInput.GetEPressed())
         {
-            var dm = GameManager.Instance?.DialogueManager;
-            if (dm == null) return;
+            Debug.Log("[WorldObjectInteract] Interaction triggered");
 
-            // If a dialogue is already active, just advance it
+            var dm = GameManager.Instance?.DialogueManager;
+            if (dm == null)
+            {
+                Debug.LogWarning("[WorldObjectInteract] No DialogueManager found");
+                return;
+            }
+
             if (dm.isDialogueActive)
             {
                 dm.AdvanceDialogue();
                 return;
             }
 
-            // CanStartDialogue check (optional safety)
-            if (!dm.CanStartDialogue()) return;
+            if (!dm.CanStartDialogue() || dialogueAsset == null)
+            {
+                Debug.LogWarning("[WorldObjectInteract] Can't start dialogue");
+                return;
+            }
 
-            if (dialogueAsset == null) return;
-
-            // IMPORTANT: Instantiate the ScriptableObject so runtime state is unique per object
             DialogueSO runtimeDialogue = Instantiate(dialogueAsset);
             dm.StartDialogue(runtimeDialogue);
         }
