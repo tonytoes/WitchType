@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4790002297977934466, guid: 9a41541aa27659d4488698d0c77070ee, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5907918216183538030, guid: 9a41541aa27659d4488698d0c77070ee, type: 3}
       propertyPath: manaAmount
       value: 100
