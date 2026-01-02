@@ -16,14 +16,14 @@ her journey to escape the dungeon and find her missing twin sister who got corru
 <img src="Screenshots/W7.png"/>
 
 ## System Requirements
-  Requires a 64-bit processor and operating system 
-  OS: Windows 10 
-  Processor: Intel Core i3 - 540 3.06 GHz 
-  Memory: 5 GB RAM 
-  Graphics: GeForce GTX650Ti 
-  DirectX: Version 11 
-  Storage: 100 MB available space 
-  Sound Card: Windows Compatible Audio Device
+  Requires a 64-bit processor and operating system <br>
+  OS: Windows 10 <br>
+  Processor: Intel Core i3 - 540 3.06 GHz <br>
+  Memory: 5 GB RAM <br>
+  Graphics: GeForce GTX650Ti <br>
+  DirectX: Version 11 <br>
+  Storage: 100 MB available space <br>
+  Sound Card: Windows Compatible Audio Device <br>
 
 ## How to contribute
 1. Clone this repository:
