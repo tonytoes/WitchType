@@ -8,12 +8,12 @@
   her journey to escape the dungeon and find her missing twin sister who got corrupted by the book of darkness and prevent her sister from unleashing the chaos of calamity. [Download](https://github.com/ImSauce/WitchType/releases/tag/0.7.2-beta)
 
 ## Screenshots
-<img src="screenshots/W2.png"/>
-<img src="screenshots/W3.png"/>
-<img src="screenshots/W4.png"/>
-<img src="screenshots/W5.png"/>
-<img src="screenshots/W6.png"/>
-<img src="screenshots/W7.png"/>
+<img src="Screenshots/W2.png"/>
+<img src="Screenshots/W3.png"/>
+<img src="Screenshots/W4.png"/>
+<img src="Screenshots/W5.png"/>
+<img src="Screenshots/W6.png"/>
+<img src="Screenshots/W7.png"/>
 
 
 
