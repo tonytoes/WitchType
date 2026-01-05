@@ -32,21 +32,12 @@ her journey to escape the dungeon and find her missing twin sister who got corru
 ### Minimum
 - **OS:** Windows 10 (64-bit)
 - **Processor:** Dual-core CPU @ 2.0 GHz
-- **Memory:** 2 GB RAM
+- **Memory:** 8 GB RAM
 - **Graphics:** Integrated graphics (Intel HD 4000 / AMD equivalent)
-- **Storage:** 100 MB available space
+- **Storage:** 800 MB available space
 - **Input:** Keyboard required
 - **Sound:** Any Windows-compatible audio device
-- **Notes:** Designed for low-end systems
 
-### Recommended
-- **OS:** Windows 10 / 11 (64-bit)
-- **Processor:** Quad-core CPU @ 2.5 GHz
-- **Memory:** 4 GB RAM
-- **Graphics:** Integrated or low-end dedicated GPU
-- **Storage:** 150 MB available space
-- **Input:** Keyboard + mouse
-- **Display:** 1280×720 or higher
 
 
 ## How to contribute
