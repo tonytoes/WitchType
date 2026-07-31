@@ -55,4 +55,10 @@ public class KillScoreManager : MonoBehaviour
         highScore = 0;
         UpdateHighScoreUI();
     }
+
+    public void callLeaderboard()
+    {
+        string playerName = PlayerNameGate.GetPlayerName();
+        LeaderboardManager.Instance.AddScore(playerName, killScore);
+    }
 }
