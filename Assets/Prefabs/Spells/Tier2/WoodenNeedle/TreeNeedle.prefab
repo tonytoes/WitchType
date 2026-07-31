@@ -162,7 +162,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.75, y: 2.125}
+    oldSize: {x: 0.6, y: 0.34}
     newSize: {x: 0.56, y: 0.95}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
   kbForce: 0
   knockbackTime: 0
   stunTime: 0.2
-  damage: 200
+  damage: 80
   maxDistance: 20
   shakeduration: 1
   sfx: treespike sfx
