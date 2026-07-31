@@ -85,6 +85,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &4061209173821449976
 MonoBehaviour:
@@ -106,7 +107,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tree Spike
+  m_text: Rock Spike Spell
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c14763411a554f4488556610d5a81244, type: 2}
   m_sharedMaterial: {fileID: 8389547508198318435, guid: c14763411a554f4488556610d5a81244, type: 2}
@@ -144,6 +145,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
