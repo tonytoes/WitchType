@@ -10,6 +10,7 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject ButtonPause;
+    public GameObject leaderboardPanel;
     [SerializeField] private Animator playerAnimator;
 
     private AudioManager audioManager;
@@ -79,9 +80,18 @@ public class PauseMenu : MonoBehaviour
     StartCoroutine(PlayTransitionAndLoad("MAIN MENU"));
 }
 
-private IEnumerator PlayTransitionAndLoad(string sceneName)
+    public void OpenLeaderboard()
+    {
+        leaderboardPanel.SetActive(true); 
+    }
+
+    public void CloseLeaderboard()
+    {
+        leaderboardPanel.SetActive(false);
+    }
+    private IEnumerator PlayTransitionAndLoad(string sceneName)
 {
-    float transitionTime = 1f; // length of your transition animation
+    float transitionTime = 1f; 
 
     if (transitionImage != null)
     {
